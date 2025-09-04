@@ -4,7 +4,7 @@ This repository hosts a static build of the AnchorSCAD Viewer plus a snapshot of
 
 ### Live viewer
 
-- GitHub Pages: [https://<your-user-or-org>.github.io/anchorscad-browser](https://<your-user-or-org>.github.io/anchorscad-browser) — placeholder link; will be updated when published.
+- GitHub Pages: [https://owebeeone.github.io/anchorscad-browser](https://owebeeone.github.io/anchorscad-browser) — placeholder link; will be updated when published.
 
 ### What this contains
 
@@ -40,5 +40,6 @@ For detailed steps, see the READMEs in the linked repositories.
 ### Contributing
 
 This repository is a distribution target (build artifacts). Please open issues and pull requests against the upstream repos (`anchorscad-viewer`, `anchorscad-core`) for code or feature changes.
+
 
 
