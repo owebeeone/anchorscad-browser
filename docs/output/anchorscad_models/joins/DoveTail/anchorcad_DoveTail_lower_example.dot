@@ -1,0 +1,9 @@
+digraph lower {
+    root_9 [label="root"];
+    lower_10 [label="lower"];
+    dovetail_cage_11 [label="dovetail_cage"];
+    front_12 [label="front"];
+    root_9 -> lower_10;
+    lower_10 -> dovetail_cage_11;
+    lower_10 -> front_12;
+}

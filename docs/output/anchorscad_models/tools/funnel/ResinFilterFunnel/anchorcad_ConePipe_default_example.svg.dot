@@ -1,0 +1,10 @@
+digraph default {
+	graph [rankdir=LR]
+	root_1 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_2 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nConePipe&quot;; console.log(s); alert(s);" tooltip=ConePipe]
+	outer_3 [label=outer href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;outer&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	inner_4 [label=inner href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;inner&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	root_1 -> default_2
+	default_2 -> outer_3
+	default_2 -> inner_4
+}

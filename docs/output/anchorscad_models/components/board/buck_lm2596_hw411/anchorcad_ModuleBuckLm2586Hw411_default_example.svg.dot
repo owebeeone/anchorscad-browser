@@ -1,0 +1,22 @@
+digraph default {
+	graph [rankdir=LR]
+	root_1 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_2 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nModuleBuckLm2586Hw411&quot;; console.log(s); alert(s);" tooltip=ModuleBuckLm2586Hw411]
+	pcb_3 [label=pcb href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;pcb&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	cap_in_4 [label=cap_in href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cap_in&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	cap_out_5 [label=cap_out href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cap_out&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	mount_hole_6 [label="\('mount_hole',\ 0\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;mount_hole&#x27;,\ 0\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	mount_hole_7 [label="\('mount_hole',\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;mount_hole&#x27;,\ 1\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	trimpot_8 [label=trimpot href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;trimpot&#x27;\)\nBourns3296&quot;; console.log(s); alert(s);" tooltip=Bourns3296]
+	trimpot_9 [label=trimpot href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;trimpot&#x27;,\ &#x27;trimpot&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	adj_10 [label=adj href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;trimpot&#x27;,\ &#x27;adj&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	root_1 -> default_2
+	default_2 -> pcb_3
+	default_2 -> cap_in_4
+	default_2 -> cap_out_5
+	default_2 -> mount_hole_6
+	default_2 -> mount_hole_7
+	default_2 -> trimpot_8
+	trimpot_8 -> trimpot_9
+	trimpot_8 -> adj_10
+}

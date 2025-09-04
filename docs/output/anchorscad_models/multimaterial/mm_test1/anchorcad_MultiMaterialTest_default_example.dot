@@ -1,0 +1,13 @@
+digraph default {
+    root_1 [label="root"];
+    default_2 [label="default"];
+    master_3 [label="master"];
+    ext_4 [label="\('ext',\ 0\)"];
+    ext_5 [label="\('ext',\ 1\)"];
+    ext_6 [label="\('ext',\ 2\)"];
+    root_1 -> default_2;
+    default_2 -> master_3;
+    default_2 -> ext_4;
+    default_2 -> ext_5;
+    default_2 -> ext_6;
+}

@@ -1,0 +1,19 @@
+digraph rings {
+    root_10 [label="root"];
+    rings_11 [label="rings"];
+    box_12 [label="box"];
+    hole_13 [label="\('hole',\ 0,\ 0\)"];
+    hole_14 [label="\('hole',\ 0,\ 1\)"];
+    hole_15 [label="\('hole',\ 1,\ 0\)"];
+    hole_16 [label="\('hole',\ 1,\ 1\)"];
+    hole_17 [label="\('hole',\ 2,\ 0\)"];
+    hole_18 [label="\('hole',\ 2,\ 1\)"];
+    root_10 -> rings_11;
+    rings_11 -> box_12;
+    rings_11 -> hole_13;
+    rings_11 -> hole_14;
+    rings_11 -> hole_15;
+    rings_11 -> hole_16;
+    rings_11 -> hole_17;
+    rings_11 -> hole_18;
+}

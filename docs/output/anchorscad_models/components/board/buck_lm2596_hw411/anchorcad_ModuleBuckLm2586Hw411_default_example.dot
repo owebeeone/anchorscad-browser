@@ -1,0 +1,21 @@
+digraph default {
+    root_1 [label="root"];
+    default_2 [label="default"];
+    pcb_3 [label="pcb"];
+    cap_in_4 [label="cap_in"];
+    cap_out_5 [label="cap_out"];
+    mount_hole_6 [label="\('mount_hole',\ 0\)"];
+    mount_hole_7 [label="\('mount_hole',\ 1\)"];
+    trimpot_8 [label="trimpot"];
+    trimpot_9 [label="trimpot"];
+    adj_10 [label="adj"];
+    root_1 -> default_2;
+    default_2 -> pcb_3;
+    default_2 -> cap_in_4;
+    default_2 -> cap_out_5;
+    default_2 -> mount_hole_6;
+    default_2 -> mount_hole_7;
+    default_2 -> trimpot_8;
+    trimpot_8 -> trimpot_9;
+    trimpot_8 -> adj_10;
+}

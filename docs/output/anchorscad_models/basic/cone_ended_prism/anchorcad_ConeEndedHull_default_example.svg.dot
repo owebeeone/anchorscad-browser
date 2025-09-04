@@ -1,0 +1,30 @@
+digraph default {
+	graph [rankdir=LR]
+	root_1 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_2 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nConeEndedHull&quot;; console.log(s); alert(s);" tooltip=ConeEndedHull]
+	outer_3 [label=outer href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;outer&#x27;\)\nConeEndedPrism&quot;; console.log(s); alert(s);" tooltip=ConeEndedPrism]
+	cage_4 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;outer&#x27;,\ &#x27;cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	inner_cage_5 [label=inner_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;outer&#x27;,\ &#x27;inner_cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	cone1_6 [label=cone1 href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;outer&#x27;,\ &#x27;cone1&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	cone2_7 [label=cone2 href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;outer&#x27;,\ &#x27;cone2&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	prism_8 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;outer&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	inner_9 [label=inner href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;inner&#x27;\)\nConeEndedPrism&quot;; console.log(s); alert(s);" tooltip=ConeEndedPrism]
+	cage_10 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;inner&#x27;,\ &#x27;cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	inner_cage_11 [label=inner_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;inner&#x27;,\ &#x27;inner_cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	cone1_12 [label=cone1 href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;inner&#x27;,\ &#x27;cone1&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	cone2_13 [label=cone2 href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;inner&#x27;,\ &#x27;cone2&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	prism_14 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;inner&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	root_1 -> default_2
+	default_2 -> outer_3
+	outer_3 -> cage_4
+	outer_3 -> inner_cage_5
+	outer_3 -> cone1_6
+	outer_3 -> cone2_7
+	outer_3 -> prism_8
+	default_2 -> inner_9
+	inner_9 -> cage_10
+	inner_9 -> inner_cage_11
+	inner_9 -> cone1_12
+	inner_9 -> cone2_13
+	inner_9 -> prism_14
+}

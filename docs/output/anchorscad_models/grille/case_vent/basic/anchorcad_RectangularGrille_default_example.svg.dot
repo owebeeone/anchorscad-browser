@@ -1,0 +1,26 @@
+digraph default {
+	graph [rankdir=LR]
+	root_1 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_2 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nRectangularGrille&quot;; console.log(s); alert(s);" tooltip=RectangularGrille]
+	cage_3 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	vane_4 [label="\('vane',\ 'left'\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;vane&#x27;,\ &#x27;left&#x27;\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	vane_5 [label="\('vane',\ 0\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;vane&#x27;,\ 0\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	vane_6 [label="\('vane',\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;vane&#x27;,\ 1\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	vane_7 [label="\('vane',\ 2\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;vane&#x27;,\ 2\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	vane_8 [label="\('vane',\ 3\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;vane&#x27;,\ 3\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	vane_9 [label="\('vane',\ 4\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;vane&#x27;,\ 4\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	vane_10 [label="\('vane',\ 5\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;vane&#x27;,\ 5\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	vane_11 [label="\('vane',\ 6\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;vane&#x27;,\ 6\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	vane_12 [label="\('vane',\ 'right'\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;vane&#x27;,\ &#x27;right&#x27;\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	root_1 -> default_2
+	default_2 -> cage_3
+	default_2 -> vane_4
+	default_2 -> vane_5
+	default_2 -> vane_6
+	default_2 -> vane_7
+	default_2 -> vane_8
+	default_2 -> vane_9
+	default_2 -> vane_10
+	default_2 -> vane_11
+	default_2 -> vane_12
+}

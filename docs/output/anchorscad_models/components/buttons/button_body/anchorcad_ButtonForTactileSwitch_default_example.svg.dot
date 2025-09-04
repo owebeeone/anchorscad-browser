@@ -1,0 +1,52 @@
+digraph default {
+	graph [rankdir=LR]
+	root_109 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_110 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nButtonForTactileSwitch&quot;; console.log(s); alert(s);" tooltip=ButtonForTactileSwitch]
+	body_111 [label=body href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;body&#x27;\)\nButtonBody&quot;; console.log(s); alert(s);" tooltip=ButtonBody]
+	cage_112 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;body&#x27;,\ &#x27;cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	plate_cage_113 [label=plate_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;body&#x27;,\ &#x27;plate_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	rim_plate_cage_114 [label=rim_plate_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;body&#x27;,\ &#x27;rim_plate_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	body_115 [label=body href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;body&#x27;,\ &#x27;body&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	body_wings_116 [label=body_wings href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;body&#x27;,\ &#x27;body_wings&#x27;\)\nButtonWings&quot;; console.log(s); alert(s);" tooltip=ButtonWings]
+	cage_117 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;body&#x27;,\ &#x27;body_wings&#x27;,\ &#x27;cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	wing_118 [label="\('wing',\ 0\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;body&#x27;,\ &#x27;body_wings&#x27;,\ \(&#x27;wing&#x27;,\ 0\)\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	wing_119 [label="\('wing',\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;body&#x27;,\ &#x27;body_wings&#x27;,\ \(&#x27;wing&#x27;,\ 1\)\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	wing_120 [label="\('wing',\ 2\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;body&#x27;,\ &#x27;body_wings&#x27;,\ \(&#x27;wing&#x27;,\ 2\)\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	wing_121 [label="\('wing',\ 3\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;body&#x27;,\ &#x27;body_wings&#x27;,\ \(&#x27;wing&#x27;,\ 3\)\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	switch_hole_122 [label=switch_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;switch_hole&#x27;\)\nTactileSwitchOutline&quot;; console.log(s); alert(s);" tooltip=TactileSwitchOutline]
+	switch_123 [label=switch href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;switch_hole&#x27;,\ &#x27;switch&#x27;\)\nTactileSwitchTL59&quot;; console.log(s); alert(s);" tooltip=TactileSwitchTL59]
+	body_124 [label=body href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;switch_hole&#x27;,\ &#x27;switch&#x27;,\ &#x27;body&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	shaft_125 [label=shaft href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;switch_hole&#x27;,\ &#x27;switch&#x27;,\ &#x27;shaft&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	lead_pos_cage_126 [label="\('lead_pos_cage',\ 0\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;switch_hole&#x27;,\ &#x27;switch&#x27;,\ \(&#x27;lead_pos_cage&#x27;,\ 0\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	lead_127 [label="\('lead',\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;switch_hole&#x27;,\ &#x27;switch&#x27;,\ \(&#x27;lead&#x27;,\ 1\)\)\nTactileSwitchTL59Lead&quot;; console.log(s); alert(s);" tooltip=TactileSwitchTL59Lead]
+	terminal_128 [label=terminal href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;switch_hole&#x27;,\ &#x27;switch&#x27;,\ \(&#x27;lead&#x27;,\ 1\),\ &#x27;terminal&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	lead_129 [label="\('lead',\ 2\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;switch_hole&#x27;,\ &#x27;switch&#x27;,\ \(&#x27;lead&#x27;,\ 2\)\)\nTactileSwitchTL59Lead&quot;; console.log(s); alert(s);" tooltip=TactileSwitchTL59Lead]
+	terminal_130 [label=terminal href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;switch_hole&#x27;,\ &#x27;switch&#x27;,\ \(&#x27;lead&#x27;,\ 2\),\ &#x27;terminal&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	lead_hole_shape_131 [label="\('lead_hole_shape',\ 0\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;switch_hole&#x27;,\ \(&#x27;lead_hole_shape&#x27;,\ 0\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	lead_hole_shape_132 [label="\('lead_hole_shape',\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;switch_hole&#x27;,\ \(&#x27;lead_hole_shape&#x27;,\ 1\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	push_hole_shape_133 [label=push_hole_shape href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;switch_hole&#x27;,\ &#x27;push_hole_shape&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	root_109 -> default_110
+	default_110 -> body_111
+	body_111 -> cage_112
+	body_111 -> plate_cage_113
+	body_111 -> rim_plate_cage_114
+	body_111 -> body_115
+	body_111 -> body_wings_116
+	body_wings_116 -> cage_117
+	body_wings_116 -> wing_118
+	body_wings_116 -> wing_119
+	body_wings_116 -> wing_120
+	body_wings_116 -> wing_121
+	default_110 -> switch_hole_122
+	switch_hole_122 -> switch_123
+	switch_123 -> body_124
+	switch_123 -> shaft_125
+	switch_123 -> lead_pos_cage_126
+	switch_123 -> lead_127
+	lead_127 -> terminal_128
+	switch_123 -> lead_129
+	lead_129 -> terminal_130
+	switch_hole_122 -> lead_hole_shape_131
+	switch_hole_122 -> lead_hole_shape_132
+	switch_hole_122 -> push_hole_shape_133
+}

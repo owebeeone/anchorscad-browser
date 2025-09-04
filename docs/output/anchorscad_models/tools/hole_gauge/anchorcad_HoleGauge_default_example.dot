@@ -1,0 +1,33 @@
+digraph default {
+    root_1 [label="root"];
+    default_2 [label="default"];
+    plate_3 [label="plate"];
+    inner_plate_4 [label="\('inner_plate',\ 0\)"];
+    plate_5 [label="plate"];
+    hole_6 [label="\('hole',\ 0\)"];
+    hole_7 [label="\('hole',\ 1\)"];
+    hole_8 [label="\('hole',\ 2\)"];
+    hole_9 [label="\('hole',\ 3\)"];
+    hole_10 [label="\('hole',\ 4\)"];
+    hole_11 [label="\('hole',\ 5\)"];
+    inner_plate_12 [label="\('inner_plate',\ 1\)"];
+    plate_13 [label="plate"];
+    hole_14 [label="\('hole',\ 0\)"];
+    hole_15 [label="\('hole',\ 1\)"];
+    hole_16 [label="\('hole',\ 2\)"];
+    root_1 -> default_2;
+    default_2 -> plate_3;
+    default_2 -> inner_plate_4;
+    inner_plate_4 -> plate_5;
+    inner_plate_4 -> hole_6;
+    inner_plate_4 -> hole_7;
+    inner_plate_4 -> hole_8;
+    inner_plate_4 -> hole_9;
+    inner_plate_4 -> hole_10;
+    inner_plate_4 -> hole_11;
+    default_2 -> inner_plate_12;
+    inner_plate_12 -> plate_13;
+    inner_plate_12 -> hole_14;
+    inner_plate_12 -> hole_15;
+    inner_plate_12 -> hole_16;
+}

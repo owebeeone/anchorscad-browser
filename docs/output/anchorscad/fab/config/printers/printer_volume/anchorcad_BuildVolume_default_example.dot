@@ -1,0 +1,11 @@
+digraph default {
+    root_1 [label="root"];
+    default_2 [label="default"];
+    volume_3 [label="volume"];
+    plate_4 [label="plate"];
+    front_label_5 [label="front_label"];
+    root_1 -> default_2;
+    default_2 -> volume_3;
+    default_2 -> plate_4;
+    default_2 -> front_label_5;
+}

@@ -1,0 +1,20 @@
+digraph default {
+	graph [rankdir=LR]
+	root_1 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_2 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nMixGridBox&quot;; console.log(s); alert(s);" tooltip=MixGridBox]
+	box_3 [label=box href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;box&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_4 [label="\('hole',\ 0,\ 0\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;hole&#x27;,\ 0,\ 0\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_5 [label="\('hole',\ 0,\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;hole&#x27;,\ 0,\ 1\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_6 [label="\('hole',\ 1,\ 0\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;hole&#x27;,\ 1,\ 0\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_7 [label="\('hole',\ 1,\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;hole&#x27;,\ 1,\ 1\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_8 [label="\('hole',\ 2,\ 0\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;hole&#x27;,\ 2,\ 0\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_9 [label="\('hole',\ 2,\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;hole&#x27;,\ 2,\ 1\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	root_1 -> default_2
+	default_2 -> box_3
+	default_2 -> hole_4
+	default_2 -> hole_5
+	default_2 -> hole_6
+	default_2 -> hole_7
+	default_2 -> hole_8
+	default_2 -> hole_9
+}

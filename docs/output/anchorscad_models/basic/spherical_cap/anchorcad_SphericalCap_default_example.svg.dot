@@ -1,0 +1,10 @@
+digraph default {
+	graph [rankdir=LR]
+	root_1 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_2 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nSphericalCap&quot;; console.log(s); alert(s);" tooltip=SphericalCap]
+	cage_3 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cage&#x27;\)\nSphere&quot;; console.log(s); alert(s);" tooltip=Sphere]
+	cap_4 [label=cap href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cap&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	root_1 -> default_2
+	default_2 -> cage_3
+	default_2 -> cap_4
+}

@@ -1,0 +1,639 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Datatree Injected Fields for CaseShell</title>
+            <style>
+                table {
+                    width: 100%;
+                    border-collapse: collapse;
+                }
+                th, td {
+                    border: 1px solid #ddd;
+                    padding: 8px;
+                    text-align: left;
+                }
+                th {
+                    background-color: #4CAF50;
+                    color: white;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>Datatree Injected Fields for CaseShell</h1>
+            <p>&lt;description&gt;<br/><br/>Args:<br/>    size: The (x,y,z) size of Case<br/>    case_holes: List of (anchor, hole_radius) pairs for case holes<br/>    fn: fixed number of segments. Overrides fa and fs<br/>    fa: minimum angle (in degrees) of each segment<br/>    fs: minimum length of each segment<br/>    screw_mount_r: Radius of cylinder.<br/>    screw_mounts: List of (anchor, hole_radius) pairs for case holes<br/>    screw_hole_len: Overall screw length<br/>Other args:<br/>    bevel_radius, shell_size, top_case, cut_depth, box_class, screw_hole_dia, screw_hole_access_len, screw_hole_access_dia, screw_hole_counter_sink_overlap, screw_hole_outer_dia, screw_hole_dims, screw_hole_outer_delta, screw_hole_overlap_delta</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Field Name</th>
+                        <th>Node Field Name</th>
+                        <th>Node Class/Func</th>
+                    </tr>
+                </thead>
+                <tbody>
+        
+                <tr>
+                    <td>bevel_radius</td>
+                    <td>bevel_radius</td>
+                    <td><a href='<class 'anchorscad_models.basic.box_side_bevels.BoxShell'>'>BoxShell</a></td>
+                </tr>
+                
+                <tr>
+                    <td>box_class</td>
+                    <td>box_class</td>
+                    <td><a href='<class 'anchorscad_models.basic.box_side_bevels.BoxShell'>'>BoxShell</a></td>
+                </tr>
+                
+                <tr>
+                    <td>cut_depth</td>
+                    <td>cut_depth</td>
+                    <td><a href='<class 'anchorscad_models.cases.generic.generic_case.CaseShellCutter'>'>CaseShellCutter</a></td>
+                </tr>
+                
+                <tr>
+                    <td>fa</td>
+                    <td>fa</td>
+                    <td><a href='<class 'anchorscad_models.basic.box_side_bevels.BoxShell'>'>BoxShell</a></td>
+                </tr>
+                
+                <tr>
+                    <td>fa</td>
+                    <td>fa</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                    <td>fa</td>
+                    <td>fa</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                    <td>fa</td>
+                    <td>fa</td>
+                    <td><a href='<class 'anchorscad_models.screws.holes.CountersinkSelfTapHole'>'>CountersinkSelfTapHole</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fa</td>
+                    <td><a href='<class 'anchorscad_models.screws.holes.CountersinkAccessHole'>'>CountersinkAccessHole</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fa</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                <td>&nbsp;</td>    <td>fa</td>
+                    <td><a href='<class 'anchorscad.core.Cone'>'>Cone</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                <td>&nbsp;</td>    <td>fa</td>
+                    <td><a href='<class 'anchorscad_models.screws.holes.SelfTapHole'>'>SelfTapHole</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fa</td>
+                    <td><a href='<class 'anchorscad_models.basic.pipe.Pipe'>'>Pipe</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fa</td>
+                    <td><a href='<class 'anchorscad_models.basic.pipe.Pie'>'>Pie</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fa</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                <td>&nbsp;</td>    <td>fa</td>
+                    <td><a href='<class 'anchorscad.extrude.RotateExtrude'>'>RotateExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                <td>&nbsp;</td>    <td>fa</td>
+                    <td><a href='<class 'anchorscad_models.basic.pipe.Pie'>'>Pie</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fa</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                <td>&nbsp;</td>    <td>fa</td>
+                    <td><a href='<class 'anchorscad.extrude.RotateExtrude'>'>RotateExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                <td>&nbsp;</td>    <td>fa</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>fn</td>
+                    <td>fn</td>
+                    <td><a href='<class 'anchorscad_models.basic.box_side_bevels.BoxShell'>'>BoxShell</a></td>
+                </tr>
+                
+                <tr>
+                    <td>fn</td>
+                    <td>fn</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                    <td>fn</td>
+                    <td>fn</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                    <td>fn</td>
+                    <td>fn</td>
+                    <td><a href='<class 'anchorscad_models.screws.holes.CountersinkSelfTapHole'>'>CountersinkSelfTapHole</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fn</td>
+                    <td><a href='<class 'anchorscad_models.screws.holes.CountersinkAccessHole'>'>CountersinkAccessHole</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fn</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                <td>&nbsp;</td>    <td>fn</td>
+                    <td><a href='<class 'anchorscad.core.Cone'>'>Cone</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                <td>&nbsp;</td>    <td>fn</td>
+                    <td><a href='<class 'anchorscad_models.screws.holes.SelfTapHole'>'>SelfTapHole</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fn</td>
+                    <td><a href='<class 'anchorscad_models.basic.pipe.Pipe'>'>Pipe</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fn</td>
+                    <td><a href='<class 'anchorscad_models.basic.pipe.Pie'>'>Pie</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fn</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                <td>&nbsp;</td>    <td>fn</td>
+                    <td><a href='<class 'anchorscad.extrude.RotateExtrude'>'>RotateExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                <td>&nbsp;</td>    <td>fn</td>
+                    <td><a href='<class 'anchorscad_models.basic.pipe.Pie'>'>Pie</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fn</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                <td>&nbsp;</td>    <td>fn</td>
+                    <td><a href='<class 'anchorscad.extrude.RotateExtrude'>'>RotateExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                <td>&nbsp;</td>    <td>fn</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>fs</td>
+                    <td>fs</td>
+                    <td><a href='<class 'anchorscad_models.basic.box_side_bevels.BoxShell'>'>BoxShell</a></td>
+                </tr>
+                
+                <tr>
+                    <td>fs</td>
+                    <td>fs</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                    <td>fs</td>
+                    <td>fs</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                    <td>fs</td>
+                    <td>fs</td>
+                    <td><a href='<class 'anchorscad_models.screws.holes.CountersinkSelfTapHole'>'>CountersinkSelfTapHole</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fs</td>
+                    <td><a href='<class 'anchorscad_models.screws.holes.CountersinkAccessHole'>'>CountersinkAccessHole</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fs</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                <td>&nbsp;</td>    <td>fs</td>
+                    <td><a href='<class 'anchorscad.core.Cone'>'>Cone</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                <td>&nbsp;</td>    <td>fs</td>
+                    <td><a href='<class 'anchorscad_models.screws.holes.SelfTapHole'>'>SelfTapHole</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fs</td>
+                    <td><a href='<class 'anchorscad_models.basic.pipe.Pipe'>'>Pipe</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fs</td>
+                    <td><a href='<class 'anchorscad_models.basic.pipe.Pie'>'>Pie</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fs</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                <td>&nbsp;</td>    <td>fs</td>
+                    <td><a href='<class 'anchorscad.extrude.RotateExtrude'>'>RotateExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                <td>&nbsp;</td>    <td>fs</td>
+                    <td><a href='<class 'anchorscad_models.basic.pipe.Pie'>'>Pie</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fs</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                <td>&nbsp;</td>    <td>fs</td>
+                    <td><a href='<class 'anchorscad.extrude.RotateExtrude'>'>RotateExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                <td>&nbsp;</td>    <td>fs</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>screw_hole_access_dia</td>
+                    <td>access_dia</td>
+                    <td><a href='<class 'anchorscad_models.screws.holes.CountersinkSelfTapHole'>'>CountersinkSelfTapHole</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>access_dia</td>
+                    <td><a href='<class 'anchorscad_models.screws.holes.CountersinkAccessHole'>'>CountersinkAccessHole</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>screw_hole_access_len</td>
+                    <td>access_len</td>
+                    <td><a href='<class 'anchorscad_models.screws.holes.CountersinkSelfTapHole'>'>CountersinkSelfTapHole</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>access_len</td>
+                    <td><a href='<class 'anchorscad_models.screws.holes.CountersinkAccessHole'>'>CountersinkAccessHole</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>screw_hole_counter_sink_overlap</td>
+                    <td>counter_sink_overlap</td>
+                    <td><a href='<class 'anchorscad_models.screws.holes.CountersinkSelfTapHole'>'>CountersinkSelfTapHole</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>counter_sink_overlap</td>
+                    <td><a href='<class 'anchorscad_models.screws.holes.CountersinkAccessHole'>'>CountersinkAccessHole</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>screw_hole_dia</td>
+                    <td>dia</td>
+                    <td><a href='<class 'anchorscad_models.screws.holes.CountersinkSelfTapHole'>'>CountersinkSelfTapHole</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>dia</td>
+                    <td><a href='<class 'anchorscad_models.screws.holes.SelfTapHole'>'>SelfTapHole</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>screw_hole_dims</td>
+                    <td>dims</td>
+                    <td><a href='<class 'anchorscad_models.screws.holes.CountersinkSelfTapHole'>'>CountersinkSelfTapHole</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>dims</td>
+                    <td><a href='<class 'anchorscad_models.screws.holes.SelfTapHole'>'>SelfTapHole</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>screw_hole_outer_delta</td>
+                    <td>outer_delta</td>
+                    <td><a href='<class 'anchorscad_models.screws.holes.CountersinkSelfTapHole'>'>CountersinkSelfTapHole</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>outer_delta</td>
+                    <td><a href='<class 'anchorscad_models.screws.holes.SelfTapHole'>'>SelfTapHole</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>screw_hole_outer_dia</td>
+                    <td>outer_dia</td>
+                    <td><a href='<class 'anchorscad_models.screws.holes.CountersinkSelfTapHole'>'>CountersinkSelfTapHole</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>outer_dia</td>
+                    <td><a href='<class 'anchorscad_models.screws.holes.SelfTapHole'>'>SelfTapHole</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>screw_hole_overlap_delta</td>
+                    <td>overlap_delta</td>
+                    <td><a href='<class 'anchorscad_models.screws.holes.CountersinkSelfTapHole'>'>CountersinkSelfTapHole</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>overlap_delta</td>
+                    <td><a href='<class 'anchorscad_models.screws.holes.CountersinkAccessHole'>'>CountersinkAccessHole</a></td>
+                </tr>
+                
+                <tr>
+                <td>&nbsp;</td>    <td>overlap_delta</td>
+                    <td><a href='<class 'anchorscad_models.screws.holes.SelfTapHole'>'>SelfTapHole</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>screw_hole_tap_len</td>
+                    <td>tap_len</td>
+                    <td><a href='<class 'anchorscad_models.screws.holes.CountersinkSelfTapHole'>'>CountersinkSelfTapHole</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>tap_len</td>
+                    <td><a href='<class 'anchorscad_models.screws.holes.SelfTapHole'>'>SelfTapHole</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>screw_hole_thru_len</td>
+                    <td>thru_len</td>
+                    <td><a href='<class 'anchorscad_models.screws.holes.CountersinkSelfTapHole'>'>CountersinkSelfTapHole</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>thru_len</td>
+                    <td><a href='<class 'anchorscad_models.screws.holes.SelfTapHole'>'>SelfTapHole</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>screw_mount_h</td>
+                    <td>h</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                    <td>screw_mount_r</td>
+                    <td>r</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                    <td>shell_size</td>
+                    <td>shell_size</td>
+                    <td><a href='<class 'anchorscad_models.basic.box_side_bevels.BoxShell'>'>BoxShell</a></td>
+                </tr>
+                
+                <tr>
+                    <td>size</td>
+                    <td>size</td>
+                    <td><a href='<class 'anchorscad_models.basic.box_side_bevels.BoxShell'>'>BoxShell</a></td>
+                </tr>
+                
+                <tr>
+                    <td>size</td>
+                    <td>size</td>
+                    <td><a href='<class 'anchorscad_models.cases.generic.generic_case.CaseShellCutter'>'>CaseShellCutter</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>size</td>
+                    <td><a href='<class 'anchorscad.core.Box'>'>Box</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>top_case</td>
+                    <td>top_case</td>
+                    <td><a href='<class 'anchorscad_models.cases.generic.generic_case.CaseShellCutter'>'>CaseShellCutter</a></td>
+                </tr>
+                
+                </tbody>
+            </table>
+        </body>
+        </html>
+        

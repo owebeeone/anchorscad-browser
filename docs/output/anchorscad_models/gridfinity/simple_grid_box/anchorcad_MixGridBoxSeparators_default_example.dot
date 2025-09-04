@@ -1,0 +1,25 @@
+digraph default {
+    root_102 [label="root"];
+    default_103 [label="default"];
+    cut_104 [label="cut"];
+    mix_grid_box_105 [label="mix_grid_box"];
+    box_106 [label="box"];
+    hole_107 [label="\('hole',\ 0,\ 0\)"];
+    hole_108 [label="\('hole',\ 0,\ 1\)"];
+    hole_109 [label="\('hole',\ 1,\ 0\)"];
+    hole_110 [label="\('hole',\ 1,\ 1\)"];
+    hole_111 [label="\('hole',\ 2,\ 0\)"];
+    hole_112 [label="\('hole',\ 2,\ 1\)"];
+    cut_113 [label="cut"];
+    root_102 -> default_103;
+    default_103 -> cut_104;
+    cut_104 -> mix_grid_box_105;
+    mix_grid_box_105 -> box_106;
+    mix_grid_box_105 -> hole_107;
+    mix_grid_box_105 -> hole_108;
+    mix_grid_box_105 -> hole_109;
+    mix_grid_box_105 -> hole_110;
+    mix_grid_box_105 -> hole_111;
+    mix_grid_box_105 -> hole_112;
+    cut_104 -> cut_113;
+}

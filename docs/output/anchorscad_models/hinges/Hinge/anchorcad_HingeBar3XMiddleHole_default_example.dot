@@ -1,0 +1,23 @@
+digraph default {
+    root_318 [label="root"];
+    default_319 [label="default"];
+    cage_320 [label="cage"];
+    bar_321 [label="bar"];
+    top_hole_322 [label="top_hole"];
+    cage_323 [label="cage"];
+    hinge_hole_324 [label="hinge_hole"];
+    base_hole_325 [label="base_hole"];
+    cage_326 [label="cage"];
+    hinge_hole_327 [label="hinge_hole"];
+    top_sleeve_328 [label="top_sleeve"];
+    root_318 -> default_319;
+    default_319 -> cage_320;
+    cage_320 -> bar_321;
+    cage_320 -> top_hole_322;
+    top_hole_322 -> cage_323;
+    top_hole_322 -> hinge_hole_324;
+    cage_320 -> base_hole_325;
+    base_hole_325 -> cage_326;
+    base_hole_325 -> hinge_hole_327;
+    default_319 -> top_sleeve_328;
+}

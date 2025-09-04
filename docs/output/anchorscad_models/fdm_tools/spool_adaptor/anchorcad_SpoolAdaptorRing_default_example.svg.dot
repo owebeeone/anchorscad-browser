@@ -1,0 +1,8 @@
+digraph default {
+	graph [rankdir=LR]
+	root_40 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_41 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nSpoolAdaptorRing&quot;; console.log(s); alert(s);" tooltip=SpoolAdaptorRing]
+	adaptor_42 [label=adaptor href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;adaptor&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	root_40 -> default_41
+	default_41 -> adaptor_42
+}

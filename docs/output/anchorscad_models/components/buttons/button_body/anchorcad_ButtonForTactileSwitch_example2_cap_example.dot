@@ -1,0 +1,23 @@
+digraph example2_cap {
+    root_134 [label="root"];
+    example2_cap_135 [label="example2_cap"];
+    cap_136 [label="cap"];
+    cage_137 [label="cage"];
+    button_cap_138 [label="button_cap"];
+    cap_wings_139 [label="cap_wings"];
+    cage_140 [label="cage"];
+    wing_141 [label="\('wing',\ 0\)"];
+    wing_142 [label="\('wing',\ 1\)"];
+    wing_143 [label="\('wing',\ 2\)"];
+    wing_144 [label="\('wing',\ 3\)"];
+    root_134 -> example2_cap_135;
+    example2_cap_135 -> cap_136;
+    cap_136 -> cage_137;
+    cap_136 -> button_cap_138;
+    cap_136 -> cap_wings_139;
+    cap_wings_139 -> cage_140;
+    cap_wings_139 -> wing_141;
+    cap_wings_139 -> wing_142;
+    cap_wings_139 -> wing_143;
+    cap_wings_139 -> wing_144;
+}

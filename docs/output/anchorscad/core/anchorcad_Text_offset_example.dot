@@ -1,0 +1,35 @@
+digraph offset {
+    root_987 [label="root"];
+    offset_988 [label="offset"];
+    989 [label="'default',\ "];
+    coords_990 [label="coords"];
+    origin_991 [label="origin"];
+    x_arrow_992 [label="x_arrow"];
+    stem_993 [label="stem"];
+    head_994 [label="head"];
+    y_arrow_995 [label="y_arrow"];
+    stem_996 [label="stem"];
+    head_997 [label="head"];
+    z_arrow_998 [label="z_arrow"];
+    stem_999 [label="stem"];
+    head_1000 [label="head"];
+    x_1001 [label="x"];
+    y_1002 [label="y"];
+    z_1003 [label="z"];
+    root_987 -> offset_988;
+    root_987 -> 989;
+    989 -> coords_990;
+    coords_990 -> origin_991;
+    coords_990 -> x_arrow_992;
+    x_arrow_992 -> stem_993;
+    x_arrow_992 -> head_994;
+    coords_990 -> y_arrow_995;
+    y_arrow_995 -> stem_996;
+    y_arrow_995 -> head_997;
+    coords_990 -> z_arrow_998;
+    z_arrow_998 -> stem_999;
+    z_arrow_998 -> head_1000;
+    989 -> x_1001;
+    989 -> y_1002;
+    989 -> z_1003;
+}

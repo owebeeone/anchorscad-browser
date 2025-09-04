@@ -1,0 +1,159 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Datatree Injected Fields for HingeHole</title>
+            <style>
+                table {
+                    width: 100%;
+                    border-collapse: collapse;
+                }
+                th, td {
+                    border: 1px solid #ddd;
+                    padding: 8px;
+                    text-align: left;
+                }
+                th {
+                    background-color: #4CAF50;
+                    color: white;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>Datatree Injected Fields for HingeHole</h1>
+            <p>The shape of the hole separating the sides of a hinge.<br/>This provides a lateral interference but rotates freely.<br/><br/>Args:<br/>    sep: Separation between hinge sides<br/>    nib_r: Radius of inner hinge nib<br/>    nib_ang_len: Angle length of inner hinge nib<br/>    nib_angle: Angle degrees of hinge nib<br/>    edge_len: Length between nib and edge og hinge<br/>    rx_angle: The sweep angle to extrude.<br/>    rx_convexity: Openscad convexity parameter.<br/>    fn: fixed number of segments. Overrides fa and fs<br/>    fa: minimum angle (in degrees) of each segment<br/>    fs: minimum length of each segment<br/>    rx_use_polyhedrons: Use polyhedrons instead of rotate_extrude.<br/>Other args:<br/>    nib_metadata, rx_path_fn, hide_cage</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Field Name</th>
+                        <th>Node Field Name</th>
+                        <th>Node Class/Func</th>
+                    </tr>
+                </thead>
+                <tbody>
+        
+                <tr>
+                    <td>cage_h</td>
+                    <td>h</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                    <td>cage_r</td>
+                    <td>r</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                    <td>edge_len</td>
+                    <td>edge_len</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeHolePath'>'>HingeHolePath</a></td>
+                </tr>
+                
+                <tr>
+                    <td>fa</td>
+                    <td>fa</td>
+                    <td><a href='<class 'anchorscad.extrude.RotateExtrude'>'>RotateExtrude</a></td>
+                </tr>
+                
+                <tr>
+                    <td>fa</td>
+                    <td>fa</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                    <td>fn</td>
+                    <td>fn</td>
+                    <td><a href='<class 'anchorscad.extrude.RotateExtrude'>'>RotateExtrude</a></td>
+                </tr>
+                
+                <tr>
+                    <td>fn</td>
+                    <td>fn</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                    <td>fs</td>
+                    <td>fs</td>
+                    <td><a href='<class 'anchorscad.extrude.RotateExtrude'>'>RotateExtrude</a></td>
+                </tr>
+                
+                <tr>
+                    <td>fs</td>
+                    <td>fs</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                    <td>hide_cage</td>
+                    <td>hide_cage</td>
+                    <td><a href='<function cageof at 0x00000163D97A3740>'>cageof</a></td>
+                </tr>
+                
+                <tr>
+                    <td>nib_ang_len</td>
+                    <td>nib_ang_len</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeHolePath'>'>HingeHolePath</a></td>
+                </tr>
+                
+                <tr>
+                    <td>nib_angle</td>
+                    <td>nib_angle</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeHolePath'>'>HingeHolePath</a></td>
+                </tr>
+                
+                <tr>
+                    <td>nib_metadata</td>
+                    <td>nib_metadata</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeHolePath'>'>HingeHolePath</a></td>
+                </tr>
+                
+                <tr>
+                    <td>nib_r</td>
+                    <td>nib_r</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeHolePath'>'>HingeHolePath</a></td>
+                </tr>
+                
+                <tr>
+                    <td>rx_angle</td>
+                    <td>angle</td>
+                    <td><a href='<class 'anchorscad.extrude.RotateExtrude'>'>RotateExtrude</a></td>
+                </tr>
+                
+                <tr>
+                    <td>rx_convexity</td>
+                    <td>convexity</td>
+                    <td><a href='<class 'anchorscad.extrude.RotateExtrude'>'>RotateExtrude</a></td>
+                </tr>
+                
+                <tr>
+                    <td>rx_path</td>
+                    <td>path</td>
+                    <td><a href='<class 'anchorscad.extrude.RotateExtrude'>'>RotateExtrude</a></td>
+                </tr>
+                
+                <tr>
+                    <td>rx_path_fn</td>
+                    <td>path_fn</td>
+                    <td><a href='<class 'anchorscad.extrude.RotateExtrude'>'>RotateExtrude</a></td>
+                </tr>
+                
+                <tr>
+                    <td>rx_use_polyhedrons</td>
+                    <td>use_polyhedrons</td>
+                    <td><a href='<class 'anchorscad.extrude.RotateExtrude'>'>RotateExtrude</a></td>
+                </tr>
+                
+                <tr>
+                    <td>sep</td>
+                    <td>sep</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeHolePath'>'>HingeHolePath</a></td>
+                </tr>
+                
+                </tbody>
+            </table>
+        </body>
+        </html>
+        

@@ -1,0 +1,21 @@
+digraph default {
+    root_235 [label="root"];
+    default_236 [label="default"];
+    test_box_237 [label="test_box"];
+    test_cut_box_238 [label="test_cut_box"];
+    screw_239 [label="screw"];
+    screw_cage_240 [label="screw_cage"];
+    tap_shaft_241 [label="tap_shaft"];
+    thru_shaft_242 [label="thru_shaft"];
+    access_hole_243 [label="access_hole"];
+    screw_hole_244 [label="screw_hole"];
+    root_235 -> default_236;
+    default_236 -> test_box_237;
+    default_236 -> test_cut_box_238;
+    default_236 -> screw_239;
+    screw_239 -> screw_cage_240;
+    screw_239 -> tap_shaft_241;
+    screw_239 -> thru_shaft_242;
+    screw_239 -> access_hole_243;
+    screw_239 -> screw_hole_244;
+}

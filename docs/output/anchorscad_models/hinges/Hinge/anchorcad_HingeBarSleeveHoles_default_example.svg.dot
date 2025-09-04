@@ -1,0 +1,156 @@
+digraph default {
+	graph [rankdir=LR]
+	root_329 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_330 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nHingeBarSleeveHoles&quot;; console.log(s); alert(s);" tooltip=HingeBarSleeveHoles]
+	cage_331 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cage&#x27;\)\nHingeBar&quot;; console.log(s); alert(s);" tooltip=HingeBar]
+	bar_332 [label=bar href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cage&#x27;,\ &#x27;bar&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	hole_333 [label="\('hole',\ 0\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cage&#x27;,\ \(&#x27;hole&#x27;,\ 0\)\)\nHingeHole&quot;; console.log(s); alert(s);" tooltip=HingeHole]
+	cage_334 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cage&#x27;,\ \(&#x27;hole&#x27;,\ 0\),\ &#x27;cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	hinge_hole_335 [label=hinge_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cage&#x27;,\ \(&#x27;hole&#x27;,\ 0\),\ &#x27;hinge_hole&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	hole_336 [label="\('hole',\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cage&#x27;,\ \(&#x27;hole&#x27;,\ 1\)\)\nHingeHole&quot;; console.log(s); alert(s);" tooltip=HingeHole]
+	cage_337 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cage&#x27;,\ \(&#x27;hole&#x27;,\ 1\),\ &#x27;cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	hinge_hole_338 [label=hinge_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cage&#x27;,\ \(&#x27;hole&#x27;,\ 1\),\ &#x27;hinge_hole&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	hole_339 [label="\('hole',\ 2\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cage&#x27;,\ \(&#x27;hole&#x27;,\ 2\)\)\nHingeHole&quot;; console.log(s); alert(s);" tooltip=HingeHole]
+	cage_340 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cage&#x27;,\ \(&#x27;hole&#x27;,\ 2\),\ &#x27;cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	hinge_hole_341 [label=hinge_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cage&#x27;,\ \(&#x27;hole&#x27;,\ 2\),\ &#x27;hinge_hole&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	hole_342 [label="\('hole',\ 3\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cage&#x27;,\ \(&#x27;hole&#x27;,\ 3\)\)\nHingeHole&quot;; console.log(s); alert(s);" tooltip=HingeHole]
+	cage_343 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cage&#x27;,\ \(&#x27;hole&#x27;,\ 3\),\ &#x27;cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	hinge_hole_344 [label=hinge_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cage&#x27;,\ \(&#x27;hole&#x27;,\ 3\),\ &#x27;hinge_hole&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	hole_345 [label="\('hole',\ 4\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cage&#x27;,\ \(&#x27;hole&#x27;,\ 4\)\)\nHingeHole&quot;; console.log(s); alert(s);" tooltip=HingeHole]
+	cage_346 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cage&#x27;,\ \(&#x27;hole&#x27;,\ 4\),\ &#x27;cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	hinge_hole_347 [label=hinge_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cage&#x27;,\ \(&#x27;hole&#x27;,\ 4\),\ &#x27;hinge_hole&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	hole_348 [label="\('hole',\ 5\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cage&#x27;,\ \(&#x27;hole&#x27;,\ 5\)\)\nHingeHole&quot;; console.log(s); alert(s);" tooltip=HingeHole]
+	cage_349 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cage&#x27;,\ \(&#x27;hole&#x27;,\ 5\),\ &#x27;cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	hinge_hole_350 [label=hinge_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cage&#x27;,\ \(&#x27;hole&#x27;,\ 5\),\ &#x27;hinge_hole&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	hole_351 [label="\('hole',\ 6\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cage&#x27;,\ \(&#x27;hole&#x27;,\ 6\)\)\nHingeHole&quot;; console.log(s); alert(s);" tooltip=HingeHole]
+	cage_352 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cage&#x27;,\ \(&#x27;hole&#x27;,\ 6\),\ &#x27;cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	hinge_hole_353 [label=hinge_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cage&#x27;,\ \(&#x27;hole&#x27;,\ 6\),\ &#x27;hinge_hole&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	sleeve_354 [label="\('sleeve',\ 0\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;sleeve&#x27;,\ 0\)\)\nSleeveAndKeyway&quot;; console.log(s); alert(s);" tooltip=SleeveAndKeyway]
+	outer_355 [label=outer href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;sleeve&#x27;,\ 0\),\ &#x27;outer&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	inner_356 [label=inner href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;sleeve&#x27;,\ 0\),\ &#x27;inner&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	sleeve_357 [label=sleeve href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;sleeve&#x27;,\ 0\),\ &#x27;sleeve&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	sleeve_358 [label="\('sleeve',\ 2\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;sleeve&#x27;,\ 2\)\)\nSleeveAndKeyway&quot;; console.log(s); alert(s);" tooltip=SleeveAndKeyway]
+	outer_359 [label=outer href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;sleeve&#x27;,\ 2\),\ &#x27;outer&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	inner_360 [label=inner href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;sleeve&#x27;,\ 2\),\ &#x27;inner&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	sleeve_361 [label=sleeve href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;sleeve&#x27;,\ 2\),\ &#x27;sleeve&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	sleeve_362 [label="\('sleeve',\ 4\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;sleeve&#x27;,\ 4\)\)\nSleeveAndKeyway&quot;; console.log(s); alert(s);" tooltip=SleeveAndKeyway]
+	outer_363 [label=outer href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;sleeve&#x27;,\ 4\),\ &#x27;outer&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	inner_364 [label=inner href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;sleeve&#x27;,\ 4\),\ &#x27;inner&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	sleeve_365 [label=sleeve href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;sleeve&#x27;,\ 4\),\ &#x27;sleeve&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	sleeve_366 [label="\('sleeve',\ 6\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;sleeve&#x27;,\ 6\)\)\nSleeveAndKeyway&quot;; console.log(s); alert(s);" tooltip=SleeveAndKeyway]
+	outer_367 [label=outer href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;sleeve&#x27;,\ 6\),\ &#x27;outer&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	inner_368 [label=inner href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;sleeve&#x27;,\ 6\),\ &#x27;inner&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	sleeve_369 [label=sleeve href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;sleeve&#x27;,\ 6\),\ &#x27;sleeve&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	sleeve_base_370 [label=sleeve_base href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;sleeve_base&#x27;\)\nSleeve&quot;; console.log(s); alert(s);" tooltip=Sleeve]
+	outer_371 [label=outer href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;sleeve_base&#x27;,\ &#x27;outer&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	inner_372 [label=inner href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;sleeve_base&#x27;,\ &#x27;inner&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	sleeve_373 [label=sleeve href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;sleeve_base&#x27;,\ &#x27;sleeve&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	374 [label="'base',\ " href="javascript:s=&quot;\(&quot;&#x27;base&#x27;,\ &quot;,\)\nAnnotatedCoordinates&quot;; console.log(s); alert(s);" tooltip=AnnotatedCoordinates]
+	coords_375 [label=coords href="javascript:s=&quot;\(&quot;&#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;\)\nCoordinates&quot;; console.log(s); alert(s);" tooltip=Coordinates]
+	origin_376 [label=origin href="javascript:s=&quot;\(&quot;&#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;origin&#x27;\)\nCoordinatesCage&quot;; console.log(s); alert(s);" tooltip=CoordinatesCage]
+	x_arrow_377 [label=x_arrow href="javascript:s=&quot;\(&quot;&#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_378 [label=stem href="javascript:s=&quot;\(&quot;&#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_379 [label=head href="javascript:s=&quot;\(&quot;&#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	y_arrow_380 [label=y_arrow href="javascript:s=&quot;\(&quot;&#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_381 [label=stem href="javascript:s=&quot;\(&quot;&#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_382 [label=head href="javascript:s=&quot;\(&quot;&#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	z_arrow_383 [label=z_arrow href="javascript:s=&quot;\(&quot;&#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_384 [label=stem href="javascript:s=&quot;\(&quot;&#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_385 [label=head href="javascript:s=&quot;\(&quot;&#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	x_386 [label=x href="javascript:s=&quot;\(&quot;&#x27;base&#x27;,\ &quot;,\ &#x27;x&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	y_387 [label=y href="javascript:s=&quot;\(&quot;&#x27;base&#x27;,\ &quot;,\ &#x27;y&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	z_388 [label=z href="javascript:s=&quot;\(&quot;&#x27;base&#x27;,\ &quot;,\ &#x27;z&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	label_389 [label=label href="javascript:s=&quot;\(&quot;&#x27;base&#x27;,\ &quot;,\ &#x27;label&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	390 [label="\('hole',\ 0\),\ 'base',\ " href="javascript:s=&quot;\(&quot;\(&#x27;hole&#x27;,\ 0\),\ &#x27;base&#x27;,\ &quot;,\)\nAnnotatedCoordinates&quot;; console.log(s); alert(s);" tooltip=AnnotatedCoordinates]
+	coords_391 [label=coords href="javascript:s=&quot;\(&quot;\(&#x27;hole&#x27;,\ 0\),\ &#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;\)\nCoordinates&quot;; console.log(s); alert(s);" tooltip=Coordinates]
+	origin_392 [label=origin href="javascript:s=&quot;\(&quot;\(&#x27;hole&#x27;,\ 0\),\ &#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;origin&#x27;\)\nCoordinatesCage&quot;; console.log(s); alert(s);" tooltip=CoordinatesCage]
+	x_arrow_393 [label=x_arrow href="javascript:s=&quot;\(&quot;\(&#x27;hole&#x27;,\ 0\),\ &#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_394 [label=stem href="javascript:s=&quot;\(&quot;\(&#x27;hole&#x27;,\ 0\),\ &#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_395 [label=head href="javascript:s=&quot;\(&quot;\(&#x27;hole&#x27;,\ 0\),\ &#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	y_arrow_396 [label=y_arrow href="javascript:s=&quot;\(&quot;\(&#x27;hole&#x27;,\ 0\),\ &#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_397 [label=stem href="javascript:s=&quot;\(&quot;\(&#x27;hole&#x27;,\ 0\),\ &#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_398 [label=head href="javascript:s=&quot;\(&quot;\(&#x27;hole&#x27;,\ 0\),\ &#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	z_arrow_399 [label=z_arrow href="javascript:s=&quot;\(&quot;\(&#x27;hole&#x27;,\ 0\),\ &#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_400 [label=stem href="javascript:s=&quot;\(&quot;\(&#x27;hole&#x27;,\ 0\),\ &#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_401 [label=head href="javascript:s=&quot;\(&quot;\(&#x27;hole&#x27;,\ 0\),\ &#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	x_402 [label=x href="javascript:s=&quot;\(&quot;\(&#x27;hole&#x27;,\ 0\),\ &#x27;base&#x27;,\ &quot;,\ &#x27;x&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	y_403 [label=y href="javascript:s=&quot;\(&quot;\(&#x27;hole&#x27;,\ 0\),\ &#x27;base&#x27;,\ &quot;,\ &#x27;y&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	z_404 [label=z href="javascript:s=&quot;\(&quot;\(&#x27;hole&#x27;,\ 0\),\ &#x27;base&#x27;,\ &quot;,\ &#x27;z&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	label_405 [label=label href="javascript:s=&quot;\(&quot;\(&#x27;hole&#x27;,\ 0\),\ &#x27;base&#x27;,\ &quot;,\ &#x27;label&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	root_329 -> default_330
+	default_330 -> cage_331
+	cage_331 -> bar_332
+	cage_331 -> hole_333
+	hole_333 -> cage_334
+	hole_333 -> hinge_hole_335
+	cage_331 -> hole_336
+	hole_336 -> cage_337
+	hole_336 -> hinge_hole_338
+	cage_331 -> hole_339
+	hole_339 -> cage_340
+	hole_339 -> hinge_hole_341
+	cage_331 -> hole_342
+	hole_342 -> cage_343
+	hole_342 -> hinge_hole_344
+	cage_331 -> hole_345
+	hole_345 -> cage_346
+	hole_345 -> hinge_hole_347
+	cage_331 -> hole_348
+	hole_348 -> cage_349
+	hole_348 -> hinge_hole_350
+	cage_331 -> hole_351
+	hole_351 -> cage_352
+	hole_351 -> hinge_hole_353
+	default_330 -> sleeve_354
+	sleeve_354 -> outer_355
+	sleeve_354 -> inner_356
+	sleeve_354 -> sleeve_357
+	default_330 -> sleeve_358
+	sleeve_358 -> outer_359
+	sleeve_358 -> inner_360
+	sleeve_358 -> sleeve_361
+	default_330 -> sleeve_362
+	sleeve_362 -> outer_363
+	sleeve_362 -> inner_364
+	sleeve_362 -> sleeve_365
+	default_330 -> sleeve_366
+	sleeve_366 -> outer_367
+	sleeve_366 -> inner_368
+	sleeve_366 -> sleeve_369
+	default_330 -> sleeve_base_370
+	sleeve_base_370 -> outer_371
+	sleeve_base_370 -> inner_372
+	sleeve_base_370 -> sleeve_373
+	root_329 -> 374
+	374 -> coords_375
+	coords_375 -> origin_376
+	coords_375 -> x_arrow_377
+	x_arrow_377 -> stem_378
+	x_arrow_377 -> head_379
+	coords_375 -> y_arrow_380
+	y_arrow_380 -> stem_381
+	y_arrow_380 -> head_382
+	coords_375 -> z_arrow_383
+	z_arrow_383 -> stem_384
+	z_arrow_383 -> head_385
+	374 -> x_386
+	374 -> y_387
+	374 -> z_388
+	374 -> label_389
+	root_329 -> 390
+	390 -> coords_391
+	coords_391 -> origin_392
+	coords_391 -> x_arrow_393
+	x_arrow_393 -> stem_394
+	x_arrow_393 -> head_395
+	coords_391 -> y_arrow_396
+	y_arrow_396 -> stem_397
+	y_arrow_396 -> head_398
+	coords_391 -> z_arrow_399
+	z_arrow_399 -> stem_400
+	z_arrow_399 -> head_401
+	390 -> x_402
+	390 -> y_403
+	390 -> z_404
+	390 -> label_405
+}

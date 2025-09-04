@@ -1,0 +1,29 @@
+
+Fontconfig error: Cannot load default config file: No such file: (null)
+Geometries in cache: 27
+Geometry cache size in bytes: 291640
+CGAL Polyhedrons in cache: 10
+CGAL cache size in bytes: 0
+Total rendering time: 0:00:00.032
+   Top level object is a 3D object (manifold):
+   Status:     NoError
+   Genus:      -13
+   Vertices:      822
+   Facets:       1588
+Geometries in cache: 27
+Geometry cache size in bytes: 291640
+CGAL Polyhedrons in cache: 10
+CGAL cache size in bytes: 0
+Total rendering time: 0:00:00.010
+   Top level object is a 3D object (manifold):
+   Status:     NoError
+   Genus:      -13
+   Vertices:      822
+   Facets:       1588
+Compiling design (CSG Products normalization)...
+Normalized CSG tree has 10 elements
+Geometries in cache: 27
+Geometry cache size in bytes: 291640
+CGAL Polyhedrons in cache: 10
+CGAL cache size in bytes: 0
+Total rendering time: 0:00:00.643

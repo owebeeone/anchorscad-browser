@@ -1,0 +1,9 @@
+digraph 5mm {
+    root_5 [label="root"];
+    6 [label="5mm"];
+    led_body_7 [label="led_body"];
+    cutout_8 [label="cutout"];
+    root_5 -> 6;
+    6 -> led_body_7;
+    6 -> cutout_8;
+}

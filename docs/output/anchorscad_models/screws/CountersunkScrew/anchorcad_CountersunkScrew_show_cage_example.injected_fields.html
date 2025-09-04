@@ -1,0 +1,87 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Datatree Injected Fields for CountersunkScrew</title>
+            <style>
+                table {
+                    width: 100%;
+                    border-collapse: collapse;
+                }
+                th, td {
+                    border: 1px solid #ddd;
+                    padding: 8px;
+                    text-align: left;
+                }
+                th {
+                    background-color: #4CAF50;
+                    color: white;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>Datatree Injected Fields for CountersunkScrew</h1>
+            <p>Generic countersunk screw shaped hole including optional shaft solid <br/>sections and access hole.<br/><br/>Three cylinders are added as &quot;cages&quot;, 2 of which may optionally be added<br/>as solids and an optional &quot;access hole&quot; above the screw for allowing access<br/>to the screw hole.<br/><br/>Component Shapes:<br/>&#x27;screw_cage&#x27; covers the entire screw length.<br/>&#x27;tap_shaft&#x27; a cage or solid that covers the shaft component that is used <br/>    for self tapping screws to tap into.<br/>&#x27;thru_shaft&#x27; a cage or a solid that covers the screw but is sized so the<br/>    screw can easily pass.<br/>&#x27;access_hole&#x27; a cylindrical hole directly above the screw head hold that<br/>    is sized larger than the screw head for cutting access holes in <br/>    surrounding model parts that would block access.<br/>&#x27;screw_hole&#x27; A hole for the screw that allows for head space. <br/><br/><br/>Args:<br/>    fn: fixed number of segments. Overrides fa and fs<br/>    fa: minimum angle (in degrees) of each segment<br/>    fs: minimum length of each segment<br/>Other args:<br/>    shaft_overall_length, shaft_thru_length, size_name, include_thru_shaft, tap_shaft_dia_delta, access_hole_depth, shaft_taper_length, shaft_dims, head_dims, head_depth_factor, head_sink_factor, as_solid, hide_cage, shaft_hide_cage</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Field Name</th>
+                        <th>Node Field Name</th>
+                        <th>Node Class/Func</th>
+                    </tr>
+                </thead>
+                <tbody>
+        
+                <tr>
+                    <td>fa</td>
+                    <td>fa</td>
+                    <td><a href='<class 'anchorscad.core.Cone'>'>Cone</a></td>
+                </tr>
+                
+                <tr>
+                    <td>fa</td>
+                    <td>fa</td>
+                    <td><a href='<class 'anchorscad.extrude.RotateExtrude'>'>RotateExtrude</a></td>
+                </tr>
+                
+                <tr>
+                    <td>fn</td>
+                    <td>fn</td>
+                    <td><a href='<class 'anchorscad.core.Cone'>'>Cone</a></td>
+                </tr>
+                
+                <tr>
+                    <td>fn</td>
+                    <td>fn</td>
+                    <td><a href='<class 'anchorscad.extrude.RotateExtrude'>'>RotateExtrude</a></td>
+                </tr>
+                
+                <tr>
+                    <td>fs</td>
+                    <td>fs</td>
+                    <td><a href='<class 'anchorscad.core.Cone'>'>Cone</a></td>
+                </tr>
+                
+                <tr>
+                    <td>fs</td>
+                    <td>fs</td>
+                    <td><a href='<class 'anchorscad.extrude.RotateExtrude'>'>RotateExtrude</a></td>
+                </tr>
+                
+                <tr>
+                    <td>hide_cage</td>
+                    <td>hide_cage</td>
+                    <td><a href='<function cageof at 0x000001AD33757740>'>cageof</a></td>
+                </tr>
+                
+                <tr>
+                    <td>shaft_hide_cage</td>
+                    <td>hide_cage</td>
+                    <td><a href='<function cageof at 0x000001AD33757740>'>cageof</a></td>
+                </tr>
+                
+                </tbody>
+            </table>
+        </body>
+        </html>
+        

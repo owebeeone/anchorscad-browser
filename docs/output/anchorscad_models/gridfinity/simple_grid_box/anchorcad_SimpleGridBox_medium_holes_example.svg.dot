@@ -1,0 +1,24 @@
+digraph medium_holes {
+	graph [rankdir=LR]
+	root_224 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	medium_holes_225 [label=medium_holes href="javascript:s=&quot;\(&#x27;medium_holes&#x27;,\)\nSimpleGridBox&quot;; console.log(s); alert(s);" tooltip=SimpleGridBox]
+	box_226 [label=box href="javascript:s=&quot;\(&#x27;medium_holes&#x27;,\ &#x27;box&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_227 [label="\('hole',\ 0,\ 0\)" href="javascript:s=&quot;\(&#x27;medium_holes&#x27;,\ \(&#x27;hole&#x27;,\ 0,\ 0\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_228 [label="\('hole',\ 0,\ 1\)" href="javascript:s=&quot;\(&#x27;medium_holes&#x27;,\ \(&#x27;hole&#x27;,\ 0,\ 1\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_229 [label="\('hole',\ 1,\ 0\)" href="javascript:s=&quot;\(&#x27;medium_holes&#x27;,\ \(&#x27;hole&#x27;,\ 1,\ 0\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_230 [label="\('hole',\ 1,\ 1\)" href="javascript:s=&quot;\(&#x27;medium_holes&#x27;,\ \(&#x27;hole&#x27;,\ 1,\ 1\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_231 [label="\('hole',\ 2,\ 0\)" href="javascript:s=&quot;\(&#x27;medium_holes&#x27;,\ \(&#x27;hole&#x27;,\ 2,\ 0\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_232 [label="\('hole',\ 2,\ 1\)" href="javascript:s=&quot;\(&#x27;medium_holes&#x27;,\ \(&#x27;hole&#x27;,\ 2,\ 1\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_233 [label="\('hole',\ 3,\ 0\)" href="javascript:s=&quot;\(&#x27;medium_holes&#x27;,\ \(&#x27;hole&#x27;,\ 3,\ 0\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_234 [label="\('hole',\ 3,\ 1\)" href="javascript:s=&quot;\(&#x27;medium_holes&#x27;,\ \(&#x27;hole&#x27;,\ 3,\ 1\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	root_224 -> medium_holes_225
+	medium_holes_225 -> box_226
+	medium_holes_225 -> hole_227
+	medium_holes_225 -> hole_228
+	medium_holes_225 -> hole_229
+	medium_holes_225 -> hole_230
+	medium_holes_225 -> hole_231
+	medium_holes_225 -> hole_232
+	medium_holes_225 -> hole_233
+	medium_holes_225 -> hole_234
+}

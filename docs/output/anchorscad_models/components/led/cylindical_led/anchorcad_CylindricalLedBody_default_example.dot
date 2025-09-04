@@ -1,0 +1,9 @@
+digraph default {
+    root_1 [label="root"];
+    default_2 [label="default"];
+    led_body_3 [label="led_body"];
+    cutout_4 [label="cutout"];
+    root_1 -> default_2;
+    default_2 -> led_body_3;
+    default_2 -> cutout_4;
+}

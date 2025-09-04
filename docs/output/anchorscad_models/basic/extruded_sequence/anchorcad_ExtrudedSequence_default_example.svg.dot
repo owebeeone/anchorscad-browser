@@ -1,0 +1,84 @@
+digraph default {
+	graph [rankdir=LR]
+	root_1 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_2 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nExtrudedSequence&quot;; console.log(s); alert(s);" tooltip=ExtrudedSequence]
+	item_3 [label="\('item',\ 0\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;item&#x27;,\ 0\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	item_4 [label="\('item',\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;item&#x27;,\ 1\)\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	item_5 [label="\('item',\ 2\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;item&#x27;,\ 2\)\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	item_6 [label="\('item',\ 3\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;item&#x27;,\ 3\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	item_7 [label="\('item',\ 4\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;item&#x27;,\ 4\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	item_8 [label="\('item',\ 5\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;item&#x27;,\ 5\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	item_9 [label="\('item',\ 6\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;item&#x27;,\ 6\)\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	10 [label="\('item',\ 0\),\ 'path_op',\ 2,\ 0\.5,\ ex_end=True,\ linear_compat=True" href="javascript:s=&quot;\(&quot;\(&#x27;item&#x27;,\ 0\),\ &#x27;path_op&#x27;,\ 2,\ 0\.5,\ ex_end=True,\ linear_compat=True&quot;,\)\nAnnotatedCoordinates&quot;; console.log(s); alert(s);" tooltip=AnnotatedCoordinates]
+	coords_11 [label=coords href="javascript:s=&quot;\(&quot;\(&#x27;item&#x27;,\ 0\),\ &#x27;path_op&#x27;,\ 2,\ 0\.5,\ ex_end=True,\ linear_compat=True&quot;,\ &#x27;coords&#x27;\)\nCoordinates&quot;; console.log(s); alert(s);" tooltip=Coordinates]
+	origin_12 [label=origin href="javascript:s=&quot;\(&quot;\(&#x27;item&#x27;,\ 0\),\ &#x27;path_op&#x27;,\ 2,\ 0\.5,\ ex_end=True,\ linear_compat=True&quot;,\ &#x27;coords&#x27;,\ &#x27;origin&#x27;\)\nCoordinatesCage&quot;; console.log(s); alert(s);" tooltip=CoordinatesCage]
+	x_arrow_13 [label=x_arrow href="javascript:s=&quot;\(&quot;\(&#x27;item&#x27;,\ 0\),\ &#x27;path_op&#x27;,\ 2,\ 0\.5,\ ex_end=True,\ linear_compat=True&quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_14 [label=stem href="javascript:s=&quot;\(&quot;\(&#x27;item&#x27;,\ 0\),\ &#x27;path_op&#x27;,\ 2,\ 0\.5,\ ex_end=True,\ linear_compat=True&quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_15 [label=head href="javascript:s=&quot;\(&quot;\(&#x27;item&#x27;,\ 0\),\ &#x27;path_op&#x27;,\ 2,\ 0\.5,\ ex_end=True,\ linear_compat=True&quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	y_arrow_16 [label=y_arrow href="javascript:s=&quot;\(&quot;\(&#x27;item&#x27;,\ 0\),\ &#x27;path_op&#x27;,\ 2,\ 0\.5,\ ex_end=True,\ linear_compat=True&quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_17 [label=stem href="javascript:s=&quot;\(&quot;\(&#x27;item&#x27;,\ 0\),\ &#x27;path_op&#x27;,\ 2,\ 0\.5,\ ex_end=True,\ linear_compat=True&quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_18 [label=head href="javascript:s=&quot;\(&quot;\(&#x27;item&#x27;,\ 0\),\ &#x27;path_op&#x27;,\ 2,\ 0\.5,\ ex_end=True,\ linear_compat=True&quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	z_arrow_19 [label=z_arrow href="javascript:s=&quot;\(&quot;\(&#x27;item&#x27;,\ 0\),\ &#x27;path_op&#x27;,\ 2,\ 0\.5,\ ex_end=True,\ linear_compat=True&quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_20 [label=stem href="javascript:s=&quot;\(&quot;\(&#x27;item&#x27;,\ 0\),\ &#x27;path_op&#x27;,\ 2,\ 0\.5,\ ex_end=True,\ linear_compat=True&quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_21 [label=head href="javascript:s=&quot;\(&quot;\(&#x27;item&#x27;,\ 0\),\ &#x27;path_op&#x27;,\ 2,\ 0\.5,\ ex_end=True,\ linear_compat=True&quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	x_22 [label=x href="javascript:s=&quot;\(&quot;\(&#x27;item&#x27;,\ 0\),\ &#x27;path_op&#x27;,\ 2,\ 0\.5,\ ex_end=True,\ linear_compat=True&quot;,\ &#x27;x&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	y_23 [label=y href="javascript:s=&quot;\(&quot;\(&#x27;item&#x27;,\ 0\),\ &#x27;path_op&#x27;,\ 2,\ 0\.5,\ ex_end=True,\ linear_compat=True&quot;,\ &#x27;y&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	z_24 [label=z href="javascript:s=&quot;\(&quot;\(&#x27;item&#x27;,\ 0\),\ &#x27;path_op&#x27;,\ 2,\ 0\.5,\ ex_end=True,\ linear_compat=True&quot;,\ &#x27;z&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	label_25 [label=label href="javascript:s=&quot;\(&quot;\(&#x27;item&#x27;,\ 0\),\ &#x27;path_op&#x27;,\ 2,\ 0\.5,\ ex_end=True,\ linear_compat=True&quot;,\ &#x27;label&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	26 [label="\('item',\ 1\),\ 'path_op',\ 2,\ 0\.5,\ ex_end=False,\ linear_compat=True" href="javascript:s=&quot;\(&quot;\(&#x27;item&#x27;,\ 1\),\ &#x27;path_op&#x27;,\ 2,\ 0\.5,\ ex_end=False,\ linear_compat=True&quot;,\)\nAnnotatedCoordinates&quot;; console.log(s); alert(s);" tooltip=AnnotatedCoordinates]
+	coords_27 [label=coords href="javascript:s=&quot;\(&quot;\(&#x27;item&#x27;,\ 1\),\ &#x27;path_op&#x27;,\ 2,\ 0\.5,\ ex_end=False,\ linear_compat=True&quot;,\ &#x27;coords&#x27;\)\nCoordinates&quot;; console.log(s); alert(s);" tooltip=Coordinates]
+	origin_28 [label=origin href="javascript:s=&quot;\(&quot;\(&#x27;item&#x27;,\ 1\),\ &#x27;path_op&#x27;,\ 2,\ 0\.5,\ ex_end=False,\ linear_compat=True&quot;,\ &#x27;coords&#x27;,\ &#x27;origin&#x27;\)\nCoordinatesCage&quot;; console.log(s); alert(s);" tooltip=CoordinatesCage]
+	x_arrow_29 [label=x_arrow href="javascript:s=&quot;\(&quot;\(&#x27;item&#x27;,\ 1\),\ &#x27;path_op&#x27;,\ 2,\ 0\.5,\ ex_end=False,\ linear_compat=True&quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_30 [label=stem href="javascript:s=&quot;\(&quot;\(&#x27;item&#x27;,\ 1\),\ &#x27;path_op&#x27;,\ 2,\ 0\.5,\ ex_end=False,\ linear_compat=True&quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_31 [label=head href="javascript:s=&quot;\(&quot;\(&#x27;item&#x27;,\ 1\),\ &#x27;path_op&#x27;,\ 2,\ 0\.5,\ ex_end=False,\ linear_compat=True&quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	y_arrow_32 [label=y_arrow href="javascript:s=&quot;\(&quot;\(&#x27;item&#x27;,\ 1\),\ &#x27;path_op&#x27;,\ 2,\ 0\.5,\ ex_end=False,\ linear_compat=True&quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_33 [label=stem href="javascript:s=&quot;\(&quot;\(&#x27;item&#x27;,\ 1\),\ &#x27;path_op&#x27;,\ 2,\ 0\.5,\ ex_end=False,\ linear_compat=True&quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_34 [label=head href="javascript:s=&quot;\(&quot;\(&#x27;item&#x27;,\ 1\),\ &#x27;path_op&#x27;,\ 2,\ 0\.5,\ ex_end=False,\ linear_compat=True&quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	z_arrow_35 [label=z_arrow href="javascript:s=&quot;\(&quot;\(&#x27;item&#x27;,\ 1\),\ &#x27;path_op&#x27;,\ 2,\ 0\.5,\ ex_end=False,\ linear_compat=True&quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_36 [label=stem href="javascript:s=&quot;\(&quot;\(&#x27;item&#x27;,\ 1\),\ &#x27;path_op&#x27;,\ 2,\ 0\.5,\ ex_end=False,\ linear_compat=True&quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_37 [label=head href="javascript:s=&quot;\(&quot;\(&#x27;item&#x27;,\ 1\),\ &#x27;path_op&#x27;,\ 2,\ 0\.5,\ ex_end=False,\ linear_compat=True&quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	x_38 [label=x href="javascript:s=&quot;\(&quot;\(&#x27;item&#x27;,\ 1\),\ &#x27;path_op&#x27;,\ 2,\ 0\.5,\ ex_end=False,\ linear_compat=True&quot;,\ &#x27;x&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	y_39 [label=y href="javascript:s=&quot;\(&quot;\(&#x27;item&#x27;,\ 1\),\ &#x27;path_op&#x27;,\ 2,\ 0\.5,\ ex_end=False,\ linear_compat=True&quot;,\ &#x27;y&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	z_40 [label=z href="javascript:s=&quot;\(&quot;\(&#x27;item&#x27;,\ 1\),\ &#x27;path_op&#x27;,\ 2,\ 0\.5,\ ex_end=False,\ linear_compat=True&quot;,\ &#x27;z&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	label_41 [label=label href="javascript:s=&quot;\(&quot;\(&#x27;item&#x27;,\ 1\),\ &#x27;path_op&#x27;,\ 2,\ 0\.5,\ ex_end=False,\ linear_compat=True&quot;,\ &#x27;label&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	root_1 -> default_2
+	default_2 -> item_3
+	default_2 -> item_4
+	default_2 -> item_5
+	default_2 -> item_6
+	default_2 -> item_7
+	default_2 -> item_8
+	default_2 -> item_9
+	root_1 -> 10
+	10 -> coords_11
+	coords_11 -> origin_12
+	coords_11 -> x_arrow_13
+	x_arrow_13 -> stem_14
+	x_arrow_13 -> head_15
+	coords_11 -> y_arrow_16
+	y_arrow_16 -> stem_17
+	y_arrow_16 -> head_18
+	coords_11 -> z_arrow_19
+	z_arrow_19 -> stem_20
+	z_arrow_19 -> head_21
+	10 -> x_22
+	10 -> y_23
+	10 -> z_24
+	10 -> label_25
+	root_1 -> 26
+	26 -> coords_27
+	coords_27 -> origin_28
+	coords_27 -> x_arrow_29
+	x_arrow_29 -> stem_30
+	x_arrow_29 -> head_31
+	coords_27 -> y_arrow_32
+	y_arrow_32 -> stem_33
+	y_arrow_32 -> head_34
+	coords_27 -> z_arrow_35
+	z_arrow_35 -> stem_36
+	z_arrow_35 -> head_37
+	26 -> x_38
+	26 -> y_39
+	26 -> z_40
+	26 -> label_41
+}

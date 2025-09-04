@@ -1,0 +1,232 @@
+digraph top {
+	graph [rankdir=LR]
+	root_196 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	top_197 [label=top href="javascript:s=&quot;\(&#x27;top&#x27;,\)\nCaseShell&quot;; console.log(s); alert(s);" tooltip=CaseShell]
+	cut_case_198 [label=cut_case href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;\)\nMaker&quot;; console.log(s); alert(s);" tooltip=Maker]
+	assembled_199 [label=assembled href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;\)\nMaker&quot;; console.log(s); alert(s);" tooltip=Maker]
+	shell_200 [label=shell href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ &#x27;shell&#x27;\)\nBoxShell&quot;; console.log(s); alert(s);" tooltip=BoxShell]
+	outer_201 [label=outer href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ &#x27;shell&#x27;,\ &#x27;outer&#x27;\)\nBoxSideBevels&quot;; console.log(s); alert(s);" tooltip=BoxSideBevels]
+	shell_202 [label=shell href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ &#x27;shell&#x27;,\ &#x27;outer&#x27;,\ &#x27;shell&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hull_203 [label=hull href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ &#x27;shell&#x27;,\ &#x27;outer&#x27;,\ &#x27;hull&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	shell_centre_204 [label=shell_centre href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ &#x27;shell&#x27;,\ &#x27;shell_centre&#x27;\)\nBoxSideBevels&quot;; console.log(s); alert(s);" tooltip=BoxSideBevels]
+	shell_205 [label=shell href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ &#x27;shell&#x27;,\ &#x27;shell_centre&#x27;,\ &#x27;shell&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hull_206 [label=hull href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ &#x27;shell&#x27;,\ &#x27;shell_centre&#x27;,\ &#x27;hull&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	inner_207 [label=inner href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ &#x27;shell&#x27;,\ &#x27;inner&#x27;\)\nBoxSideBevels&quot;; console.log(s); alert(s);" tooltip=BoxSideBevels]
+	shell_208 [label=shell href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ &#x27;shell&#x27;,\ &#x27;inner&#x27;,\ &#x27;shell&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hull_209 [label=hull href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ &#x27;shell&#x27;,\ &#x27;inner&#x27;,\ &#x27;hull&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	top_cutter_210 [label=top_cutter href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ &#x27;top_cutter&#x27;\)\nCaseShellCutter&quot;; console.log(s); alert(s);" tooltip=CaseShellCutter]
+	cage_211 [label=cage href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ &#x27;top_cutter&#x27;,\ &#x27;cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	cutter_212 [label=cutter href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ &#x27;top_cutter&#x27;,\ &#x27;cutter&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	base_cutter_213 [label=base_cutter href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ &#x27;base_cutter&#x27;\)\nCaseShellCutter&quot;; console.log(s); alert(s);" tooltip=CaseShellCutter]
+	cage_214 [label=cage href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ &#x27;base_cutter&#x27;,\ &#x27;cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	cutter_215 [label=cutter href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ &#x27;base_cutter&#x27;,\ &#x27;cutter&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	case_hole_216 [label="\('case_hole',\ 0\)" href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;case_hole&#x27;,\ 0\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	case_hole_217 [label="\('case_hole',\ 1\)" href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;case_hole&#x27;,\ 1\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	case_hole_218 [label="\('case_hole',\ 2\)" href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;case_hole&#x27;,\ 2\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	case_hole_219 [label="\('case_hole',\ 3\)" href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;case_hole&#x27;,\ 3\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	mount_220 [label="\('mount',\ 0\)" href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;mount&#x27;,\ 0\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	screw_hole_221 [label="\('screw_hole',\ 0\)" href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 0\)\)\nCountersinkSelfTapHole&quot;; console.log(s); alert(s);" tooltip=CountersinkSelfTapHole]
+	screw_hole_222 [label=screw_hole href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 0\),\ &#x27;screw_hole&#x27;\)\nSelfTapHole&quot;; console.log(s); alert(s);" tooltip=SelfTapHole]
+	pipe_223 [label=pipe href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 0\),\ &#x27;screw_hole&#x27;,\ &#x27;pipe&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	thru_224 [label=thru href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 0\),\ &#x27;screw_hole&#x27;,\ &#x27;thru&#x27;\)\nPipe&quot;; console.log(s); alert(s);" tooltip=Pipe]
+	outer_225 [label=outer href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 0\),\ &#x27;screw_hole&#x27;,\ &#x27;thru&#x27;,\ &#x27;outer&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_226 [label=pie_cage href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 0\),\ &#x27;screw_hole&#x27;,\ &#x27;thru&#x27;,\ &#x27;outer&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_227 [label=pie href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 0\),\ &#x27;screw_hole&#x27;,\ &#x27;thru&#x27;,\ &#x27;outer&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	inner_228 [label=inner href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 0\),\ &#x27;screw_hole&#x27;,\ &#x27;thru&#x27;,\ &#x27;inner&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_229 [label=pie_cage href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 0\),\ &#x27;screw_hole&#x27;,\ &#x27;thru&#x27;,\ &#x27;inner&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_230 [label=pie href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 0\),\ &#x27;screw_hole&#x27;,\ &#x27;thru&#x27;,\ &#x27;inner&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	tap_231 [label=tap href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 0\),\ &#x27;screw_hole&#x27;,\ &#x27;tap&#x27;\)\nPipe&quot;; console.log(s); alert(s);" tooltip=Pipe]
+	outer_232 [label=outer href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 0\),\ &#x27;screw_hole&#x27;,\ &#x27;tap&#x27;,\ &#x27;outer&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_233 [label=pie_cage href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 0\),\ &#x27;screw_hole&#x27;,\ &#x27;tap&#x27;,\ &#x27;outer&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_234 [label=pie href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 0\),\ &#x27;screw_hole&#x27;,\ &#x27;tap&#x27;,\ &#x27;outer&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	inner_235 [label=inner href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 0\),\ &#x27;screw_hole&#x27;,\ &#x27;tap&#x27;,\ &#x27;inner&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_236 [label=pie_cage href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 0\),\ &#x27;screw_hole&#x27;,\ &#x27;tap&#x27;,\ &#x27;inner&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_237 [label=pie href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 0\),\ &#x27;screw_hole&#x27;,\ &#x27;tap&#x27;,\ &#x27;inner&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	access_hole_238 [label=access_hole href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 0\),\ &#x27;access_hole&#x27;\)\nCountersinkAccessHole&quot;; console.log(s); alert(s);" tooltip=CountersinkAccessHole]
+	access_hole_cage_239 [label=access_hole_cage href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 0\),\ &#x27;access_hole&#x27;,\ &#x27;access_hole_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	access_hole_240 [label=access_hole href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 0\),\ &#x27;access_hole&#x27;,\ &#x27;access_hole&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	couter_sink_hole_241 [label=couter_sink_hole href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 0\),\ &#x27;access_hole&#x27;,\ &#x27;couter_sink_hole&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	mount_242 [label="\('mount',\ 1\)" href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;mount&#x27;,\ 1\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	screw_hole_243 [label="\('screw_hole',\ 1\)" href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 1\)\)\nCountersinkSelfTapHole&quot;; console.log(s); alert(s);" tooltip=CountersinkSelfTapHole]
+	screw_hole_244 [label=screw_hole href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 1\),\ &#x27;screw_hole&#x27;\)\nSelfTapHole&quot;; console.log(s); alert(s);" tooltip=SelfTapHole]
+	pipe_245 [label=pipe href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 1\),\ &#x27;screw_hole&#x27;,\ &#x27;pipe&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	thru_246 [label=thru href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 1\),\ &#x27;screw_hole&#x27;,\ &#x27;thru&#x27;\)\nPipe&quot;; console.log(s); alert(s);" tooltip=Pipe]
+	outer_247 [label=outer href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 1\),\ &#x27;screw_hole&#x27;,\ &#x27;thru&#x27;,\ &#x27;outer&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_248 [label=pie_cage href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 1\),\ &#x27;screw_hole&#x27;,\ &#x27;thru&#x27;,\ &#x27;outer&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_249 [label=pie href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 1\),\ &#x27;screw_hole&#x27;,\ &#x27;thru&#x27;,\ &#x27;outer&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	inner_250 [label=inner href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 1\),\ &#x27;screw_hole&#x27;,\ &#x27;thru&#x27;,\ &#x27;inner&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_251 [label=pie_cage href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 1\),\ &#x27;screw_hole&#x27;,\ &#x27;thru&#x27;,\ &#x27;inner&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_252 [label=pie href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 1\),\ &#x27;screw_hole&#x27;,\ &#x27;thru&#x27;,\ &#x27;inner&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	tap_253 [label=tap href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 1\),\ &#x27;screw_hole&#x27;,\ &#x27;tap&#x27;\)\nPipe&quot;; console.log(s); alert(s);" tooltip=Pipe]
+	outer_254 [label=outer href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 1\),\ &#x27;screw_hole&#x27;,\ &#x27;tap&#x27;,\ &#x27;outer&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_255 [label=pie_cage href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 1\),\ &#x27;screw_hole&#x27;,\ &#x27;tap&#x27;,\ &#x27;outer&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_256 [label=pie href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 1\),\ &#x27;screw_hole&#x27;,\ &#x27;tap&#x27;,\ &#x27;outer&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	inner_257 [label=inner href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 1\),\ &#x27;screw_hole&#x27;,\ &#x27;tap&#x27;,\ &#x27;inner&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_258 [label=pie_cage href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 1\),\ &#x27;screw_hole&#x27;,\ &#x27;tap&#x27;,\ &#x27;inner&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_259 [label=pie href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 1\),\ &#x27;screw_hole&#x27;,\ &#x27;tap&#x27;,\ &#x27;inner&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	access_hole_260 [label=access_hole href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 1\),\ &#x27;access_hole&#x27;\)\nCountersinkAccessHole&quot;; console.log(s); alert(s);" tooltip=CountersinkAccessHole]
+	access_hole_cage_261 [label=access_hole_cage href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 1\),\ &#x27;access_hole&#x27;,\ &#x27;access_hole_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	access_hole_262 [label=access_hole href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 1\),\ &#x27;access_hole&#x27;,\ &#x27;access_hole&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	couter_sink_hole_263 [label=couter_sink_hole href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 1\),\ &#x27;access_hole&#x27;,\ &#x27;couter_sink_hole&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	mount_264 [label="\('mount',\ 2\)" href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;mount&#x27;,\ 2\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	screw_hole_265 [label="\('screw_hole',\ 2\)" href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 2\)\)\nCountersinkSelfTapHole&quot;; console.log(s); alert(s);" tooltip=CountersinkSelfTapHole]
+	screw_hole_266 [label=screw_hole href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 2\),\ &#x27;screw_hole&#x27;\)\nSelfTapHole&quot;; console.log(s); alert(s);" tooltip=SelfTapHole]
+	pipe_267 [label=pipe href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 2\),\ &#x27;screw_hole&#x27;,\ &#x27;pipe&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	thru_268 [label=thru href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 2\),\ &#x27;screw_hole&#x27;,\ &#x27;thru&#x27;\)\nPipe&quot;; console.log(s); alert(s);" tooltip=Pipe]
+	outer_269 [label=outer href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 2\),\ &#x27;screw_hole&#x27;,\ &#x27;thru&#x27;,\ &#x27;outer&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_270 [label=pie_cage href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 2\),\ &#x27;screw_hole&#x27;,\ &#x27;thru&#x27;,\ &#x27;outer&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_271 [label=pie href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 2\),\ &#x27;screw_hole&#x27;,\ &#x27;thru&#x27;,\ &#x27;outer&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	inner_272 [label=inner href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 2\),\ &#x27;screw_hole&#x27;,\ &#x27;thru&#x27;,\ &#x27;inner&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_273 [label=pie_cage href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 2\),\ &#x27;screw_hole&#x27;,\ &#x27;thru&#x27;,\ &#x27;inner&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_274 [label=pie href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 2\),\ &#x27;screw_hole&#x27;,\ &#x27;thru&#x27;,\ &#x27;inner&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	tap_275 [label=tap href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 2\),\ &#x27;screw_hole&#x27;,\ &#x27;tap&#x27;\)\nPipe&quot;; console.log(s); alert(s);" tooltip=Pipe]
+	outer_276 [label=outer href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 2\),\ &#x27;screw_hole&#x27;,\ &#x27;tap&#x27;,\ &#x27;outer&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_277 [label=pie_cage href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 2\),\ &#x27;screw_hole&#x27;,\ &#x27;tap&#x27;,\ &#x27;outer&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_278 [label=pie href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 2\),\ &#x27;screw_hole&#x27;,\ &#x27;tap&#x27;,\ &#x27;outer&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	inner_279 [label=inner href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 2\),\ &#x27;screw_hole&#x27;,\ &#x27;tap&#x27;,\ &#x27;inner&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_280 [label=pie_cage href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 2\),\ &#x27;screw_hole&#x27;,\ &#x27;tap&#x27;,\ &#x27;inner&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_281 [label=pie href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 2\),\ &#x27;screw_hole&#x27;,\ &#x27;tap&#x27;,\ &#x27;inner&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	access_hole_282 [label=access_hole href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 2\),\ &#x27;access_hole&#x27;\)\nCountersinkAccessHole&quot;; console.log(s); alert(s);" tooltip=CountersinkAccessHole]
+	access_hole_cage_283 [label=access_hole_cage href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 2\),\ &#x27;access_hole&#x27;,\ &#x27;access_hole_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	access_hole_284 [label=access_hole href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 2\),\ &#x27;access_hole&#x27;,\ &#x27;access_hole&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	couter_sink_hole_285 [label=couter_sink_hole href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 2\),\ &#x27;access_hole&#x27;,\ &#x27;couter_sink_hole&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	mount_286 [label="\('mount',\ 3\)" href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;mount&#x27;,\ 3\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	screw_hole_287 [label="\('screw_hole',\ 3\)" href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 3\)\)\nCountersinkSelfTapHole&quot;; console.log(s); alert(s);" tooltip=CountersinkSelfTapHole]
+	screw_hole_288 [label=screw_hole href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 3\),\ &#x27;screw_hole&#x27;\)\nSelfTapHole&quot;; console.log(s); alert(s);" tooltip=SelfTapHole]
+	pipe_289 [label=pipe href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 3\),\ &#x27;screw_hole&#x27;,\ &#x27;pipe&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	thru_290 [label=thru href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 3\),\ &#x27;screw_hole&#x27;,\ &#x27;thru&#x27;\)\nPipe&quot;; console.log(s); alert(s);" tooltip=Pipe]
+	outer_291 [label=outer href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 3\),\ &#x27;screw_hole&#x27;,\ &#x27;thru&#x27;,\ &#x27;outer&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_292 [label=pie_cage href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 3\),\ &#x27;screw_hole&#x27;,\ &#x27;thru&#x27;,\ &#x27;outer&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_293 [label=pie href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 3\),\ &#x27;screw_hole&#x27;,\ &#x27;thru&#x27;,\ &#x27;outer&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	inner_294 [label=inner href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 3\),\ &#x27;screw_hole&#x27;,\ &#x27;thru&#x27;,\ &#x27;inner&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_295 [label=pie_cage href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 3\),\ &#x27;screw_hole&#x27;,\ &#x27;thru&#x27;,\ &#x27;inner&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_296 [label=pie href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 3\),\ &#x27;screw_hole&#x27;,\ &#x27;thru&#x27;,\ &#x27;inner&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	tap_297 [label=tap href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 3\),\ &#x27;screw_hole&#x27;,\ &#x27;tap&#x27;\)\nPipe&quot;; console.log(s); alert(s);" tooltip=Pipe]
+	outer_298 [label=outer href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 3\),\ &#x27;screw_hole&#x27;,\ &#x27;tap&#x27;,\ &#x27;outer&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_299 [label=pie_cage href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 3\),\ &#x27;screw_hole&#x27;,\ &#x27;tap&#x27;,\ &#x27;outer&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_300 [label=pie href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 3\),\ &#x27;screw_hole&#x27;,\ &#x27;tap&#x27;,\ &#x27;outer&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	inner_301 [label=inner href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 3\),\ &#x27;screw_hole&#x27;,\ &#x27;tap&#x27;,\ &#x27;inner&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_302 [label=pie_cage href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 3\),\ &#x27;screw_hole&#x27;,\ &#x27;tap&#x27;,\ &#x27;inner&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_303 [label=pie href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 3\),\ &#x27;screw_hole&#x27;,\ &#x27;tap&#x27;,\ &#x27;inner&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	access_hole_304 [label=access_hole href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 3\),\ &#x27;access_hole&#x27;\)\nCountersinkAccessHole&quot;; console.log(s); alert(s);" tooltip=CountersinkAccessHole]
+	access_hole_cage_305 [label=access_hole_cage href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 3\),\ &#x27;access_hole&#x27;,\ &#x27;access_hole_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	access_hole_306 [label=access_hole href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 3\),\ &#x27;access_hole&#x27;,\ &#x27;access_hole&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	couter_sink_hole_307 [label=couter_sink_hole href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;assembled&#x27;,\ \(&#x27;screw_hole&#x27;,\ 3\),\ &#x27;access_hole&#x27;,\ &#x27;couter_sink_hole&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	cutter_308 [label=cutter href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;cutter&#x27;\)\nCaseShellCutter&quot;; console.log(s); alert(s);" tooltip=CaseShellCutter]
+	cage_309 [label=cage href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;cutter&#x27;,\ &#x27;cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	cutter_310 [label=cutter href="javascript:s=&quot;\(&#x27;top&#x27;,\ &#x27;cut_case&#x27;,\ &#x27;cutter&#x27;,\ &#x27;cutter&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	root_196 -> top_197
+	top_197 -> cut_case_198
+	cut_case_198 -> assembled_199
+	assembled_199 -> shell_200
+	shell_200 -> outer_201
+	outer_201 -> shell_202
+	outer_201 -> hull_203
+	shell_200 -> shell_centre_204
+	shell_centre_204 -> shell_205
+	shell_centre_204 -> hull_206
+	shell_200 -> inner_207
+	inner_207 -> shell_208
+	inner_207 -> hull_209
+	assembled_199 -> top_cutter_210
+	top_cutter_210 -> cage_211
+	top_cutter_210 -> cutter_212
+	assembled_199 -> base_cutter_213
+	base_cutter_213 -> cage_214
+	base_cutter_213 -> cutter_215
+	assembled_199 -> case_hole_216
+	assembled_199 -> case_hole_217
+	assembled_199 -> case_hole_218
+	assembled_199 -> case_hole_219
+	assembled_199 -> mount_220
+	assembled_199 -> screw_hole_221
+	screw_hole_221 -> screw_hole_222
+	screw_hole_222 -> pipe_223
+	screw_hole_222 -> thru_224
+	thru_224 -> outer_225
+	outer_225 -> pie_cage_226
+	outer_225 -> pie_227
+	thru_224 -> inner_228
+	inner_228 -> pie_cage_229
+	inner_228 -> pie_230
+	screw_hole_222 -> tap_231
+	tap_231 -> outer_232
+	outer_232 -> pie_cage_233
+	outer_232 -> pie_234
+	tap_231 -> inner_235
+	inner_235 -> pie_cage_236
+	inner_235 -> pie_237
+	screw_hole_221 -> access_hole_238
+	access_hole_238 -> access_hole_cage_239
+	access_hole_238 -> access_hole_240
+	access_hole_238 -> couter_sink_hole_241
+	assembled_199 -> mount_242
+	assembled_199 -> screw_hole_243
+	screw_hole_243 -> screw_hole_244
+	screw_hole_244 -> pipe_245
+	screw_hole_244 -> thru_246
+	thru_246 -> outer_247
+	outer_247 -> pie_cage_248
+	outer_247 -> pie_249
+	thru_246 -> inner_250
+	inner_250 -> pie_cage_251
+	inner_250 -> pie_252
+	screw_hole_244 -> tap_253
+	tap_253 -> outer_254
+	outer_254 -> pie_cage_255
+	outer_254 -> pie_256
+	tap_253 -> inner_257
+	inner_257 -> pie_cage_258
+	inner_257 -> pie_259
+	screw_hole_243 -> access_hole_260
+	access_hole_260 -> access_hole_cage_261
+	access_hole_260 -> access_hole_262
+	access_hole_260 -> couter_sink_hole_263
+	assembled_199 -> mount_264
+	assembled_199 -> screw_hole_265
+	screw_hole_265 -> screw_hole_266
+	screw_hole_266 -> pipe_267
+	screw_hole_266 -> thru_268
+	thru_268 -> outer_269
+	outer_269 -> pie_cage_270
+	outer_269 -> pie_271
+	thru_268 -> inner_272
+	inner_272 -> pie_cage_273
+	inner_272 -> pie_274
+	screw_hole_266 -> tap_275
+	tap_275 -> outer_276
+	outer_276 -> pie_cage_277
+	outer_276 -> pie_278
+	tap_275 -> inner_279
+	inner_279 -> pie_cage_280
+	inner_279 -> pie_281
+	screw_hole_265 -> access_hole_282
+	access_hole_282 -> access_hole_cage_283
+	access_hole_282 -> access_hole_284
+	access_hole_282 -> couter_sink_hole_285
+	assembled_199 -> mount_286
+	assembled_199 -> screw_hole_287
+	screw_hole_287 -> screw_hole_288
+	screw_hole_288 -> pipe_289
+	screw_hole_288 -> thru_290
+	thru_290 -> outer_291
+	outer_291 -> pie_cage_292
+	outer_291 -> pie_293
+	thru_290 -> inner_294
+	inner_294 -> pie_cage_295
+	inner_294 -> pie_296
+	screw_hole_288 -> tap_297
+	tap_297 -> outer_298
+	outer_298 -> pie_cage_299
+	outer_298 -> pie_300
+	tap_297 -> inner_301
+	inner_301 -> pie_cage_302
+	inner_301 -> pie_303
+	screw_hole_287 -> access_hole_304
+	access_hole_304 -> access_hole_cage_305
+	access_hole_304 -> access_hole_306
+	access_hole_304 -> couter_sink_hole_307
+	cut_case_198 -> cutter_308
+	cutter_308 -> cage_309
+	cutter_308 -> cutter_310
+}

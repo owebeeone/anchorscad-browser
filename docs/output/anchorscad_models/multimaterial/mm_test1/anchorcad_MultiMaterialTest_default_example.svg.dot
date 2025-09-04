@@ -1,0 +1,14 @@
+digraph default {
+	graph [rankdir=LR]
+	root_1 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_2 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nMultiMaterialTest&quot;; console.log(s); alert(s);" tooltip=MultiMaterialTest]
+	master_3 [label=master href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;master&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	ext_4 [label="\('ext',\ 0\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;ext&#x27;,\ 0\)\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	ext_5 [label="\('ext',\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;ext&#x27;,\ 1\)\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	ext_6 [label="\('ext',\ 2\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;ext&#x27;,\ 2\)\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	root_1 -> default_2
+	default_2 -> master_3
+	default_2 -> ext_4
+	default_2 -> ext_5
+	default_2 -> ext_6
+}

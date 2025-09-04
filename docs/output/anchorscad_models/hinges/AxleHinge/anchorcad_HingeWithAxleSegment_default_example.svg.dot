@@ -1,0 +1,10 @@
+digraph default {
+	graph [rankdir=LR]
+	root_46 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_47 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nHingeWithAxleSegment&quot;; console.log(s); alert(s);" tooltip=HingeWithAxleSegment]
+	segment_48 [label=segment href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;segment&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	axle_hole_49 [label=axle_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;axle_hole&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	root_46 -> default_47
+	default_47 -> segment_48
+	default_47 -> axle_hole_49
+}

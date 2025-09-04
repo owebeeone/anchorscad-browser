@@ -1,0 +1,12 @@
+digraph intersection {
+	graph [rankdir=LR]
+	root_6 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	intersection_7 [label=intersection href="javascript:s=&quot;\(&#x27;intersection&#x27;,\)\nSquareSphereOperation&quot;; console.log(s); alert(s);" tooltip=SquareSphereOperation]
+	overall_8 [label=overall href="javascript:s=&quot;\(&#x27;intersection&#x27;,\ &#x27;overall&#x27;\)\nMaker&quot;; console.log(s); alert(s);" tooltip=Maker]
+	box_9 [label=box href="javascript:s=&quot;\(&#x27;intersection&#x27;,\ &#x27;overall&#x27;,\ &#x27;box&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	sphere_10 [label=sphere href="javascript:s=&quot;\(&#x27;intersection&#x27;,\ &#x27;overall&#x27;,\ &#x27;sphere&#x27;\)\nSphere&quot;; console.log(s); alert(s);" tooltip=Sphere]
+	root_6 -> intersection_7
+	intersection_7 -> overall_8
+	overall_8 -> box_9
+	overall_8 -> sphere_10
+}

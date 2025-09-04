@@ -1,0 +1,34 @@
+digraph M8 {
+	graph [rankdir=LR]
+	root_27 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	M8_28 [label=M8 href="javascript:s=&quot;\(&#x27;M8&#x27;,\)\nTnutExample&quot;; console.log(s); alert(s);" tooltip=TnutExample]
+	model_29 [label=model href="javascript:s=&quot;\(&#x27;M8&#x27;,\ &#x27;model&#x27;\)\nBoxSideBevels&quot;; console.log(s); alert(s);" tooltip=BoxSideBevels]
+	shell_30 [label=shell href="javascript:s=&quot;\(&#x27;M8&#x27;,\ &#x27;model&#x27;,\ &#x27;shell&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hull_31 [label=hull href="javascript:s=&quot;\(&#x27;M8&#x27;,\ &#x27;model&#x27;,\ &#x27;hull&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	tnut_32 [label=tnut href="javascript:s=&quot;\(&#x27;M8&#x27;,\ &#x27;tnut&#x27;\)\nTnutM8&quot;; console.log(s); alert(s);" tooltip=TnutM8]
+	tnut_33 [label=tnut href="javascript:s=&quot;\(&#x27;M8&#x27;,\ &#x27;tnut&#x27;,\ &#x27;tnut&#x27;\)\nTnut&quot;; console.log(s); alert(s);" tooltip=Tnut]
+	cage_34 [label=cage href="javascript:s=&quot;\(&#x27;M8&#x27;,\ &#x27;tnut&#x27;,\ &#x27;tnut&#x27;,\ &#x27;cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	flat_35 [label=flat href="javascript:s=&quot;\(&#x27;M8&#x27;,\ &#x27;tnut&#x27;,\ &#x27;tnut&#x27;,\ &#x27;flat&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	bevel_36 [label=bevel href="javascript:s=&quot;\(&#x27;M8&#x27;,\ &#x27;tnut&#x27;,\ &#x27;tnut&#x27;,\ &#x27;bevel&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	shaft_37 [label=shaft href="javascript:s=&quot;\(&#x27;M8&#x27;,\ &#x27;tnut&#x27;,\ &#x27;tnut&#x27;,\ &#x27;shaft&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	shaft_extension_38 [label=shaft_extension href="javascript:s=&quot;\(&#x27;M8&#x27;,\ &#x27;tnut&#x27;,\ &#x27;tnut&#x27;,\ &#x27;shaft_extension&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	wing_39 [label="\('wing',\ 0\)" href="javascript:s=&quot;\(&#x27;M8&#x27;,\ &#x27;tnut&#x27;,\ &#x27;tnut&#x27;,\ \(&#x27;wing&#x27;,\ 0\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	wing_40 [label="\('wing',\ 1\)" href="javascript:s=&quot;\(&#x27;M8&#x27;,\ &#x27;tnut&#x27;,\ &#x27;tnut&#x27;,\ \(&#x27;wing&#x27;,\ 1\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	wing_41 [label="\('wing',\ 2\)" href="javascript:s=&quot;\(&#x27;M8&#x27;,\ &#x27;tnut&#x27;,\ &#x27;tnut&#x27;,\ \(&#x27;wing&#x27;,\ 2\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	wing_42 [label="\('wing',\ 3\)" href="javascript:s=&quot;\(&#x27;M8&#x27;,\ &#x27;tnut&#x27;,\ &#x27;tnut&#x27;,\ \(&#x27;wing&#x27;,\ 3\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	root_27 -> M8_28
+	M8_28 -> model_29
+	model_29 -> shell_30
+	model_29 -> hull_31
+	M8_28 -> tnut_32
+	tnut_32 -> tnut_33
+	tnut_33 -> cage_34
+	tnut_33 -> flat_35
+	tnut_33 -> bevel_36
+	tnut_33 -> shaft_37
+	tnut_33 -> shaft_extension_38
+	tnut_33 -> wing_39
+	tnut_33 -> wing_40
+	tnut_33 -> wing_41
+	tnut_33 -> wing_42
+}

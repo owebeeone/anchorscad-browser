@@ -1,0 +1,18 @@
+digraph default {
+	graph [rankdir=LR]
+	root_1 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_2 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nRockerSwitchKCD3&quot;; console.log(s); alert(s);" tooltip=RockerSwitchKCD3]
+	case_3 [label=case href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;case&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	lip_4 [label=lip href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;lip&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	terminal_cavity_5 [label=terminal_cavity href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;terminal_cavity&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	wing_6 [label="\('wing',\ 'top'\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;wing&#x27;,\ &#x27;top&#x27;\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	wing_7 [label="\('wing',\ 'base'\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;wing&#x27;,\ &#x27;base&#x27;\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	bound_box_8 [label=bound_box href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;bound_box&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	root_1 -> default_2
+	default_2 -> case_3
+	default_2 -> lip_4
+	default_2 -> terminal_cavity_5
+	default_2 -> wing_6
+	default_2 -> wing_7
+	default_2 -> bound_box_8
+}

@@ -1,0 +1,42 @@
+digraph default {
+	graph [rankdir=LR]
+	root_36 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_37 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nTerminalKF301Body&quot;; console.log(s); alert(s);" tooltip=TerminalKF301Body]
+	cage_38 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	terminal_39 [label=terminal href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;terminal&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	40 [label="'face_edge',\ 1,\ 0,\ " href="javascript:s=&quot;\(&quot;&#x27;face_edge&#x27;,\ 1,\ 0,\ &quot;,\)\nAnnotatedCoordinates&quot;; console.log(s); alert(s);" tooltip=AnnotatedCoordinates]
+	coords_41 [label=coords href="javascript:s=&quot;\(&quot;&#x27;face_edge&#x27;,\ 1,\ 0,\ &quot;,\ &#x27;coords&#x27;\)\nCoordinates&quot;; console.log(s); alert(s);" tooltip=Coordinates]
+	origin_42 [label=origin href="javascript:s=&quot;\(&quot;&#x27;face_edge&#x27;,\ 1,\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;origin&#x27;\)\nCoordinatesCage&quot;; console.log(s); alert(s);" tooltip=CoordinatesCage]
+	x_arrow_43 [label=x_arrow href="javascript:s=&quot;\(&quot;&#x27;face_edge&#x27;,\ 1,\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_44 [label=stem href="javascript:s=&quot;\(&quot;&#x27;face_edge&#x27;,\ 1,\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_45 [label=head href="javascript:s=&quot;\(&quot;&#x27;face_edge&#x27;,\ 1,\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	y_arrow_46 [label=y_arrow href="javascript:s=&quot;\(&quot;&#x27;face_edge&#x27;,\ 1,\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_47 [label=stem href="javascript:s=&quot;\(&quot;&#x27;face_edge&#x27;,\ 1,\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_48 [label=head href="javascript:s=&quot;\(&quot;&#x27;face_edge&#x27;,\ 1,\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	z_arrow_49 [label=z_arrow href="javascript:s=&quot;\(&quot;&#x27;face_edge&#x27;,\ 1,\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_50 [label=stem href="javascript:s=&quot;\(&quot;&#x27;face_edge&#x27;,\ 1,\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_51 [label=head href="javascript:s=&quot;\(&quot;&#x27;face_edge&#x27;,\ 1,\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	x_52 [label=x href="javascript:s=&quot;\(&quot;&#x27;face_edge&#x27;,\ 1,\ 0,\ &quot;,\ &#x27;x&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	y_53 [label=y href="javascript:s=&quot;\(&quot;&#x27;face_edge&#x27;,\ 1,\ 0,\ &quot;,\ &#x27;y&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	z_54 [label=z href="javascript:s=&quot;\(&quot;&#x27;face_edge&#x27;,\ 1,\ 0,\ &quot;,\ &#x27;z&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	label_55 [label=label href="javascript:s=&quot;\(&quot;&#x27;face_edge&#x27;,\ 1,\ 0,\ &quot;,\ &#x27;label&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	root_36 -> default_37
+	default_37 -> cage_38
+	default_37 -> terminal_39
+	root_36 -> 40
+	40 -> coords_41
+	coords_41 -> origin_42
+	coords_41 -> x_arrow_43
+	x_arrow_43 -> stem_44
+	x_arrow_43 -> head_45
+	coords_41 -> y_arrow_46
+	y_arrow_46 -> stem_47
+	y_arrow_46 -> head_48
+	coords_41 -> z_arrow_49
+	z_arrow_49 -> stem_50
+	z_arrow_49 -> head_51
+	40 -> x_52
+	40 -> y_53
+	40 -> z_54
+	40 -> label_55
+}

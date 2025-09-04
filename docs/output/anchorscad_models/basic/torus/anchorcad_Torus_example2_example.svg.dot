@@ -1,0 +1,42 @@
+digraph example2 {
+	graph [rankdir=LR]
+	root_101 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	example2_102 [label=example2 href="javascript:s=&quot;\(&#x27;example2&#x27;,\)\nTorus&quot;; console.log(s); alert(s);" tooltip=Torus]
+	torus_103 [label=torus href="javascript:s=&quot;\(&#x27;example2&#x27;,\ &#x27;torus&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	cage_104 [label=cage href="javascript:s=&quot;\(&#x27;example2&#x27;,\ &#x27;cage&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	105 [label="'surface',\ section_angle=90" href="javascript:s=&quot;\(&quot;&#x27;surface&#x27;,\ section_angle=90&quot;,\)\nAnnotatedCoordinates&quot;; console.log(s); alert(s);" tooltip=AnnotatedCoordinates]
+	coords_106 [label=coords href="javascript:s=&quot;\(&quot;&#x27;surface&#x27;,\ section_angle=90&quot;,\ &#x27;coords&#x27;\)\nCoordinates&quot;; console.log(s); alert(s);" tooltip=Coordinates]
+	origin_107 [label=origin href="javascript:s=&quot;\(&quot;&#x27;surface&#x27;,\ section_angle=90&quot;,\ &#x27;coords&#x27;,\ &#x27;origin&#x27;\)\nCoordinatesCage&quot;; console.log(s); alert(s);" tooltip=CoordinatesCage]
+	x_arrow_108 [label=x_arrow href="javascript:s=&quot;\(&quot;&#x27;surface&#x27;,\ section_angle=90&quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_109 [label=stem href="javascript:s=&quot;\(&quot;&#x27;surface&#x27;,\ section_angle=90&quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_110 [label=head href="javascript:s=&quot;\(&quot;&#x27;surface&#x27;,\ section_angle=90&quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	y_arrow_111 [label=y_arrow href="javascript:s=&quot;\(&quot;&#x27;surface&#x27;,\ section_angle=90&quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_112 [label=stem href="javascript:s=&quot;\(&quot;&#x27;surface&#x27;,\ section_angle=90&quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_113 [label=head href="javascript:s=&quot;\(&quot;&#x27;surface&#x27;,\ section_angle=90&quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	z_arrow_114 [label=z_arrow href="javascript:s=&quot;\(&quot;&#x27;surface&#x27;,\ section_angle=90&quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_115 [label=stem href="javascript:s=&quot;\(&quot;&#x27;surface&#x27;,\ section_angle=90&quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_116 [label=head href="javascript:s=&quot;\(&quot;&#x27;surface&#x27;,\ section_angle=90&quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	x_117 [label=x href="javascript:s=&quot;\(&quot;&#x27;surface&#x27;,\ section_angle=90&quot;,\ &#x27;x&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	y_118 [label=y href="javascript:s=&quot;\(&quot;&#x27;surface&#x27;,\ section_angle=90&quot;,\ &#x27;y&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	z_119 [label=z href="javascript:s=&quot;\(&quot;&#x27;surface&#x27;,\ section_angle=90&quot;,\ &#x27;z&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	label_120 [label=label href="javascript:s=&quot;\(&quot;&#x27;surface&#x27;,\ section_angle=90&quot;,\ &#x27;label&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	root_101 -> example2_102
+	example2_102 -> torus_103
+	example2_102 -> cage_104
+	root_101 -> 105
+	105 -> coords_106
+	coords_106 -> origin_107
+	coords_106 -> x_arrow_108
+	x_arrow_108 -> stem_109
+	x_arrow_108 -> head_110
+	coords_106 -> y_arrow_111
+	y_arrow_111 -> stem_112
+	y_arrow_111 -> head_113
+	coords_106 -> z_arrow_114
+	z_arrow_114 -> stem_115
+	z_arrow_114 -> head_116
+	105 -> x_117
+	105 -> y_118
+	105 -> z_119
+	105 -> label_120
+}

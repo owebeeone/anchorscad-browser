@@ -1,0 +1,9 @@
+digraph default {
+    root_46 [label="root"];
+    default_47 [label="default"];
+    segment_48 [label="segment"];
+    axle_hole_49 [label="axle_hole"];
+    root_46 -> default_47;
+    default_47 -> segment_48;
+    default_47 -> axle_hole_49;
+}

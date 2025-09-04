@@ -1,0 +1,18 @@
+digraph default {
+	graph [rankdir=LR]
+	root_85 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_86 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nScrewHole&quot;; console.log(s); alert(s);" tooltip=ScrewHole]
+	top_screw_87 [label=top_screw href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;top_screw&#x27;\)\nCountersunkScrew&quot;; console.log(s); alert(s);" tooltip=CountersunkScrew]
+	screw_cage_88 [label=screw_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;top_screw&#x27;,\ &#x27;screw_cage&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	tap_shaft_89 [label=tap_shaft href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;top_screw&#x27;,\ &#x27;tap_shaft&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	thru_shaft_90 [label=thru_shaft href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;top_screw&#x27;,\ &#x27;thru_shaft&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	access_hole_91 [label=access_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;top_screw&#x27;,\ &#x27;access_hole&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	screw_hole_92 [label=screw_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;top_screw&#x27;,\ &#x27;screw_hole&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	root_85 -> default_86
+	default_86 -> top_screw_87
+	top_screw_87 -> screw_cage_88
+	top_screw_87 -> tap_shaft_89
+	top_screw_87 -> thru_shaft_90
+	top_screw_87 -> access_hole_91
+	top_screw_87 -> screw_hole_92
+}

@@ -1,0 +1,302 @@
+digraph default {
+	graph [rankdir=LR]
+	root_1 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_2 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nArduinoNanoClassic&quot;; console.log(s); alert(s);" tooltip=ArduinoNanoClassic]
+	pcb_3 [label=pcb href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;pcb&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	pin_4 [label="\('pin',\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 1\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_5 [label="\('pin',\ 2\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 2\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_6 [label="\('pin',\ 3\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 3\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_7 [label="\('pin',\ 4\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 4\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_8 [label="\('pin',\ 5\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 5\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_9 [label="\('pin',\ 6\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 6\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_10 [label="\('pin',\ 7\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 7\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_11 [label="\('pin',\ 8\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 8\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_12 [label="\('pin',\ 9\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 9\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_13 [label="\('pin',\ 10\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 10\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_14 [label="\('pin',\ 11\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 11\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_15 [label="\('pin',\ 12\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 12\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_16 [label="\('pin',\ 13\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 13\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_17 [label="\('pin',\ 14\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 14\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_18 [label="\('pin',\ 15\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 15\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_19 [label="\('pin',\ 30\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 30\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_20 [label="\('pin',\ 29\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 29\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_21 [label="\('pin',\ 28\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 28\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_22 [label="\('pin',\ 27\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 27\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_23 [label="\('pin',\ 26\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 26\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_24 [label="\('pin',\ 25\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 25\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_25 [label="\('pin',\ 24\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 24\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_26 [label="\('pin',\ 23\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 23\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_27 [label="\('pin',\ 22\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 22\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_28 [label="\('pin',\ 21\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 21\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_29 [label="\('pin',\ 20\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 20\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_30 [label="\('pin',\ 19\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 19\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_31 [label="\('pin',\ 18\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 18\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_32 [label="\('pin',\ 17\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 17\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_33 [label="\('pin',\ 16\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 16\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	mount_hole_34 [label="\('mount_hole',\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;mount_hole&#x27;,\ 1\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	mount_hole_35 [label="\('mount_hole',\ 2\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;mount_hole&#x27;,\ 2\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	mount_hole_36 [label="\('mount_hole',\ 4\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;mount_hole&#x27;,\ 4\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	mount_hole_37 [label="\('mount_hole',\ 3\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;mount_hole&#x27;,\ 3\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	icsp_header_38 [label=icsp_header href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;\)\nHeader&quot;; console.log(s); alert(s);" tooltip=Header]
+	cage_39 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ &#x27;cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	pin_40 [label="\('pin',\ 2,\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 1\)\)\nMaker&quot;; console.log(s); alert(s);" tooltip=Maker]
+	base_41 [label=base href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 1\),\ &#x27;base&#x27;\)\nHeaderBase&quot;; console.log(s); alert(s);" tooltip=HeaderBase]
+	base_42 [label=base href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 1\),\ &#x27;base&#x27;,\ &#x27;base&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	pin_43 [label=pin href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 1\),\ &#x27;pin&#x27;\)\nHeaderPin&quot;; console.log(s); alert(s);" tooltip=HeaderPin]
+	cage_44 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 1\),\ &#x27;pin&#x27;,\ &#x27;cage&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_45 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 1\),\ &#x27;pin&#x27;,\ &#x27;cage&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	mid_46 [label=mid href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 1\),\ &#x27;pin&#x27;,\ &#x27;mid&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_47 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 1\),\ &#x27;pin&#x27;,\ &#x27;mid&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	upper_48 [label=upper href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 1\),\ &#x27;pin&#x27;,\ &#x27;upper&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_49 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 1\),\ &#x27;pin&#x27;,\ &#x27;upper&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	lower_50 [label=lower href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 1\),\ &#x27;pin&#x27;,\ &#x27;lower&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_51 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 1\),\ &#x27;pin&#x27;,\ &#x27;lower&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	pin_52 [label="\('pin',\ 2,\ 2\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 2\)\)\nMaker&quot;; console.log(s); alert(s);" tooltip=Maker]
+	base_53 [label=base href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 2\),\ &#x27;base&#x27;\)\nHeaderBase&quot;; console.log(s); alert(s);" tooltip=HeaderBase]
+	base_54 [label=base href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 2\),\ &#x27;base&#x27;,\ &#x27;base&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	pin_55 [label=pin href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 2\),\ &#x27;pin&#x27;\)\nHeaderPin&quot;; console.log(s); alert(s);" tooltip=HeaderPin]
+	cage_56 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 2\),\ &#x27;pin&#x27;,\ &#x27;cage&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_57 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 2\),\ &#x27;pin&#x27;,\ &#x27;cage&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	mid_58 [label=mid href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 2\),\ &#x27;pin&#x27;,\ &#x27;mid&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_59 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 2\),\ &#x27;pin&#x27;,\ &#x27;mid&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	upper_60 [label=upper href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 2\),\ &#x27;pin&#x27;,\ &#x27;upper&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_61 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 2\),\ &#x27;pin&#x27;,\ &#x27;upper&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	lower_62 [label=lower href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 2\),\ &#x27;pin&#x27;,\ &#x27;lower&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_63 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 2\),\ &#x27;pin&#x27;,\ &#x27;lower&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	pin_64 [label="\('pin',\ 2,\ 3\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 3\)\)\nMaker&quot;; console.log(s); alert(s);" tooltip=Maker]
+	base_65 [label=base href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 3\),\ &#x27;base&#x27;\)\nHeaderBase&quot;; console.log(s); alert(s);" tooltip=HeaderBase]
+	base_66 [label=base href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 3\),\ &#x27;base&#x27;,\ &#x27;base&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	pin_67 [label=pin href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 3\),\ &#x27;pin&#x27;\)\nHeaderPin&quot;; console.log(s); alert(s);" tooltip=HeaderPin]
+	cage_68 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 3\),\ &#x27;pin&#x27;,\ &#x27;cage&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_69 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 3\),\ &#x27;pin&#x27;,\ &#x27;cage&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	mid_70 [label=mid href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 3\),\ &#x27;pin&#x27;,\ &#x27;mid&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_71 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 3\),\ &#x27;pin&#x27;,\ &#x27;mid&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	upper_72 [label=upper href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 3\),\ &#x27;pin&#x27;,\ &#x27;upper&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_73 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 3\),\ &#x27;pin&#x27;,\ &#x27;upper&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	lower_74 [label=lower href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 3\),\ &#x27;pin&#x27;,\ &#x27;lower&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_75 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 3\),\ &#x27;pin&#x27;,\ &#x27;lower&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	pin_76 [label="\('pin',\ 1,\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\)\)\nMaker&quot;; console.log(s); alert(s);" tooltip=Maker]
+	base_77 [label=base href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;base&#x27;\)\nHeaderBase&quot;; console.log(s); alert(s);" tooltip=HeaderBase]
+	base_78 [label=base href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;base&#x27;,\ &#x27;base&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	pin_79 [label=pin href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;pin&#x27;\)\nHeaderPin&quot;; console.log(s); alert(s);" tooltip=HeaderPin]
+	cage_80 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;pin&#x27;,\ &#x27;cage&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_81 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;pin&#x27;,\ &#x27;cage&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	mid_82 [label=mid href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;pin&#x27;,\ &#x27;mid&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_83 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;pin&#x27;,\ &#x27;mid&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	upper_84 [label=upper href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;pin&#x27;,\ &#x27;upper&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_85 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;pin&#x27;,\ &#x27;upper&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	lower_86 [label=lower href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;pin&#x27;,\ &#x27;lower&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_87 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;pin&#x27;,\ &#x27;lower&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	pin_88 [label="\('pin',\ 1,\ 2\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 2\)\)\nMaker&quot;; console.log(s); alert(s);" tooltip=Maker]
+	base_89 [label=base href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 2\),\ &#x27;base&#x27;\)\nHeaderBase&quot;; console.log(s); alert(s);" tooltip=HeaderBase]
+	base_90 [label=base href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 2\),\ &#x27;base&#x27;,\ &#x27;base&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	pin_91 [label=pin href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 2\),\ &#x27;pin&#x27;\)\nHeaderPin&quot;; console.log(s); alert(s);" tooltip=HeaderPin]
+	cage_92 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 2\),\ &#x27;pin&#x27;,\ &#x27;cage&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_93 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 2\),\ &#x27;pin&#x27;,\ &#x27;cage&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	mid_94 [label=mid href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 2\),\ &#x27;pin&#x27;,\ &#x27;mid&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_95 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 2\),\ &#x27;pin&#x27;,\ &#x27;mid&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	upper_96 [label=upper href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 2\),\ &#x27;pin&#x27;,\ &#x27;upper&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_97 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 2\),\ &#x27;pin&#x27;,\ &#x27;upper&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	lower_98 [label=lower href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 2\),\ &#x27;pin&#x27;,\ &#x27;lower&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_99 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 2\),\ &#x27;pin&#x27;,\ &#x27;lower&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	pin_100 [label="\('pin',\ 1,\ 3\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 3\)\)\nMaker&quot;; console.log(s); alert(s);" tooltip=Maker]
+	base_101 [label=base href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 3\),\ &#x27;base&#x27;\)\nHeaderBase&quot;; console.log(s); alert(s);" tooltip=HeaderBase]
+	base_102 [label=base href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 3\),\ &#x27;base&#x27;,\ &#x27;base&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	pin_103 [label=pin href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 3\),\ &#x27;pin&#x27;\)\nHeaderPin&quot;; console.log(s); alert(s);" tooltip=HeaderPin]
+	cage_104 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 3\),\ &#x27;pin&#x27;,\ &#x27;cage&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_105 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 3\),\ &#x27;pin&#x27;,\ &#x27;cage&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	mid_106 [label=mid href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 3\),\ &#x27;pin&#x27;,\ &#x27;mid&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_107 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 3\),\ &#x27;pin&#x27;,\ &#x27;mid&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	upper_108 [label=upper href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 3\),\ &#x27;pin&#x27;,\ &#x27;upper&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_109 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 3\),\ &#x27;pin&#x27;,\ &#x27;upper&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	lower_110 [label=lower href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 3\),\ &#x27;pin&#x27;,\ &#x27;lower&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_111 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 3\),\ &#x27;pin&#x27;,\ &#x27;lower&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	usb_112 [label=usb href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;usb&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	pin_hole_113 [label="\('pin_hole',\ 1,\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin_hole&#x27;,\ 1,\ 1\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_hole_114 [label="\('pin_hole',\ 1,\ 2\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin_hole&#x27;,\ 1,\ 2\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_hole_115 [label="\('pin_hole',\ 1,\ 3\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin_hole&#x27;,\ 1,\ 3\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_hole_116 [label="\('pin_hole',\ 2,\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin_hole&#x27;,\ 2,\ 1\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_hole_117 [label="\('pin_hole',\ 2,\ 2\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin_hole&#x27;,\ 2,\ 2\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_hole_118 [label="\('pin_hole',\ 2,\ 3\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin_hole&#x27;,\ 2,\ 3\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	119 [label="\('pin',\ 1\),\ 'top',\ " href="javascript:s=&quot;\(&quot;\(&#x27;pin&#x27;,\ 1\),\ &#x27;top&#x27;,\ &quot;,\)\nAnnotatedCoordinates&quot;; console.log(s); alert(s);" tooltip=AnnotatedCoordinates]
+	coords_120 [label=coords href="javascript:s=&quot;\(&quot;\(&#x27;pin&#x27;,\ 1\),\ &#x27;top&#x27;,\ &quot;,\ &#x27;coords&#x27;\)\nCoordinates&quot;; console.log(s); alert(s);" tooltip=Coordinates]
+	origin_121 [label=origin href="javascript:s=&quot;\(&quot;\(&#x27;pin&#x27;,\ 1\),\ &#x27;top&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;origin&#x27;\)\nCoordinatesCage&quot;; console.log(s); alert(s);" tooltip=CoordinatesCage]
+	x_arrow_122 [label=x_arrow href="javascript:s=&quot;\(&quot;\(&#x27;pin&#x27;,\ 1\),\ &#x27;top&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_123 [label=stem href="javascript:s=&quot;\(&quot;\(&#x27;pin&#x27;,\ 1\),\ &#x27;top&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_124 [label=head href="javascript:s=&quot;\(&quot;\(&#x27;pin&#x27;,\ 1\),\ &#x27;top&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	y_arrow_125 [label=y_arrow href="javascript:s=&quot;\(&quot;\(&#x27;pin&#x27;,\ 1\),\ &#x27;top&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_126 [label=stem href="javascript:s=&quot;\(&quot;\(&#x27;pin&#x27;,\ 1\),\ &#x27;top&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_127 [label=head href="javascript:s=&quot;\(&quot;\(&#x27;pin&#x27;,\ 1\),\ &#x27;top&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	z_arrow_128 [label=z_arrow href="javascript:s=&quot;\(&quot;\(&#x27;pin&#x27;,\ 1\),\ &#x27;top&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_129 [label=stem href="javascript:s=&quot;\(&quot;\(&#x27;pin&#x27;,\ 1\),\ &#x27;top&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_130 [label=head href="javascript:s=&quot;\(&quot;\(&#x27;pin&#x27;,\ 1\),\ &#x27;top&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	x_131 [label=x href="javascript:s=&quot;\(&quot;\(&#x27;pin&#x27;,\ 1\),\ &#x27;top&#x27;,\ &quot;,\ &#x27;x&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	y_132 [label=y href="javascript:s=&quot;\(&quot;\(&#x27;pin&#x27;,\ 1\),\ &#x27;top&#x27;,\ &quot;,\ &#x27;y&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	z_133 [label=z href="javascript:s=&quot;\(&quot;\(&#x27;pin&#x27;,\ 1\),\ &#x27;top&#x27;,\ &quot;,\ &#x27;z&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	label_134 [label=label href="javascript:s=&quot;\(&quot;\(&#x27;pin&#x27;,\ 1\),\ &#x27;top&#x27;,\ &quot;,\ &#x27;label&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	135 [label="'icsp_header',\ \('pin',\ 1,\ 1\),\ 'top',\ " href="javascript:s=&quot;\(&quot;&#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;top&#x27;,\ &quot;,\)\nAnnotatedCoordinates&quot;; console.log(s); alert(s);" tooltip=AnnotatedCoordinates]
+	coords_136 [label=coords href="javascript:s=&quot;\(&quot;&#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;top&#x27;,\ &quot;,\ &#x27;coords&#x27;\)\nCoordinates&quot;; console.log(s); alert(s);" tooltip=Coordinates]
+	origin_137 [label=origin href="javascript:s=&quot;\(&quot;&#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;top&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;origin&#x27;\)\nCoordinatesCage&quot;; console.log(s); alert(s);" tooltip=CoordinatesCage]
+	x_arrow_138 [label=x_arrow href="javascript:s=&quot;\(&quot;&#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;top&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_139 [label=stem href="javascript:s=&quot;\(&quot;&#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;top&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_140 [label=head href="javascript:s=&quot;\(&quot;&#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;top&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	y_arrow_141 [label=y_arrow href="javascript:s=&quot;\(&quot;&#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;top&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_142 [label=stem href="javascript:s=&quot;\(&quot;&#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;top&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_143 [label=head href="javascript:s=&quot;\(&quot;&#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;top&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	z_arrow_144 [label=z_arrow href="javascript:s=&quot;\(&quot;&#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;top&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_145 [label=stem href="javascript:s=&quot;\(&quot;&#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;top&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_146 [label=head href="javascript:s=&quot;\(&quot;&#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;top&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	x_147 [label=x href="javascript:s=&quot;\(&quot;&#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;top&#x27;,\ &quot;,\ &#x27;x&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	y_148 [label=y href="javascript:s=&quot;\(&quot;&#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;top&#x27;,\ &quot;,\ &#x27;y&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	z_149 [label=z href="javascript:s=&quot;\(&quot;&#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;top&#x27;,\ &quot;,\ &#x27;z&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	label_150 [label=label href="javascript:s=&quot;\(&quot;&#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;top&#x27;,\ &quot;,\ &#x27;label&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	root_1 -> default_2
+	default_2 -> pcb_3
+	default_2 -> pin_4
+	default_2 -> pin_5
+	default_2 -> pin_6
+	default_2 -> pin_7
+	default_2 -> pin_8
+	default_2 -> pin_9
+	default_2 -> pin_10
+	default_2 -> pin_11
+	default_2 -> pin_12
+	default_2 -> pin_13
+	default_2 -> pin_14
+	default_2 -> pin_15
+	default_2 -> pin_16
+	default_2 -> pin_17
+	default_2 -> pin_18
+	default_2 -> pin_19
+	default_2 -> pin_20
+	default_2 -> pin_21
+	default_2 -> pin_22
+	default_2 -> pin_23
+	default_2 -> pin_24
+	default_2 -> pin_25
+	default_2 -> pin_26
+	default_2 -> pin_27
+	default_2 -> pin_28
+	default_2 -> pin_29
+	default_2 -> pin_30
+	default_2 -> pin_31
+	default_2 -> pin_32
+	default_2 -> pin_33
+	default_2 -> mount_hole_34
+	default_2 -> mount_hole_35
+	default_2 -> mount_hole_36
+	default_2 -> mount_hole_37
+	default_2 -> icsp_header_38
+	icsp_header_38 -> cage_39
+	icsp_header_38 -> pin_40
+	pin_40 -> base_41
+	base_41 -> base_42
+	pin_40 -> pin_43
+	pin_43 -> cage_44
+	cage_44 -> prism_45
+	pin_43 -> mid_46
+	mid_46 -> prism_47
+	pin_43 -> upper_48
+	upper_48 -> prism_49
+	pin_43 -> lower_50
+	lower_50 -> prism_51
+	icsp_header_38 -> pin_52
+	pin_52 -> base_53
+	base_53 -> base_54
+	pin_52 -> pin_55
+	pin_55 -> cage_56
+	cage_56 -> prism_57
+	pin_55 -> mid_58
+	mid_58 -> prism_59
+	pin_55 -> upper_60
+	upper_60 -> prism_61
+	pin_55 -> lower_62
+	lower_62 -> prism_63
+	icsp_header_38 -> pin_64
+	pin_64 -> base_65
+	base_65 -> base_66
+	pin_64 -> pin_67
+	pin_67 -> cage_68
+	cage_68 -> prism_69
+	pin_67 -> mid_70
+	mid_70 -> prism_71
+	pin_67 -> upper_72
+	upper_72 -> prism_73
+	pin_67 -> lower_74
+	lower_74 -> prism_75
+	icsp_header_38 -> pin_76
+	pin_76 -> base_77
+	base_77 -> base_78
+	pin_76 -> pin_79
+	pin_79 -> cage_80
+	cage_80 -> prism_81
+	pin_79 -> mid_82
+	mid_82 -> prism_83
+	pin_79 -> upper_84
+	upper_84 -> prism_85
+	pin_79 -> lower_86
+	lower_86 -> prism_87
+	icsp_header_38 -> pin_88
+	pin_88 -> base_89
+	base_89 -> base_90
+	pin_88 -> pin_91
+	pin_91 -> cage_92
+	cage_92 -> prism_93
+	pin_91 -> mid_94
+	mid_94 -> prism_95
+	pin_91 -> upper_96
+	upper_96 -> prism_97
+	pin_91 -> lower_98
+	lower_98 -> prism_99
+	icsp_header_38 -> pin_100
+	pin_100 -> base_101
+	base_101 -> base_102
+	pin_100 -> pin_103
+	pin_103 -> cage_104
+	cage_104 -> prism_105
+	pin_103 -> mid_106
+	mid_106 -> prism_107
+	pin_103 -> upper_108
+	upper_108 -> prism_109
+	pin_103 -> lower_110
+	lower_110 -> prism_111
+	default_2 -> usb_112
+	default_2 -> pin_hole_113
+	default_2 -> pin_hole_114
+	default_2 -> pin_hole_115
+	default_2 -> pin_hole_116
+	default_2 -> pin_hole_117
+	default_2 -> pin_hole_118
+	root_1 -> 119
+	119 -> coords_120
+	coords_120 -> origin_121
+	coords_120 -> x_arrow_122
+	x_arrow_122 -> stem_123
+	x_arrow_122 -> head_124
+	coords_120 -> y_arrow_125
+	y_arrow_125 -> stem_126
+	y_arrow_125 -> head_127
+	coords_120 -> z_arrow_128
+	z_arrow_128 -> stem_129
+	z_arrow_128 -> head_130
+	119 -> x_131
+	119 -> y_132
+	119 -> z_133
+	119 -> label_134
+	root_1 -> 135
+	135 -> coords_136
+	coords_136 -> origin_137
+	coords_136 -> x_arrow_138
+	x_arrow_138 -> stem_139
+	x_arrow_138 -> head_140
+	coords_136 -> y_arrow_141
+	y_arrow_141 -> stem_142
+	y_arrow_141 -> head_143
+	coords_136 -> z_arrow_144
+	z_arrow_144 -> stem_145
+	z_arrow_144 -> head_146
+	135 -> x_147
+	135 -> y_148
+	135 -> z_149
+	135 -> label_150
+}

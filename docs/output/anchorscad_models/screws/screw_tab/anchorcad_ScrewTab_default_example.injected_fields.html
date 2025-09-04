@@ -1,0 +1,95 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Datatree Injected Fields for ScrewTab</title>
+            <style>
+                table {
+                    width: 100%;
+                    border-collapse: collapse;
+                }
+                th, td {
+                    border: 1px solid #ddd;
+                    padding: 8px;
+                    text-align: left;
+                }
+                th {
+                    background-color: #4CAF50;
+                    color: white;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>Datatree Injected Fields for ScrewTab</h1>
+            <p>Creates a tab with a screw hold. Can be placed on the side of a box<br/>to make a support hole.<br/><br/>Args:<br/>    fn: The number of facets to use for the extrusion.<br/>    fa: minimum angle (in degrees) of each segment<br/>    fs: minimum length of each segment<br/>Other args:<br/>    dia, width, depth, h, screw</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Field Name</th>
+                        <th>Node Field Name</th>
+                        <th>Node Class/Func</th>
+                    </tr>
+                </thead>
+                <tbody>
+        
+                <tr>
+                    <td>fa</td>
+                    <td>fa</td>
+                    <td><a href='<class 'anchorscad_models.basic.box_cylinder.BoxCylinder'>'>BoxCylinder</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fa</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>fn</td>
+                    <td>fn</td>
+                    <td><a href='<class 'anchorscad_models.basic.box_cylinder.BoxCylinder'>'>BoxCylinder</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fn</td>
+                    <td><a href='<class 'anchorscad.extrude.LinearExtrude'>'>LinearExtrude</a></td>
+                </tr>
+                
+                <tr>
+                <td>&nbsp;</td>    <td>fn</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>fs</td>
+                    <td>fs</td>
+                    <td><a href='<class 'anchorscad_models.basic.box_cylinder.BoxCylinder'>'>BoxCylinder</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fs</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </body>
+        </html>
+        

@@ -1,0 +1,11 @@
+digraph hull {
+    root_11 [label="root"];
+    hull_12 [label="hull"];
+    overall_13 [label="overall"];
+    box_14 [label="box"];
+    sphere_15 [label="sphere"];
+    root_11 -> hull_12;
+    hull_12 -> overall_13;
+    overall_13 -> box_14;
+    overall_13 -> sphere_15;
+}

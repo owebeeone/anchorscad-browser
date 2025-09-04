@@ -1,0 +1,40 @@
+digraph default {
+	graph [rankdir=LR]
+	root_36 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_37 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nEvqTerminal&quot;; console.log(s); alert(s);" tooltip=EvqTerminal]
+	terminal_38 [label=terminal href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;terminal&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	39 [label="'reference',\ " href="javascript:s=&quot;\(&quot;&#x27;reference&#x27;,\ &quot;,\)\nAnnotatedCoordinates&quot;; console.log(s); alert(s);" tooltip=AnnotatedCoordinates]
+	coords_40 [label=coords href="javascript:s=&quot;\(&quot;&#x27;reference&#x27;,\ &quot;,\ &#x27;coords&#x27;\)\nCoordinates&quot;; console.log(s); alert(s);" tooltip=Coordinates]
+	origin_41 [label=origin href="javascript:s=&quot;\(&quot;&#x27;reference&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;origin&#x27;\)\nCoordinatesCage&quot;; console.log(s); alert(s);" tooltip=CoordinatesCage]
+	x_arrow_42 [label=x_arrow href="javascript:s=&quot;\(&quot;&#x27;reference&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_43 [label=stem href="javascript:s=&quot;\(&quot;&#x27;reference&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_44 [label=head href="javascript:s=&quot;\(&quot;&#x27;reference&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	y_arrow_45 [label=y_arrow href="javascript:s=&quot;\(&quot;&#x27;reference&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_46 [label=stem href="javascript:s=&quot;\(&quot;&#x27;reference&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_47 [label=head href="javascript:s=&quot;\(&quot;&#x27;reference&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	z_arrow_48 [label=z_arrow href="javascript:s=&quot;\(&quot;&#x27;reference&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_49 [label=stem href="javascript:s=&quot;\(&quot;&#x27;reference&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_50 [label=head href="javascript:s=&quot;\(&quot;&#x27;reference&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	x_51 [label=x href="javascript:s=&quot;\(&quot;&#x27;reference&#x27;,\ &quot;,\ &#x27;x&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	y_52 [label=y href="javascript:s=&quot;\(&quot;&#x27;reference&#x27;,\ &quot;,\ &#x27;y&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	z_53 [label=z href="javascript:s=&quot;\(&quot;&#x27;reference&#x27;,\ &quot;,\ &#x27;z&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	label_54 [label=label href="javascript:s=&quot;\(&quot;&#x27;reference&#x27;,\ &quot;,\ &#x27;label&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	root_36 -> default_37
+	default_37 -> terminal_38
+	root_36 -> 39
+	39 -> coords_40
+	coords_40 -> origin_41
+	coords_40 -> x_arrow_42
+	x_arrow_42 -> stem_43
+	x_arrow_42 -> head_44
+	coords_40 -> y_arrow_45
+	y_arrow_45 -> stem_46
+	y_arrow_45 -> head_47
+	coords_40 -> z_arrow_48
+	z_arrow_48 -> stem_49
+	z_arrow_48 -> head_50
+	39 -> x_51
+	39 -> y_52
+	39 -> z_53
+	39 -> label_54
+}

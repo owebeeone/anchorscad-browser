@@ -1,0 +1,24 @@
+
+Geometries in cache: 11
+Geometry cache size in bytes: 221248
+CGAL Polyhedrons in cache: 0
+CGAL cache size in bytes: 0
+Total rendering time: 0:00:00.013
+Top level object is a 3D object (PolySet):
+   Convex:       yes
+   Triangles:    408
+Geometries in cache: 11
+Geometry cache size in bytes: 221248
+CGAL Polyhedrons in cache: 0
+CGAL cache size in bytes: 0
+Total rendering time: 0:00:00.002
+Top level object is a 3D object (PolySet):
+   Convex:       yes
+   Triangles:    408
+Compiling design (CSG Products normalization)...
+Normalized CSG tree has 1 elements
+Geometries in cache: 11
+Geometry cache size in bytes: 221248
+CGAL Polyhedrons in cache: 0
+CGAL cache size in bytes: 0
+Total rendering time: 0:00:01.778

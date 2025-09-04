@@ -1,0 +1,304 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Datatree Injected Fields for Header</title>
+            <style>
+                table {
+                    width: 100%;
+                    border-collapse: collapse;
+                }
+                th, td {
+                    border: 1px solid #ddd;
+                    padding: 8px;
+                    text-align: left;
+                }
+                th {
+                    background-color: #4CAF50;
+                    color: white;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>Datatree Injected Fields for Header</h1>
+            <p>A standard PCB header<br/>Args:<br/>    w: Length of prism sides. Overrides parameter r<br/>    taper_l: The height of the extrusion.<br/>    fn: The number of facets to use for the extrusion.<br/>    base_h: The height of the extrusion.<br/>    base_twist: The twist of the extrusion in degrees.<br/>    base_slices: The number of slices to use for the extrusion if twist is applied.<br/>    base_scale: The scale of the extrusion in X and Y.<br/>    base_path_fn: The number of facets to use for the extrusion.<br/>    base_use_polyhedrons: If true will use polyhedrons to generate the extrusion.<br/>Other args:<br/>    pitch, solder_side_l, pins_x, pins_y, l, base_w, base_c</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Field Name</th>
+                        <th>Node Field Name</th>
+                        <th>Node Class/Func</th>
+                    </tr>
+                </thead>
+                <tbody>
+        
+                <tr>
+                    <td>base_c</td>
+                    <td>c</td>
+                    <td><a href='<class 'anchorscad_models.components.header.header.HeaderBase'>'>HeaderBase</a></td>
+                </tr>
+                
+                <tr>
+                    <td>base_h</td>
+                    <td>h</td>
+                    <td><a href='<class 'anchorscad_models.components.header.header.HeaderBase'>'>HeaderBase</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>h</td>
+                    <td><a href='<class 'anchorscad.extrude.LinearExtrude'>'>LinearExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>base_path_fn</td>
+                    <td>path_fn</td>
+                    <td><a href='<class 'anchorscad_models.components.header.header.HeaderBase'>'>HeaderBase</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>path_fn</td>
+                    <td><a href='<class 'anchorscad.extrude.LinearExtrude'>'>LinearExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>base_scale</td>
+                    <td>scale</td>
+                    <td><a href='<class 'anchorscad_models.components.header.header.HeaderBase'>'>HeaderBase</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>scale</td>
+                    <td><a href='<class 'anchorscad.extrude.LinearExtrude'>'>LinearExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>base_slices</td>
+                    <td>slices</td>
+                    <td><a href='<class 'anchorscad_models.components.header.header.HeaderBase'>'>HeaderBase</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>slices</td>
+                    <td><a href='<class 'anchorscad.extrude.LinearExtrude'>'>LinearExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>base_twist</td>
+                    <td>twist</td>
+                    <td><a href='<class 'anchorscad_models.components.header.header.HeaderBase'>'>HeaderBase</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>twist</td>
+                    <td><a href='<class 'anchorscad.extrude.LinearExtrude'>'>LinearExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>base_use_polyhedrons</td>
+                    <td>use_polyhedrons</td>
+                    <td><a href='<class 'anchorscad_models.components.header.header.HeaderBase'>'>HeaderBase</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>use_polyhedrons</td>
+                    <td><a href='<class 'anchorscad.extrude.LinearExtrude'>'>LinearExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>base_w</td>
+                    <td>w</td>
+                    <td><a href='<class 'anchorscad_models.components.header.header.HeaderBase'>'>HeaderBase</a></td>
+                </tr>
+                
+                <tr>
+                    <td>cage_size</td>
+                    <td>size</td>
+                    <td><a href='<class 'anchorscad.core.Box'>'>Box</a></td>
+                </tr>
+                
+                <tr>
+                    <td>fn</td>
+                    <td>fn</td>
+                    <td><a href='<class 'anchorscad_models.components.header.header.HeaderPin'>'>HeaderPin</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fn</td>
+                    <td><a href='<class 'anchorscad_models.basic.regular_prism.RegularPrism'>'>RegularPrism</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fn</td>
+                    <td><a href='<class 'anchorscad.extrude.LinearExtrude'>'>LinearExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                <td>&nbsp;</td>    <td>fn</td>
+                    <td><a href='<class 'anchorscad_models.basic.regular_prism.RegularPrism'>'>RegularPrism</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fn</td>
+                    <td><a href='<class 'anchorscad.extrude.LinearExtrude'>'>LinearExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>fn</td>
+                    <td>fn</td>
+                    <td><a href='<class 'anchorscad_models.components.header.header.HeaderBase'>'>HeaderBase</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fn</td>
+                    <td><a href='<class 'anchorscad.extrude.LinearExtrude'>'>LinearExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>l</td>
+                    <td>l</td>
+                    <td><a href='<class 'anchorscad_models.components.header.header.HeaderPin'>'>HeaderPin</a></td>
+                </tr>
+                
+                <tr>
+                    <td>pitch</td>
+                    <td>pitch</td>
+                    <td><a href='<class 'anchorscad_models.components.header.header.HeaderBase'>'>HeaderBase</a></td>
+                </tr>
+                
+                <tr>
+                    <td>taper_l</td>
+                    <td>taper_l</td>
+                    <td><a href='<class 'anchorscad_models.components.header.header.HeaderPin'>'>HeaderPin</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>h</td>
+                    <td><a href='<class 'anchorscad_models.basic.regular_prism.RegularPrism'>'>RegularPrism</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>h</td>
+                    <td><a href='<class 'anchorscad.extrude.LinearExtrude'>'>LinearExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>w</td>
+                    <td>w</td>
+                    <td><a href='<class 'anchorscad_models.components.header.header.HeaderPin'>'>HeaderPin</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>side_l</td>
+                    <td><a href='<class 'anchorscad_models.basic.regular_prism.RegularPrism'>'>RegularPrism</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>side_l</td>
+                    <td><a href='<function regular_polygon at 0x0000020F93314900>'>regular_polygon</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                <td>&nbsp;</td>    <td>side_l</td>
+                    <td><a href='<class 'anchorscad_models.basic.regular_prism.RegularPrism'>'>RegularPrism</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>side_l</td>
+                    <td><a href='<function regular_polygon at 0x0000020F93314900>'>regular_polygon</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </body>
+        </html>
+        

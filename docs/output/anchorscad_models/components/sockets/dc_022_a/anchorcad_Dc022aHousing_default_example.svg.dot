@@ -1,0 +1,22 @@
+digraph default {
+	graph [rankdir=LR]
+	root_7 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_8 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nDc022aHousing&quot;; console.log(s); alert(s);" tooltip=Dc022aHousing]
+	extender_9 [label=extender href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;extender&#x27;\)\nStadiumPrism&quot;; console.log(s); alert(s);" tooltip=StadiumPrism]
+	cage_10 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;extender&#x27;,\ &#x27;cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	stadium_11 [label=stadium href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;extender&#x27;,\ &#x27;stadium&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	housing_12 [label=housing href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;housing&#x27;\)\nDC022A&quot;; console.log(s); alert(s);" tooltip=DC022A]
+	outer_13 [label=outer href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;housing&#x27;,\ &#x27;outer&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	body_14 [label=body href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;housing&#x27;,\ &#x27;body&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	top_access_hole_15 [label=top_access_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;housing&#x27;,\ &#x27;top_access_hole&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	rear_access_hole_16 [label=rear_access_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;housing&#x27;,\ &#x27;rear_access_hole&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	root_7 -> default_8
+	default_8 -> extender_9
+	extender_9 -> cage_10
+	extender_9 -> stadium_11
+	default_8 -> housing_12
+	housing_12 -> outer_13
+	housing_12 -> body_14
+	housing_12 -> top_access_hole_15
+	housing_12 -> rear_access_hole_16
+}

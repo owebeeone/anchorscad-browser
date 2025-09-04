@@ -1,0 +1,14 @@
+digraph default {
+	graph [rankdir=LR]
+	root_1 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_2 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nHoleGuide&quot;; console.log(s); alert(s);" tooltip=HoleGuide]
+	jig_3 [label=jig href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;jig&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	stock_4 [label=stock href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;stock&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	guide_5 [label="\('guide',\ 0\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;guide&#x27;,\ 0\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	guide_6 [label="\('guide',\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;guide&#x27;,\ 1\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	root_1 -> default_2
+	default_2 -> jig_3
+	default_2 -> stock_4
+	default_2 -> guide_5
+	default_2 -> guide_6
+}

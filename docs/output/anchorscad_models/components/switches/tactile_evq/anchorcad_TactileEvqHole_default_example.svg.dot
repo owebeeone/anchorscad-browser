@@ -1,0 +1,86 @@
+digraph default {
+	graph [rankdir=LR]
+	root_230 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_231 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nTactileEvqHole&quot;; console.log(s); alert(s);" tooltip=TactileEvqHole]
+	evq_232 [label=evq href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;evq&#x27;\)\nTactileEvq&quot;; console.log(s); alert(s);" tooltip=TactileEvq]
+	post_233 [label=post href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;evq&#x27;,\ &#x27;post&#x27;\)\nPostOutline&quot;; console.log(s); alert(s);" tooltip=PostOutline]
+	master_234 [label=master href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;evq&#x27;,\ &#x27;post&#x27;,\ &#x27;master&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	block1_235 [label=block1 href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;evq&#x27;,\ &#x27;post&#x27;,\ &#x27;block1&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	block2_236 [label="\('block2',\ 0\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;evq&#x27;,\ &#x27;post&#x27;,\ \(&#x27;block2&#x27;,\ 0\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	block2_237 [label="\('block2',\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;evq&#x27;,\ &#x27;post&#x27;,\ \(&#x27;block2&#x27;,\ 1\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	plunger_238 [label=plunger href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;evq&#x27;,\ &#x27;plunger&#x27;\)\nPlunger&quot;; console.log(s); alert(s);" tooltip=Plunger]
+	plunger_239 [label=plunger href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;evq&#x27;,\ &#x27;plunger&#x27;,\ &#x27;plunger&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	tab_240 [label=tab href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;evq&#x27;,\ &#x27;plunger&#x27;,\ &#x27;tab&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	centre_plate_241 [label=centre_plate href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;evq&#x27;,\ &#x27;centre_plate&#x27;\)\nCentrePlate&quot;; console.log(s); alert(s);" tooltip=CentrePlate]
+	centre_plate_242 [label=centre_plate href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;evq&#x27;,\ &#x27;centre_plate&#x27;,\ &#x27;centre_plate&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	base_plate_243 [label=base_plate href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;evq&#x27;,\ &#x27;base_plate&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	terminal_244 [label="\('terminal',\ 0\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;evq&#x27;,\ \(&#x27;terminal&#x27;,\ 0\)\)\nEvqTerminal&quot;; console.log(s); alert(s);" tooltip=EvqTerminal]
+	terminal_245 [label=terminal href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;evq&#x27;,\ \(&#x27;terminal&#x27;,\ 0\),\ &#x27;terminal&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	terminal_246 [label="\('terminal',\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;evq&#x27;,\ \(&#x27;terminal&#x27;,\ 1\)\)\nEvqTerminal&quot;; console.log(s); alert(s);" tooltip=EvqTerminal]
+	terminal_247 [label=terminal href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;evq&#x27;,\ \(&#x27;terminal&#x27;,\ 1\),\ &#x27;terminal&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	terminal_248 [label="\('terminal',\ 2\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;evq&#x27;,\ \(&#x27;terminal&#x27;,\ 2\)\)\nEvqTerminal&quot;; console.log(s); alert(s);" tooltip=EvqTerminal]
+	terminal_249 [label=terminal href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;evq&#x27;,\ \(&#x27;terminal&#x27;,\ 2\),\ &#x27;terminal&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	terminal_250 [label="\('terminal',\ 3\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;evq&#x27;,\ \(&#x27;terminal&#x27;,\ 3\)\)\nEvqTerminal&quot;; console.log(s); alert(s);" tooltip=EvqTerminal]
+	terminal_251 [label=terminal href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;evq&#x27;,\ \(&#x27;terminal&#x27;,\ 3\),\ &#x27;terminal&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	terminal_hole_252 [label="\('terminal_hole',\ 0\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;terminal_hole&#x27;,\ 0\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	terminal_hole_253 [label="\('terminal_hole',\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;terminal_hole&#x27;,\ 1\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	terminal_hole_254 [label="\('terminal_hole',\ 2\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;terminal_hole&#x27;,\ 2\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	terminal_hole_255 [label="\('terminal_hole',\ 3\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;terminal_hole&#x27;,\ 3\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	256 [label="'top',\ " href="javascript:s=&quot;\(&quot;&#x27;top&#x27;,\ &quot;,\)\nAnnotatedCoordinates&quot;; console.log(s); alert(s);" tooltip=AnnotatedCoordinates]
+	coords_257 [label=coords href="javascript:s=&quot;\(&quot;&#x27;top&#x27;,\ &quot;,\ &#x27;coords&#x27;\)\nCoordinates&quot;; console.log(s); alert(s);" tooltip=Coordinates]
+	origin_258 [label=origin href="javascript:s=&quot;\(&quot;&#x27;top&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;origin&#x27;\)\nCoordinatesCage&quot;; console.log(s); alert(s);" tooltip=CoordinatesCage]
+	x_arrow_259 [label=x_arrow href="javascript:s=&quot;\(&quot;&#x27;top&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_260 [label=stem href="javascript:s=&quot;\(&quot;&#x27;top&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_261 [label=head href="javascript:s=&quot;\(&quot;&#x27;top&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	y_arrow_262 [label=y_arrow href="javascript:s=&quot;\(&quot;&#x27;top&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_263 [label=stem href="javascript:s=&quot;\(&quot;&#x27;top&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_264 [label=head href="javascript:s=&quot;\(&quot;&#x27;top&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	z_arrow_265 [label=z_arrow href="javascript:s=&quot;\(&quot;&#x27;top&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_266 [label=stem href="javascript:s=&quot;\(&quot;&#x27;top&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_267 [label=head href="javascript:s=&quot;\(&quot;&#x27;top&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	x_268 [label=x href="javascript:s=&quot;\(&quot;&#x27;top&#x27;,\ &quot;,\ &#x27;x&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	y_269 [label=y href="javascript:s=&quot;\(&quot;&#x27;top&#x27;,\ &quot;,\ &#x27;y&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	z_270 [label=z href="javascript:s=&quot;\(&quot;&#x27;top&#x27;,\ &quot;,\ &#x27;z&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	label_271 [label=label href="javascript:s=&quot;\(&quot;&#x27;top&#x27;,\ &quot;,\ &#x27;label&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	root_230 -> default_231
+	default_231 -> evq_232
+	evq_232 -> post_233
+	post_233 -> master_234
+	post_233 -> block1_235
+	post_233 -> block2_236
+	post_233 -> block2_237
+	evq_232 -> plunger_238
+	plunger_238 -> plunger_239
+	plunger_238 -> tab_240
+	evq_232 -> centre_plate_241
+	centre_plate_241 -> centre_plate_242
+	evq_232 -> base_plate_243
+	evq_232 -> terminal_244
+	terminal_244 -> terminal_245
+	evq_232 -> terminal_246
+	terminal_246 -> terminal_247
+	evq_232 -> terminal_248
+	terminal_248 -> terminal_249
+	evq_232 -> terminal_250
+	terminal_250 -> terminal_251
+	default_231 -> terminal_hole_252
+	default_231 -> terminal_hole_253
+	default_231 -> terminal_hole_254
+	default_231 -> terminal_hole_255
+	root_230 -> 256
+	256 -> coords_257
+	coords_257 -> origin_258
+	coords_257 -> x_arrow_259
+	x_arrow_259 -> stem_260
+	x_arrow_259 -> head_261
+	coords_257 -> y_arrow_262
+	y_arrow_262 -> stem_263
+	y_arrow_262 -> head_264
+	coords_257 -> z_arrow_265
+	z_arrow_265 -> stem_266
+	z_arrow_265 -> head_267
+	256 -> x_268
+	256 -> y_269
+	256 -> z_270
+	256 -> label_271
+}

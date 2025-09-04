@@ -1,0 +1,24 @@
+digraph example2_cap {
+	graph [rankdir=LR]
+	root_134 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	example2_cap_135 [label=example2_cap href="javascript:s=&quot;\(&#x27;example2_cap&#x27;,\)\nButtonForTactileSwitch&quot;; console.log(s); alert(s);" tooltip=ButtonForTactileSwitch]
+	cap_136 [label=cap href="javascript:s=&quot;\(&#x27;example2_cap&#x27;,\ &#x27;cap&#x27;\)\nButtonCap&quot;; console.log(s); alert(s);" tooltip=ButtonCap]
+	cage_137 [label=cage href="javascript:s=&quot;\(&#x27;example2_cap&#x27;,\ &#x27;cap&#x27;,\ &#x27;cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	button_cap_138 [label=button_cap href="javascript:s=&quot;\(&#x27;example2_cap&#x27;,\ &#x27;cap&#x27;,\ &#x27;button_cap&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	cap_wings_139 [label=cap_wings href="javascript:s=&quot;\(&#x27;example2_cap&#x27;,\ &#x27;cap&#x27;,\ &#x27;cap_wings&#x27;\)\nButtonWings&quot;; console.log(s); alert(s);" tooltip=ButtonWings]
+	cage_140 [label=cage href="javascript:s=&quot;\(&#x27;example2_cap&#x27;,\ &#x27;cap&#x27;,\ &#x27;cap_wings&#x27;,\ &#x27;cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	wing_141 [label="\('wing',\ 0\)" href="javascript:s=&quot;\(&#x27;example2_cap&#x27;,\ &#x27;cap&#x27;,\ &#x27;cap_wings&#x27;,\ \(&#x27;wing&#x27;,\ 0\)\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	wing_142 [label="\('wing',\ 1\)" href="javascript:s=&quot;\(&#x27;example2_cap&#x27;,\ &#x27;cap&#x27;,\ &#x27;cap_wings&#x27;,\ \(&#x27;wing&#x27;,\ 1\)\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	wing_143 [label="\('wing',\ 2\)" href="javascript:s=&quot;\(&#x27;example2_cap&#x27;,\ &#x27;cap&#x27;,\ &#x27;cap_wings&#x27;,\ \(&#x27;wing&#x27;,\ 2\)\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	wing_144 [label="\('wing',\ 3\)" href="javascript:s=&quot;\(&#x27;example2_cap&#x27;,\ &#x27;cap&#x27;,\ &#x27;cap_wings&#x27;,\ \(&#x27;wing&#x27;,\ 3\)\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	root_134 -> example2_cap_135
+	example2_cap_135 -> cap_136
+	cap_136 -> cage_137
+	cap_136 -> button_cap_138
+	cap_136 -> cap_wings_139
+	cap_wings_139 -> cage_140
+	cap_wings_139 -> wing_141
+	cap_wings_139 -> wing_142
+	cap_wings_139 -> wing_143
+	cap_wings_139 -> wing_144
+}

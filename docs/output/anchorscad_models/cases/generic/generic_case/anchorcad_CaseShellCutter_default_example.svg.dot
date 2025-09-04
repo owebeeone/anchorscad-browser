@@ -1,0 +1,10 @@
+digraph default {
+	graph [rankdir=LR]
+	root_426 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_427 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nCaseShellCutter&quot;; console.log(s); alert(s);" tooltip=CaseShellCutter]
+	cage_428 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	cutter_429 [label=cutter href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cutter&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	root_426 -> default_427
+	default_427 -> cage_428
+	default_427 -> cutter_429
+}

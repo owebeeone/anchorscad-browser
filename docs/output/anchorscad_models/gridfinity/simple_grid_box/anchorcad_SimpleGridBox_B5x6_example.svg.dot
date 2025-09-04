@@ -1,0 +1,68 @@
+digraph B5x6 {
+	graph [rankdir=LR]
+	root_246 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	B5x6_247 [label=B5x6 href="javascript:s=&quot;\(&#x27;B5x6&#x27;,\)\nSimpleGridBox&quot;; console.log(s); alert(s);" tooltip=SimpleGridBox]
+	box_248 [label=box href="javascript:s=&quot;\(&#x27;B5x6&#x27;,\ &#x27;box&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_249 [label="\('hole',\ 0,\ 0\)" href="javascript:s=&quot;\(&#x27;B5x6&#x27;,\ \(&#x27;hole&#x27;,\ 0,\ 0\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_250 [label="\('hole',\ 0,\ 1\)" href="javascript:s=&quot;\(&#x27;B5x6&#x27;,\ \(&#x27;hole&#x27;,\ 0,\ 1\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_251 [label="\('hole',\ 0,\ 2\)" href="javascript:s=&quot;\(&#x27;B5x6&#x27;,\ \(&#x27;hole&#x27;,\ 0,\ 2\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_252 [label="\('hole',\ 0,\ 3\)" href="javascript:s=&quot;\(&#x27;B5x6&#x27;,\ \(&#x27;hole&#x27;,\ 0,\ 3\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_253 [label="\('hole',\ 0,\ 4\)" href="javascript:s=&quot;\(&#x27;B5x6&#x27;,\ \(&#x27;hole&#x27;,\ 0,\ 4\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_254 [label="\('hole',\ 0,\ 5\)" href="javascript:s=&quot;\(&#x27;B5x6&#x27;,\ \(&#x27;hole&#x27;,\ 0,\ 5\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_255 [label="\('hole',\ 1,\ 0\)" href="javascript:s=&quot;\(&#x27;B5x6&#x27;,\ \(&#x27;hole&#x27;,\ 1,\ 0\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_256 [label="\('hole',\ 1,\ 1\)" href="javascript:s=&quot;\(&#x27;B5x6&#x27;,\ \(&#x27;hole&#x27;,\ 1,\ 1\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_257 [label="\('hole',\ 1,\ 2\)" href="javascript:s=&quot;\(&#x27;B5x6&#x27;,\ \(&#x27;hole&#x27;,\ 1,\ 2\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_258 [label="\('hole',\ 1,\ 3\)" href="javascript:s=&quot;\(&#x27;B5x6&#x27;,\ \(&#x27;hole&#x27;,\ 1,\ 3\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_259 [label="\('hole',\ 1,\ 4\)" href="javascript:s=&quot;\(&#x27;B5x6&#x27;,\ \(&#x27;hole&#x27;,\ 1,\ 4\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_260 [label="\('hole',\ 1,\ 5\)" href="javascript:s=&quot;\(&#x27;B5x6&#x27;,\ \(&#x27;hole&#x27;,\ 1,\ 5\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_261 [label="\('hole',\ 2,\ 0\)" href="javascript:s=&quot;\(&#x27;B5x6&#x27;,\ \(&#x27;hole&#x27;,\ 2,\ 0\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_262 [label="\('hole',\ 2,\ 1\)" href="javascript:s=&quot;\(&#x27;B5x6&#x27;,\ \(&#x27;hole&#x27;,\ 2,\ 1\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_263 [label="\('hole',\ 2,\ 2\)" href="javascript:s=&quot;\(&#x27;B5x6&#x27;,\ \(&#x27;hole&#x27;,\ 2,\ 2\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_264 [label="\('hole',\ 2,\ 3\)" href="javascript:s=&quot;\(&#x27;B5x6&#x27;,\ \(&#x27;hole&#x27;,\ 2,\ 3\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_265 [label="\('hole',\ 2,\ 4\)" href="javascript:s=&quot;\(&#x27;B5x6&#x27;,\ \(&#x27;hole&#x27;,\ 2,\ 4\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_266 [label="\('hole',\ 2,\ 5\)" href="javascript:s=&quot;\(&#x27;B5x6&#x27;,\ \(&#x27;hole&#x27;,\ 2,\ 5\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_267 [label="\('hole',\ 3,\ 0\)" href="javascript:s=&quot;\(&#x27;B5x6&#x27;,\ \(&#x27;hole&#x27;,\ 3,\ 0\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_268 [label="\('hole',\ 3,\ 1\)" href="javascript:s=&quot;\(&#x27;B5x6&#x27;,\ \(&#x27;hole&#x27;,\ 3,\ 1\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_269 [label="\('hole',\ 3,\ 2\)" href="javascript:s=&quot;\(&#x27;B5x6&#x27;,\ \(&#x27;hole&#x27;,\ 3,\ 2\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_270 [label="\('hole',\ 3,\ 3\)" href="javascript:s=&quot;\(&#x27;B5x6&#x27;,\ \(&#x27;hole&#x27;,\ 3,\ 3\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_271 [label="\('hole',\ 3,\ 4\)" href="javascript:s=&quot;\(&#x27;B5x6&#x27;,\ \(&#x27;hole&#x27;,\ 3,\ 4\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_272 [label="\('hole',\ 3,\ 5\)" href="javascript:s=&quot;\(&#x27;B5x6&#x27;,\ \(&#x27;hole&#x27;,\ 3,\ 5\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_273 [label="\('hole',\ 4,\ 0\)" href="javascript:s=&quot;\(&#x27;B5x6&#x27;,\ \(&#x27;hole&#x27;,\ 4,\ 0\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_274 [label="\('hole',\ 4,\ 1\)" href="javascript:s=&quot;\(&#x27;B5x6&#x27;,\ \(&#x27;hole&#x27;,\ 4,\ 1\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_275 [label="\('hole',\ 4,\ 2\)" href="javascript:s=&quot;\(&#x27;B5x6&#x27;,\ \(&#x27;hole&#x27;,\ 4,\ 2\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_276 [label="\('hole',\ 4,\ 3\)" href="javascript:s=&quot;\(&#x27;B5x6&#x27;,\ \(&#x27;hole&#x27;,\ 4,\ 3\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_277 [label="\('hole',\ 4,\ 4\)" href="javascript:s=&quot;\(&#x27;B5x6&#x27;,\ \(&#x27;hole&#x27;,\ 4,\ 4\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_278 [label="\('hole',\ 4,\ 5\)" href="javascript:s=&quot;\(&#x27;B5x6&#x27;,\ \(&#x27;hole&#x27;,\ 4,\ 5\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	root_246 -> B5x6_247
+	B5x6_247 -> box_248
+	B5x6_247 -> hole_249
+	B5x6_247 -> hole_250
+	B5x6_247 -> hole_251
+	B5x6_247 -> hole_252
+	B5x6_247 -> hole_253
+	B5x6_247 -> hole_254
+	B5x6_247 -> hole_255
+	B5x6_247 -> hole_256
+	B5x6_247 -> hole_257
+	B5x6_247 -> hole_258
+	B5x6_247 -> hole_259
+	B5x6_247 -> hole_260
+	B5x6_247 -> hole_261
+	B5x6_247 -> hole_262
+	B5x6_247 -> hole_263
+	B5x6_247 -> hole_264
+	B5x6_247 -> hole_265
+	B5x6_247 -> hole_266
+	B5x6_247 -> hole_267
+	B5x6_247 -> hole_268
+	B5x6_247 -> hole_269
+	B5x6_247 -> hole_270
+	B5x6_247 -> hole_271
+	B5x6_247 -> hole_272
+	B5x6_247 -> hole_273
+	B5x6_247 -> hole_274
+	B5x6_247 -> hole_275
+	B5x6_247 -> hole_276
+	B5x6_247 -> hole_277
+	B5x6_247 -> hole_278
+}

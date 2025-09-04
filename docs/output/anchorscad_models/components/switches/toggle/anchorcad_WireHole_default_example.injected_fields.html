@@ -1,0 +1,408 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Datatree Injected Fields for WireHole</title>
+            <style>
+                table {
+                    width: 100%;
+                    border-collapse: collapse;
+                }
+                th, td {
+                    border: 1px solid #ddd;
+                    padding: 8px;
+                    text-align: left;
+                }
+                th {
+                    background-color: #4CAF50;
+                    color: white;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>Datatree Injected Fields for WireHole</h1>
+            <p>Wire hole.<br/><br/>Args:<br/>    r: Radius of the wire hole<br/>    d: Depth of hole<br/>    vd: Vertical depth of the wire hole<br/>    ld: Lateral depth of the wire hole<br/>    radius: Radius of the wire hole<br/>    wh_angle: Angle of the wire hole<br/>    lex_twist: The twist of the extrusion in degrees.<br/>    lex_slices: The number of slices to use for the extrusion if twist is applied.<br/>    lex_scale: The scale of the extrusion in X and Y.<br/>    fn: The number of facets to use for the extrusion.<br/>    path_fn: The number of facets to use for the extrusion.<br/>    use_polyhedrons: If true will use polyhedrons to generate the extrusion.<br/>    rex_convexity: Openscad convexity parameter.<br/>Other args:<br/>    anchors, items, path_xform, angle, fa, fs</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Field Name</th>
+                        <th>Node Field Name</th>
+                        <th>Node Class/Func</th>
+                    </tr>
+                </thead>
+                <tbody>
+        
+                <tr>
+                    <td>angle</td>
+                    <td>angle</td>
+                    <td><a href='<class 'anchorscad_models.basic.extruded_sequence.ExtrudedSequenceBuilder'>'>ExtrudedSequenceBuilder</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>angle</td>
+                    <td><a href='<class 'anchorscad_models.basic.extruded_sequence.RotateSequenceItem'>'>RotateSequenceItem</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>d</td>
+                    <td>d</td>
+                    <td><a href='<class 'anchorscad_models.components.switches.toggle.WireHoleProfilePath'>'>WireHoleProfilePath</a></td>
+                </tr>
+                
+                <tr>
+                    <td>fa</td>
+                    <td>fa</td>
+                    <td><a href='<class 'anchorscad_models.basic.extruded_sequence.ExtrudedSequenceBuilder'>'>ExtrudedSequenceBuilder</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fa</td>
+                    <td><a href='<class 'anchorscad_models.basic.extruded_sequence.RotateSequenceItem'>'>RotateSequenceItem</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fa</td>
+                    <td><a href='<class 'anchorscad.extrude.RotateExtrude'>'>RotateExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>fn</td>
+                    <td>fn</td>
+                    <td><a href='<class 'anchorscad_models.basic.extruded_sequence.ExtrudedSequenceBuilder'>'>ExtrudedSequenceBuilder</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fn</td>
+                    <td><a href='<class 'anchorscad_models.basic.extruded_sequence.LinearSequenceItem'>'>LinearSequenceItem</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fn</td>
+                    <td><a href='<class 'anchorscad.extrude.LinearExtrude'>'>LinearExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                <td>&nbsp;</td>    <td>fn</td>
+                    <td><a href='<class 'anchorscad_models.basic.extruded_sequence.RotateSequenceItem'>'>RotateSequenceItem</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fn</td>
+                    <td><a href='<class 'anchorscad.extrude.RotateExtrude'>'>RotateExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>fs</td>
+                    <td>fs</td>
+                    <td><a href='<class 'anchorscad_models.basic.extruded_sequence.ExtrudedSequenceBuilder'>'>ExtrudedSequenceBuilder</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fs</td>
+                    <td><a href='<class 'anchorscad_models.basic.extruded_sequence.RotateSequenceItem'>'>RotateSequenceItem</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fs</td>
+                    <td><a href='<class 'anchorscad.extrude.RotateExtrude'>'>RotateExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>items</td>
+                    <td>items</td>
+                    <td><a href='<class 'anchorscad_models.basic.extruded_sequence.ExtrudedSequenceBuilder'>'>ExtrudedSequenceBuilder</a></td>
+                </tr>
+                
+                <tr>
+                    <td>lex_scale</td>
+                    <td>lex_scale</td>
+                    <td><a href='<class 'anchorscad_models.basic.extruded_sequence.ExtrudedSequenceBuilder'>'>ExtrudedSequenceBuilder</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>lex_scale</td>
+                    <td><a href='<class 'anchorscad_models.basic.extruded_sequence.LinearSequenceItem'>'>LinearSequenceItem</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>scale</td>
+                    <td><a href='<class 'anchorscad.extrude.LinearExtrude'>'>LinearExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>lex_slices</td>
+                    <td>lex_slices</td>
+                    <td><a href='<class 'anchorscad_models.basic.extruded_sequence.ExtrudedSequenceBuilder'>'>ExtrudedSequenceBuilder</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>lex_slices</td>
+                    <td><a href='<class 'anchorscad_models.basic.extruded_sequence.LinearSequenceItem'>'>LinearSequenceItem</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>slices</td>
+                    <td><a href='<class 'anchorscad.extrude.LinearExtrude'>'>LinearExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>lex_twist</td>
+                    <td>lex_twist</td>
+                    <td><a href='<class 'anchorscad_models.basic.extruded_sequence.ExtrudedSequenceBuilder'>'>ExtrudedSequenceBuilder</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>lex_twist</td>
+                    <td><a href='<class 'anchorscad_models.basic.extruded_sequence.LinearSequenceItem'>'>LinearSequenceItem</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>twist</td>
+                    <td><a href='<class 'anchorscad.extrude.LinearExtrude'>'>LinearExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>path</td>
+                    <td>path</td>
+                    <td><a href='<class 'anchorscad_models.basic.extruded_sequence.ExtrudedSequence'>'>ExtrudedSequence</a></td>
+                </tr>
+                
+                <tr>
+                    <td>path_fn</td>
+                    <td>path_fn</td>
+                    <td><a href='<class 'anchorscad_models.basic.extruded_sequence.ExtrudedSequenceBuilder'>'>ExtrudedSequenceBuilder</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>path_fn</td>
+                    <td><a href='<class 'anchorscad_models.basic.extruded_sequence.LinearSequenceItem'>'>LinearSequenceItem</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>path_fn</td>
+                    <td><a href='<class 'anchorscad.extrude.LinearExtrude'>'>LinearExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                <td>&nbsp;</td>    <td>path_fn</td>
+                    <td><a href='<class 'anchorscad_models.basic.extruded_sequence.RotateSequenceItem'>'>RotateSequenceItem</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>path_fn</td>
+                    <td><a href='<class 'anchorscad.extrude.RotateExtrude'>'>RotateExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>path_xform</td>
+                    <td>path_xform</td>
+                    <td><a href='<class 'anchorscad_models.basic.extruded_sequence.ExtrudedSequenceBuilder'>'>ExtrudedSequenceBuilder</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>path_xform</td>
+                    <td><a href='<class 'anchorscad_models.basic.extruded_sequence.LinearSequenceItem'>'>LinearSequenceItem</a></td>
+                </tr>
+                
+                <tr>
+                <td>&nbsp;</td>    <td>path_xform</td>
+                    <td><a href='<class 'anchorscad_models.basic.extruded_sequence.RotateSequenceItem'>'>RotateSequenceItem</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>r</td>
+                    <td>r</td>
+                    <td><a href='<class 'anchorscad_models.components.switches.toggle.WireHoleProfilePath'>'>WireHoleProfilePath</a></td>
+                </tr>
+                
+                <tr>
+                    <td>rex_convexity</td>
+                    <td>rex_convexity</td>
+                    <td><a href='<class 'anchorscad_models.basic.extruded_sequence.ExtrudedSequenceBuilder'>'>ExtrudedSequenceBuilder</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>rex_convexity</td>
+                    <td><a href='<class 'anchorscad_models.basic.extruded_sequence.RotateSequenceItem'>'>RotateSequenceItem</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>convexity</td>
+                    <td><a href='<class 'anchorscad.extrude.RotateExtrude'>'>RotateExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>sequence</td>
+                    <td>sequence</td>
+                    <td><a href='<class 'anchorscad_models.basic.extruded_sequence.ExtrudedSequence'>'>ExtrudedSequence</a></td>
+                </tr>
+                
+                <tr>
+                    <td>use_polyhedrons</td>
+                    <td>use_polyhedrons</td>
+                    <td><a href='<class 'anchorscad_models.basic.extruded_sequence.ExtrudedSequenceBuilder'>'>ExtrudedSequenceBuilder</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>use_polyhedrons</td>
+                    <td><a href='<class 'anchorscad_models.basic.extruded_sequence.LinearSequenceItem'>'>LinearSequenceItem</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>use_polyhedrons</td>
+                    <td><a href='<class 'anchorscad.extrude.LinearExtrude'>'>LinearExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                <td>&nbsp;</td>    <td>use_polyhedrons</td>
+                    <td><a href='<class 'anchorscad_models.basic.extruded_sequence.RotateSequenceItem'>'>RotateSequenceItem</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>use_polyhedrons</td>
+                    <td><a href='<class 'anchorscad.extrude.RotateExtrude'>'>RotateExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </body>
+        </html>
+        

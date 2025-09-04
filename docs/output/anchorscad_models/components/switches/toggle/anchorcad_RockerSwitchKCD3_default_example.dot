@@ -1,0 +1,17 @@
+digraph default {
+    root_1 [label="root"];
+    default_2 [label="default"];
+    case_3 [label="case"];
+    lip_4 [label="lip"];
+    terminal_cavity_5 [label="terminal_cavity"];
+    wing_6 [label="\('wing',\ 'top'\)"];
+    wing_7 [label="\('wing',\ 'base'\)"];
+    bound_box_8 [label="bound_box"];
+    root_1 -> default_2;
+    default_2 -> case_3;
+    default_2 -> lip_4;
+    default_2 -> terminal_cavity_5;
+    default_2 -> wing_6;
+    default_2 -> wing_7;
+    default_2 -> bound_box_8;
+}

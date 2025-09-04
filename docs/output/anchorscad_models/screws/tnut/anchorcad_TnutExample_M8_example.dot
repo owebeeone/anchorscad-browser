@@ -1,0 +1,33 @@
+digraph M8 {
+    root_27 [label="root"];
+    M8_28 [label="M8"];
+    model_29 [label="model"];
+    shell_30 [label="shell"];
+    hull_31 [label="hull"];
+    tnut_32 [label="tnut"];
+    tnut_33 [label="tnut"];
+    cage_34 [label="cage"];
+    flat_35 [label="flat"];
+    bevel_36 [label="bevel"];
+    shaft_37 [label="shaft"];
+    shaft_extension_38 [label="shaft_extension"];
+    wing_39 [label="\('wing',\ 0\)"];
+    wing_40 [label="\('wing',\ 1\)"];
+    wing_41 [label="\('wing',\ 2\)"];
+    wing_42 [label="\('wing',\ 3\)"];
+    root_27 -> M8_28;
+    M8_28 -> model_29;
+    model_29 -> shell_30;
+    model_29 -> hull_31;
+    M8_28 -> tnut_32;
+    tnut_32 -> tnut_33;
+    tnut_33 -> cage_34;
+    tnut_33 -> flat_35;
+    tnut_33 -> bevel_36;
+    tnut_33 -> shaft_37;
+    tnut_33 -> shaft_extension_38;
+    tnut_33 -> wing_39;
+    tnut_33 -> wing_40;
+    tnut_33 -> wing_41;
+    tnut_33 -> wing_42;
+}

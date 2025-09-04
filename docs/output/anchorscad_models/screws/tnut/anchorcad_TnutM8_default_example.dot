@@ -1,0 +1,25 @@
+digraph default {
+    root_43 [label="root"];
+    default_44 [label="default"];
+    tnut_45 [label="tnut"];
+    cage_46 [label="cage"];
+    flat_47 [label="flat"];
+    bevel_48 [label="bevel"];
+    shaft_49 [label="shaft"];
+    shaft_extension_50 [label="shaft_extension"];
+    wing_51 [label="\('wing',\ 0\)"];
+    wing_52 [label="\('wing',\ 1\)"];
+    wing_53 [label="\('wing',\ 2\)"];
+    wing_54 [label="\('wing',\ 3\)"];
+    root_43 -> default_44;
+    default_44 -> tnut_45;
+    tnut_45 -> cage_46;
+    tnut_45 -> flat_47;
+    tnut_45 -> bevel_48;
+    tnut_45 -> shaft_49;
+    tnut_45 -> shaft_extension_50;
+    tnut_45 -> wing_51;
+    tnut_45 -> wing_52;
+    tnut_45 -> wing_53;
+    tnut_45 -> wing_54;
+}

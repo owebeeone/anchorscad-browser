@@ -1,0 +1,12 @@
+digraph minkowski {
+	graph [rankdir=LR]
+	root_21 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	minkowski_22 [label=minkowski href="javascript:s=&quot;\(&#x27;minkowski&#x27;,\)\nSquareSphereOperation&quot;; console.log(s); alert(s);" tooltip=SquareSphereOperation]
+	overall_23 [label=overall href="javascript:s=&quot;\(&#x27;minkowski&#x27;,\ &#x27;overall&#x27;\)\nMaker&quot;; console.log(s); alert(s);" tooltip=Maker]
+	box_24 [label=box href="javascript:s=&quot;\(&#x27;minkowski&#x27;,\ &#x27;overall&#x27;,\ &#x27;box&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	sphere_25 [label=sphere href="javascript:s=&quot;\(&#x27;minkowski&#x27;,\ &#x27;overall&#x27;,\ &#x27;sphere&#x27;\)\nSphere&quot;; console.log(s); alert(s);" tooltip=Sphere]
+	root_21 -> minkowski_22
+	minkowski_22 -> overall_23
+	overall_23 -> box_24
+	overall_23 -> sphere_25
+}

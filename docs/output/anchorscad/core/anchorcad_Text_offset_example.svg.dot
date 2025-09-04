@@ -1,0 +1,36 @@
+digraph offset {
+	graph [rankdir=LR]
+	root_987 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	offset_988 [label=offset href="javascript:s=&quot;\(&#x27;offset&#x27;,\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	989 [label="'default',\ " href="javascript:s=&quot;\(&quot;&#x27;default&#x27;,\ &quot;,\)\nAnnotatedCoordinates&quot;; console.log(s); alert(s);" tooltip=AnnotatedCoordinates]
+	coords_990 [label=coords href="javascript:s=&quot;\(&quot;&#x27;default&#x27;,\ &quot;,\ &#x27;coords&#x27;\)\nCoordinates&quot;; console.log(s); alert(s);" tooltip=Coordinates]
+	origin_991 [label=origin href="javascript:s=&quot;\(&quot;&#x27;default&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;origin&#x27;\)\nCoordinatesCage&quot;; console.log(s); alert(s);" tooltip=CoordinatesCage]
+	x_arrow_992 [label=x_arrow href="javascript:s=&quot;\(&quot;&#x27;default&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_993 [label=stem href="javascript:s=&quot;\(&quot;&#x27;default&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_994 [label=head href="javascript:s=&quot;\(&quot;&#x27;default&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	y_arrow_995 [label=y_arrow href="javascript:s=&quot;\(&quot;&#x27;default&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_996 [label=stem href="javascript:s=&quot;\(&quot;&#x27;default&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_997 [label=head href="javascript:s=&quot;\(&quot;&#x27;default&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	z_arrow_998 [label=z_arrow href="javascript:s=&quot;\(&quot;&#x27;default&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_999 [label=stem href="javascript:s=&quot;\(&quot;&#x27;default&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_1000 [label=head href="javascript:s=&quot;\(&quot;&#x27;default&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	x_1001 [label=x href="javascript:s=&quot;\(&quot;&#x27;default&#x27;,\ &quot;,\ &#x27;x&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	y_1002 [label=y href="javascript:s=&quot;\(&quot;&#x27;default&#x27;,\ &quot;,\ &#x27;y&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	z_1003 [label=z href="javascript:s=&quot;\(&quot;&#x27;default&#x27;,\ &quot;,\ &#x27;z&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	root_987 -> offset_988
+	root_987 -> 989
+	989 -> coords_990
+	coords_990 -> origin_991
+	coords_990 -> x_arrow_992
+	x_arrow_992 -> stem_993
+	x_arrow_992 -> head_994
+	coords_990 -> y_arrow_995
+	y_arrow_995 -> stem_996
+	y_arrow_995 -> head_997
+	coords_990 -> z_arrow_998
+	z_arrow_998 -> stem_999
+	z_arrow_998 -> head_1000
+	989 -> x_1001
+	989 -> y_1002
+	989 -> z_1003
+}

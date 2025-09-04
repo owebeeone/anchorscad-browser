@@ -1,0 +1,7 @@
+digraph default {
+    root_92 [label="root"];
+    default_93 [label="default"];
+    base_94 [label="base"];
+    root_92 -> default_93;
+    default_93 -> base_94;
+}

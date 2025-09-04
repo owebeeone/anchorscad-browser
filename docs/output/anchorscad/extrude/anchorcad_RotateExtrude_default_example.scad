@@ -1,0 +1,2726 @@
+// Start: lazy_union
+default_5_default_5();
+default_5_anchor_5_non_physical_non_physical();
+// End: lazy_union
+
+// Modules.
+
+// 'PartMaterial undef-default - anchor 5.0 non-physical'
+module default_5_anchor_5_non_physical_non_physical() {
+  // 'None : _combine_solids_and_holes'
+  union() {
+    // "'edge', 'linear', 0.5, "
+    multmatrix(m=[[0.0, 1.0, 0.0, 55.0], [1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+      // "'edge', 'linear', 0.5,  : _combine_solids_and_holes"
+      union() {
+        // 'coords : _combine_solids_and_holes'
+        union() {
+          // 'x_arrow'
+          multmatrix(m=[[0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'x_arrow'
+            color(c=[1.0, 0.0, 0.0, 1.0]) {
+              // 'x_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'y_arrow'
+          multmatrix(m=[[-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'y_arrow'
+            color(c=[0.0, 0.5019607843137255, 0.0, 1.0]) {
+              // 'y_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'z_arrow'
+          multmatrix(m=[[0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'z_arrow'
+            color(c=[0.0, 0.0, 1.0, 1.0]) {
+              // 'z_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+        }
+        // 'x'
+        multmatrix(m=[[1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'x : _combine_solids_and_holes'
+          union() {
+            // 'x'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="x", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'y'
+        multmatrix(m=[[0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'y : _combine_solids_and_holes'
+          union() {
+            // 'y'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="y", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'z'
+        multmatrix(m=[[0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'z : _combine_solids_and_holes'
+          union() {
+            // 'z'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="z", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'label'
+        multmatrix(m=[[0.7071067811865475, -0.7071067811865475, 0.0, 3.181980515339464], [0.7071067811865475, 0.7071067811865475, 0.0, 1.0606601717798212], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'label'
+          color(c=[0.0, 1.0, 0.5, 1.0]) {
+            // 'label : _combine_solids_and_holes'
+            union() {
+              // 'label'
+              linear_extrude(height=1.0) {
+                translate(v=[0.0, 0.0, -0.5]) {
+                  text(text="'edge', 'linear', 0.5, ", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    // "'linear2', 0.5, 10, "
+    multmatrix(m=[[-0.17364817766693033, -0.984807753012208, 0.0, 4.92403876506104], [0.984807753012208, -0.17364817766693033, 0.0, 0.8682408883346516], [0.0, 0.0, 1.0, 100.0], [0.0, 0.0, 0.0, 1.0]]) {
+      // "'linear2', 0.5, 10,  : _combine_solids_and_holes"
+      union() {
+        // 'coords : _combine_solids_and_holes'
+        union() {
+          // 'x_arrow'
+          multmatrix(m=[[0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'x_arrow'
+            color(c=[1.0, 0.0, 0.0, 1.0]) {
+              // 'x_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'y_arrow'
+          multmatrix(m=[[-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'y_arrow'
+            color(c=[0.0, 0.5019607843137255, 0.0, 1.0]) {
+              // 'y_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'z_arrow'
+          multmatrix(m=[[0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'z_arrow'
+            color(c=[0.0, 0.0, 1.0, 1.0]) {
+              // 'z_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+        }
+        // 'x'
+        multmatrix(m=[[1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'x : _combine_solids_and_holes'
+          union() {
+            // 'x'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="x", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'y'
+        multmatrix(m=[[0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'y : _combine_solids_and_holes'
+          union() {
+            // 'y'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="y", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'z'
+        multmatrix(m=[[0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'z : _combine_solids_and_holes'
+          union() {
+            // 'z'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="z", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'label'
+        multmatrix(m=[[0.7071067811865475, -0.7071067811865475, 0.0, 3.181980515339464], [0.7071067811865475, 0.7071067811865475, 0.0, 1.0606601717798212], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'label'
+          color(c=[0.0, 1.0, 0.5, 1.0]) {
+            // 'label : _combine_solids_and_holes'
+            union() {
+              // 'label'
+              linear_extrude(height=1.0) {
+                translate(v=[0.0, 0.0, -0.5]) {
+                  text(text="'linear2', 0.5, 10, ", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    // "'linear2', 0, 40, "
+    multmatrix(m=[[-0.6427876096865393, -0.766044443118978, 0.0, 7.66044443118978], [0.766044443118978, -0.6427876096865393, 0.0, 6.4278760968653925], [0.0, 0.0, 1.0, 100.0], [0.0, 0.0, 0.0, 1.0]]) {
+      // "'linear2', 0, 40,  : _combine_solids_and_holes"
+      union() {
+        // 'coords : _combine_solids_and_holes'
+        union() {
+          // 'x_arrow'
+          multmatrix(m=[[0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'x_arrow'
+            color(c=[1.0, 0.0, 0.0, 1.0]) {
+              // 'x_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'y_arrow'
+          multmatrix(m=[[-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'y_arrow'
+            color(c=[0.0, 0.5019607843137255, 0.0, 1.0]) {
+              // 'y_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'z_arrow'
+          multmatrix(m=[[0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'z_arrow'
+            color(c=[0.0, 0.0, 1.0, 1.0]) {
+              // 'z_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+        }
+        // 'x'
+        multmatrix(m=[[1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'x : _combine_solids_and_holes'
+          union() {
+            // 'x'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="x", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'y'
+        multmatrix(m=[[0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'y : _combine_solids_and_holes'
+          union() {
+            // 'y'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="y", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'z'
+        multmatrix(m=[[0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'z : _combine_solids_and_holes'
+          union() {
+            // 'z'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="z", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'label'
+        multmatrix(m=[[0.7071067811865475, -0.7071067811865475, 0.0, 3.181980515339464], [0.7071067811865475, 0.7071067811865475, 0.0, 1.0606601717798212], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'label'
+          color(c=[0.0, 1.0, 0.5, 1.0]) {
+            // 'label : _combine_solids_and_holes'
+            union() {
+              // 'label'
+              linear_extrude(height=1.0) {
+                translate(v=[0.0, 0.0, -0.5]) {
+                  text(text="'linear2', 0, 40, ", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    // "'linear2', 1, 40, "
+    multmatrix(m=[[-0.6427876096865393, -0.766044443118978, 0.0, 0.0], [0.766044443118978, -0.6427876096865393, 0.0, 0.0], [0.0, 0.0, 1.0, 100.0], [0.0, 0.0, 0.0, 1.0]]) {
+      // "'linear2', 1, 40,  : _combine_solids_and_holes"
+      union() {
+        // 'coords : _combine_solids_and_holes'
+        union() {
+          // 'x_arrow'
+          multmatrix(m=[[0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'x_arrow'
+            color(c=[1.0, 0.0, 0.0, 1.0]) {
+              // 'x_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'y_arrow'
+          multmatrix(m=[[-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'y_arrow'
+            color(c=[0.0, 0.5019607843137255, 0.0, 1.0]) {
+              // 'y_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'z_arrow'
+          multmatrix(m=[[0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'z_arrow'
+            color(c=[0.0, 0.0, 1.0, 1.0]) {
+              // 'z_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+        }
+        // 'x'
+        multmatrix(m=[[1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'x : _combine_solids_and_holes'
+          union() {
+            // 'x'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="x", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'y'
+        multmatrix(m=[[0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'y : _combine_solids_and_holes'
+          union() {
+            // 'y'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="y", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'z'
+        multmatrix(m=[[0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'z : _combine_solids_and_holes'
+          union() {
+            // 'z'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="z", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'label'
+        multmatrix(m=[[0.7071067811865475, -0.7071067811865475, 0.0, 3.181980515339464], [0.7071067811865475, 0.7071067811865475, 0.0, 1.0606601717798212], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'label'
+          color(c=[0.0, 1.0, 0.5, 1.0]) {
+            // 'label : _combine_solids_and_holes'
+            union() {
+              // 'label'
+              linear_extrude(height=1.0) {
+                translate(v=[0.0, 0.0, -0.5]) {
+                  text(text="'linear2', 1, 40, ", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    // "'linear3', 0.5, 20, "
+    multmatrix(m=[[-0.3420201433256687, 0.0, -0.9396926207859084, 0.0], [0.9396926207859084, 0.0, -0.3420201433256687, 0.0], [0.0, -1.0, 0.0, 50.0], [0.0, 0.0, 0.0, 1.0]]) {
+      // "'linear3', 0.5, 20,  : _combine_solids_and_holes"
+      union() {
+        // 'coords : _combine_solids_and_holes'
+        union() {
+          // 'x_arrow'
+          multmatrix(m=[[0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'x_arrow'
+            color(c=[1.0, 0.0, 0.0, 1.0]) {
+              // 'x_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'y_arrow'
+          multmatrix(m=[[-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'y_arrow'
+            color(c=[0.0, 0.5019607843137255, 0.0, 1.0]) {
+              // 'y_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'z_arrow'
+          multmatrix(m=[[0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'z_arrow'
+            color(c=[0.0, 0.0, 1.0, 1.0]) {
+              // 'z_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+        }
+        // 'x'
+        multmatrix(m=[[1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'x : _combine_solids_and_holes'
+          union() {
+            // 'x'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="x", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'y'
+        multmatrix(m=[[0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'y : _combine_solids_and_holes'
+          union() {
+            // 'y'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="y", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'z'
+        multmatrix(m=[[0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'z : _combine_solids_and_holes'
+          union() {
+            // 'z'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="z", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'label'
+        multmatrix(m=[[0.7071067811865475, -0.7071067811865475, 0.0, 3.181980515339464], [0.7071067811865475, 0.7071067811865475, 0.0, 1.0606601717798212], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'label'
+          color(c=[0.0, 1.0, 0.5, 1.0]) {
+            // 'label : _combine_solids_and_holes'
+            union() {
+              // 'label'
+              linear_extrude(height=1.0) {
+                translate(v=[0.0, 0.0, -0.5]) {
+                  text(text="'linear3', 0.5, 20, ", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    // "'curve', 0, 45, "
+    multmatrix(m=[[-0.7071067811865476, -0.3535533905932737, 0.6123724356957946, 77.78174593052024], [0.7071067811865476, -0.3535533905932737, 0.6123724356957946, 77.78174593052024], [0.0, 0.8660254037844387, 0.49999999999999983, -2.842170943040401e-14], [0.0, 0.0, 0.0, 1.0]]) {
+      // "'curve', 0, 45,  : _combine_solids_and_holes"
+      union() {
+        // 'coords : _combine_solids_and_holes'
+        union() {
+          // 'x_arrow'
+          multmatrix(m=[[0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'x_arrow'
+            color(c=[1.0, 0.0, 0.0, 1.0]) {
+              // 'x_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'y_arrow'
+          multmatrix(m=[[-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'y_arrow'
+            color(c=[0.0, 0.5019607843137255, 0.0, 1.0]) {
+              // 'y_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'z_arrow'
+          multmatrix(m=[[0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'z_arrow'
+            color(c=[0.0, 0.0, 1.0, 1.0]) {
+              // 'z_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+        }
+        // 'x'
+        multmatrix(m=[[1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'x : _combine_solids_and_holes'
+          union() {
+            // 'x'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="x", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'y'
+        multmatrix(m=[[0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'y : _combine_solids_and_holes'
+          union() {
+            // 'y'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="y", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'z'
+        multmatrix(m=[[0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'z : _combine_solids_and_holes'
+          union() {
+            // 'z'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="z", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'label'
+        multmatrix(m=[[0.7071067811865475, -0.7071067811865475, 0.0, 3.181980515339464], [0.7071067811865475, 0.7071067811865475, 0.0, 1.0606601717798212], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'label'
+          color(c=[0.0, 1.0, 0.5, 1.0]) {
+            // 'label : _combine_solids_and_holes'
+            union() {
+              // 'label'
+              linear_extrude(height=1.0) {
+                translate(v=[0.0, 0.0, -0.5]) {
+                  text(text="'curve', 0, 45, ", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    // "'curve', 0.1, 40, "
+    multmatrix(m=[[-0.6427876096865393, -0.4172177062789439, 0.6424589281820294, 78.53987081530192], [0.766044443118978, -0.35008722345929255, 0.5390870496840914, 65.90277663383105], [0.0, 0.838670567945424, 0.544639035015027, 12.19561116619002], [0.0, 0.0, 0.0, 1.0]]) {
+      // "'curve', 0.1, 40,  : _combine_solids_and_holes"
+      union() {
+        // 'coords : _combine_solids_and_holes'
+        union() {
+          // 'x_arrow'
+          multmatrix(m=[[0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'x_arrow'
+            color(c=[1.0, 0.0, 0.0, 1.0]) {
+              // 'x_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'y_arrow'
+          multmatrix(m=[[-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'y_arrow'
+            color(c=[0.0, 0.5019607843137255, 0.0, 1.0]) {
+              // 'y_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'z_arrow'
+          multmatrix(m=[[0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'z_arrow'
+            color(c=[0.0, 0.0, 1.0, 1.0]) {
+              // 'z_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+        }
+        // 'x'
+        multmatrix(m=[[1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'x : _combine_solids_and_holes'
+          union() {
+            // 'x'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="x", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'y'
+        multmatrix(m=[[0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'y : _combine_solids_and_holes'
+          union() {
+            // 'y'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="y", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'z'
+        multmatrix(m=[[0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'z : _combine_solids_and_holes'
+          union() {
+            // 'z'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="z", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'label'
+        multmatrix(m=[[0.7071067811865475, -0.7071067811865475, 0.0, 3.181980515339464], [0.7071067811865475, 0.7071067811865475, 0.0, 1.0606601717798212], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'label'
+          color(c=[0.0, 1.0, 0.5, 1.0]) {
+            // 'label : _combine_solids_and_holes'
+            union() {
+              // 'label'
+              linear_extrude(height=1.0) {
+                translate(v=[0.0, 0.0, -0.5]) {
+                  text(text="'curve', 0.1, 40, ", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    // "'curve', 0.2, 40, "
+    multmatrix(m=[[-0.6427876096865393, -0.4502696262659355, 0.619742972929746, 72.333756426132], [0.766044443118978, -0.37782107733007814, 0.5200261000100609, 60.69522833883457], [0.0, 0.8090169943749475, 0.587785252292473, 23.98337694182888], [0.0, 0.0, 0.0, 1.0]]) {
+      // "'curve', 0.2, 40,  : _combine_solids_and_holes"
+      union() {
+        // 'coords : _combine_solids_and_holes'
+        union() {
+          // 'x_arrow'
+          multmatrix(m=[[0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'x_arrow'
+            color(c=[1.0, 0.0, 0.0, 1.0]) {
+              // 'x_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'y_arrow'
+          multmatrix(m=[[-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'y_arrow'
+            color(c=[0.0, 0.5019607843137255, 0.0, 1.0]) {
+              // 'y_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'z_arrow'
+          multmatrix(m=[[0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'z_arrow'
+            color(c=[0.0, 0.0, 1.0, 1.0]) {
+              // 'z_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+        }
+        // 'x'
+        multmatrix(m=[[1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'x : _combine_solids_and_holes'
+          union() {
+            // 'x'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="x", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'y'
+        multmatrix(m=[[0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'y : _combine_solids_and_holes'
+          union() {
+            // 'y'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="y", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'z'
+        multmatrix(m=[[0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'z : _combine_solids_and_holes'
+          union() {
+            // 'z'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="z", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'label'
+        multmatrix(m=[[0.7071067811865475, -0.7071067811865475, 0.0, 3.181980515339464], [0.7071067811865475, 0.7071067811865475, 0.0, 1.0606601717798212], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'label'
+          color(c=[0.0, 1.0, 0.5, 1.0]) {
+            // 'label : _combine_solids_and_holes'
+            union() {
+              // 'label'
+              linear_extrude(height=1.0) {
+                translate(v=[0.0, 0.0, -0.5]) {
+                  text(text="'curve', 0.2, 40, ", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    // "'curve', 0.3, 40, "
+    multmatrix(m=[[-0.6427876096865393, -0.4820873885051902, 0.595328345266468, 65.6635561037368], [0.766044443118978, -0.4045193498899231, 0.4995397949424737, 55.09826570843418], [0.0, 0.7771459614569709, 0.6293203910498374, 35.330987880283146], [0.0, 0.0, 0.0, 1.0]]) {
+      // "'curve', 0.3, 40,  : _combine_solids_and_holes"
+      union() {
+        // 'coords : _combine_solids_and_holes'
+        union() {
+          // 'x_arrow'
+          multmatrix(m=[[0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'x_arrow'
+            color(c=[1.0, 0.0, 0.0, 1.0]) {
+              // 'x_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'y_arrow'
+          multmatrix(m=[[-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'y_arrow'
+            color(c=[0.0, 0.5019607843137255, 0.0, 1.0]) {
+              // 'y_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'z_arrow'
+          multmatrix(m=[[0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'z_arrow'
+            color(c=[0.0, 0.0, 1.0, 1.0]) {
+              // 'z_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+        }
+        // 'x'
+        multmatrix(m=[[1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'x : _combine_solids_and_holes'
+          union() {
+            // 'x'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="x", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'y'
+        multmatrix(m=[[0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'y : _combine_solids_and_holes'
+          union() {
+            // 'y'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="y", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'z'
+        multmatrix(m=[[0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'z : _combine_solids_and_holes'
+          union() {
+            // 'z'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="z", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'label'
+        multmatrix(m=[[0.7071067811865475, -0.7071067811865475, 0.0, 3.181980515339464], [0.7071067811865475, 0.7071067811865475, 0.0, 1.0606601717798212], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'label'
+          color(c=[0.0, 1.0, 0.5, 1.0]) {
+            // 'label : _combine_solids_and_holes'
+            union() {
+              // 'label'
+              linear_extrude(height=1.0) {
+                translate(v=[0.0, 0.0, -0.5]) {
+                  text(text="'curve', 0.3, 40, ", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    // "'curve', 0.4, 40, "
+    multmatrix(m=[[-0.6427876096865393, -0.5125837827220355, 0.5692819639895806, 58.5475524035601], [0.766044443118978, -0.430108863029515, 0.4776842860195347, 49.127229628159746], [0.0, 0.7431448254773944, 0.6691306063588581, 46.207340968733234], [0.0, 0.0, 0.0, 1.0]]) {
+      // "'curve', 0.4, 40,  : _combine_solids_and_holes"
+      union() {
+        // 'coords : _combine_solids_and_holes'
+        union() {
+          // 'x_arrow'
+          multmatrix(m=[[0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'x_arrow'
+            color(c=[1.0, 0.0, 0.0, 1.0]) {
+              // 'x_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'y_arrow'
+          multmatrix(m=[[-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'y_arrow'
+            color(c=[0.0, 0.5019607843137255, 0.0, 1.0]) {
+              // 'y_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'z_arrow'
+          multmatrix(m=[[0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'z_arrow'
+            color(c=[0.0, 0.0, 1.0, 1.0]) {
+              // 'z_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+        }
+        // 'x'
+        multmatrix(m=[[1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'x : _combine_solids_and_holes'
+          union() {
+            // 'x'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="x", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'y'
+        multmatrix(m=[[0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'y : _combine_solids_and_holes'
+          union() {
+            // 'y'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="y", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'z'
+        multmatrix(m=[[0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'z : _combine_solids_and_holes'
+          union() {
+            // 'z'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="z", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'label'
+        multmatrix(m=[[0.7071067811865475, -0.7071067811865475, 0.0, 3.181980515339464], [0.7071067811865475, 0.7071067811865475, 0.0, 1.0606601717798212], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'label'
+          color(c=[0.0, 1.0, 0.5, 1.0]) {
+            // 'label : _combine_solids_and_holes'
+            union() {
+              // 'label'
+              linear_extrude(height=1.0) {
+                translate(v=[0.0, 0.0, -0.5]) {
+                  text(text="'curve', 0.4, 40, ", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    // "'curve', 0.5, 40, "
+    multmatrix(m=[[-0.6427876096865393, -0.5416752204197018, 0.5416752204197018, 51.00524979711666], [0.766044443118978, -0.45451947767204365, 0.45451947767204365, 42.798486292865626], [0.0, 0.7071067811865476, 0.7071067811865476, 56.5826248793698], [0.0, 0.0, 0.0, 1.0]]) {
+      // "'curve', 0.5, 40,  : _combine_solids_and_holes"
+      union() {
+        // 'coords : _combine_solids_and_holes'
+        union() {
+          // 'x_arrow'
+          multmatrix(m=[[0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'x_arrow'
+            color(c=[1.0, 0.0, 0.0, 1.0]) {
+              // 'x_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'y_arrow'
+          multmatrix(m=[[-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'y_arrow'
+            color(c=[0.0, 0.5019607843137255, 0.0, 1.0]) {
+              // 'y_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'z_arrow'
+          multmatrix(m=[[0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'z_arrow'
+            color(c=[0.0, 0.0, 1.0, 1.0]) {
+              // 'z_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+        }
+        // 'x'
+        multmatrix(m=[[1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'x : _combine_solids_and_holes'
+          union() {
+            // 'x'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="x", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'y'
+        multmatrix(m=[[0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'y : _combine_solids_and_holes'
+          union() {
+            // 'y'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="y", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'z'
+        multmatrix(m=[[0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'z : _combine_solids_and_holes'
+          union() {
+            // 'z'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="z", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'label'
+        multmatrix(m=[[0.7071067811865475, -0.7071067811865475, 0.0, 3.181980515339464], [0.7071067811865475, 0.7071067811865475, 0.0, 1.0606601717798212], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'label'
+          color(c=[0.0, 1.0, 0.5, 1.0]) {
+            // 'label : _combine_solids_and_holes'
+            union() {
+              // 'label'
+              linear_extrude(height=1.0) {
+                translate(v=[0.0, 0.0, -0.5]) {
+                  text(text="'curve', 0.5, 40, ", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    // "'curve', 0.6, 40, "
+    multmatrix(m=[[-0.6427876096865393, -0.5692819639895805, 0.5125837827220356, 43.0573212115918], [0.766044443118978, -0.4776842860195346, 0.4301088630295151, 36.12938234812835], [0.0, 0.6691306063588582, 0.7431448254773942, 66.42840168017088], [0.0, 0.0, 0.0, 1.0]]) {
+      // "'curve', 0.6, 40,  : _combine_solids_and_holes"
+      union() {
+        // 'coords : _combine_solids_and_holes'
+        union() {
+          // 'x_arrow'
+          multmatrix(m=[[0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'x_arrow'
+            color(c=[1.0, 0.0, 0.0, 1.0]) {
+              // 'x_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'y_arrow'
+          multmatrix(m=[[-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'y_arrow'
+            color(c=[0.0, 0.5019607843137255, 0.0, 1.0]) {
+              // 'y_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'z_arrow'
+          multmatrix(m=[[0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'z_arrow'
+            color(c=[0.0, 0.0, 1.0, 1.0]) {
+              // 'z_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+        }
+        // 'x'
+        multmatrix(m=[[1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'x : _combine_solids_and_holes'
+          union() {
+            // 'x'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="x", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'y'
+        multmatrix(m=[[0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'y : _combine_solids_and_holes'
+          union() {
+            // 'y'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="y", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'z'
+        multmatrix(m=[[0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'z : _combine_solids_and_holes'
+          union() {
+            // 'z'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="z", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'label'
+        multmatrix(m=[[0.7071067811865475, -0.7071067811865475, 0.0, 3.181980515339464], [0.7071067811865475, 0.7071067811865475, 0.0, 1.0606601717798212], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'label'
+          color(c=[0.0, 1.0, 0.5, 1.0]) {
+            // 'label : _combine_solids_and_holes'
+            union() {
+              // 'label'
+              linear_extrude(height=1.0) {
+                translate(v=[0.0, 0.0, -0.5]) {
+                  text(text="'curve', 0.6, 40, ", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    // "'curve', 0.7, 40, "
+    multmatrix(m=[[-0.6427876096865393, -0.595328345266468, 0.48208738850519023, 34.72555136678468], [0.766044443118978, -0.4995397949424737, 0.4045193498899232, 29.13819734429671], [0.0, 0.6293203910498375, 0.7771459614569709, 75.71768478129704], [0.0, 0.0, 0.0, 1.0]]) {
+      // "'curve', 0.7, 40,  : _combine_solids_and_holes"
+      union() {
+        // 'coords : _combine_solids_and_holes'
+        union() {
+          // 'x_arrow'
+          multmatrix(m=[[0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'x_arrow'
+            color(c=[1.0, 0.0, 0.0, 1.0]) {
+              // 'x_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'y_arrow'
+          multmatrix(m=[[-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'y_arrow'
+            color(c=[0.0, 0.5019607843137255, 0.0, 1.0]) {
+              // 'y_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'z_arrow'
+          multmatrix(m=[[0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'z_arrow'
+            color(c=[0.0, 0.0, 1.0, 1.0]) {
+              // 'z_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+        }
+        // 'x'
+        multmatrix(m=[[1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'x : _combine_solids_and_holes'
+          union() {
+            // 'x'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="x", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'y'
+        multmatrix(m=[[0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'y : _combine_solids_and_holes'
+          union() {
+            // 'y'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="y", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'z'
+        multmatrix(m=[[0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'z : _combine_solids_and_holes'
+          union() {
+            // 'z'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="z", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'label'
+        multmatrix(m=[[0.7071067811865475, -0.7071067811865475, 0.0, 3.181980515339464], [0.7071067811865475, 0.7071067811865475, 0.0, 1.0606601717798212], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'label'
+          color(c=[0.0, 1.0, 0.5, 1.0]) {
+            // 'label : _combine_solids_and_holes'
+            union() {
+              // 'label'
+              linear_extrude(height=1.0) {
+                translate(v=[0.0, 0.0, -0.5]) {
+                  text(text="'curve', 0.7, 40, ", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    // "'curve', 0.8, 40, "
+    multmatrix(m=[[-0.6427876096865393, -0.619742972929746, 0.4502696262659355, 26.032777064705634], [0.766044443118978, -0.5200261000100609, 0.37782107733007814, 21.84409363351485], [0.0, 0.587785252292473, 0.8090169943749475, 84.42501290345825], [0.0, 0.0, 0.0, 1.0]]) {
+      // "'curve', 0.8, 40,  : _combine_solids_and_holes"
+      union() {
+        // 'coords : _combine_solids_and_holes'
+        union() {
+          // 'x_arrow'
+          multmatrix(m=[[0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'x_arrow'
+            color(c=[1.0, 0.0, 0.0, 1.0]) {
+              // 'x_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'y_arrow'
+          multmatrix(m=[[-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'y_arrow'
+            color(c=[0.0, 0.5019607843137255, 0.0, 1.0]) {
+              // 'y_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'z_arrow'
+          multmatrix(m=[[0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'z_arrow'
+            color(c=[0.0, 0.0, 1.0, 1.0]) {
+              // 'z_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+        }
+        // 'x'
+        multmatrix(m=[[1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'x : _combine_solids_and_holes'
+          union() {
+            // 'x'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="x", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'y'
+        multmatrix(m=[[0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'y : _combine_solids_and_holes'
+          union() {
+            // 'y'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="y", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'z'
+        multmatrix(m=[[0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'z : _combine_solids_and_holes'
+          union() {
+            // 'z'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="z", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'label'
+        multmatrix(m=[[0.7071067811865475, -0.7071067811865475, 0.0, 3.181980515339464], [0.7071067811865475, 0.7071067811865475, 0.0, 1.0606601717798212], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'label'
+          color(c=[0.0, 1.0, 0.5, 1.0]) {
+            // 'label : _combine_solids_and_holes'
+            union() {
+              // 'label'
+              linear_extrude(height=1.0) {
+                translate(v=[0.0, 0.0, -0.5]) {
+                  text(text="'curve', 0.8, 40, ", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    // "'curve', 0.9, 40, "
+    multmatrix(m=[[-0.6427876096865393, -0.6424589281820294, 0.417217706278944, 17.002824595489436], [0.766044443118978, -0.5390870496840914, 0.3500872234592926, 14.26706384704717], [0.0, 0.5446390350150271, 0.838670567945424, 92.52651986551061], [0.0, 0.0, 0.0, 1.0]]) {
+      // "'curve', 0.9, 40,  : _combine_solids_and_holes"
+      union() {
+        // 'coords : _combine_solids_and_holes'
+        union() {
+          // 'x_arrow'
+          multmatrix(m=[[0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'x_arrow'
+            color(c=[1.0, 0.0, 0.0, 1.0]) {
+              // 'x_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'y_arrow'
+          multmatrix(m=[[-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'y_arrow'
+            color(c=[0.0, 0.5019607843137255, 0.0, 1.0]) {
+              // 'y_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'z_arrow'
+          multmatrix(m=[[0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'z_arrow'
+            color(c=[0.0, 0.0, 1.0, 1.0]) {
+              // 'z_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+        }
+        // 'x'
+        multmatrix(m=[[1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'x : _combine_solids_and_holes'
+          union() {
+            // 'x'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="x", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'y'
+        multmatrix(m=[[0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'y : _combine_solids_and_holes'
+          union() {
+            // 'y'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="y", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'z'
+        multmatrix(m=[[0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'z : _combine_solids_and_holes'
+          union() {
+            // 'z'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="z", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'label'
+        multmatrix(m=[[0.7071067811865475, -0.7071067811865475, 0.0, 3.181980515339464], [0.7071067811865475, 0.7071067811865475, 0.0, 1.0606601717798212], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'label'
+          color(c=[0.0, 1.0, 0.5, 1.0]) {
+            // 'label : _combine_solids_and_holes'
+            union() {
+              // 'label'
+              linear_extrude(height=1.0) {
+                translate(v=[0.0, 0.0, -0.5]) {
+                  text(text="'curve', 0.9, 40, ", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    // "'curve', 1, 70, "
+    multmatrix(m=[[-0.9396926207859083, -0.29619813272602397, 0.17101007166283438, 3.4202014332566932], [0.3420201433256688, -0.8137976813493737, 0.46984631039295405, 9.396926207859096], [0.0, 0.4999999999999999, 0.8660254037844387, 100.0], [0.0, 0.0, 0.0, 1.0]]) {
+      // "'curve', 1, 70,  : _combine_solids_and_holes"
+      union() {
+        // 'coords : _combine_solids_and_holes'
+        union() {
+          // 'x_arrow'
+          multmatrix(m=[[0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'x_arrow'
+            color(c=[1.0, 0.0, 0.0, 1.0]) {
+              // 'x_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'y_arrow'
+          multmatrix(m=[[-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'y_arrow'
+            color(c=[0.0, 0.5019607843137255, 0.0, 1.0]) {
+              // 'y_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'z_arrow'
+          multmatrix(m=[[0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'z_arrow'
+            color(c=[0.0, 0.0, 1.0, 1.0]) {
+              // 'z_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+        }
+        // 'x'
+        multmatrix(m=[[1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'x : _combine_solids_and_holes'
+          union() {
+            // 'x'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="x", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'y'
+        multmatrix(m=[[0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'y : _combine_solids_and_holes'
+          union() {
+            // 'y'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="y", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'z'
+        multmatrix(m=[[0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'z : _combine_solids_and_holes'
+          union() {
+            // 'z'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="z", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'label'
+        multmatrix(m=[[0.7071067811865475, -0.7071067811865475, 0.0, 3.181980515339464], [0.7071067811865475, 0.7071067811865475, 0.0, 1.0606601717798212], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'label'
+          color(c=[0.0, 1.0, 0.5, 1.0]) {
+            // 'label : _combine_solids_and_holes'
+            union() {
+              // 'label'
+              linear_extrude(height=1.0) {
+                translate(v=[0.0, 0.0, -0.5]) {
+                  text(text="'curve', 1, 70, ", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    // "'linear2', 0.1, 0.9, "
+    multmatrix(m=[[-0.015707317311820675, -0.9998766324816606, 0.0, 8.998889692334945], [0.9998766324816606, -0.015707317311820675, 0.0, 0.14136585580638608], [0.0, 0.0, 1.0, 100.0], [0.0, 0.0, 0.0, 1.0]]) {
+      // "'linear2', 0.1, 0.9,  : _combine_solids_and_holes"
+      union() {
+        // 'coords : _combine_solids_and_holes'
+        union() {
+          // 'x_arrow'
+          multmatrix(m=[[0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'x_arrow'
+            color(c=[1.0, 0.0, 0.0, 1.0]) {
+              // 'x_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'y_arrow'
+          multmatrix(m=[[-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'y_arrow'
+            color(c=[0.0, 0.5019607843137255, 0.0, 1.0]) {
+              // 'y_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'z_arrow'
+          multmatrix(m=[[0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'z_arrow'
+            color(c=[0.0, 0.0, 1.0, 1.0]) {
+              // 'z_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+        }
+        // 'x'
+        multmatrix(m=[[1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'x : _combine_solids_and_holes'
+          union() {
+            // 'x'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="x", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'y'
+        multmatrix(m=[[0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'y : _combine_solids_and_holes'
+          union() {
+            // 'y'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="y", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'z'
+        multmatrix(m=[[0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'z : _combine_solids_and_holes'
+          union() {
+            // 'z'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="z", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'label'
+        multmatrix(m=[[0.7071067811865475, -0.7071067811865475, 0.0, 3.181980515339464], [0.7071067811865475, 0.7071067811865475, 0.0, 1.0606601717798212], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'label'
+          color(c=[0.0, 1.0, 0.5, 1.0]) {
+            // 'label : _combine_solids_and_holes'
+            union() {
+              // 'label'
+              linear_extrude(height=1.0) {
+                translate(v=[0.0, 0.0, -0.5]) {
+                  text(text="'linear2', 0.1, 0.9, ", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    // "'linear2', 0.5, 0.9, "
+    multmatrix(m=[[-0.015707317311820675, -0.9998766324816606, 0.0, 4.999383162408303], [0.9998766324816606, -0.015707317311820675, 0.0, 0.07853658655910338], [0.0, 0.0, 1.0, 100.0], [0.0, 0.0, 0.0, 1.0]]) {
+      // "'linear2', 0.5, 0.9,  : _combine_solids_and_holes"
+      union() {
+        // 'coords : _combine_solids_and_holes'
+        union() {
+          // 'x_arrow'
+          multmatrix(m=[[0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'x_arrow'
+            color(c=[1.0, 0.0, 0.0, 1.0]) {
+              // 'x_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'y_arrow'
+          multmatrix(m=[[-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'y_arrow'
+            color(c=[0.0, 0.5019607843137255, 0.0, 1.0]) {
+              // 'y_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'z_arrow'
+          multmatrix(m=[[0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'z_arrow'
+            color(c=[0.0, 0.0, 1.0, 1.0]) {
+              // 'z_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+        }
+        // 'x'
+        multmatrix(m=[[1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'x : _combine_solids_and_holes'
+          union() {
+            // 'x'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="x", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'y'
+        multmatrix(m=[[0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'y : _combine_solids_and_holes'
+          union() {
+            // 'y'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="y", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'z'
+        multmatrix(m=[[0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'z : _combine_solids_and_holes'
+          union() {
+            // 'z'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="z", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'label'
+        multmatrix(m=[[0.7071067811865475, -0.7071067811865475, 0.0, 3.181980515339464], [0.7071067811865475, 0.7071067811865475, 0.0, 1.0606601717798212], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'label'
+          color(c=[0.0, 1.0, 0.5, 1.0]) {
+            // 'label : _combine_solids_and_holes'
+            union() {
+              // 'label'
+              linear_extrude(height=1.0) {
+                translate(v=[0.0, 0.0, -0.5]) {
+                  text(text="'linear2', 0.5, 0.9, ", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    // "'linear2', 1.0, 0.9, "
+    multmatrix(m=[[-0.015707317311820675, -0.9998766324816606, 0.0, 0.0], [0.9998766324816606, -0.015707317311820675, 0.0, 0.0], [0.0, 0.0, 1.0, 100.0], [0.0, 0.0, 0.0, 1.0]]) {
+      // "'linear2', 1.0, 0.9,  : _combine_solids_and_holes"
+      union() {
+        // 'coords : _combine_solids_and_holes'
+        union() {
+          // 'x_arrow'
+          multmatrix(m=[[0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'x_arrow'
+            color(c=[1.0, 0.0, 0.0, 1.0]) {
+              // 'x_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'y_arrow'
+          multmatrix(m=[[-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'y_arrow'
+            color(c=[0.0, 0.5019607843137255, 0.0, 1.0]) {
+              // 'y_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'z_arrow'
+          multmatrix(m=[[0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'z_arrow'
+            color(c=[0.0, 0.0, 1.0, 1.0]) {
+              // 'z_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+        }
+        // 'x'
+        multmatrix(m=[[1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'x : _combine_solids_and_holes'
+          union() {
+            // 'x'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="x", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'y'
+        multmatrix(m=[[0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'y : _combine_solids_and_holes'
+          union() {
+            // 'y'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="y", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'z'
+        multmatrix(m=[[0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'z : _combine_solids_and_holes'
+          union() {
+            // 'z'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="z", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'label'
+        multmatrix(m=[[0.7071067811865475, -0.7071067811865475, 0.0, 3.181980515339464], [0.7071067811865475, 0.7071067811865475, 0.0, 1.0606601717798212], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'label'
+          color(c=[0.0, 1.0, 0.5, 1.0]) {
+            // 'label : _combine_solids_and_holes'
+            union() {
+              // 'label'
+              linear_extrude(height=1.0) {
+                translate(v=[0.0, 0.0, -0.5]) {
+                  text(text="'linear2', 1.0, 0.9, ", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    // "'centre_of', 'curve', 0, "
+    multmatrix(m=[[0.8660254037844387, -0.49999999999999983, 0.0, -126.60254037844378], [0.0, 0.0, -1.0, 0.0], [0.49999999999999983, 0.8660254037844387, 0.0, -136.6025403784438], [0.0, 0.0, 0.0, 1.0]]) {
+      // "'centre_of', 'curve', 0,  : _combine_solids_and_holes"
+      union() {
+        // 'coords : _combine_solids_and_holes'
+        union() {
+          // 'x_arrow'
+          multmatrix(m=[[0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'x_arrow'
+            color(c=[1.0, 0.0, 0.0, 1.0]) {
+              // 'x_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'y_arrow'
+          multmatrix(m=[[-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'y_arrow'
+            color(c=[0.0, 0.5019607843137255, 0.0, 1.0]) {
+              // 'y_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'z_arrow'
+          multmatrix(m=[[0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'z_arrow'
+            color(c=[0.0, 0.0, 1.0, 1.0]) {
+              // 'z_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+        }
+        // 'x'
+        multmatrix(m=[[1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'x : _combine_solids_and_holes'
+          union() {
+            // 'x'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="x", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'y'
+        multmatrix(m=[[0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'y : _combine_solids_and_holes'
+          union() {
+            // 'y'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="y", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'z'
+        multmatrix(m=[[0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'z : _combine_solids_and_holes'
+          union() {
+            // 'z'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="z", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'label'
+        multmatrix(m=[[0.7071067811865475, -0.7071067811865475, 0.0, 3.181980515339464], [0.7071067811865475, 0.7071067811865475, 0.0, 1.0606601717798212], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'label'
+          color(c=[0.0, 1.0, 0.5, 1.0]) {
+            // 'label : _combine_solids_and_holes'
+            union() {
+              // 'label'
+              linear_extrude(height=1.0) {
+                translate(v=[0.0, 0.0, -0.5]) {
+                  text(text="'centre_of', 'curve', 0, ", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+} // end module default_5_anchor_5_non_physical_non_physical
+
+// 'PartMaterial undef-default - default 5.0'
+module default_5_default_5() {
+  // 'None : _combine_solids_and_holes'
+  union() {
+    // 'default : _combine_solids_and_holes'
+    union() {
+      // 'default'
+      polyhedron(points=[[0.0, 0.0, 0.0], [110.0, 0.0, 0.0], [109.10087721436271, 0.0, 1.5456231506041433], [108.19165767879765, 0.0, 3.0853284936754903], [107.27238034124353, 0.0, 4.619050073361677], [106.34308458048194, 0.0, 6.146722190134881], [105.40381020445041, 0.0, 7.668279403606022], [104.45459744853692, 0.0, 9.18365653532831], [103.49548697385684, 0.0, 10.692788671588943], [102.52651986551062, 0.0, 12.19561116619002], [101.54773763082433, 0.0, 13.692059643217561], [100.55918219757119, 0.0, 15.182069999799467], [99.56089591217578, 0.0, 16.66557840885119], [98.55292153790008, 0.0, 18.142521321809966], [97.53530225301138, 0.0, 19.612835471357045], [96.50808164893301, 0.0, 21.07645787412787], [95.47130372837684, 0.0, 22.533325833410004], [94.42501290345827, 0.0, 23.98337694182888], [93.36925399379389, 0.0, 25.426549084021218], [92.30407222458156, 0.0, 26.86278043929562], [91.22951322466314, 0.0, 28.29200948428104], [90.14562302456973, 0.0, 29.71417499556202], [89.05244805454994, 0.0, 31.129216052301388], [87.95003514258129, 0.0, 32.537072038849914], [86.83843151236373, 0.0, 33.93768264734277], [85.71768478129705, 0.0, 35.330987880283146], [84.5878429584411, 0.0, 36.7169280531121], [83.4489544424592, 0.0, 38.095443796765494], [82.30106801954476, 0.0, 39.46647606021682], [81.14423286133179, 0.0, 40.82996611300709], [79.9784985227882, 0.0, 42.1858555477605], [78.8039149400931, 0.0, 43.53408628268642], [77.62053242849795, 0.0, 44.87460056406741], [76.42840168017092, 0.0, 46.207340968733234], [75.22757376202547, 0.0, 47.53225040652072], [74.0181001135331, 0.0, 48.84927212271907], [72.80003254451931, 0.0, 50.158349700501475], [71.57342323294488, 0.0, 51.459427063341366], [70.33832472267007, 0.0, 52.7524484774149], [69.09478992120448, 0.0, 54.037358553988184], [67.8428720974401, 0.0, 55.31410225179005], [66.58262487936982, 0.0, 56.5826248793698], [65.31410225179006, 0.0, 57.84287209744008], [64.0373585539882, 0.0, 59.09478992120444], [62.752448477414916, 0.0, 60.33832472267005], [61.45942706334138, 0.0, 61.57342323294483], [60.15834970050152, 0.0, 62.8000325445193], [58.849272122719114, 0.0, 64.01810011353308], [57.53225040652073, 0.0, 65.22757376202546], [56.20734096873328, 0.0, 66.42840168017088], [54.87460056406742, 0.0, 67.62053242849794], [53.53408628268643, 0.0, 68.80391494009308], [52.18585554776054, 0.0, 69.97849852278816], [50.8299661130071, 0.0, 71.14423286133177], [49.466476060216834, 0.0, 72.30106801954474], [48.09544379676551, 0.0, 73.44895444245918], [46.71692805311217, 0.0, 74.58784295844109], [45.33098788028319, 0.0, 75.71768478129704], [43.93768264734278, 0.0, 76.83843151236368], [42.53707203884993, 0.0, 77.95003514258127], [41.1292160523014, 0.0, 79.05244805454993], [39.71417499556206, 0.0, 80.14562302456966], [38.29200948428105, 0.0, 81.22951322466312], [36.86278043929563, 0.0, 82.3040722245816], [35.42654908402123, 0.0, 83.36925399379388], [33.983376941828894, 0.0, 84.42501290345825], [32.53332583341002, 0.0, 85.47130372837682], [31.07645787412791, 0.0, 86.508081648933], [29.612835471357087, 0.0, 87.53530225301137], [28.14252132180998, 0.0, 88.55292153790003], [26.665578408851204, 0.0, 89.56089591217577], [25.18206999979951, 0.0, 90.55918219757115], [23.692059643217632, 0.0, 91.54773763082429], [22.195611166190062, 0.0, 92.52651986551061], [20.692788671588985, 0.0, 93.49548697385683], [19.183656535328325, 0.0, 94.4545974485369], [17.668279403606064, 0.0, 95.4038102044504], [16.146722190134923, 0.0, 96.3430845804819], [14.61905007336172, 0.0, 97.27238034124349], [13.085328493675533, 0.0, 98.19165767879761], [11.545623150604186, 0.0, 99.1008772143627], [10.000000000000014, 0.0, 100.0], [0.0, 0.0, 100.0], [0.0, 0.0, 0.0], [109.64330389476311, 8.851322558839847, 0.0], [108.74709668726915, 8.778973233424589, 1.5456231506041433], [107.84082547049628, 8.705811457187455, 3.0853284936754903], [106.92452906608706, 8.631840364135426, 4.619050073361677], [105.9982467251298, 8.557063122943942, 6.146722190134881], [105.06201812647717, 8.481482936821141, 7.668279403606022], [104.11588337504618, 8.405103043370636, 9.18365653532831], [103.15988300010075, 8.32792671445286, 10.692788671588943], [102.19405795351497, 8.24995725604487, 12.19561116619002], [101.21844960801948, 8.171198008098775, 13.692059643217561], [100.23309975542864, 8.09165234439862, 15.182069999799467], [99.23805060485061, 8.011323672415886, 16.66557840885119], [98.23334478087929, 7.93021543316353, 18.142521321809966], [97.21902532176817, 7.848331101048569, 19.612835471357045], [96.19513567758703, 7.7656741837232595, 21.07645787412787], [95.16171970836047, 7.6822482219348425, 22.533325833410004], [94.11882168218911, 7.598056789373852, 23.98337694182888], [93.06648627335333, 7.513103492521048, 25.426549084021218], [92.00475856039962, 7.427391970492921, 26.86278043929562], [90.93368402420954, 7.3409258948858085, 28.29200948428104], [89.8533085460514, 7.253708969618606, 29.71417499556202], [88.76367840561477, 7.165744930774104, 31.129216052301388], [87.6648402790285, 7.077037546438973, 32.537072038849914], [86.55684123686062, 6.98759061654231, 33.93768264734277], [85.43972874210239, 6.897407972692887, 35.330987880283146], [84.31355064813505, 6.8064934780150175, 36.7169280531121], [83.17835519667996, 6.71485102698307, 38.095443796765494], [82.03419101573195, 6.622484545254628, 39.46647606021682], [80.88110711747657, 6.52939798950236, 40.82996611300709], [79.71915289619027, 6.435595347244496, 42.1858555477605], [78.54837812612445, 6.341080636674022, 43.53408628268642], [77.36883295937378, 6.24585790648658, 44.87460056406741], [76.18056792372731, 6.149931235707001, 46.207340968733234], [74.98363392050423, 6.053304733514587, 47.53225040652072], [73.77808222237371, 5.955982539067106, 48.84927212271907], [72.56396447115796, 5.8579688213234435, 50.158349700501475], [71.34133267562066, 5.7592677788650635, 51.459427063341366], [70.11023920923857, 5.659883639716109, 52.7524484774149], [68.87073680795852, 5.559820661162338, 54.037358553988184], [67.62287856793789, 5.4590831295687074, 55.31410225179005], [66.36671794327054, 5.357675360195794, 56.5826248793698], [65.10230874369681, 5.255601697014925, 57.84287209744008], [63.82970513229851, 5.152866512522105, 59.09478992120444], [62.5489616231788, 5.049474207550707, 60.33832472267005], [61.26013307912697, 4.945429211082961, 61.57342323294483], [59.963274709268354, 4.840735980060231, 62.8000325445193], [58.658442066699116, 4.735398999192078, 64.01810011353308], [57.345691046106914, 4.62942278076418, 65.22757376202546], [56.02507788137628, 4.522811864445018, 66.42840168017088], [54.69665914317984, 4.415570817091416, 67.62053242849794], [53.36049173655507, 4.307704232552919, 68.80391494009308], [52.016632898466526, 4.199216731475004, 69.97849852278816], [50.66514019535408, 4.090112961101133, 71.14423286133177], [49.306071520667075, 3.9803975950737134, 72.30106801954474], [47.93948509238418, 3.870075333233859, 73.44895444245918], [46.56543945051965, 3.7591509014200892, 74.58784295844109], [45.183993454615575, 3.647629051265875, 75.71768478129704], [43.79520628122059, 3.535514559996102, 76.83843151236368], [42.39913742135503, 3.4228122302224366, 77.95003514258127], [40.995846677962284, 3.3095268897375756, 79.05244805454993], [39.585394163347395, 3.195663391308471, 80.14562302456966], [38.167840296601625, 3.0812266124684204, 81.22951322466312], [36.74324580101473, 2.9662214553081605, 82.3040722245816], [35.311671701473465, 2.8506528462658567, 83.36925399379388], [33.87317932184755, 2.734525735916072, 84.42501290345825], [32.427830282362926, 2.61784509875772, 85.47130372837682], [30.975686496961913, 2.5006159330009505, 86.508081648933], [29.51681017065114, 2.3828432603530527, 87.53530225301137], [28.051263796836928, 2.264532125803346, 88.55292153790003], [26.579110154648237, 2.145687597407067, 89.56089591217577], [25.100412306247406, 2.0263147660682685, 90.55918219757115], [23.61523359412876, 1.9064187453217396, 91.54773763082429], [22.12363763840522, 1.7860046711139608, 92.52651986551061], [20.62568833408311, 1.6650777015831018, 93.49548697385683], [19.121449848325106, 1.5436430168380642, 94.4545974485369], [17.610986617701485, 1.4217058187365799, 95.4038102044504], [16.0943633454298, 1.2992713306623744, 96.3430845804819], [14.571644998603254, 1.1763447973014174, 97.27238034124349], [13.042896805407901, 1.0529314844172735, 98.19165767879761], [11.508184252328245, 0.9290366786255129, 99.1008772143627], [9.967573081342115, 0.80466568716726, 100.0], [0.0, 0.0, 100.0], [0.0, 0.0, 0.0], [108.57552889017042, 17.645240894353623, 0.0], [107.6880495084634, 17.50101145666115, 1.5456231506041433], [106.79060412708839, 17.35516238638026, 3.0853284936754903], [105.88323118961851, 17.20769993119969, 4.619050073361677], [104.96596956489049, 17.058630407920237, 6.146722190134881], [104.0388585453395, 16.907960202184146, 7.668279403606022], [103.10193784531582, 16.755695768201537, 9.18365653532831], [102.15524759938408, 16.601843628474015, 10.692788671588943], [101.19882836060344, 16.446410373515157, 12.19561116619002], [100.23272109879102, 16.289402661568307, 13.692059643217561], [99.25696719876638, 16.130827218321272, 15.182069999799467], [98.27160845857901, 15.97069083661826, 16.66557840885119], [97.27668708771789, 15.809000376168894, 18.142521321809966], [96.27224570530309, 15.645762763254341, 19.612835471357045], [95.25832733826047, 15.480984990430649, 21.07645787412787], [94.2349754194783, 15.314674116229186, 22.533325833410004], [93.20223378594679, 15.146837264854277, 23.98337694182888], [92.16014667688025, 14.97748162587802, 25.426549084021218], [91.1087587318221, 14.806614453932337, 26.86278043929562], [90.04811498873269, 14.634243068398188, 28.29200948428104], [88.97826088205983, 14.46037485309203, 29.71417499556202], [87.89924224079262, 14.285017255949512, 31.129216052301388], [86.81110528649852, 14.108177788706488, 32.537072038849914], [85.71389663134302, 13.929864026577153, 33.93768264734277], [84.60766327609308, 13.7500836079296, 35.330987880283146], [83.49245260810382, 13.56884423395861, 36.7169280531121], [82.36831239928857, 13.386153668355758, 38.095443796765494], [81.23529080407238, 13.20201973697682, 39.46647606021682], [80.0934363573295, 13.01645032750659, 40.82996611300709], [78.94279797230402, 12.829453389120939, 42.1858555477605], [77.78342493851463, 12.641036932146319, 43.53408628268642], [76.61536691964353, 12.45120902771667, 44.87460056406741], [75.4386739514086, 12.25997780742761, 46.207340968733234], [74.2533964394202, 12.06735146298814, 47.53225040652072], [73.05958515702217, 11.873338245869771, 48.84927212271907], [71.85729124311639, 11.677946466952971, 50.158349700501475], [70.64656619997274, 11.481184496171261, 51.459427063341366], [69.42746189102229, 11.283060762152568, 52.7524484774149], [68.2000305386363, 11.08358375185827, 54.037358553988184], [66.96432472188857, 10.882762010219567, 55.31410225179005], [65.7203973743036, 10.680604139771484, 56.5826248793698], [64.46830178158888, 10.477118800284364, 57.84287209744008], [63.20809157935225, 10.272314708392894, 59.09478992120444], [61.939820750804486, 10.066200637222732, 60.33832472267005], [60.66354362444676, 9.858785416014683, 61.57342323294483], [59.379314871743425, 9.650077929746503, 62.8000325445193], [58.08718950477991, 9.440087118752254, 64.01810011353308], [56.78722287390646, 9.228821978339386, 65.22757376202546], [55.4794706653669, 9.016291558403365, 66.42840168017088], [54.16398889891331, 8.802504963040025, 67.62053242849794], [52.84083392540633, 8.587471350155582, 68.80391494009308], [51.51006242440122, 8.37119993107432, 69.97849852278816], [50.17173140171987, 8.153699970144016, 71.14423286133177], [48.82589818700905, 7.934980784339115, 72.30106801954474], [47.47262043128437, 7.715051742861573, 73.44895444245918], [46.111956104460845, 7.4939222667395535, 74.58784295844109], [44.74396349286957, 7.271601828423831, 75.71768478129704], [43.36870119676096, 7.04809995138204, 76.83843151236368], [41.98622812779464, 6.8234262096907345, 77.95003514258127], [40.59660350651556, 6.59759022762522, 79.05244805454993], [39.19988685981756, 6.370601679247343, 80.14562302456966], [37.796138018393066, 6.142470287991026, 81.22951322466312], [36.38541711417047, 5.913205826245801, 82.3040722245816], [34.967784577738065, 5.682818114938158, 83.36925399379388], [33.5433011357554, 5.451317023110847, 84.42501290345825], [32.11202780835215, 5.21871246750016, 85.47130372837682], [30.67402590651399, 4.985014412111086, 86.508081648933], [29.229357029456313, 4.750232867790506, 87.53530225301137], [27.7780830619856, 4.5143778917983655, 88.55292153790003], [26.320266171848438, 4.277459587376857, 89.56089591217577], [24.85596880706841, 4.039488103317617, 90.55918219757115], [23.38525369327106, 3.8004736335269897, 91.54773763082429], [21.90818383099689, 3.560426416589353, 92.52651986551061], [20.424822493002736, 3.31935673532854, 93.49548697385683], [18.935233221551336, 3.077274916367359, 94.4545974485369], [17.439479825689393, 2.8341913296852326, 95.4038102044504], [15.937626378514091, 2.5901163881739624, 96.3430845804819], [14.429737214428485, 2.3450605471916868, 97.27238034124349], [12.915876926385799, 2.099034304115038, 98.19165767879761], [11.39611036312223, 1.8520481978894263, 99.1008772143627], [9.870502626379142, 1.6041128085776044, 100.0], [0.0, 0.0, 100.0], [0.0, 0.0, 0.0], [106.80359991686572, 26.32472307163135, 0.0], [105.93060400528988, 26.109548904910483, 1.5456231506041433], [105.04780473698906, 25.891958427773506, 3.0853284936754903], [104.15523992814569, 25.671960961072244, 4.619050073361677], [103.25294781326551, 25.449565928765974, 6.146722190134881], [102.34096704353972, 25.224782857517706, 7.668279403606022], [101.4193366851891, 24.997621376286045, 9.18365653532831], [100.48809621779085, 24.76809121591283, 10.692788671588943], [99.54728553258711, 24.53620220870616, 12.19561116619002], [98.59694493077647, 24.30196428801935, 13.692059643217561], [97.63711512178726, 24.065387487825298, 15.182069999799467], [96.66783722153394, 23.82648194228674, 16.66557840885119], [95.68915275065581, 23.585257885322115, 18.142521321809966], [94.70110363273818, 23.341725650167145, 19.612835471357045], [93.70373219251684, 23.095895668932265, 21.07645787412787], [92.69708115406482, 22.847778472155692, 22.533325833410004], [91.68119363896218, 22.597384688352328, 23.98337694182888], [90.65611316444891, 22.344725043558487, 25.426549084021218], [89.62188364156079, 22.089810360872445, 26.86278043929562], [88.57854937324848, 21.832651559990794, 28.29200948428104], [87.5261550524795, 21.573259656740664, 29.71417499556202], [86.46474576032381, 21.31164576260785, 31.129216052301388], [85.39436696402302, 21.04782108426089, 32.537072038849914], [84.31506451504218, 20.781796923070914, 33.93768264734277], [83.226884647106, 20.513584674627584, 35.330987880283146], [82.12987397421828, 20.243195828250947, 36.7169280531121], [81.02407948866515, 19.970641966499265, 38.095443796765494], [79.90954855900192, 19.695934764672828, 39.46647606021682], [78.78632892802426, 19.41908599031389, 40.82996611300709], [77.6544687107228, 19.140107502702513, 42.1858555477605], [76.514016392222, 18.859011252348573, 43.53408628268642], [75.36502082570361, 18.575809280479906, 44.87460056406741], [74.20753123031348, 18.290513718526398, 46.207340968733234], [73.04159718905339, 18.003136787600376, 47.53225040652072], [71.8672686466573, 17.713690797973126, 48.84927212271907], [70.68459590745131, 17.422188148547463, 50.158349700501475], [69.49362963319952, 17.128641326326722, 51.459427063341366], [68.29442084093309, 16.833062905879732, 52.7524484774149], [67.08702090076554, 16.5354655488023, 54.037358553988184], [65.87148153369168, 16.23586200317469, 55.31410225179005], [64.64785480937239, 15.934265103015656, 56.5826248793698], [63.41619314390404, 15.63068776773261, 57.84287209744008], [62.17654929757304, 15.325143001568204, 59.09478992120444], [60.928976372595926, 15.017643893043292, 60.33832472267005], [59.67352781084457, 14.708203614396247, 61.57342323294483], [58.41025739155693, 14.396835421018721, 62.8000325445193], [57.139219229033195, 14.083552650887778, 64.01810011353308], [55.86046777031796, 13.768368723994623, 65.22757376202546], [54.57405779286768, 13.451297141769663, 66.42840168017088], [53.28004440220428, 13.132351486504186, 67.62053242849794], [51.978483029554646, 12.811545420768535, 68.80391494009308], [50.66942942947604, 12.488892686826844, 69.97849852278816], [49.35293967746775, 12.164407106048344, 71.14423286133177], [48.02907016756922, 11.838102578315363, 72.30106801954474], [46.697877609944044, 11.509993081427835, 73.44895444245918], [45.359419028450844, 11.18009267050458, 74.58784295844109], [44.0137517582005, 10.8484154773812, 75.71768478129704], [42.66093344310011, 10.514975710004737, 76.83843151236368], [41.30102203338385, 10.179787651825068, 77.95003514258127], [39.934075783130275, 9.842865661182993, 79.05244805454993], [38.560153247767296, 9.50422417069525, 80.14562302456966], [37.179313281563466, 9.163877686636182, 81.22951322466312], [35.79161503510722, 8.821840788316424, 82.3040722245816], [34.39711795277282, 8.47812812745831, 83.36925399379388], [32.99588177017394, 8.132754427568255, 84.42501290345825], [31.58796651160505, 7.785734483306081, 85.47130372837682], [30.1734324874699, 7.437083159851225, 86.508081648933], [28.75234029169811, 7.086815392265974, 87.53530225301137], [27.3247507991496, 6.734946184855713, 88.55292153790003], [25.89072516300688, 6.381490610526183, 89.56089591217577], [24.450324812155397, 6.026463810137798, 90.55918219757115], [23.00361144855215, 5.669880991857066, 91.54773763082429], [21.550647044582554, 5.311757430505109, 92.52651986551061], [20.091493840405832, 4.9521084669033675, 93.49548697385683], [18.626214341288843, 4.590949507216447, 94.4545974485369], [17.154871314928553, 4.2282960222921595, 95.4038102044504], [15.677527788763166, 3.8641635469987885, 96.3430845804819], [14.194247047272288, 3.49856767955963, 97.27238034124349], [12.705092629266225, 3.1315240808848674, 98.19165767879761], [11.210128325163929, 2.7630484739006462, 99.1008772143627], [9.709418174260534, 2.3931566428755806, 100.0], [0.0, 0.0, 100.0], [0.0, 0.0, 0.0], [104.339008614186, 34.83347931816197, 0.0], [103.486157886224, 34.54875590945302, 1.5456231506041433], [102.62373002301028, 34.26083518320053, 3.0853284936754903], [101.75176196808405, 33.96972947297011, 4.619050073361677], [100.8702910736547, 33.67545124876152, 6.146722190134881], [99.97935509900161, 33.378013116474484, 7.668279403606022], [99.07899220885659, 33.077427817368594, 9.18365653532831], [98.16924097176931, 32.77370822751767, 10.692788671588943], [97.25014035845477, 32.46686735725806, 12.19561116619002], [96.32172974012437, 32.156918350631436, 13.692059643217561], [95.38404888679891, 31.843874484821615, 15.182069999799467], [94.43713796560532, 31.527749169585928, 16.66557840885119], [93.48103753905593, 31.208555946680747, 18.142521321809966], [92.51578856331082, 30.88630848928135, 19.612835471357045], [91.54143238642352, 30.56102060139632, 21.07645787412787], [90.5580107465698, 30.23270621727613, 22.533325833410004], [89.56556577025961, 29.901379400816282, 23.98337694182888], [88.56413997053257, 29.567054344954833, 25.426549084021218], [87.55377624513693, 29.22974537106446, 26.86278043929562], [86.53451787469203, 28.88946692833898, 28.29200948428104], [85.50640852083404, 28.54623359317432, 29.71417499556202], [84.4694922243458, 28.200060068544172, 31.129216052301388], [83.42381340327046, 27.850961183370217, 32.537072038849914], [82.36941685100837, 27.49895189188679, 33.93768264734277], [81.30634773439849, 27.144047273000346, 35.330987880283146], [80.23465159178363, 26.786262529643555, 36.7169280531121], [79.15437433105969, 26.42561298812403, 38.095443796765494], [78.065562227709, 26.062114097467763, 39.46647606021682], [76.9682619228183, 25.695781428757453, 40.82996611300709], [75.86252042108055, 25.32663067446537, 42.1858555477605], [74.7483850887814, 24.954677647781164, 43.53408628268642], [73.62590365177047, 24.579938281934584, 44.87460056406741], [72.49512419341656, 24.202428629512813, 46.207340968733234], [71.35609515254808, 23.822164861772897, 47.53225040652072], [70.20886532137828, 23.439163267949066, 48.84927212271907], [69.05348384341474, 23.053440254554836, 50.158349700501475], [67.89000021135469, 22.665012344680353, 51.459427063341366], [66.7184642649644, 22.273896177284442, 52.7524484774149], [65.53892618894479, 21.880108506482024, 54.037358553988184], [64.3514365107811, 21.48366620082625, 55.31410225179005], [63.15604609857893, 21.08458624258605, 56.5826248793698], [61.95280615888499, 20.682885727018594, 57.84287209744008], [60.74176823449357, 20.278581861637004, 59.09478992120444], [59.52298420223871, 19.871691965473246, 60.33832472267005], [58.296506270771935, 19.462233468336237, 61.57342323294483], [57.06238697832583, 19.050223910065228, 62.8000325445193], [55.82067919046332, 18.635680939778382, 64.01810011353308], [54.57143609781339, 18.21862231511687, 65.22757376202546], [53.314711213792286, 17.79906590148408, 66.42840168017088], [52.050558372311336, 17.37702967128038, 67.62053242849794], [50.77903172547087, 16.95253170313324, 68.80391494009308], [49.500185741240486, 16.525590181122773, 69.97849852278816], [48.21407520112573, 16.096223394002788, 71.14423286133177], [46.92075519782173, 15.664449734417431, 72.30106801954474], [45.62028113285287, 15.230287698113209, 73.44895444245918], [44.31270871419981, 14.79375588314676, 74.58784295844109], [42.99809395391299, 14.354872989088141, 75.71768478129704], [41.67649316571336, 13.913657816219809, 76.83843151236368], [40.34796296258012, 13.470129264731318, 77.95003514258127], [39.01256025432539, 13.024306333909603, 79.05244805454993], [37.67034224515673, 12.57620812132524, 80.14562302456966], [36.3213664312263, 12.125853822014237, 81.22951322466312], [34.965690598168315, 11.67326272765591, 82.3040722245816], [33.603372818623406, 11.218454225746395, 83.36925399379388], [32.23447144975105, 10.761447798768176, 84.42501290345825], [30.85904513072989, 10.302263023355568, 85.47130372837682], [29.477152780245643, 9.840919569456059, 86.508081648933], [28.088853593967272, 9.37743719948773, 87.53530225301137], [26.694207042011318, 8.91183576749273, 88.55292153790003], [25.293272866394346, 8.444135218286771, 89.56089591217577], [23.886111078473782, 7.974355586604757, 90.55918219757115], [22.47278195637721, 7.502516996242558, 91.54773763082429], [21.053346042420255, 7.028639659194968, 92.52651986551061], [19.627864140513214, 6.552743874789921, 93.49548697385683], [18.196397313556435, 6.074850028818927, 94.4545974485369], [16.75900688082453, 5.594978592663809, 95.4038102044504], [15.315754415339601, 5.113150122419744, 96.3430845804819], [13.866701741233681, 4.629385258014725, 97.27238034124349], [12.411910931100591, 4.143704722325475, 98.19165767879761], [10.951444303336686, 3.6561293202896636, 99.1008772143627], [9.485364419471468, 3.1666799380147292, 100.0], [0.0, 0.0, 100.0], [0.0, 0.0, 0.0], [101.19773880247067, 43.11632708460825, 0.0], [100.3705643223591, 42.76390097447406, 1.5456231506041433], [99.53410103986623, 42.40751727550007, 3.0853284936754903], [98.68838478629502, 42.047191253977786, 4.619050073361677], [97.83345178931506, 41.682938345074724, 6.146722190134881], [96.96933867141058, 41.31477415217321, 7.668279403606022], [96.09608244831144, 40.94271444620186, 9.18365653532831], [95.2137205274079, 40.56677516496022, 10.692788671588943], [94.32229070614785, 40.186972412435836, 12.19561116619002], [93.42183117041802, 39.80332245811458, 13.692059643217561], [92.51238049290788, 39.41584173628359, 15.182069999799467], [91.59397763145758, 39.02454684532734, 16.66557840885119], [90.66666192738907, 38.629454547016664, 18.142521321809966], [89.73047310382067, 38.23058176579061, 19.612835471357045], [88.78545126396578, 37.8279455880316, 21.07645787412787], [87.83163688941475, 37.42156326133341, 22.533325833410004], [86.86907083840083, 37.01145219376238, 23.98337694182888], [85.89779434404996, 36.597629953111664, 25.426549084021218], [84.91784901261447, 36.18011426614875, 26.86278043929562], [83.92927682169093, 35.75892301785609, 28.29200948428104], [82.93212011842175, 35.33407425066492, 29.71417499556202], [81.9264216176812, 34.90558616368237, 31.129216052301388], [80.91222440024598, 34.47347711191205, 32.537072038849914], [79.88957191094929, 34.03776560546752, 33.93768264734277], [78.85850795682012, 33.598470308779554, 35.330987880283146], [77.81907670520664, 33.15561003979658, 36.7169280531121], [76.77132268188419, 32.70920376917858, 38.095443796765494], [75.71529076914784, 32.2592706194844, 39.46647606021682], [74.6510262038901, 31.805829864352717, 40.82996611300709], [73.57857457566278, 31.34890092767631, 42.1858555477605], [72.49798182472415, 30.888503382770008, 43.53408628268642], [71.40929424007128, 30.42465695153236, 44.87460056406741], [70.31255845745679, 29.957381503600658, 46.207340968733234], [69.20782145739136, 29.486697055499857, 47.53225040652072], [68.09513056313133, 29.0126237697852, 48.84927212271907], [66.97453343865118, 28.535181954178366, 50.158349700501475], [65.84607808660219, 28.054392060697733, 51.459427063341366], [64.70981284625573, 27.57027468478209, 52.7524484774149], [63.565786391433036, 27.082850564408602, 54.037358553988184], [62.4140477284197, 26.592140579204273, 55.31410225179005], [61.25464619386683, 26.098165749551676, 56.5826248793698], [60.08763145267738, 25.600947235688444, 57.84287209744008], [58.913053495878714, 25.10050633680083, 59.09478992120444], [57.73096263848121, 24.59686449011135, 60.33832472267005], [56.54140951732289, 24.090043269960468, 61.57342323294483], [55.34444508890038, 23.58006438688244, 62.8000325445193], [54.14012062718589, 23.066949686675233, 64.01810011353308], [52.928487721431104, 22.550721149464856, 65.22757376202546], [51.70959827395708, 22.031400888763688, 66.42840168017088], [50.48350449793095, 21.509011150523268, 67.62053242849794], [49.25025891512936, 20.983574312181346, 68.80391494009308], [48.00991435368851, 20.455112881703286, 69.97849852278816], [46.76252394584116, 19.92364949661789, 71.14423286133177], [45.50814112564083, 19.38920692304775, 72.30106801954474], [44.24681962667258, 18.85180805473395, 73.44895444245918], [42.97861347975145, 18.311475912055414, 74.58784295844109], [41.70357701060783, 17.76823364104275, 75.71768478129704], [40.42176483756039, 17.222104512386796, 76.83843151236368], [39.133231869176484, 16.673111920441798, 77.95003514258127], [37.83803330191983, 16.121279382223157, 79.05244805454993], [36.536224617786374, 15.566630536400222, 80.14562302456966], [35.22786158192731, 15.009189142283484, 81.22951322466312], [33.91300024026059, 14.448979078806996, 82.3040722245816], [32.59169691706988, 13.88602434350535, 83.36925399379388], [31.26400821259186, 13.320349051485715, 84.42501290345825], [29.9299910005918, 12.751977434394925, 85.47130372837682], [28.589702425927083, 12.180933839381352, 86.508081648933], [27.243199902099388, 11.607242728052015, 87.53530225301137], [25.890541108795343, 11.030928675424736, 88.55292153790003], [24.531783989415686, 10.45201636887542, 89.56089591217577], [23.16698674859312, 9.870530607080514, 90.55918219757115], [21.79620784969904, 9.286496298954715, 91.54773763082429], [20.41950601233912, 8.699938462583946, 92.52651986551061], [19.036940209838054, 8.1108822241537, 93.49548697385683], [17.64856966671332, 7.519352816872717, 94.4545974485369], [16.25445385613817, 6.925375579892058, 95.4038102044504], [14.854652497393918, 6.328975957219631, 96.3430845804819], [13.449225553311809, 5.730179496630274, 97.27238034124349], [12.038233227704577, 5.129011848571441, 98.19165767879761], [10.62173596278728, 4.525498765064321, 99.1008772143627], [9.199794436588256, 3.919666098600756, 100.0], [0.0, 0.0, 100.0], [0.0, 0.0, 0.0], [97.40016282185309, 51.11954892481454, 0.0], [96.60402913350845, 50.70170573181635, 1.5456231506041433], [95.79895521710075, 50.27917034516439, 3.0853284936754903], [94.98497555931702, 49.85196086486829, 4.619050073361677], [94.16212502833669, 49.42009559116033, 6.146722190134881], [93.33043887233791, 48.98359302371153, 7.668279403606022], [92.48995271798742, 48.542471860839, 9.18365653532831], [91.64070256891483, 48.096750998705275, 10.692788671588943], [90.7827248041699, 47.64644953050854, 12.19561116619002], [89.91605617666461, 47.19158674566504, 13.692059643217561], [89.0407338115984, 46.73218212898254, 15.182069999799467], [88.15679520486808, 46.268255359825794, 16.66557840885119], [87.26427822146164, 45.799826311273556, 18.142521321809966], [86.36322109383603, 45.32691504926717, 19.612835471357045], [85.45366242027971, 44.849541831751154, 21.07645787412787], [84.53564116325904, 44.36772710780535, 22.533325833410004], [83.60919664774922, 43.8814915167689, 23.98337694182888], [82.67436855954983, 43.390855887356196, 25.426549084021218], [81.73119694358483, 42.89584123676465, 26.86278043929562], [80.77972220218717, 42.39646876977438, 28.29200948428104], [79.819985093368, 41.892759877839815, 29.71417499556202], [78.85202672907072, 41.38473613817337, 31.129216052301388], [77.87588857341017, 40.872419312821286, 32.537072038849914], [76.89161244089605, 40.35583134773122, 33.93768264734277], [75.89924049464193, 39.83499437181223, 35.330987880283146], [74.89881524455912, 39.30993069598689, 36.7169280531121], [73.8903795455357, 38.78066281223557, 38.095443796765494], [72.8739765956006, 38.247213392632794, 39.46647606021682], [71.84964993407344, 37.70960528837631, 40.82996611300709], [70.81744343969916, 37.16786152880799, 42.1858555477605], [69.77740132876845, 36.622005320427384, 43.53408628268642], [68.7295681532239, 36.072060045897764, 44.87460056406741], [67.67398879875125, 35.51804926304432, 46.207340968733234], [66.61070848285677, 34.95999670384505, 47.53225040652072], [65.53977275293042, 34.39792627341432, 48.84927212271907], [64.46122748429441, 33.83186204897859, 50.158349700501475], [63.37511887823849, 33.2618282788453, 51.459427063341366], [62.28149346004035, 32.687849381363854, 52.7524484774149], [61.180398076973184, 32.109949943879954, 54.037358553988184], [60.071879896298356, 31.528154721682036, 55.31410225179005], [58.95598640324533, 30.942488636941082, 56.5826248793698], [57.83276539897739, 30.35297677764292, 57.84287209744008], [56.702264998543974, 29.759644396513547, 59.09478992120444], [55.56453362881963, 29.162516909937413, 60.33832472267005], [54.41962002642959, 28.56161989686864, 61.57342323294483], [53.26757323566204, 27.956979097735356, 62.8000325445193], [52.108442606367106, 27.348620413336945, 64.01810011353308], [50.94227779184312, 26.736569903734704, 65.22757376202546], [49.769128746709406, 26.120853787135392, 66.42840168017088], [48.58904572476653, 25.50149843876818, 67.62053242849794], [47.40207927684355, 24.878530389754832, 68.80391494009308], [46.20828024863256, 24.25197632597317, 69.97849852278816], [45.007699778510606, 23.621863086913923, 71.14423286133177], [43.80038929534925, 22.988217664531103, 72.30106801954474], [42.586400516311315, 22.351067202085655, 73.44895444245918], [41.36578544463565, 21.7104389929828, 74.58784295844109], [40.13859636740938, 21.066360479602828, 75.71768478129704], [38.904885853328146, 20.418859252125582, 76.83843151236368], [37.66470675044434, 19.76796304734863, 77.95003514258127], [36.418112183903006, 19.11369974749899, 79.05244805454993], [35.165155553666466, 18.456097379038916, 80.14562302456966], [33.90589053222652, 17.795184111465158, 81.22951322466312], [32.6403710623056, 17.130988256102448, 82.3040722245816], [31.368651354545804, 16.46353826489061, 83.36925399379388], [30.090785885186747, 15.792862729165785, 84.42501290345825], [28.806829393732137, 15.118990378435782, 85.47130372837682], [27.5168368806047, 14.44195007914927, 86.508081648933], [26.220863604790246, 13.76177083345929, 87.53530225301137], [24.918965081470585, 13.078481777980922, 88.55292153790003], [23.611197079645432, 12.392112182543157, 89.56089591217577], [22.297615619743404, 11.702691448935049, 90.55918219757115], [20.978276971222293, 11.010249109646253, 91.54773763082429], [19.65323765015866, 10.314814826601934, 92.52651986551061], [18.322554416826947, 9.616418389892193, 93.49548697385683], [16.986284273268044, 8.915089716495949, 94.4545974485369], [15.644484460847492, 8.210858848999393, 95.4038102044504], [14.297212457803363, 7.503755954309007, 96.3430845804819], [12.944525976784135, 6.793811322359345, 97.27238034124349], [11.58648296237664, 6.081055364815601, 98.19165767879761], [10.223141588623674, 5.365518613770746, 99.1008772143627], [8.854560256532112, 4.647231720437691, 100.0], [0.0, 0.0, 100.0], [0.0, 0.0, 0.0], [92.97090940981744, 58.79124087405811, 0.0], [92.21097974571028, 58.31069047164215, 1.5456231506041433], [91.44251640866796, 57.824743701434834, 3.0853284936754903], [90.66555231710211, 57.33342137977841, 4.619050073361677], [89.88012075356855, 56.836744553285904, 6.146722190134881], [89.08625536334135, 56.33473449793953, 7.668279403606022], [88.28399015297157, 55.82741271817918, 9.18365653532831], [87.47335948883077, 55.31480094598147, 10.692788671588943], [86.6543980956385, 54.796921139928536, 12.19561116619002], [85.82714105497524, 54.273795484267715, 13.692059643217561], [84.99162380377925, 53.745446387960946, 15.182069999799467], [84.1478821328287, 53.211896483725035, 16.66557840885119], [83.29595218520866, 52.67316862706212, 18.142521321809966], [82.43587045476258, 52.1292858952805, 19.612835471357045], [81.56767378452923, 51.58027158650626, 21.07645787412787], [80.69139936516444, 51.026149218685134, 22.533325833410004], [79.80708473334782, 50.466942528575096, 23.98337694182888], [78.91476777017496, 49.902675470729534, 25.426549084021218], [78.0144866995347, 49.3333722164712, 26.86278043929562], [77.1062800864718, 48.759057152856734, 28.29200948428104], [76.19018683553477, 48.17975488163198, 29.71417499556202], [75.26624618910941, 47.59549021817812, 31.129216052301388], [74.33449772573803, 47.00628819044884, 32.537072038849914], [73.39498135842366, 46.41217403789795, 33.93768264734277], [72.4477373329205, 45.81317321039837, 35.330987880283146], [71.49280622600992, 45.20931136715192, 36.7169280531121], [70.53022894376232, 44.60061437559018, 38.095443796765494], [69.56004671978471, 43.987108310266336, 39.46647606021682], [68.58230111345462, 43.368819451738354, 40.82996611300709], [67.59703400813963, 42.74577428544311, 42.1858555477605], [66.60428760940322, 42.117999500561815, 43.53408628268642], [65.60410444319709, 41.485521988876926, 44.87460056406741], [64.59652735403917, 40.848368843619966, 46.207340968733234], [63.581599503178445, 40.206567358311034, 47.53225040652072], [62.55936436674621, 39.56014502558975, 48.84927212271907], [61.529865733893324, 38.90912953603731, 50.158349700501475], [60.49314770491491, 38.25354877699063, 51.459427063341366], [59.44925468936073, 37.59343083134739, 52.7524484774149], [58.39823140413335, 36.92880397636341, 54.037358553988184], [57.34012287157212, 36.25969668244106, 55.31410225179005], [56.27497441752498, 35.58613761190987, 56.5826248793698], [55.202831669406606, 34.90815561779864, 57.84287209744008], [54.123740554243945, 34.22577974259951, 59.09478992120444], [53.037747296708886, 33.539039217023834, 60.33832472267005], [51.94489841713812, 32.84796345875008, 61.57342323294483], [50.8452407295404, 32.15258207116369, 62.8000325445193], [49.73882133959103, 31.45292484208884, 64.01810011353308], [48.62568764261428, 30.749021742512618, 65.22757376202546], [47.50588732155292, 30.040902925301026, 66.42840168017088], [46.37946834492571, 29.32859872390739, 67.62053242849794], [45.246478964772635, 28.612139651072983, 68.80391494009308], [44.10696771458785, 27.891556397519924, 69.97849852278816], [42.96098340724067, 27.16687983063647, 71.14423286133177], [41.80857513288475, 26.43814099315488, 72.30106801954474], [40.649792256855015, 25.705371101821502, 73.44895444245918], [39.48468441755318, 24.968601546059638, 74.58784295844109], [38.313301524321275, 24.227863886624892, 75.71768478129704], [37.135693755303755, 23.483189854253208, 76.83843151236368], [35.95191155529813, 22.734611348301712, 77.95003514258127], [34.762005633593844, 21.982160435382085, 79.05244805454993], [33.56602696180033, 21.225869347987135, 80.14562302456966], [32.364026771663305, 20.465770483109864, 81.22951322466312], [31.156056552870403, 19.701896400855883, 82.3040722245816], [29.94216805084535, 18.934279823048502, 83.36925399379388], [28.722413264531387, 18.162953631827044, 84.42501290345825], [27.496844444163962, 17.387950868238416, 85.47130372837682], [26.265514089032305, 16.60930473082158, 86.508081648933], [25.028474945230617, 15.827048574185516, 87.53530225301137], [23.785780003398646, 15.041215907580426, 88.55292153790003], [22.537482496451716, 14.251840393462313, 89.56089591217577], [21.283635897300375, 13.458955846050959, 90.55918219757115], [20.0242939165598, 12.662596229881446, 91.54773763082429], [18.759510500248986, 11.862795658349217, 92.52651986551061], [17.489339827479963, 11.05958839224881, 93.49548697385683], [16.213836308136926, 10.253008838306242, 94.4545974485369], [14.933054580545477, 9.443091547705126, 95.4038102044504], [13.647049509132026, 8.629871214606558, 96.3430845804819], [12.355876182073612, 7.813382674662962, 97.27238034124349], [11.05958990893828, 6.993660903525948, 98.19165767879761], [9.75824621831557, 6.170741015347931, 99.1008772143627], [8.45190085543796, 5.344658261278018, 100.0], [0.0, 0.0, 100.0], [0.0, 0.0, 0.0], [87.93870397438513, 66.08164906617768, 0.0], [87.2199067699962, 65.54150800810596, 1.5456231506041433], [86.49303779194362, 64.9953014056212, 3.0853284936754903], [85.75812817687515, 64.44305265639629, 4.619050073361677], [85.01520940587274, 63.88478541692962, 6.146722190134881], [84.26431330310399, 63.32052360153172, 7.668279403606022], [83.50547203445865, 62.75029138130067, 9.18365653532831], [82.73871810617118, 62.174113183087, 10.692788671588943], [81.96408436342777, 61.59201368844697, 12.19561116619002], [81.1816039889599, 61.00401783258562, 13.692059643217561], [80.39131050162247, 60.41015080328837, 15.182069999799467], [79.59323775495815, 59.81043803984221, 16.66557840885119], [78.78741993574727, 59.204905231945965, 18.142521321809966], [77.97389156254316, 58.593578318609694, 19.612835471357045], [77.15268748419373, 57.97648348704375, 21.07645787412787], [76.32384287834857, 57.35364717153689, 22.533325833410004], [75.48739324995194, 56.725096052323885, 23.98337694182888], [74.64337442972197, 56.09085705444269, 25.426549084021218], [73.79182257261584, 55.450957346581056, 26.86278043929562], [72.93277415628096, 54.80542433991277, 28.29200948428104], [72.0662659794923, 54.154285686923295, 29.71417499556202], [71.19233516057615, 53.49756928022533, 31.129216052301388], [70.31101913582022, 52.83530325136409, 32.537072038849914], [69.42235565786973, 52.16751596961204, 33.93768264734277], [68.52638279411035, 51.494236040753734, 35.330987880283146], [67.62313892503754, 50.81549230586048, 36.7169280531121], [66.71266274261245, 50.13131384005488, 38.095443796765494], [65.79499324860437, 49.44172995126522, 39.46647606021682], [64.87016975292028, 48.746770178970266, 40.82996611300709], [63.938231871920635, 48.04646429293363, 42.1858555477605], [62.99921952672248, 47.34084229192861, 43.53408628268642], [62.05317294148948, 46.62993440245332, 44.87460056406741], [61.10013264170863, 45.91377107743563, 46.207340968733234], [60.14013945245436, 45.19238299492875, 47.53225040652072], [59.1732344966399, 44.46580105679727, 48.84927212271907], [58.199459193255336, 43.73405638739308, 50.158349700501475], [57.2188552555938, 42.99718033222246, 51.459427063341366], [56.23146468946416, 42.25520445660302, 52.7524484774149], [55.23732979139209, 41.508160544311856, 54.037358553988184], [54.236493146807796, 40.75608059622376, 55.31410225179005], [53.22899762822212, 39.998996828940605, 56.5826248793698], [52.21488639338988, 39.23694167341123, 57.84287209744008], [51.19420288346116, 38.469947773542174, 59.09478992120444], [50.16699082112041, 37.698047984799345, 60.33832472267005], [49.13329420871356, 36.921275372800615, 61.57342323294483], [48.09315732636312, 36.13966321189942, 62.8000325445193], [47.046624730071194, 35.35324498375925, 64.01810011353308], [45.99374124981114, 34.562054375919644, 65.22757376202546], [44.93455198760696, 33.76612528035294, 66.42840168017088], [43.86910231560138, 32.965491792012536, 67.62053242849794], [42.797437874112305, 32.16018820737237, 68.80391494009308], [41.71960456967762, 31.350249022957755, 69.97849852278816], [40.63564857308872, 30.53570893386762, 71.14423286133177], [39.54561631741288, 29.716602832288434, 72.30106801954474], [38.449554496004, 28.892965805999363, 73.44895444245918], [37.347510060502536, 28.064833136869357, 74.58784295844109], [36.239530218824214, 27.232240299345698, 75.71768478129704], [35.12566243313778, 26.395222958934454, 76.83843151236368], [34.00595441783199, 25.553816970672724, 77.95003514258127], [32.880454137471474, 24.708058377592568, 79.05244805454993], [31.749209804742364, 23.857983409177276, 80.14562302456966], [30.61226987838672, 23.00362847980916, 81.22951322466312], [29.46968306112703, 22.145030187209933, 82.3040722245816], [28.32149829757971, 21.28222531087281, 83.36925399379388], [27.167764772158513, 20.41525081048701, 84.42501290345825], [26.008531906967818, 19.544143824354663, 85.47130372837682], [24.84384935968531, 18.668941667799768, 86.508081648933], [23.67376702143493, 17.78968183156979, 87.53530225301137], [22.498335014649722, 16.906401980229724, 88.55292153790003], [21.31760369092474, 16.019139950548634, 89.56089591217577], [20.131623628860122, 15.127933749878837, 90.55918219757115], [18.940445631894473, 14.232821554527801, 91.54773763082429], [17.74412072612859, 13.333841708122783, 92.52651986551061], [16.542700158139763, 12.431032719968366, 93.49548697385683], [15.336235392786511, 11.524433263396839, 94.4545974485369], [14.124778111003996, 10.614082174111553, 95.4038102044504], [12.908380207590096, 9.70001844852327, 96.3430845804819], [11.68709378898245, 8.78228124207971, 97.27238034124349], [10.460971171026541, 7.86090986758838, 98.19165767879761], [9.230064876734447, 6.9359437935323855, 99.1008772143627], [7.9944276340350235, 6.0074226423797965, 100.0], [0.0, 0.0, 100.0], [0.0, 0.0, 0.0], [82.33618229882113, 72.94349240648747, 0.0], [81.66317922984608, 72.34726371479078, 1.5456231506041433], [80.9826186350285, 71.74433963944243, 3.0853284936754903], [80.29452966731913, 71.13474600770301, 4.619050073361677], [79.59894180215923, 70.51850893253489, 6.146722190134881], [78.89588483621793, 69.8956548114834, 7.668279403606022], [78.18538888611556, 69.26621032554597, 9.18365653532831], [77.46748438713404, 68.63020243802953, 10.692788671588943], [76.74220209191263, 67.9876583933951, 12.19561116619002], [76.00957306913101, 67.33860571609105, 13.692059643217561], [75.2696287021781, 66.68307220937385, 15.182069999799467], [74.52240068780782, 66.02108595411711, 16.66557840885119], [73.76792103478142, 65.3526753076088, 18.142521321809966], [73.00622206249604, 64.67786890233631, 19.612835471357045], [72.23733639960057, 63.99669564476015, 21.07645787412787], [71.46129698259779, 63.30918471407558, 22.533325833410004], [70.67813705443344, 62.61536556096262, 23.98337694182888], [69.88789016307224, 61.91526790632458, 25.426549084021218], [69.0905901600609, 61.208921740014866, 26.86278043929562], [68.28627119907797, 60.49635731955239, 28.29200948428104], [67.47496773447074, 59.7776051688253, 29.71417499556202], [66.6567145197793, 59.05269607678348, 31.129216052301388], [65.83154660624815, 58.32166109611985, 32.537072038849914], [64.99949934132431, 57.58453154193986, 33.93768264734277], [64.16060836714327, 56.84133899042025, 35.330987880283146], [63.314909619002364, 56.09211527745639, 36.7169280531121], [62.46243932382127, 55.33689249729855, 38.095443796765494], [61.603233998590134, 54.57570300117701, 39.46647606021682], [60.73733044880551, 53.80857939591641, 40.82996611300709], [59.864765766893505, 53.03555454253881, 42.1858555477605], [58.9855773306209, 52.25666155485604, 43.53408628268642], [58.09980280149423, 51.4719337980514, 44.87460056406741], [57.20748012314618, 50.68140488725019, 46.207340968733234], [56.30864751971039, 49.88510868607982, 47.53225040652072], [55.40334349418413, 49.083079305219364, 48.84927212271907], [54.491606826778664, 48.27535110093804, 50.158349700501475], [53.573476573258446, 47.46195867362389, 51.459427063341366], [52.648992063267634, 46.64293686630121, 52.7524484774149], [51.718192898645825, 45.81832076313841, 54.037358553988184], [50.78111895173121, 44.98814568794474, 55.31410225179005], [49.83781036365288, 44.15244720265741, 56.5826248793698], [48.88830754261118, 43.311261105818126, 57.84287209744008], [47.932651162146776, 42.46462343103957, 59.09478992120444], [46.97088215939832, 41.61257044546191, 60.33832472267005], [46.00304173334888, 40.7551386481992, 61.57342323294483], [45.02917134306113, 39.892364768775906, 62.8000325445193], [44.049312705901215, 39.024285765553415, 64.01810011353308], [43.063507795751974, 38.15093882414709, 65.22757376202546], [42.071798841214736, 37.272361355833155, 66.42840168017088], [41.07422832380044, 36.388590995946224, 67.62053242849794], [40.070838976109904, 35.49966560226711, 68.80391494009308], [39.061673780003254, 34.60562325340111, 69.97849852278816], [38.046775964758666, 33.7065022471468, 71.14423286133177], [37.02618900522077, 32.80234109885564, 72.30106801954474], [35.9999566199381, 31.893178539781903, 73.44895444245918], [34.968122769290495, 30.979053515423715, 74.58784295844109], [33.93073165360589, 30.060005183854653, 75.71768478129704], [32.88782771126696, 29.1360729140464, 76.83843151236368], [31.839455616807587, 28.207296284182362, 77.95003514258127], [30.785660278998986, 27.273715079962084, 79.05244805454993], [29.7264868389262, 26.33536929289723, 80.14562302456966], [28.661980668054113, 25.39229911859819, 81.22951322466312], [27.592187366284207, 24.444544955052503, 82.3040722245816], [26.51715276000097, 23.492147400894165, 83.36925399379388], [25.436922900108893, 22.53514725366452, 84.42501290345825], [24.351544060059947, 21.57358550806478, 85.47130372837682], [23.261062733871192, 20.60750335419979, 86.508081648933], [22.165525634133218, 19.63694217581362, 87.53530225301137], [21.064979690009157, 18.661943548516888, 88.55292153790003], [19.959472045224377, 17.682549238005763, 89.56089591217577], [18.849050056046973, 16.69880119827283, 90.55918219757115], [17.73376128925918, 15.71074156980994, 91.54773763082429], [16.613653520119772, 14.718412677803027, 92.52651986551061], [15.488774730317559, 13.721857030319098, 93.49548697385683], [14.359173105916039, 12.72111731648532, 94.4545974485369], [13.224897035289233, 11.716236404660343, 95.4038102044504], [12.085995107048813, 10.707257340597904, 96.3430845804819], [10.942516107962772, 9.694223345602914, 97.27238034124349], [9.794509020865702, 8.677177814680139, 98.19165767879761], [8.642023022560325, 7.656164314675111, 99.1008772143627], [7.485107481711022, 6.63122658240796, 100.0], [0.0, 0.0, 100.0], [0.0, 0.0, 0.0], [76.19967888605595, 79.33226920781959, 0.0], [75.5768346356496, 78.68381965435539, 1.5456231506041433], [74.946996120677, 78.02808830013306, 3.0853284936754903], [74.3101903213238, 77.36510323450132, 4.619050073361677], [73.66644451623101, 76.69489285753383, 6.146722190134881], [73.01578628132644, 76.01748587881255, 7.668279403606022], [72.3582434886432, 75.33291131619778, 9.18365653532831], [71.69384430512616, 74.64119849458542, 10.692788671588943], [71.02261719142496, 73.94237704465047, 12.19561116619002], [70.34459090067521, 73.23647690157807, 13.692059643217561], [69.65979447726653, 72.52352830378088, 15.182069999799467], [68.96825725559849, 71.80356179160394, 16.66557840885119], [68.27000885882411, 71.07660820601646, 18.142521321809966], [67.56507919758069, 70.34269868729046, 19.612835471357045], [66.85349846870876, 69.60186467366715, 21.07645787412787], [66.13529715395846, 68.85413790001002, 22.533325833410004], [65.41050601868372, 68.09955039644537, 23.98337694182888], [64.67915611052446, 67.33813448699037, 25.426549084021218], [63.94127875807664, 66.56992278816843, 26.86278043929562], [63.196905569550225, 65.79494820761194, 28.29200948428104], [62.446068431415135, 65.0132439426526, 29.71417499556202], [61.6887995070353, 64.22484347889933, 31.129216052301388], [60.925131235291175, 63.42978058880411, 32.537072038849914], [60.155096329189796, 62.62808933021494, 33.93768264734277], [59.378727774463634, 61.81980404491707, 35.330987880283146], [58.59605882815764, 61.004959357161965, 36.7169280531121], [57.80712301720457, 60.18359017218405, 38.095443796765494], [57.01195413698871, 59.35573167470542, 39.46647606021682], [56.21058624989846, 58.52141932742886, 40.82996611300709], [55.403053683866915, 57.6806888695185, 42.1858555477605], [54.58939103090146, 56.833576315068925, 43.53408628268642], [53.76963314560215, 55.98011795156263, 44.87460056406741], [52.94381514366839, 55.12035033831537, 46.207340968733234], [52.111972400394805, 54.25431030491009, 47.53225040652072], [51.27414054915602, 53.38203494961954, 48.84927212271907], [50.43035547987994, 52.50356163781667, 50.158349700501475], [49.58065333751069, 51.618928000374474, 51.459427063341366], [48.7250705204599, 50.72817193205358, 52.7524484774149], [47.86364367904796, 49.8313315898794, 54.037358553988184], [46.99640971393364, 48.928445391507175, 55.31410225179005], [46.12340577453363, 48.01955201357666, 56.5826248793698], [45.24466925743115, 47.10469039005513, 57.84287209744008], [44.360237804773895, 46.18389971056964, 59.09478992120444], [43.470149302661696, 45.25721941872826, 60.33832472267005], [42.57444187952354, 44.32468921043046, 61.57342323294483], [41.67315390448432, 43.38634903216672, 62.8000325445193], [40.766323985721094, 42.442239079307136, 64.01810011353308], [39.85399096880946, 41.492399794379914, 65.22757376202546], [38.936193935059386, 40.53687186533868, 66.42840168017088], [38.01297219984111, 39.57569622381968, 67.62053242849794], [37.08436531090108, 38.60891404338838, 68.80391494009308], [36.150413046667765, 37.63656673777568, 69.97849852278816], [35.2111554145477, 36.65869595910388, 71.14423286133177], [34.266632649211786, 35.675343596102586, 72.30106801954474], [33.31688521087166, 34.68655177231416, 73.44895444245918], [32.3619537835466, 33.6923628442894, 74.58784295844109], [31.401879273320663, 32.69281939977303, 75.71768478129704], [30.43670280659048, 31.687964255879464, 76.83843151236368], [29.46646572830358, 30.677840457258707, 77.95003514258127], [28.49120960018713, 29.662491274252268, 79.05244805454993], [27.51097619896783, 28.64196020103988, 80.14562302456966], [26.525807514582045, 27.616290953776048, 81.22951322466312], [25.535745748377376, 26.585527468717704, 82.3040722245816], [24.540833311304702, 25.54971390034188, 83.36925399379388], [23.54111282210145, 24.508894619454352, 84.42501290345825], [22.536627105466106, 23.463114211289046, 85.47130372837682], [21.527419190223558, 22.412417473598, 86.508081648933], [20.513532307481974, 21.35684941473245, 87.53530225301137], [19.495009888780938, 20.29645525171484, 88.55292153790003], [18.471895564230984, 19.231280408301867, 89.56089591217577], [17.444233160644597, 18.161370513038655, 90.55918219757115], [16.41206669965881, 17.086771397304176, 91.54773763082429], [15.37544039584946, 16.00752909334797, 92.52651986551061], [14.334398654837244, 14.923689832318335, 93.49548697385683], [13.288986071385517, 13.835300042281949, 94.4545974485369], [12.239247427489984, 12.742406346235004, 95.4038102044504], [11.18522769046032, 11.645055560105982, 96.3430845804819], [10.12697201099396, 10.543294690750242, 97.27238034124349], [9.064525721242125, 9.437170933936544, 98.19165767879761], [7.99793433286775, 8.32673167232514, 99.1008772143627], [6.927243535096005, 7.212024473438155, 100.0], [0.0, 0.0, 100.0], [0.0, 0.0, 0.0], [69.5689913154915, 85.20654580104201, 0.0], [69.00034526762276, 84.51008082999506, 1.5456231506041433], [68.42531357695367, 83.80579486635573, 3.0853284936754903], [67.84392087592794, 83.0937180793906, 4.619050073361677], [67.25619206947388, 82.37388097209926, 6.146722190134881], [66.6621523339375, 81.64631437990766, 7.668279403606022], [66.06182711600387, 80.91104946934696, 9.18365653532831], [65.45524213160736, 80.1681177367189, 10.692788671588943], [64.84242336482977, 79.41755100674612, 12.19561116619002], [64.22339706678753, 78.65938143120937, 13.692059643217561], [63.59818975450689, 77.8936414875698, 15.182069999799467], [62.966828209788275, 77.12036397757801, 16.66557840885119], [62.32933947805896, 76.33958202586892, 18.142521321809966], [61.68575086721443, 75.55132907854264, 19.612835471357045], [61.036089946448776, 74.75563890173193, 21.07645787412787], [60.38038454507363, 73.95254558015576, 22.533325833410004], [59.71866275132601, 73.14208351565908, 23.98337694182888], [59.050952911165155, 72.3242874257393, 25.426549084021218], [58.37728362705832, 71.49919234205908, 26.86278043929562], [57.69768375675552, 70.6668336089457, 28.29200948428104], [57.01218241205329, 69.82724688187697, 29.71417499556202], [56.32080895754766, 68.98046812595385, 31.129216052301388], [55.62359300937645, 68.12653361436006, 32.537072038849914], [54.920564433950325, 67.2654799268079, 33.93768264734277], [54.21175334667357, 66.39734394797154, 35.330987880283146], [53.497190110654074, 65.5221628659069, 36.7169280531121], [52.77690533540263, 64.6399741704588, 38.095443796765494], [52.050929875521675, 63.75081565165467, 39.46647606021682], [51.319294829383736, 62.854725398086224, 40.82996611300709], [50.58203153779911, 61.951741795277485, 42.1858555477605], [49.83917158267334, 61.04190352404055, 43.53408628268642], [49.09074678565455, 60.12524955881888, 44.87460056406741], [48.336789206770064, 59.20181916601745, 46.207340968733234], [47.57733114305315, 58.27165190232081, 47.53225040652072], [46.81240512715968, 57.33478761299882, 48.84927212271907], [46.042043925974205, 56.391266430199394, 50.158349700501475], [45.266280539206726, 55.441128771229835, 51.459427063341366], [44.48514819797868, 54.48441533682502, 52.7524484774149], [43.69868036339986, 53.52116710940441, 54.037358553988184], [42.906910725134644, 52.551425351316034, 55.31410225179005], [42.109873199959154, 51.575231603069305, 56.5826248793698], [41.307601930308245, 50.59262768155537, 57.84287209744008], [40.500131282812916, 49.60365567825586, 59.09478992120444], [39.687495846828234, 48.60835795743984, 60.33832472267005], [38.869730432951634, 47.60677715434907, 61.57342323294483], [38.046870071531735, 46.598956173371676, 62.8000325445193], [37.21895001116766, 45.5849381862041, 64.01810011353308], [36.3860057171993, 44.564766630002055, 65.22757376202546], [35.54807287018795, 43.538485205519606, 66.42840168017088], [34.705187364387925, 42.506137875237236, 67.62053242849794], [33.857385306208954, 41.46776886147869, 68.80391494009308], [33.004703012669516, 40.42342264451655, 69.97849852278816], [32.14717700984108, 39.373143960666845, 71.14423286133177], [31.284844031283573, 38.316977800372854, 72.30106801954474], [30.41774101647172, 37.25496940627765, 73.44895444245918], [29.545905109212743, 36.187164271286235, 74.58784295844109], [28.669373656055196, 35.113608136616634, 75.71768478129704], [27.7881842046892, 34.03434698984056, 76.83843151236368], [26.902374502338063, 32.94942706291354, 77.95003514258127], [26.01198249414118, 31.858894830194284, 79.05244805454993], [25.11704632152879, 30.762797006454146, 80.14562302456966], [24.217604320587878, 29.661180544875712, 81.22951322466312], [23.313695020420255, 28.55409263504181, 82.3040722245816], [22.405357141491876, 27.4415807009138, 83.36925399379388], [21.492629593974257, 26.32369239880017, 84.42501290345825], [20.575551476077788, 25.200475615315217, 85.47130372837682], [19.654162072376746, 24.071978465327568, 86.508081648933], [18.728500852126544, 22.938249289899172, 87.53530225301137], [17.798607467573028, 21.799336654214574, 88.55292153790003], [16.864521752253882, 20.655289345500517, 89.56089591217577], [15.926283719292282, 19.506156370936026, 90.55918219757115], [14.983933559682855, 18.35198695555311, 91.54773763082429], [14.037511640570024, 17.192830540128117, 92.52651986551061], [13.087058503518865, 16.02873677906391, 93.49548697385683], [12.132614862778436, 14.859755538262833, 94.4545974485369], [11.174221603537706, 13.685936892990611, 95.4038102044504], [10.211919780174094, 12.507331125731206, 96.3430845804819], [9.245750614494881, 11.323988724032926, 97.27238034124349], [8.275755493971515, 10.135960378345857, 98.19165767879761], [7.301975969966548, 8.94329697985024, 99.1008772143627], [6.3244537559537815, 7.746049618276557, 100.0], [0.0, 0.0, 100.0], [0.0, 0.0, 0.0], [62.487122140427154, 90.52822524830219, 0.0], [61.97636218292389, 89.78826170226534, 1.5456231506041433], [61.45986661773011, 89.03998869393999, 3.0853284936754903], [60.937657569796734, 88.28343827685127, 4.619050073361677], [60.40975740882137, 87.5186428591011, 6.146722190134881], [59.87618874828995, 86.74563520197982, 7.668279403606022], [59.336974444507966, 85.96444841856257, 9.18365653532831], [58.79213759562163, 85.17511597229125, 10.692788671588943], [58.24170154062812, 84.37767167554068, 12.19561116619002], [57.685689858376094, 83.57214968817053, 13.692059643217561], [57.124126366555444, 82.75858451606169, 15.182069999799467], [56.557035120677114, 81.93701100963835, 16.66557840885119], [55.98444041304269, 81.1074643623752, 18.142521321809966], [55.40636677170365, 80.26998010928956, 19.612835471357045], [54.82283895941085, 79.42459412541953, 21.07645787412787], [54.233881972553654, 78.57134262428701, 22.533325833410004], [53.63952104008915, 77.71026215634647, 23.98337694182888], [53.0397816224615, 76.8413896074192, 25.426549084021218], [52.43468941051125, 75.9647621971134, 26.86278043929562], [51.82427032437491, 75.08041747722972, 28.29200948428104], [51.20855051237446, 74.18839333015259, 29.71417499556202], [50.58755634989733, 73.28872796722753, 31.129216052301388], [49.9613144382667, 72.38145992712448, 32.537072038849914], [49.32985160360173, 71.46662807418662, 33.93768264734277], [48.69319489566857, 70.54427159676568, 35.330987880283146], [48.051371586721636, 69.61443000554335, 36.7169280531121], [47.404409170335356, 68.67714313183868, 38.095443796765494], [46.752335360226326, 67.73245112590172, 39.46647606021682], [46.09517808906638, 66.7803944551939, 40.82996611300709], [45.43296550728581, 65.82101390265431, 42.1858555477605], [44.76572598186754, 64.85435056495268, 43.53408628268642], [44.093488095132166, 63.88044585072916, 44.87460056406741], [43.416280643513346, 62.89934147882028, 46.207340968733234], [42.73413263632435, 61.91107947647191, 47.53225040652072], [42.04707329451552, 60.91570217753915, 48.84927212271907], [41.355132049422274, 59.9132522206725, 50.158349700501475], [40.65833854150466, 58.90377254749181, 51.459427063341366], [39.956722619077375, 57.887306400746354, 52.7524484774149], [39.25031433703145, 56.863897322462904, 54.037358553988184], [38.539143955546514, 55.833589152080116, 55.31410225179005], [37.82324193879477, 54.79642602457092, 56.5826248793698], [37.10263895363594, 53.75245236855175, 57.84287209744008], [36.37736586830353, 52.70171290437941, 59.09478992120444], [35.647453751082615, 51.644252642235415, 60.33832472267005], [34.91293386897897, 50.5801168801979, 61.57342323294483], [34.173837686379706, 49.509351202301225, 62.8000325445193], [33.430196863705305, 48.43200147658316, 64.01810011353308], [32.68204325605364, 47.34811385312031, 65.22757376202546], [31.929408911835193, 46.257734762051, 66.42840168017088], [31.172326071400306, 45.16091091158642, 67.62053242849794], [30.410827165658116, 44.05768928600984, 68.80391494009308], [29.64494481468728, 42.94811714366388, 69.97849852278816], [28.87471182633862, 41.83224201492614, 71.14423286133177], [28.100161194829862, 40.71011170017325, 72.30106801954474], [27.321326099332143, 39.58177426773315, 73.44895444245918], [26.5382399025488, 38.44727805182606, 74.58784295844109], [25.75093614928617, 37.30667165049394, 75.71768478129704], [24.959448565016682, 36.16000392351879, 76.83843151236368], [24.16381105443422, 35.00732399032967, 77.95003514258127], [23.364057700001588, 33.84868122789843, 79.05244805454993], [22.560222760490767, 32.68412526862485, 80.14562302456966], [21.752340669515135, 31.513705998210174, 81.22951322466312], [20.940446034054684, 30.337473553520578, 82.3040722245816], [20.124573632973384, 29.155478320439165, 83.36925399379388], [19.304758415529435, 27.967770931707683, 84.42501290345825], [18.481035499878235, 26.774402264757736, 85.47130372837682], [17.653440171567908, 25.575423439531146, 86.508081648933], [16.822007882027854, 24.37088581629025, 87.53530225301137], [15.98677424705014, 23.16084099341783, 88.55292153790003], [15.147775045263838, 21.945340805206776, 89.56089591217577], [14.305046216602348, 20.724437319639666, 90.55918219757115], [13.458623860763865, 19.49818283615833, 91.54773763082429], [12.608544235664974, 18.266629883423505, 92.52651986551061], [11.75484375588753, 17.02983121706476, 93.49548697385683], [10.89755899111877, 15.787839817420611, 94.4545974485369], [10.036726664584778, 14.540708887268984, 95.4038102044504], [9.17238365147733, 13.288491849548125, 96.3430845804819], [8.304566977374312, 12.031242345068168, 97.27238034124349], [7.43331381665377, 10.769014230213505, 98.19165767879761], [6.558661490901337, 9.50186157463553, 99.1008772143627], [5.680647467311568, 8.229838658936576, 100.0], [0.0, 0.0, 100.0], [0.0, 0.0, 0.0], [55.000000000000014, 95.26279441628824, 0.0], [54.55043860718137, 94.48413124280492, 1.5456231506041433], [54.09582883939884, 93.6967240273885, 3.0853284936754903], [53.63619017062178, 92.90060649994331, 4.619050073361677], [53.171542290240986, 92.09581276349458, 6.146722190134881], [52.70190510222522, 91.28237729272749, 7.668279403606022], [52.22729872426847, 90.46033493251018, 9.18365653532831], [51.747743486928435, 89.62972089640148, 10.692788671588943], [51.263259932755325, 88.7905707651421, 12.19561116619002], [50.77386881541218, 87.94292048513087, 13.692059643217561], [50.27959109878561, 87.08680636688452, 15.182069999799467], [49.780447956087905, 86.2222650834825, 16.66557840885119], [49.27646076895005, 85.34933366899601, 18.142521321809966], [48.767651126505704, 84.46804951690144, 19.612835471357045], [48.25404082446652, 83.57845037847878, 21.07645787412787], [47.735651864188426, 82.68057436119433, 22.533325833410004], [47.21250645172914, 81.77445992706826, 23.98337694182888], [46.68462699689695, 80.86014589102716, 25.426549084021218], [46.15203611229079, 79.93767141924123, 26.86278043929562], [45.614756612331576, 79.00707602744667, 28.29200948428104], [45.07281151228487, 78.06839957925278, 29.71417499556202], [44.52622402727498, 77.12168228443436, 31.129216052301388], [43.97501757129065, 76.16696469720952, 32.537072038849914], [43.41921575618187, 75.20428771450212, 33.93768264734277], [42.85884239064853, 74.23369257419, 35.330987880283146], [42.29392147922056, 73.25522085333864, 36.7169280531121], [41.724477221229606, 72.26891446641994, 38.095443796765494], [41.150534009772386, 71.27481566351679, 39.46647606021682], [40.5721164306659, 70.27296702851338, 40.82996611300709], [39.98924926139411, 69.26341147727078, 42.1858555477605], [39.401957470046554, 68.24619225578867, 43.53408628268642], [38.81026621424898, 67.22135293835305, 44.87460056406741], [38.21420084008547, 66.18893742566928, 46.207340968733234], [37.61378688101274, 65.14898994298174, 47.53225040652072], [37.009050056766554, 64.1015550381795, 48.84927212271907], [36.40001627225966, 63.04667757988761, 50.158349700501475], [35.786711616472445, 61.9844027555456, 51.459427063341366], [35.16916236133504, 60.9147760694713, 52.7524484774149], [34.54739496060225, 59.837843340912066, 54.037358553988184], [33.921436048720054, 58.75365070208158, 55.31410225179005], [33.291312439684916, 57.66224459618405, 56.5826248793698], [32.65705112589504, 56.563671775424595, 57.84287209744008], [32.018679276994106, 55.4579792990065, 59.09478992120444], [31.376224238707465, 54.34521453111543, 60.33832472267005], [30.729713531670697, 53.22542513889047, 61.57342323294483], [30.079174850250766, 52.098659090382284, 62.8000325445193], [29.424636061359564, 50.964964652498125, 64.01810011353308], [28.766125203260373, 49.824390388934546, 65.22757376202546], [28.103670484366646, 48.676985158096855, 66.42840168017088], [27.437300282033718, 47.52279811100627, 67.62053242849794], [26.767043141343223, 46.36187868919449, 68.80391494009308], [26.092927773880277, 45.194276622585704, 69.97849852278816], [25.41498305650356, 44.02004192736631, 71.14423286133177], [24.733238030108424, 42.83922490384255, 72.30106801954474], [24.04772189838276, 41.65187613428562, 73.44895444245918], [23.35846402655609, 40.458046480765034, 74.58784295844109], [22.665493940141598, 39.25778708296974, 75.71768478129704], [21.968841323671395, 38.051149356017554, 76.83843151236368], [21.268536019424968, 36.83818498825276, 77.95003514258127], [20.564608026150704, 35.61894593903173, 79.05244805454993], [19.857087497781034, 34.39348443649749, 80.14562302456966], [19.14600474214053, 33.16185297534205, 81.22951322466312], [18.43139021964782, 31.924104314558107, 82.3040722245816], [17.71327454201062, 30.68029147517872, 83.36925399379388], [16.99168847091445, 29.430467738006147, 84.42501290345825], [16.266662916705013, 28.174686641329618, 85.47130372837682], [15.538228937063959, 26.91300197863172, 86.508081648933], [14.806417735678547, 25.645467796284166, 87.53530225301137], [14.071260660904994, 24.37213839123266, 88.55292153790003], [13.332789204425605, 23.093068308670972, 89.56089591217577], [12.591034999899758, 21.80831233970437, 90.55918219757115], [11.846029821608818, 20.517925519002553, 91.54773763082429], [11.097805583095033, 19.221963122442144, 92.52651986551061], [10.346394335794495, 17.920480664738907, 93.49548697385683], [9.591828267664164, 16.613533897069697, 94.4545974485369], [8.834139701803034, 15.301178804684222, 95.4038102044504], [8.073361095067463, 13.983471604506752, 96.3430845804819], [7.309525036680862, 12.66046874272801, 97.27238034124349], [6.542664246837768, 11.332226892387373, 98.19165767879761], [5.772811575302094, 9.998802950944953, 99.1008772143627], [5.000000000000008, 8.660254037844398, 100.0], [0.0, 0.0, 100.0], [0.0, 0.0, 0.0], [47.15618175433597, 99.37954780714205, 0.0], [46.77073450434526, 98.56723493568994, 1.5456231506041433], [46.380958852766184, 97.74580015112744, 3.0853284936754903], [45.986871496290334, 96.91527864098668, 4.619050073361677], [45.58848931630845, 96.07570598204505, 6.146722190134881], [45.18582937818723, 95.22711813880096, 7.668279403606022], [44.77890893053822, 94.3695514619332, 9.18365653532831], [44.36774540447912, 93.50304268674411, 10.692788671588943], [43.95235641288687, 92.62762893158556, 12.19561116619002], [43.5327597496434, 91.74334769626931, 13.692059643217561], [43.1089733888732, 90.8502368604603, 15.182069999799467], [42.68101548417351, 89.94833468205424, 16.66557840885119], [42.248904367836616, 89.03767979553872, 18.142521321809966], [41.81265855006453, 88.11831121033812, 19.612835471357045], [41.37229671817619, 87.19026830914278, 21.07645787412787], [40.927837735806825, 86.25359084622185, 22.533325833410004], [40.47930064209997, 85.30831894572032, 23.98337694182888], [40.02670465089185, 84.35449309994026, 25.426549084021218], [39.57006914988838, 83.39215416760632, 26.86278043929562], [39.10941369983465, 82.42134337211553, 28.29200948428104], [38.644758033676936, 81.4421022997712, 29.71417499556202], [38.17612205571745, 80.45447289800163, 31.129216052301388], [37.703525840761806, 79.45849747356345, 32.537072038849914], [37.2269896332589, 78.45421869072892, 33.93768264734277], [36.746533846433834, 77.44167956945857, 35.330987880283146], [36.26217906141342, 76.42092348355837, 36.7169280531121], [35.77394602634462, 75.39199415882175, 38.095443796765494], [35.28185565550563, 74.35493567115634, 39.46647606021682], [34.78592902841021, 73.30979244469626, 40.82996611300709], [34.286187388904466, 72.25660924989882, 42.1858555477605], [33.78265214425692, 71.1954312016267, 43.53408628268642], [33.27534486424162, 70.12630375721574, 44.87460056406741], [32.76428728021396, 69.04927271452729, 46.207340968733234], [32.24950128417989, 67.96438420998649, 47.53225040652072], [31.731008927858202, 66.87168471660625, 48.84927212271907], [31.208832421735693, 65.77122104199594, 50.158349700501475], [30.682994134116008, 64.66304032635688, 51.459427063341366], [30.153516590161203, 63.54719004046246, 52.7524484774149], [29.620422470927085, 62.423717983625245, 54.037358553988184], [29.083734612391392, 61.29267228164883, 55.31410225179005], [28.54347600447577, 60.15410138476671, 56.5826248793698], [27.999669790060874, 59.008054065566675, 57.84287209744008], [27.452339263994986, 57.854579416901515, 59.09478992120444], [26.90150787209619, 56.693726849786124, 60.33832472267005], [26.34719921014801, 55.52554609128086, 61.57342323294483], [25.789437022888656, 54.350087182361456, 62.8000325445193], [25.22824520299381, 53.16740047577523, 64.01810011353308], [24.66364779005328, 51.97753663388449, 65.22757376202546], [24.095668969541094, 50.78054662649602, 66.42840168017088], [23.524333071779548, 49.576481728677834, 67.62053242849794], [22.949664570896957, 48.365393518562755, 68.80391494009308], [22.371688083779254, 47.147333875138884, 69.97849852278816], [21.790428369015462, 45.922354976027265, 71.14423286133177], [21.205910325837216, 44.69050929524697, 72.30106801954474], [20.61815899305204, 43.45184960096701, 73.44895444245918], [20.027199547970856, 42.206428953246146, 74.58784295844109], [19.43305730532941, 40.95430070175981, 75.71768478129704], [18.835757716203908, 39.69551848351489, 76.83843151236368], [18.235326366920813, 38.43013622055211, 77.95003514258127], [17.631788977960703, 37.15820811763601, 79.05244805454993], [17.02517140285663, 35.87978865993332, 80.14562302456966], [16.41549962708649, 34.5949326106786, 81.22951322466312], [15.80279976696005, 33.30369500882874, 82.3040722245816], [15.187098068500086, 32.00613116670502, 83.36925399379388], [14.56842090631812, 30.702296667623756, 84.42501290345825], [13.946794782484695, 29.392247363515455, 85.47130372837682], [13.322246325394007, 28.076039372532097, 86.508081648933], [12.69480228862329, 26.753729076643303, 87.53530225301137], [12.064489549786787, 25.425373119221174, 88.55292153790003], [11.431335109384401, 24.091028402613844, 89.56089591217577], [10.79536608964506, 22.750752085707934, 90.55918219757115], [10.156609733364897, 21.404601581480065, 91.54773763082429], [9.515093402740249, 20.052634554537462, 92.52651986551061], [8.870844578195586, 18.69490891864786, 93.49548697385683], [8.22389085720634, 17.331482834258676, 94.4545974485369], [7.574259953116711, 15.962414706005564, 95.4038102044504], [6.921979693952474, 14.5877631802105, 96.3430845804819], [6.267078021228944, 13.207587142369587, 97.27238034124349], [5.609582988754133, 11.821945714630779, 98.19165767879761], [4.949522761426909, 10.430898253261041, 99.1008772143627], [4.286925614030548, 9.034504346103835, 100.0], [0.0, 0.0, 100.0], [0.0, 0.0, 0.0], [39.00653757467894, 102.85178669539562, 0.0], [38.68770424084065, 102.0110922866562, 1.5456231506041433], [38.365290550134745, 101.16095725273598, 3.0853284936754903], [38.0393103136906, 100.30141801059027, 4.619050073361677], [37.70977749541663, 99.43251138001949, 6.146722190134881], [37.376706211402016, 98.5542745820918, 7.668279403606022], [37.04011072931198, 97.6667452375485, 9.18365653532831], [36.70000546777674, 96.76996136519291, 10.692788671588943], [36.356404995773694, 95.86396138026127, 12.19561116619002], [36.00932403200352, 94.94878409277766, 13.692059643217561], [35.658777444259506, 94.02446870589105, 15.182069999799467], [35.304780248790756, 93.09105481419627, 16.66557840885119], [34.94734760965895, 92.14858240203782, 18.142521321809966], [34.58649483808869, 91.19709184179696, 19.612835471357045], [34.22223739181171, 90.23662389216257, 21.07645787412787], [33.85459087440469, 89.26721969638494, 22.533325833410004], [33.4835710346208, 88.28892078051335, 23.98337694182888], [33.10919376571512, 87.30176905161731, 25.426549084021218], [32.73147510476381, 86.3058067959914, 26.86278043929562], [32.3504312319772, 85.30107667734389, 28.29200948428104], [31.96607847000656, 84.287621734969, 29.71417499556202], [31.57843328324497, 83.26548538190336, 31.129216052301388], [31.18751227712209, 82.23471140306654, 32.537072038849914], [30.79333219739272, 81.19534395338505, 33.93768264734277], [30.39590992941953, 80.14742755590113, 35.330987880283146], [29.99526249744976, 79.09100709986551, 36.7169280531121], [29.59140706388596, 78.02612783881455, 38.095443796765494], [29.184360928550724, 76.95283538863148, 39.46647606021682], [28.77414152794578, 75.8711757255928, 40.82996611300709], [28.360766434504924, 74.78119518439841, 42.1858555477605], [27.944253355841308, 73.68294045618687, 43.53408628268642], [27.524620133989004, 72.57645858653555, 44.87460056406741], [27.10188474463856, 71.46179697344505, 46.207340968733234], [26.67606529636707, 70.33900336530894, 47.53225040652072], [26.24718002986251, 69.20812585886858, 48.84927212271907], [25.815247317142198, 68.06921289715235, 50.158349700501475], [25.380285660766024, 66.92231326740108, 51.459427063341366], [24.942313693043623, 65.76747609897758, 52.7524484774149], [24.501350175236453, 64.60475086126267, 54.037358553988184], [24.057413996753947, 63.4341873615356, 55.31410225179005], [23.610524174344466, 62.25583574284078, 56.5826248793698], [23.160699851280647, 61.06974648183973, 57.84287209744008], [22.707960296539348, 59.875970386648746, 59.09478992120444], [22.252324903976263, 58.67455859466257, 60.33832472267005], [21.793813191495136, 57.46556257036375, 61.57342323294483], [21.332444800211707, 56.24903410311817, 62.8000325445193], [20.86823949361226, 55.025025304956344, 64.01810011353308], [20.40121715670717, 53.79358860834144, 65.22757376202546], [19.931397795178956, 52.554776763922966, 66.42840168017088], [19.4588015345254, 51.30864283827726, 67.62053242849794], [18.983448619197386, 50.05524021163427, 68.80391494009308], [18.505359411731714, 48.794622575590864, 69.97849852278816], [18.024554391878805, 47.526843930810855, 71.14423286133177], [17.54105415572549, 46.251958584711964, 72.30106801954474], [17.05487941481266, 44.97002114913922, 73.44895444245918], [16.566050995248112, 43.68108653802579, 74.58784295844109], [16.07458983681438, 42.38520996504046, 75.71768478129704], [15.580516992071772, 41.08244694122259, 76.83843151236368], [15.083853625456586, 39.77285327260427, 77.95003514258127], [14.584621012374388, 38.4564850578195, 79.05244805454993], [14.082840538288783, 37.133398685701486, 80.14562302456966], [13.578533697805192, 35.80365083286674, 81.22951322466312], [13.071722093750227, 34.467298461287605, 82.3040722245816], [12.5624274362462, 33.124398815851954, 83.36925399379388], [12.050671541781151, 31.77500942191101, 84.42501290345825], [11.53647633227437, 30.419188082815374, 85.47130372837682], [11.019863834137249, 29.05699287743865, 86.508081648933], [10.500856177329776, 27.688482157689677, 87.53530225301137], [9.979475594412582, 26.31371454601294, 88.55292153790003], [9.455744419594563, 24.93274893287737, 89.56089591217577], [8.929685087776134, 23.54564447425364, 90.55918219757115], [8.401320133588209, 22.152460589080096, 91.54773763082429], [7.870672190426873, 20.75325695671747, 92.52651986551061], [7.337763989483876, 19.34809351439245, 93.49548697385683], [6.802618358772904, 17.93703045463019, 94.4545974485369], [6.26525822215169, 16.520128222675844, 95.4038102044504], [5.72570659834, 15.097447513905166, 96.3430845804819], [5.183986599933607, 13.669049271224612, 97.27238034124349], [4.640121432414287, 12.234994682460895, 98.19165767879761], [4.0941343931556835, 10.795345177739666, 99.1008772143627], [3.5460488704253628, 9.35016242685416, 100.0], [0.0, 0.0, 100.0], [0.0, 0.0, 0.0], [30.6039210308098, 105.65699227945095, 0.0], [30.3537693696403, 104.79336855926587, 1.5456231506041433], [30.100808616312094, 103.92004672790658, 3.0853284936754903], [29.845049606821917, 103.03706419557358, 4.619050073361677], [29.58650329703452, 102.14445878629981, 6.146722190134881], [29.325180762213314, 101.24226873633027, 7.668279403606022], [29.061093196545915, 100.33053269248383, 9.18365653532831], [28.79425191266472, 99.40928971049826, 10.692788671588943], [28.524668341162176, 98.47857925335663, 12.19561116619002], [28.25235403010128, 97.53844118959742, 13.692059643217561], [27.97732064452076, 96.58891579160618, 15.182069999799467], [27.699579965935474, 95.63004373389069, 16.66557840885119], [27.419143891831713, 94.66186609133858, 18.142521321809966], [27.136024435157506, 93.68442433745761, 19.612835471357045], [26.850233723808095, 92.69776034259942, 21.07645787412787], [26.561784000106382, 91.70191637216571, 22.533325833410004], [26.270687620278487, 90.69693508479769, 23.98337694182888], [25.976957053924462, 89.68285953054887, 25.426549084021218], [25.68060488348417, 88.65973314904087, 26.86278043929562], [25.381643803698264, 87.62759976760273, 28.29200948428104], [25.080086621064382, 86.58650359939327, 29.71417499556202], [24.77594625328853, 85.53648924150718, 31.129216052301388], [24.46923572873186, 84.477601673065, 32.537072038849914], [24.159968185852406, 83.40988625328586, 33.93768264734277], [23.848156872642384, 82.33338871954466, 35.330987880283146], [23.533815146060657, 81.24815518541291, 36.7169280531121], [23.216956471460602, 80.15423213868331, 38.095443796765494], [22.897594422013217, 79.05166643937825, 39.46647606021682], [22.575742678125817, 77.94050531774275, 40.82996611300709], [22.251415026855895, 76.82079637222101, 42.1858555477605], [21.92462536132056, 75.6925875674175, 43.53408628268642], [21.595387680101478, 74.55592723204255, 44.87460056406741], [21.26371608664511, 73.41086405684177, 46.207340968733234], [20.929624788658607, 72.25744709251047, 47.53225040652072], [20.593128097501282, 71.09572574759267, 48.84927212271907], [20.254240427571386, 69.92574978636414, 50.158349700501475], [19.912976295688843, 68.7475693267012, 51.459427063341366], [19.569350320473195, 67.56123483793331, 52.7524484774149], [19.22337722171759, 66.3667971386817, 54.037358553988184], [18.87507181975806, 65.16430739468187, 55.31410225179005], [18.52444903483878, 63.95381711659232, 56.5826248793698], [18.171523886472905, 62.73537815778775, 57.84287209744008], [17.81631149279916, 61.50904271213785, 59.09478992120444], [17.458827069934244, 60.274863311771554, 60.33832472267005], [17.09908593132104, 59.03289282482672, 61.57342323294483], [16.737103487072627, 57.78318445318545, 62.8000325445193], [16.372895243312115, 56.52579173019492, 64.01810011353308], [16.006476801508505, 55.26076851837454, 65.22757376202546], [15.637863857808307, 53.988169007108354, 66.42840168017088], [15.267072202363185, 52.708047710323875, 67.62053242849794], [14.89411771865358, 51.42045946415692, 68.80391494009308], [14.519016382808283, 50.125459424602525, 69.97849852278816], [14.14178426292007, 48.823103065152225, 71.14423286133177], [13.762437518357451, 47.51344617441796, 72.30106801954474], [13.380992399072388, 46.196544853742004, 73.44895444245918], [12.997465244904253, 44.872455514793984, 74.58784295844109], [12.611872484879845, 43.54123487715423, 75.71768478129704], [12.224230636509642, 42.202939965884205, 76.83843151236368], [11.83455630508028, 40.85762810908378, 77.95003514258127], [11.442866182943154, 39.505356935435266, 79.05244805454993], [11.049177048799478, 38.14618437173513, 80.14562302456966], [10.65350576698143, 36.780168640412235, 81.22951322466312], [10.255869286729853, 35.40736825703413, 82.3040722245816], [9.85628464146812, 34.0278420278002, 83.36925399379388], [9.454768948072493, 32.641649047022604, 84.42501290345825], [9.051339406138952, 31.24884869459513, 85.47130372837682], [8.646013297246347, 29.849500633449228, 86.508081648933], [8.238807984216143, 28.443664806998427, 87.53530225301137], [7.82974091036867, 27.03140143657055, 88.55292153790003], [7.418829598775901, 25.61277101882805, 89.56089591217577], [7.006091651510807, 24.187834323176453, 90.55918219757115], [6.591544748893348, 22.756652389161243, 91.54773763082429], [6.175206648733099, 21.31928652385308, 92.52651986551061], [5.75709518556859, 19.875798299221703, 93.49548697385683], [5.337228269903331, 18.426249549498394, 94.4545974485369], [4.915623887438575, 16.970702368527164, 95.4038102044504], [4.49230009830285, 15.509219107104771, 96.3430845804819], [4.06727503627833, 14.041862370309873, 97.27238034124349], [3.6405669080241037, 12.568695014821412, 98.19165767879761], [3.2121939922961817, 11.089780146225786, 99.1008772143627], [2.7821746391645314, 9.605181116313736, 100.0], [0.0, 0.0, 100.0], [0.0, 0.0, 0.0], [22.00282631536489, 107.77697172464944, 0.0], [21.82297865637794, 106.89601962424382, 1.5456231506041433], [21.64111138798181, 106.00517482264297, 3.0853284936754903], [21.45723230076495, 105.10447548067314, 4.619050073361677], [21.271349271495477, 104.19396018129642, 6.146722190134881], [21.083470262783706, 103.27366792795789, 7.668279403606022], [20.89360332274104, 102.34363814291457, 9.18365653532831], [20.701756584635287, 101.40391066554722, 10.692788671588943], [20.507938266542165, 100.45452575065316, 12.19561116619002], [20.312156670993375, 99.4955240667225, 13.692059643217561], [20.114420184620837, 98.52694669419547, 15.182069999799467], [19.91473727779751, 97.54883512370306, 16.66557840885119], [19.713116504274538, 96.56123125428957, 18.142521321809966], [19.509566500814792, 95.56417739161768, 19.612835471357045], [19.304095986822972, 94.55771624615649, 21.07645787412787], [19.096713763972037, 93.54189093135173, 22.533325833410004], [18.88742871582619, 92.51674496177891, 23.98337694182888], [18.676249807460334, 91.48232225127943, 25.426549084021218], [18.463186085076043, 90.43866711107934, 26.86278043929562], [18.248246675614066, 89.38582424789138, 28.29200948428104], [18.031440786363326, 88.32383876199964, 29.71417499556202], [17.812777704566514, 87.25275614532765, 31.129216052301388], [17.59226679702231, 86.17262227949007, 32.537072038849914], [17.369917509684075, 85.08348343382666, 33.93768264734277], [17.14573936725523, 83.98538626342061, 35.330987880283146], [16.919741972781278, 82.87837780709995, 36.7169280531121], [16.691935007238428, 81.76250548542258, 38.095443796765494], [16.462328229118864, 80.63781709864479, 39.46647606021682], [16.230931474012795, 79.50436082467388, 40.82996611300709], [15.997754654187057, 78.3621852170042, 42.1858555477605], [15.762807758160516, 77.2113392026372, 43.53408628268642], [15.52610085027626, 76.051872079986, 44.87460056406741], [15.28764407027039, 74.88383351676302, 46.207340968733234], [15.047447632837704, 73.70727354785272, 47.53225040652072], [14.805521827194172, 72.52224257316844, 48.84927212271907], [14.56187701663609, 71.32879135549288, 50.158349700501475], [14.316523638096257, 70.12697101830425, 51.459427063341366], [14.06947220169678, 68.91683304358565, 52.7524484774149], [13.82073329029897, 67.69842926962045, 54.037358553988184], [13.570317559049903, 66.471811888771, 55.31410225179005], [13.318235734926066, 65.23703344524347, 56.5826248793698], [13.064498616273815, 63.994146832836726, 57.84287209744008], [12.809117072346805, 62.743205292676585, 59.09478992120444], [12.552102042840403, 61.484262410935166, 60.33832472267005], [12.293464537423063, 60.217372116535444, 61.57342323294483], [12.033215635264712, 58.94258867884114, 62.8000325445193], [11.771366484562122, 57.659966705331804, 64.01810011353308], [11.507928302061424, 56.369561139263965, 65.22757376202546], [11.24291237257756, 55.07142725731724, 66.42840168017088], [10.976330048510906, 53.76562066722661, 67.62053242849794], [10.708192749360979, 52.452197305400354, 68.80391494009308], [10.438511961237241, 51.13121343452389, 69.97849852278816], [10.167299236367075, 49.8027256411496, 71.14423286133177], [9.894566192600967, 48.46679083327307, 72.30106801954474], [9.620324512914774, 47.123466237895116, 73.44895444245918], [9.344585944909316, 45.77280939857048, 74.58784295844109], [9.067362300307108, 44.4148781729428, 75.71768478129704], [8.78866545444641, 43.04973073026621, 76.83843151236368], [8.50850734577254, 41.67742554891368, 77.95003514258127], [8.226899975326413, 40.298021413871695, 79.05244805454993], [7.943855406230538, 38.91157741422248, 80.14562302456966], [7.6593857631721916, 37.51815294061243, 81.22951322466312], [7.37350323188411, 36.11780768270842, 82.3040722245816], [7.086220058622439, 34.71060162664056, 83.36925399379388], [6.797548549642157, 33.29659505243269, 84.42501290345825], [6.5075010706699485, 31.875848531420353, 85.47130372837682], [6.216090046374455, 30.448422923655848, 86.508081648933], [5.92332795983406, 29.014379375301353, 87.53530225301137], [5.6292273520021645, 27.57377931600962, 88.55292153790003], [5.333800821169974, 26.126684456292534, 89.56089591217577], [5.037061022426813, 24.673156784877587, 90.55918219757115], [4.739020667118031, 23.2132585660525, 91.54773763082429], [4.439692522300486, 21.747052336998, 92.52651986551061], [4.13908941019566, 20.274600905109022, 93.49548697385683], [3.8372242076403973, 18.79596734530425, 94.4545974485369], [3.5341098455353, 17.311214997324154, 95.4038102044504], [3.22975930829079, 15.820407463017649, 96.3430845804819], [2.9241856332709117, 14.323608603617641, 97.27238034124349], [2.617401910234891, 12.820882537005614, 98.19165767879761], [2.3094212807763626, 11.312293634964776, 99.1008772143627], [2.0002569377604473, 9.797906520422691, 100.0], [0.0, 0.0, 100.0], [0.0, 0.0, 0.0], [13.259034828085555, 109.19797615078593, 0.0], [13.150657552362917, 108.30540898258003, 1.5456231506041433], [13.041063247922619, 107.40281868112129, 3.0853284936754903], [12.930256609419892, 106.49024391037409, 4.619050073361677], [12.818242383442346, 105.56772376200435, 6.146722190134881], [12.705025368306615, 104.63529775370493, 7.668279403606022], [12.590610413852795, 103.69300582750255, 9.18365653532831], [12.475002421236752, 102.74088834804724, 10.692788671588943], [12.358206342720099, 101.77898610088282, 12.19561116619002], [12.240227181458126, 100.80734029070021, 13.692059643217561], [12.121069991285431, 99.82599253957197, 15.182069999799467], [12.00073987649945, 98.83498488516956, 16.66557840885119], [11.87924199164182, 97.83435977896264, 18.142521321809966], [11.75658154127754, 96.82416008440032, 19.612835471357045], [11.632763779772066, 95.80442907507536, 21.07645787412787], [11.507794011066208, 94.77521043287031, 22.533325833410004], [11.38167758844892, 93.73654824608627, 23.98337694182888], [11.254419914327995, 92.68848700755436, 25.426549084021218], [11.126026439998649, 91.63107161272981, 26.86278043929562], [10.996502665410002, 90.56434735776887, 28.29200948428104], [10.865854138929466, 89.48835993758823, 29.71417499556202], [10.734086457105068, 88.4031554439077, 31.129216052301388], [10.601205264425761, 87.30878036327614, 32.537072038849914], [10.467216253079572, 86.20528157507957, 33.93768264734277], [10.332125162709788, 85.09270634953329, 35.330987880283146], [10.195937780169109, 83.97110234565707, 36.7169280531121], [10.058659939271738, 82.84051760923347, 38.095443796765494], [9.920297520543475, 81.70100057074963, 39.46647606021682], [9.780856450969841, 80.552600043323, 40.82996611300709], [9.640342703742162, 79.39536522060995, 42.1858555477605], [9.49876229800169, 78.22934567469864, 43.53408628268642], [9.356121298581806, 77.05459135398569, 44.87460056406741], [9.21242581574817, 75.8711525810363, 46.207340968733234], [9.067682004937007, 74.67908005042861, 47.53225040652072], [8.921896066491442, 73.47842482658248, 48.84927212271907], [8.77507424539585, 72.26923834157145, 50.158349700501475], [8.6272228310084, 71.0515723929202, 51.459427063341366], [8.47834815679158, 69.82547914138512, 52.7524484774149], [8.328456600040955, 68.59101110872047, 54.037358553988184], [8.177554581611927, 67.34822117542804, 55.31410225179005], [8.02564856564473, 66.09716257849229, 56.5826248793698], [7.872745059287506, 64.83788890909969, 57.84287209744008], [7.7188506124175635, 63.57045411034301, 59.09478992120444], [7.563971817360807, 62.2949124749107, 60.33832472267005], [7.4081153086093385, 61.01131864276109, 61.57342323294483], [7.251287762537271, 59.719727598781866, 62.8000325445193], [7.093495897114701, 58.42019467043448, 64.01810011353308], [6.934746471619979, 57.1127755253845, 65.22757376202546], [6.775046286350133, 55.79752616911664, 66.42840168017088], [6.614402182329575, 54.47450294253581, 67.62053242849794], [6.452821041017059, 53.143762519553725, 68.80391494009308], [6.290309784010898, 51.80536190466105, 69.97849852278816], [6.126875372752452, 50.459358430485516, 71.14423286133177], [5.962524808227958, 49.105809755336196, 72.30106801954474], [5.797265130668593, 47.744773860733325, 73.44895444245918], [5.631103419248921, 46.376309048924774, 74.58784295844109], [5.464046791783627, 45.00047394038845, 75.71768478129704], [5.296102404422621, 43.61732747132126, 76.83843151236368], [5.127277451344504, 42.226928891114525, 77.95003514258127], [4.9575791644483616, 40.829337759815736, 79.05244805454993], [4.787014813044017, 39.4246139455775, 80.14562302456966], [4.61559170354059, 38.01281762209265, 81.22951322466312], [4.443317179133562, 36.59400926601693, 82.3040722245816], [4.2701986194901815, 35.168249654378165, 83.36925399379388], [4.096243440433353, 33.73559986197273, 84.42501290345825], [3.9214590936239904, 32.296121258749594, 85.47130372837682], [3.7458530662417777, 30.84987550718112, 86.508081648933], [3.569432880664463, 29.39692455962181, 87.53530225301137], [3.392206094145626, 27.937330655654463, 88.55292153790003], [3.214180298490948, 26.471156319424058, 89.56089591217577], [3.035363119733001, 24.998464356959353, 90.55918219757115], [2.855762217804571, 23.51931785348252, 91.54773763082429], [2.6753852862105334, 22.03378017070673, 92.52651986551061], [2.4942400516982963, 20.541914944122066, 93.49548697385683], [2.3123342739268122, 19.043786080269555, 94.4545974485369], [2.1296757451341772, 17.539457754003614, 95.4038102044504], [1.9462722898038256, 16.028994405742903, 96.3430845804819], [1.7621317643293612, 14.512460738709986, 97.27238034124349], [1.577262056678038, 12.989921716159824, 98.19165767879761], [1.3916710860528343, 11.461442558596708, 99.1008772143627], [1.205366802553234, 9.927088740980555, 100.0], [0.0, 0.0, 100.0], [0.0, 0.0, 0.0], [4.429253412035677, 109.91078979887266, 0.0], [4.393049387798195, 109.01239620345851, 1.5456231506041433], [4.356438808432822, 108.10391404659923, 3.0853284936754903], [4.319423242214925, 107.1853822446467, 4.619050073361677], [4.282004274768165, 106.25684014444624, 6.146722190134881], [4.244183508996572, 105.31832752165107, 7.668279403606022], [4.205962565015866, 104.36988457901819, 9.18365653532831], [4.167343080084085, 103.41155194468675, 10.692788671588943], [4.128326708531422, 102.44337067043709, 12.19561116619002], [4.088915121689385, 101.46538222993276, 13.692059643217561], [4.049110007819177, 100.4776285169435, 15.182069999799467], [4.008913072039395, 99.48015184355084, 16.66557840885119], [3.968326036252984, 98.47299493833567, 18.142521321809966], [3.92735063907347, 97.45620094454767, 19.612835471357045], [3.885988635750493, 96.42981341825742, 21.07645787412787], [3.8442417980946137, 95.39387632649048, 22.533325833410004], [3.802111914401412, 94.34843404534399, 23.98337694182888], [3.7596007893748844, 93.29353135808574, 25.426549084021218], [3.71671024405014, 92.22921345323586, 26.86278043929562], [3.6734421157153916, 91.15552592263111, 28.29200948428104], [3.629798257833248, 90.0725147594718, 29.71417499556202], [3.58578053996132, 88.9802263563515, 31.129216052301388], [3.541390847672144, 87.87870750327014, 32.537072038849914], [3.496631082472395, 86.76800538562917, 33.93768264734277], [3.4515031617214413, 85.6481675822106, 35.330987880283146], [3.406009018549211, 84.51924206313882, 36.7169280531121], [3.360150601773383, 83.38127718782576, 38.095443796765494], [3.3139298758158993, 82.23432170289914, 39.46647606021682], [3.26734882061883, 81.07842474011467, 40.82996611300709], [3.220409431559545, 79.9136358142511, 42.1858555477605], [3.1731137193652414, 78.7400048209892, 43.53408628268642], [3.125463710026822, 77.5575820347747, 44.87460056406741], [3.0774614447120934, 76.36641810666428, 46.207340968733234], [3.029108979678335, 75.16656406215608, 47.53225040652072], [2.980408386184225, 73.95807129900408, 48.84927212271907], [2.931361750401095, 72.74099158501592, 50.158349700501475], [2.8819711733235875, 71.51537705583593, 51.459427063341366], [2.832238770679634, 70.28128021271125, 52.7524484774149], [2.7821666728398475, 69.03875392024337, 54.037358553988184], [2.731757024726241, 67.7878514041231, 55.31410225179005], [2.681011985720366, 66.52862624885095, 56.5826248793698], [2.629933729570802, 65.26113239544156, 57.84287209744008], [2.5785244443000384, 63.98542413911306, 59.09478992120444], [2.5267863321107544, 62.70155612696125, 60.33832472267005], [2.4747216092914783, 61.40958335561872, 61.57342323294483], [2.4223325061216525, 60.109561168899056, 62.8000325445193], [2.369621266776088, 58.80154525542579, 64.01810011353308], [2.3165901492288445, 57.48559164624733, 65.22757376202546], [2.2632414251564956, 56.16175671243642, 66.42840168017088], [2.2095773798408227, 54.83009716267557, 67.62053242849794], [2.15560031207092, 53.49067004082782, 68.80391494009308], [2.101312534044721, 52.1435327234931, 69.97849852278816], [2.0467163712699503, 50.7887429175504, 71.14423286133177], [1.9918141624645138, 49.42635865768599, 72.30106801954474], [1.9366082594563068, 48.05643830390716, 73.44895444245918], [1.8811010270824753, 46.67904053904245, 74.58784295844109], [1.825294843088111, 45.29422436622772, 75.71768478129704], [1.7691920980243978, 43.90204910637879, 76.83843151236368], [1.7127951951462128, 42.50257439565034, 77.95003514258127], [1.656106550309168, 41.095860182881076, 79.05244805454993], [1.5991285918661382, 39.68196672702606, 80.14562302456966], [1.5418637605632213, 38.260954594575026, 81.22951322466312], [1.4843145094352017, 36.832884656958335, 82.3040722245816], [1.4264833037004583, 35.397818087939115, 83.36925399379388], [1.368372620655365, 33.95581636099283, 84.42501290345825], [1.3099849495681795, 32.5069412466742, 85.47130372837682], [1.2513227915724001, 31.051254809970853, 86.508081648933], [1.1923886595596318, 29.588819407644806, 87.53530225301137], [1.1331850780719421, 28.11969768556135, 88.55292153790003], [1.0737145831937187, 26.64395257600547, 89.56089591217577], [1.0139797224430294, 25.161647294986007, 90.55918219757115], [0.953983054662495, 23.6728453395277, 91.54773763082429], [0.8937271499096772, 22.177610484951153, 92.52651986551061], [0.8332145893469882, 20.676006782141002, 93.49548697385683], [0.7724479651311226, 19.168098554802192, 94.4545974485369], [0.7114298803020166, 17.65395039670452, 95.4038102044504], [0.650162948671339, 16.133627168915567, 96.3430845804819], [0.5886497947105255, 14.607193997022307, 97.27238034124349], [0.5268930534383638, 13.07471626834155, 98.19165767879761], [0.46489537030810624, 11.536259629118678, 99.1008772143627], [0.402659401094153, 9.99188998171571, 100.0], [0.0, 0.0, 100.0], [0.0, 0.0, 0.0], [-4.4292534120356395, 109.91078979887267, 0.0], [-4.393049387798158, 109.01239620345851, 1.5456231506041433], [-4.356438808432785, 108.10391404659924, 3.0853284936754903], [-4.319423242214889, 107.18538224464672, 4.619050073361677], [-4.282004274768129, 106.25684014444626, 6.146722190134881], [-4.244183508996535, 105.31832752165109, 7.668279403606022], [-4.20596256501583, 104.3698845790182, 9.18365653532831], [-4.167343080084049, 103.41155194468676, 10.692788671588943], [-4.128326708531388, 102.44337067043709, 12.19561116619002], [-4.08891512168935, 101.46538222993277, 13.692059643217561], [-4.049110007819142, 100.4776285169435, 15.182069999799467], [-4.008913072039361, 99.48015184355084, 16.66557840885119], [-3.96832603625295, 98.47299493833569, 18.142521321809966], [-3.9273506390734365, 97.45620094454769, 19.612835471357045], [-3.88598863575046, 96.42981341825742, 21.07645787412787], [-3.8442417980945813, 95.3938763264905, 22.533325833410004], [-3.80211191440138, 94.348434045344, 23.98337694182888], [-3.759600789374853, 93.29353135808574, 25.426549084021218], [-3.7167102440501085, 92.22921345323586, 26.86278043929562], [-3.6734421157153605, 91.15552592263113, 28.29200948428104], [-3.6297982578332175, 90.07251475947182, 29.71417499556202], [-3.5857805399612896, 88.98022635635151, 31.129216052301388], [-3.5413908476721137, 87.87870750327015, 32.537072038849914], [-3.4966310824723656, 86.76800538562918, 33.93768264734277], [-3.451503161721412, 85.6481675822106, 35.330987880283146], [-3.4060090185491823, 84.51924206313883, 36.7169280531121], [-3.3601506017733547, 83.38127718782576, 38.095443796765494], [-3.3139298758158713, 82.23432170289914, 39.46647606021682], [-3.2673488206188024, 81.07842474011467, 40.82996611300709], [-3.220409431559518, 79.91363581425111, 42.1858555477605], [-3.173113719365215, 78.74000482098921, 43.53408628268642], [-3.125463710026796, 77.55758203477471, 44.87460056406741], [-3.0774614447120676, 76.3664181066643, 46.207340968733234], [-3.0291089796783095, 75.1665640621561, 47.53225040652072], [-2.9804083861842, 73.95807129900408, 48.84927212271907], [-2.93136175040107, 72.74099158501592, 50.158349700501475], [-2.8819711733235636, 71.51537705583594, 51.459427063341366], [-2.83223877067961, 70.28128021271125, 52.7524484774149], [-2.782166672839824, 69.03875392024338, 54.037358553988184], [-2.731757024726218, 67.7878514041231, 55.31410225179005], [-2.6810119857203434, 66.52862624885095, 56.5826248793698], [-2.6299337295707796, 65.26113239544158, 57.84287209744008], [-2.5785244443000166, 63.985424139113064, 59.09478992120444], [-2.526786332110733, 62.70155612696125, 60.33832472267005], [-2.4747216092914575, 61.40958335561873, 61.57342323294483], [-2.422332506121632, 60.10956116889906, 62.8000325445193], [-2.369621266776068, 58.80154525542579, 64.01810011353308], [-2.316590149228825, 57.485591646247336, 65.22757376202546], [-2.2632414251564765, 56.16175671243643, 66.42840168017088], [-2.209577379840804, 54.83009716267558, 67.62053242849794], [-2.1556003120709017, 53.49067004082783, 68.80391494009308], [-2.101312534044703, 52.1435327234931, 69.97849852278816], [-2.046716371269933, 50.7887429175504, 71.14423286133177], [-1.991814162464497, 49.426358657685995, 72.30106801954474], [-1.9366082594562903, 48.056438303907164, 73.44895444245918], [-1.8811010270824595, 46.67904053904245, 74.58784295844109], [-1.8252948430880955, 45.29422436622773, 75.71768478129704], [-1.769192098024383, 43.9020491063788, 76.83843151236368], [-1.7127951951461984, 42.50257439565035, 77.95003514258127], [-1.656106550309154, 41.09586018288108, 79.05244805454993], [-1.5991285918661247, 39.68196672702606, 80.14562302456966], [-1.5418637605632082, 38.26095459457503, 81.22951322466312], [-1.484314509435189, 36.83288465695834, 82.3040722245816], [-1.4264833037004463, 35.397818087939115, 83.36925399379388], [-1.3683726206553535, 33.955816360992834, 84.42501290345825], [-1.3099849495681684, 32.5069412466742, 85.47130372837682], [-1.2513227915723897, 31.051254809970857, 86.508081648933], [-1.1923886595596216, 29.58881940764481, 87.53530225301137], [-1.1331850780719326, 28.119697685561352, 88.55292153790003], [-1.0737145831937096, 26.643952576005475, 89.56089591217577], [-1.0139797224430207, 25.16164729498601, 90.55918219757115], [-0.953983054662487, 23.672845339527704, 91.54773763082429], [-0.8937271499096696, 22.177610484951153, 92.52651986551061], [-0.8332145893469812, 20.676006782141005, 93.49548697385683], [-0.7724479651311161, 19.168098554802196, 94.4545974485369], [-0.7114298803020106, 17.653950396704523, 95.4038102044504], [-0.6501629486713334, 16.133627168915567, 96.3430845804819], [-0.5886497947105205, 14.607193997022309, 97.27238034124349], [-0.5268930534383593, 13.07471626834155, 98.19165767879761], [-0.46489537030810235, 11.536259629118678, 99.1008772143627], [-0.4026594010941496, 9.991889981715712, 100.0], [0.0, 0.0, 100.0], [0.0, 0.0, 0.0], [-13.259034828085516, 109.19797615078593, 0.0], [-13.15065755236288, 108.30540898258003, 1.5456231506041433], [-13.041063247922581, 107.40281868112129, 3.0853284936754903], [-12.930256609419855, 106.49024391037409, 4.619050073361677], [-12.818242383442309, 105.56772376200435, 6.146722190134881], [-12.705025368306577, 104.63529775370493, 7.668279403606022], [-12.59061041385276, 103.69300582750255, 9.18365653532831], [-12.475002421236717, 102.74088834804724, 10.692788671588943], [-12.358206342720063, 101.77898610088282, 12.19561116619002], [-12.240227181458092, 100.80734029070021, 13.692059643217561], [-12.121069991285395, 99.82599253957197, 15.182069999799467], [-12.000739876499415, 98.83498488516956, 16.66557840885119], [-11.879241991641786, 97.83435977896264, 18.142521321809966], [-11.756581541277507, 96.82416008440032, 19.612835471357045], [-11.632763779772032, 95.80442907507536, 21.07645787412787], [-11.507794011066174, 94.77521043287031, 22.533325833410004], [-11.381677588448886, 93.73654824608627, 23.98337694182888], [-11.254419914327963, 92.68848700755436, 25.426549084021218], [-11.126026439998617, 91.63107161272981, 26.86278043929562], [-10.99650266540997, 90.56434735776887, 28.29200948428104], [-10.865854138929434, 89.48835993758823, 29.71417499556202], [-10.734086457105036, 88.4031554439077, 31.129216052301388], [-10.601205264425731, 87.30878036327614, 32.537072038849914], [-10.467216253079542, 86.20528157507957, 33.93768264734277], [-10.332125162709758, 85.09270634953329, 35.330987880283146], [-10.19593778016908, 83.97110234565707, 36.7169280531121], [-10.05865993927171, 82.84051760923347, 38.095443796765494], [-9.920297520543446, 81.70100057074963, 39.46647606021682], [-9.780856450969813, 80.552600043323, 40.82996611300709], [-9.640342703742135, 79.39536522060995, 42.1858555477605], [-9.498762298001663, 78.22934567469864, 43.53408628268642], [-9.356121298581778, 77.05459135398569, 44.87460056406741], [-9.212425815748144, 75.8711525810363, 46.207340968733234], [-9.067682004936982, 74.67908005042861, 47.53225040652072], [-8.921896066491417, 73.47842482658248, 48.84927212271907], [-8.775074245395825, 72.26923834157145, 50.158349700501475], [-8.627222831008375, 71.0515723929202, 51.459427063341366], [-8.478348156791554, 69.82547914138512, 52.7524484774149], [-8.32845660004093, 68.59101110872047, 54.037358553988184], [-8.177554581611902, 67.34822117542804, 55.31410225179005], [-8.025648565644707, 66.09716257849229, 56.5826248793698], [-7.872745059287483, 64.83788890909969, 57.84287209744008], [-7.718850612417541, 63.57045411034301, 59.09478992120444], [-7.563971817360785, 62.2949124749107, 60.33832472267005], [-7.408115308609317, 61.01131864276109, 61.57342323294483], [-7.251287762537251, 59.719727598781866, 62.8000325445193], [-7.09349589711468, 58.42019467043448, 64.01810011353308], [-6.93474647161996, 57.1127755253845, 65.22757376202546], [-6.775046286350113, 55.79752616911664, 66.42840168017088], [-6.614402182329555, 54.47450294253581, 67.62053242849794], [-6.4528210410170415, 53.143762519553725, 68.80391494009308], [-6.29030978401088, 51.80536190466105, 69.97849852278816], [-6.126875372752434, 50.459358430485516, 71.14423286133177], [-5.962524808227941, 49.105809755336196, 72.30106801954474], [-5.797265130668577, 47.744773860733325, 73.44895444245918], [-5.631103419248905, 46.376309048924774, 74.58784295844109], [-5.464046791783612, 45.00047394038845, 75.71768478129704], [-5.296102404422606, 43.61732747132126, 76.83843151236368], [-5.127277451344489, 42.226928891114525, 77.95003514258127], [-4.957579164448347, 40.829337759815736, 79.05244805454993], [-4.787014813044003, 39.4246139455775, 80.14562302456966], [-4.615591703540576, 38.01281762209265, 81.22951322466312], [-4.443317179133548, 36.59400926601693, 82.3040722245816], [-4.270198619490169, 35.168249654378165, 83.36925399379388], [-4.096243440433342, 33.73559986197273, 84.42501290345825], [-3.9214590936239793, 32.296121258749594, 85.47130372837682], [-3.745853066241767, 30.84987550718112, 86.508081648933], [-3.569432880664453, 29.39692455962181, 87.53530225301137], [-3.392206094145616, 27.937330655654463, 88.55292153790003], [-3.214180298490939, 26.471156319424058, 89.56089591217577], [-3.035363119732992, 24.998464356959353, 90.55918219757115], [-2.8557622178045627, 23.51931785348252, 91.54773763082429], [-2.675385286210526, 22.03378017070673, 92.52651986551061], [-2.494240051698289, 20.541914944122066, 93.49548697385683], [-2.3123342739268056, 19.043786080269555, 94.4545974485369], [-2.129675745134171, 17.539457754003614, 95.4038102044504], [-1.94627228980382, 16.028994405742903, 96.3430845804819], [-1.7621317643293561, 14.512460738709986, 97.27238034124349], [-1.5772620566780335, 12.989921716159824, 98.19165767879761], [-1.3916710860528303, 11.461442558596708, 99.1008772143627], [-1.2053668025532305, 9.927088740980555, 100.0], [0.0, 0.0, 100.0], [0.0, 0.0, 0.0], [-22.002826315364878, 107.77697172464944, 0.0], [-21.82297865637793, 106.89601962424382, 1.5456231506041433], [-21.641111387981795, 106.00517482264297, 3.0853284936754903], [-21.45723230076494, 105.10447548067314, 4.619050073361677], [-21.271349271495463, 104.19396018129642, 6.146722190134881], [-21.083470262783695, 103.27366792795789, 7.668279403606022], [-20.89360332274103, 102.34363814291457, 9.18365653532831], [-20.701756584635277, 101.40391066554722, 10.692788671588943], [-20.507938266542155, 100.45452575065316, 12.19561116619002], [-20.312156670993364, 99.4955240667225, 13.692059643217561], [-20.114420184620826, 98.52694669419547, 15.182069999799467], [-19.9147372777975, 97.54883512370306, 16.66557840885119], [-19.713116504274527, 96.56123125428957, 18.142521321809966], [-19.50956650081478, 95.56417739161768, 19.612835471357045], [-19.30409598682296, 94.55771624615649, 21.07645787412787], [-19.096713763972026, 93.54189093135173, 22.533325833410004], [-18.88742871582618, 92.51674496177891, 23.98337694182888], [-18.676249807460323, 91.48232225127943, 25.426549084021218], [-18.463186085076032, 90.43866711107934, 26.86278043929562], [-18.248246675614055, 89.38582424789138, 28.29200948428104], [-18.031440786363316, 88.32383876199964, 29.71417499556202], [-17.812777704566503, 87.25275614532765, 31.129216052301388], [-17.5922667970223, 86.17262227949007, 32.537072038849914], [-17.369917509684065, 85.08348343382666, 33.93768264734277], [-17.14573936725522, 83.98538626342061, 35.330987880283146], [-16.919741972781267, 82.87837780709995, 36.7169280531121], [-16.691935007238417, 81.76250548542258, 38.095443796765494], [-16.462328229118857, 80.63781709864479, 39.46647606021682], [-16.230931474012788, 79.50436082467388, 40.82996611300709], [-15.997754654187048, 78.3621852170042, 42.1858555477605], [-15.762807758160507, 77.2113392026372, 43.53408628268642], [-15.52610085027625, 76.051872079986, 44.87460056406741], [-15.287644070270382, 74.88383351676302, 46.207340968733234], [-15.047447632837695, 73.70727354785272, 47.53225040652072], [-14.805521827194164, 72.52224257316844, 48.84927212271907], [-14.561877016636082, 71.32879135549288, 50.158349700501475], [-14.31652363809625, 70.12697101830425, 51.459427063341366], [-14.069472201696772, 68.91683304358565, 52.7524484774149], [-13.820733290298962, 67.69842926962045, 54.037358553988184], [-13.570317559049895, 66.471811888771, 55.31410225179005], [-13.31823573492606, 65.23703344524347, 56.5826248793698], [-13.064498616273807, 63.994146832836726, 57.84287209744008], [-12.809117072346798, 62.743205292676585, 59.09478992120444], [-12.552102042840396, 61.484262410935166, 60.33832472267005], [-12.293464537423056, 60.217372116535444, 61.57342323294483], [-12.033215635264705, 58.94258867884114, 62.8000325445193], [-11.771366484562117, 57.659966705331804, 64.01810011353308], [-11.50792830206142, 56.369561139263965, 65.22757376202546], [-11.242912372577553, 55.07142725731724, 66.42840168017088], [-10.976330048510901, 53.76562066722661, 67.62053242849794], [-10.708192749360972, 52.452197305400354, 68.80391494009308], [-10.438511961237234, 51.13121343452389, 69.97849852278816], [-10.16729923636707, 49.8027256411496, 71.14423286133177], [-9.89456619260096, 48.46679083327307, 72.30106801954474], [-9.620324512914769, 47.123466237895116, 73.44895444245918], [-9.34458594490931, 45.77280939857048, 74.58784295844109], [-9.067362300307103, 44.4148781729428, 75.71768478129704], [-8.788665454446404, 43.04973073026621, 76.83843151236368], [-8.508507345772534, 41.67742554891368, 77.95003514258127], [-8.226899975326408, 40.298021413871695, 79.05244805454993], [-7.943855406230534, 38.91157741422248, 80.14562302456966], [-7.659385763172188, 37.51815294061243, 81.22951322466312], [-7.373503231884106, 36.11780768270842, 82.3040722245816], [-7.086220058622435, 34.71060162664056, 83.36925399379388], [-6.797548549642153, 33.29659505243269, 84.42501290345825], [-6.507501070669945, 31.875848531420353, 85.47130372837682], [-6.216090046374451, 30.448422923655848, 86.508081648933], [-5.923327959834056, 29.014379375301353, 87.53530225301137], [-5.629227352002162, 27.57377931600962, 88.55292153790003], [-5.33380082116997, 26.126684456292534, 89.56089591217577], [-5.037061022426809, 24.673156784877587, 90.55918219757115], [-4.739020667118028, 23.2132585660525, 91.54773763082429], [-4.439692522300484, 21.747052336998, 92.52651986551061], [-4.139089410195658, 20.274600905109022, 93.49548697385683], [-3.8372242076403955, 18.79596734530425, 94.4545974485369], [-3.534109845535298, 17.311214997324154, 95.4038102044504], [-3.229759308290788, 15.820407463017649, 96.3430845804819], [-2.92418563327091, 14.323608603617641, 97.27238034124349], [-2.6174019102348898, 12.820882537005614, 98.19165767879761], [-2.309421280776361, 11.312293634964776, 99.1008772143627], [-2.0002569377604464, 9.797906520422691, 100.0], [0.0, 0.0, 100.0], [0.0, 0.0, 0.0], [-30.603921030809765, 105.65699227945096, 0.0], [-30.35376936964026, 104.79336855926589, 1.5456231506041433], [-30.100808616312058, 103.9200467279066, 3.0853284936754903], [-29.84504960682188, 103.03706419557359, 4.619050073361677], [-29.586503297034483, 102.14445878629982, 6.146722190134881], [-29.32518076221328, 101.24226873633029, 7.668279403606022], [-29.061093196545883, 100.33053269248384, 9.18365653532831], [-28.794251912664688, 99.40928971049827, 10.692788671588943], [-28.524668341162144, 98.47857925335664, 12.19561116619002], [-28.252354030101245, 97.53844118959744, 13.692059643217561], [-27.977320644520727, 96.5889157916062, 15.182069999799467], [-27.69957996593544, 95.6300437338907, 16.66557840885119], [-27.41914389183168, 94.66186609133858, 18.142521321809966], [-27.136024435157474, 93.68442433745763, 19.612835471357045], [-26.850233723808064, 92.69776034259944, 21.07645787412787], [-26.561784000106353, 91.70191637216573, 22.533325833410004], [-26.270687620278455, 90.6969350847977, 23.98337694182888], [-25.976957053924433, 89.68285953054888, 25.426549084021218], [-25.680604883484136, 88.65973314904089, 26.86278043929562], [-25.381643803698235, 87.62759976760275, 28.29200948428104], [-25.08008662106435, 86.58650359939328, 29.71417499556202], [-24.775946253288502, 85.53648924150718, 31.129216052301388], [-24.46923572873183, 84.47760167306501, 32.537072038849914], [-24.159968185852378, 83.40988625328586, 33.93768264734277], [-23.848156872642356, 82.33338871954467, 35.330987880283146], [-23.53381514606063, 81.24815518541293, 36.7169280531121], [-23.216956471460573, 80.15423213868333, 38.095443796765494], [-22.89759442201319, 79.05166643937827, 39.46647606021682], [-22.57574267812579, 77.94050531774276, 40.82996611300709], [-22.25141502685587, 76.82079637222103, 42.1858555477605], [-21.924625361320537, 75.6925875674175, 43.53408628268642], [-21.595387680101453, 74.55592723204255, 44.87460056406741], [-21.263716086645083, 73.41086405684177, 46.207340968733234], [-20.929624788658582, 72.25744709251047, 47.53225040652072], [-20.593128097501257, 71.09572574759268, 48.84927212271907], [-20.254240427571364, 69.92574978636414, 50.158349700501475], [-19.912976295688818, 68.74756932670121, 51.459427063341366], [-19.569350320473173, 67.56123483793333, 52.7524484774149], [-19.223377221717566, 66.3667971386817, 54.037358553988184], [-18.875071819758034, 65.16430739468188, 55.31410225179005], [-18.52444903483876, 63.953817116592326, 56.5826248793698], [-18.171523886472883, 62.73537815778776, 57.84287209744008], [-17.816311492799137, 61.509042712137855, 59.09478992120444], [-17.458827069934223, 60.27486331177156, 60.33832472267005], [-17.09908593132102, 59.032892824826725, 61.57342323294483], [-16.737103487072606, 57.78318445318545, 62.8000325445193], [-16.372895243312094, 56.525791730194925, 64.01810011353308], [-16.006476801508487, 55.26076851837455, 65.22757376202546], [-15.637863857808288, 53.98816900710836, 66.42840168017088], [-15.267072202363167, 52.70804771032388, 67.62053242849794], [-14.894117718653563, 51.42045946415693, 68.80391494009308], [-14.519016382808266, 50.12545942460253, 69.97849852278816], [-14.141784262920053, 48.82310306515223, 71.14423286133177], [-13.762437518357434, 47.513446174417965, 72.30106801954474], [-13.380992399072372, 46.196544853742004, 73.44895444245918], [-12.99746524490424, 44.872455514793984, 74.58784295844109], [-12.61187248487983, 43.54123487715424, 75.71768478129704], [-12.224230636509628, 42.202939965884205, 76.83843151236368], [-11.834556305080266, 40.857628109083784, 77.95003514258127], [-11.44286618294314, 39.505356935435266, 79.05244805454993], [-11.049177048799464, 38.14618437173514, 80.14562302456966], [-10.653505766981418, 36.780168640412235, 81.22951322466312], [-10.25586928672984, 35.40736825703413, 82.3040722245816], [-9.856284641468108, 34.0278420278002, 83.36925399379388], [-9.45476894807248, 32.64164904702261, 84.42501290345825], [-9.051339406138942, 31.248848694595132, 85.47130372837682], [-8.646013297246336, 29.84950063344923, 86.508081648933], [-8.238807984216132, 28.44366480699843, 87.53530225301137], [-7.829740910368661, 27.031401436570555, 88.55292153790003], [-7.4188295987758925, 25.612771018828052, 89.56089591217577], [-7.006091651510799, 24.187834323176457, 90.55918219757115], [-6.59154474889334, 22.756652389161246, 91.54773763082429], [-6.175206648733091, 21.31928652385308, 92.52651986551061], [-5.757095185568584, 19.875798299221707, 93.49548697385683], [-5.337228269903325, 18.426249549498397, 94.4545974485369], [-4.91562388743857, 16.970702368527167, 95.4038102044504], [-4.492300098302844, 15.509219107104773, 96.3430845804819], [-4.067275036278326, 14.041862370309875, 97.27238034124349], [-3.640566908024099, 12.568695014821413, 98.19165767879761], [-3.2121939922961777, 11.089780146225788, 99.1008772143627], [-2.782174639164528, 9.605181116313737, 100.0], [0.0, 0.0, 100.0], [0.0, 0.0, 0.0], [-39.0065375746789, 102.85178669539563, 0.0], [-38.68770424084062, 102.01109228665621, 1.5456231506041433], [-38.36529055013471, 101.160957252736, 3.0853284936754903], [-38.039310313690564, 100.30141801059028, 4.619050073361677], [-37.709777495416596, 99.4325113800195, 6.146722190134881], [-37.37670621140198, 98.55427458209181, 7.668279403606022], [-37.04011072931195, 97.66674523754851, 9.18365653532831], [-36.700005467776705, 96.76996136519291, 10.692788671588943], [-36.35640499577366, 95.86396138026129, 12.19561116619002], [-36.00932403200349, 94.94878409277767, 13.692059643217561], [-35.65877744425947, 94.02446870589107, 15.182069999799467], [-35.30478024879072, 93.09105481419627, 16.66557840885119], [-34.94734760965892, 92.14858240203782, 18.142521321809966], [-34.586494838088655, 91.19709184179698, 19.612835471357045], [-34.22223739181168, 90.23662389216258, 21.07645787412787], [-33.854590874404664, 89.26721969638494, 22.533325833410004], [-33.48357103462077, 88.28892078051337, 23.98337694182888], [-33.109193765715084, 87.30176905161733, 25.426549084021218], [-32.73147510476378, 86.30580679599142, 26.86278043929562], [-32.35043123197717, 85.30107667734389, 28.29200948428104], [-31.966078470006533, 84.28762173496901, 29.71417499556202], [-31.578433283244937, 83.26548538190336, 31.129216052301388], [-31.18751227712206, 82.23471140306654, 32.537072038849914], [-30.79333219739269, 81.19534395338506, 33.93768264734277], [-30.395909929419503, 80.14742755590113, 35.330987880283146], [-29.995262497449733, 79.09100709986552, 36.7169280531121], [-29.59140706388593, 78.02612783881456, 38.095443796765494], [-29.184360928550696, 76.9528353886315, 39.46647606021682], [-28.77414152794575, 75.87117572559282, 40.82996611300709], [-28.3607664345049, 74.78119518439843, 42.1858555477605], [-27.944253355841283, 73.68294045618687, 43.53408628268642], [-27.524620133988975, 72.57645858653555, 44.87460056406741], [-27.101884744638536, 71.46179697344506, 46.207340968733234], [-26.676065296367046, 70.33900336530895, 47.53225040652072], [-26.247180029862484, 69.20812585886858, 48.84927212271907], [-25.815247317142177, 68.06921289715237, 50.158349700501475], [-25.380285660766, 66.9223132674011, 51.459427063341366], [-24.942313693043598, 65.76747609897758, 52.7524484774149], [-24.501350175236432, 64.60475086126269, 54.037358553988184], [-24.057413996753926, 63.434187361535606, 55.31410225179005], [-23.610524174344445, 62.25583574284079, 56.5826248793698], [-23.160699851280626, 61.069746481839736, 57.84287209744008], [-22.707960296539326, 59.87597038664875, 59.09478992120444], [-22.25232490397624, 58.67455859466258, 60.33832472267005], [-21.793813191495115, 57.46556257036376, 61.57342323294483], [-21.332444800211686, 56.24903410311818, 62.8000325445193], [-20.868239493612244, 55.02502530495635, 64.01810011353308], [-20.401217156707148, 53.793588608341445, 65.22757376202546], [-19.93139779517894, 52.55477676392297, 66.42840168017088], [-19.45880153452538, 51.308642838277265, 67.62053242849794], [-18.983448619197368, 50.05524021163427, 68.80391494009308], [-18.5053594117317, 48.79462257559087, 69.97849852278816], [-18.024554391878787, 47.52684393081086, 71.14423286133177], [-17.541054155725476, 46.251958584711964, 72.30106801954474], [-17.054879414812646, 44.97002114913923, 73.44895444245918], [-16.566050995248098, 43.681086538025795, 74.58784295844109], [-16.074589836814365, 42.38520996504047, 75.71768478129704], [-15.580516992071757, 41.0824469412226, 76.83843151236368], [-15.083853625456571, 39.77285327260428, 77.95003514258127], [-14.584621012374374, 38.456485057819506, 79.05244805454993], [-14.082840538288771, 37.133398685701486, 80.14562302456966], [-13.57853369780518, 35.80365083286674, 81.22951322466312], [-13.071722093750214, 34.46729846128761, 82.3040722245816], [-12.562427436246187, 33.124398815851954, 83.36925399379388], [-12.050671541781139, 31.775009421911015, 84.42501290345825], [-11.53647633227436, 30.419188082815378, 85.47130372837682], [-11.01986383413724, 29.056992877438653, 86.508081648933], [-10.500856177329768, 27.68848215768968, 87.53530225301137], [-9.979475594412573, 26.313714546012942, 88.55292153790003], [-9.455744419594554, 24.932748932877374, 89.56089591217577], [-8.929685087776125, 23.545644474253642, 90.55918219757115], [-8.401320133588202, 22.1524605890801, 91.54773763082429], [-7.870672190426865, 20.753256956717472, 92.52651986551061], [-7.33776398948387, 19.34809351439245, 93.49548697385683], [-6.8026183587728974, 17.937030454630193, 94.4545974485369], [-6.265258222151684, 16.520128222675844, 95.4038102044504], [-5.725706598339995, 15.097447513905168, 96.3430845804819], [-5.183986599933602, 13.669049271224614, 97.27238034124349], [-4.640121432414283, 12.234994682460895, 98.19165767879761], [-4.09413439315568, 10.795345177739668, 99.1008772143627], [-3.5460488704253597, 9.350162426854162, 100.0], [0.0, 0.0, 100.0], [0.0, 0.0, 0.0], [-47.156181754335925, 99.37954780714207, 0.0], [-46.77073450434523, 98.56723493568997, 1.5456231506041433], [-46.38095885276615, 97.74580015112745, 3.0853284936754903], [-45.98687149629029, 96.91527864098671, 4.619050073361677], [-45.58848931630841, 96.07570598204506, 6.146722190134881], [-45.185829378187194, 95.22711813880099, 7.668279403606022], [-44.778908930538186, 94.36955146193323, 9.18365653532831], [-44.36774540447909, 93.50304268674414, 10.692788671588943], [-43.952356412886836, 92.62762893158558, 12.19561116619002], [-43.53275974964337, 91.74334769626932, 13.692059643217561], [-43.108973388873174, 90.85023686046033, 15.182069999799467], [-42.68101548417347, 89.94833468205425, 16.66557840885119], [-42.24890436783658, 89.03767979553875, 18.142521321809966], [-41.812658550064505, 88.11831121033815, 19.612835471357045], [-41.37229671817615, 87.19026830914281, 21.07645787412787], [-40.9278377358068, 86.25359084622188, 22.533325833410004], [-40.479300642099936, 85.30831894572034, 23.98337694182888], [-40.02670465089182, 84.35449309994027, 25.426549084021218], [-39.570069149888354, 83.39215416760634, 26.86278043929562], [-39.10941369983462, 82.42134337211554, 28.29200948428104], [-38.64475803367691, 81.44210229977122, 29.71417499556202], [-38.17612205571742, 80.45447289800165, 31.129216052301388], [-37.70352584076178, 79.45849747356347, 32.537072038849914], [-37.226989633258874, 78.45421869072894, 33.93768264734277], [-36.746533846433806, 77.44167956945859, 35.330987880283146], [-36.26217906141339, 76.4209234835584, 36.7169280531121], [-35.77394602634459, 75.39199415882176, 38.095443796765494], [-35.28185565550561, 74.35493567115635, 39.46647606021682], [-34.78592902841018, 73.30979244469628, 40.82996611300709], [-34.28618738890444, 72.25660924989883, 42.1858555477605], [-33.78265214425689, 71.19543120162672, 43.53408628268642], [-33.275344864241596, 70.12630375721577, 44.87460056406741], [-32.76428728021394, 69.0492727145273, 46.207340968733234], [-32.24950128417987, 67.96438420998652, 47.53225040652072], [-31.731008927858177, 66.87168471660627, 48.84927212271907], [-31.208832421735668, 65.77122104199596, 50.158349700501475], [-30.682994134115987, 64.66304032635689, 51.459427063341366], [-30.153516590161182, 63.54719004046248, 52.7524484774149], [-29.62042247092706, 62.42371798362526, 54.037358553988184], [-29.083734612391368, 61.29267228164884, 55.31410225179005], [-28.54347600447575, 60.154101384766726, 56.5826248793698], [-27.999669790060853, 59.00805406556669, 57.84287209744008], [-27.452339263994965, 57.85457941690153, 59.09478992120444], [-26.90150787209617, 56.69372684978614, 60.33832472267005], [-26.347199210147988, 55.52554609128087, 61.57342323294483], [-25.789437022888634, 54.35008718236146, 62.8000325445193], [-25.22824520299379, 53.167400475775246, 64.01810011353308], [-24.66364779005326, 51.977536633884505, 65.22757376202546], [-24.095668969541077, 50.78054662649603, 66.42840168017088], [-23.52433307177953, 49.57648172867785, 67.62053242849794], [-22.94966457089694, 48.36539351856277, 68.80391494009308], [-22.371688083779237, 47.1473338751389, 69.97849852278816], [-21.790428369015448, 45.92235497602728, 71.14423286133177], [-21.205910325837202, 44.690509295246976, 72.30106801954474], [-20.618158993052024, 43.45184960096702, 73.44895444245918], [-20.02719954797084, 42.20642895324616, 74.58784295844109], [-19.433057305329392, 40.95430070175983, 75.71768478129704], [-18.83575771620389, 39.695518483514896, 76.83843151236368], [-18.2353263669208, 38.430136220552114, 77.95003514258127], [-17.63178897796069, 37.15820811763602, 79.05244805454993], [-17.025171402856618, 35.879788659933325, 80.14562302456966], [-16.415499627086476, 34.594932610678605, 81.22951322466312], [-15.802799766960037, 33.30369500882875, 82.3040722245816], [-15.187098068500076, 32.006131166705025, 83.36925399379388], [-14.568420906318108, 30.702296667623763, 84.42501290345825], [-13.946794782484684, 29.392247363515462, 85.47130372837682], [-13.322246325393998, 28.0760393725321, 86.508081648933], [-12.694802288623281, 26.75372907664331, 87.53530225301137], [-12.064489549786778, 25.42537311922118, 88.55292153790003], [-11.431335109384392, 24.09102840261385, 89.56089591217577], [-10.795366089645052, 22.75075208570794, 90.55918219757115], [-10.15660973336489, 21.404601581480073, 91.54773763082429], [-9.515093402740241, 20.05263455453747, 92.52651986551061], [-8.870844578195578, 18.69490891864787, 93.49548697385683], [-8.223890857206333, 17.33148283425868, 94.4545974485369], [-7.574259953116705, 15.962414706005568, 95.4038102044504], [-6.921979693952468, 14.587763180210503, 96.3430845804819], [-6.267078021228938, 13.207587142369588, 97.27238034124349], [-5.609582988754129, 11.82194571463078, 98.19165767879761], [-4.9495227614269055, 10.430898253261045, 99.1008772143627], [-4.286925614030545, 9.034504346103837, 100.0], [0.0, 0.0, 100.0], [0.0, 0.0, 0.0], [-54.99999999999998, 95.26279441628826, 0.0], [-54.550438607181334, 94.48413124280493, 1.5456231506041433], [-54.095828839398806, 93.69672402738851, 3.0853284936754903], [-53.636190170621745, 92.90060649994332, 4.619050073361677], [-53.17154229024095, 92.09581276349459, 6.146722190134881], [-52.70190510222518, 91.2823772927275, 7.668279403606022], [-52.22729872426844, 90.46033493251018, 9.18365653532831], [-51.7477434869284, 89.6297208964015, 10.692788671588943], [-51.26325993275529, 88.7905707651421, 12.19561116619002], [-50.77386881541214, 87.94292048513088, 13.692059643217561], [-50.27959109878557, 87.08680636688453, 15.182069999799467], [-49.78044795608787, 86.2222650834825, 16.66557840885119], [-49.27646076895002, 85.34933366899602, 18.142521321809966], [-48.76765112650567, 84.46804951690146, 19.612835471357045], [-48.254040824466486, 83.57845037847879, 21.07645787412787], [-47.7356518641884, 82.68057436119435, 22.533325833410004], [-47.21250645172911, 81.77445992706828, 23.98337694182888], [-46.684626996896924, 80.86014589102717, 25.426549084021218], [-46.15203611229076, 79.93767141924124, 26.86278043929562], [-45.61475661233155, 79.00707602744669, 28.29200948428104], [-45.072811512284844, 78.0683995792528, 29.71417499556202], [-44.52622402727495, 77.12168228443437, 31.129216052301388], [-43.97501757129062, 76.16696469720954, 32.537072038849914], [-43.41921575618184, 75.20428771450213, 33.93768264734277], [-42.858842390648505, 74.23369257419002, 35.330987880283146], [-42.29392147922053, 73.25522085333864, 36.7169280531121], [-41.72447722122958, 72.26891446641996, 38.095443796765494], [-41.15053400977236, 71.2748156635168, 39.46647606021682], [-40.57211643066587, 70.27296702851338, 40.82996611300709], [-39.989249261394086, 69.26341147727078, 42.1858555477605], [-39.40195747004653, 68.24619225578869, 43.53408628268642], [-38.81026621424896, 67.22135293835306, 44.87460056406741], [-38.21420084008545, 66.1889374256693, 46.207340968733234], [-37.61378688101272, 65.14898994298176, 47.53225040652072], [-37.00905005676653, 64.10155503817951, 48.84927212271907], [-36.40001627225964, 63.046677579887614, 50.158349700501475], [-35.786711616472424, 61.98440275554561, 51.459427063341366], [-35.16916236133502, 60.91477606947131, 52.7524484774149], [-34.547394960602226, 59.83784334091207, 54.037358553988184], [-33.92143604872003, 58.753650702081586, 55.31410225179005], [-33.291312439684894, 57.66224459618406, 56.5826248793698], [-32.657051125895016, 56.5636717754246, 57.84287209744008], [-32.018679276994085, 55.45797929900651, 59.09478992120444], [-31.376224238707444, 54.34521453111544, 60.33832472267005], [-30.729713531670676, 53.22542513889048, 61.57342323294483], [-30.079174850250745, 52.09865909038229, 62.8000325445193], [-29.424636061359543, 50.96496465249813, 64.01810011353308], [-28.76612520326035, 49.82439038893455, 65.22757376202546], [-28.103670484366624, 48.67698515809686, 66.42840168017088], [-27.4373002820337, 47.522798111006274, 67.62053242849794], [-26.767043141343205, 46.3618786891945, 68.80391494009308], [-26.09292777388026, 45.19427662258571, 69.97849852278816], [-25.41498305650354, 44.020041927366314, 71.14423286133177], [-24.733238030108406, 42.839224903842556, 72.30106801954474], [-24.047721898382743, 41.65187613428563, 73.44895444245918], [-23.358464026556074, 40.45804648076504, 74.58784295844109], [-22.665493940141584, 39.25778708296975, 75.71768478129704], [-21.96884132367138, 38.05114935601756, 76.83843151236368], [-21.268536019424953, 36.83818498825276, 77.95003514258127], [-20.56460802615069, 35.61894593903174, 79.05244805454993], [-19.857087497781023, 34.393484436497495, 80.14562302456966], [-19.14600474214052, 33.16185297534206, 81.22951322466312], [-18.43139021964781, 31.92410431455811, 82.3040722245816], [-17.71327454201061, 30.680291475178723, 83.36925399379388], [-16.99168847091444, 29.43046773800615, 84.42501290345825], [-16.266662916705002, 28.17468664132962, 85.47130372837682], [-15.538228937063948, 26.913001978631723, 86.508081648933], [-14.806417735678536, 25.64546779628417, 87.53530225301137], [-14.071260660904983, 24.372138391232664, 88.55292153790003], [-13.332789204425596, 23.093068308670976, 89.56089591217577], [-12.59103499989975, 21.808312339704372, 90.55918219757115], [-11.846029821608811, 20.517925519002556, 91.54773763082429], [-11.097805583095026, 19.221963122442144, 92.52651986551061], [-10.346394335794487, 17.92048066473891, 93.49548697385683], [-9.591828267664159, 16.6135338970697, 94.4545974485369], [-8.834139701803029, 15.301178804684223, 95.4038102044504], [-8.073361095067458, 13.983471604506754, 96.3430845804819], [-7.309525036680856, 12.660468742728012, 97.27238034124349], [-6.542664246837764, 11.332226892387375, 98.19165767879761], [-5.77281157530209, 9.998802950944954, 99.1008772143627], [-5.000000000000004, 8.6602540378444, 100.0], [0.0, 0.0, 100.0]], faces=[[0, 83, 84, 1], [1, 84, 85, 2], [2, 85, 86, 3], [3, 86, 87, 4], [4, 87, 88, 5], [5, 88, 89, 6], [6, 89, 90, 7], [7, 90, 91, 8], [8, 91, 92, 9], [9, 92, 93, 10], [10, 93, 94, 11], [11, 94, 95, 12], [12, 95, 96, 13], [13, 96, 97, 14], [14, 97, 98, 15], [15, 98, 99, 16], [16, 99, 100, 17], [17, 100, 101, 18], [18, 101, 102, 19], [19, 102, 103, 20], [20, 103, 104, 21], [21, 104, 105, 22], [22, 105, 106, 23], [23, 106, 107, 24], [24, 107, 108, 25], [25, 108, 109, 26], [26, 109, 110, 27], [27, 110, 111, 28], [28, 111, 112, 29], [29, 112, 113, 30], [30, 113, 114, 31], [31, 114, 115, 32], [32, 115, 116, 33], [33, 116, 117, 34], [34, 117, 118, 35], [35, 118, 119, 36], [36, 119, 120, 37], [37, 120, 121, 38], [38, 121, 122, 39], [39, 122, 123, 40], [40, 123, 124, 41], [41, 124, 125, 42], [42, 125, 126, 43], [43, 126, 127, 44], [44, 127, 128, 45], [45, 128, 129, 46], [46, 129, 130, 47], [47, 130, 131, 48], [48, 131, 132, 49], [49, 132, 133, 50], [50, 133, 134, 51], [51, 134, 135, 52], [52, 135, 136, 53], [53, 136, 137, 54], [54, 137, 138, 55], [55, 138, 139, 56], [56, 139, 140, 57], [57, 140, 141, 58], [58, 141, 142, 59], [59, 142, 143, 60], [60, 143, 144, 61], [61, 144, 145, 62], [62, 145, 146, 63], [63, 146, 147, 64], [64, 147, 148, 65], [65, 148, 149, 66], [66, 149, 150, 67], [67, 150, 151, 68], [68, 151, 152, 69], [69, 152, 153, 70], [70, 153, 154, 71], [71, 154, 155, 72], [72, 155, 156, 73], [73, 156, 157, 74], [74, 157, 158, 75], [75, 158, 159, 76], [76, 159, 160, 77], [77, 160, 161, 78], [78, 161, 162, 79], [79, 162, 163, 80], [80, 163, 164, 81], [81, 164, 165, 82], [82, 165, 83, 0], [83, 166, 167, 84], [84, 167, 168, 85], [85, 168, 169, 86], [86, 169, 170, 87], [87, 170, 171, 88], [88, 171, 172, 89], [89, 172, 173, 90], [90, 173, 174, 91], [91, 174, 175, 92], [92, 175, 176, 93], [93, 176, 177, 94], [94, 177, 178, 95], [95, 178, 179, 96], [96, 179, 180, 97], [97, 180, 181, 98], [98, 181, 182, 99], [99, 182, 183, 100], [100, 183, 184, 101], [101, 184, 185, 102], [102, 185, 186, 103], [103, 186, 187, 104], [104, 187, 188, 105], [105, 188, 189, 106], [106, 189, 190, 107], [107, 190, 191, 108], [108, 191, 192, 109], [109, 192, 193, 110], [110, 193, 194, 111], [111, 194, 195, 112], [112, 195, 196, 113], [113, 196, 197, 114], [114, 197, 198, 115], [115, 198, 199, 116], [116, 199, 200, 117], [117, 200, 201, 118], [118, 201, 202, 119], [119, 202, 203, 120], [120, 203, 204, 121], [121, 204, 205, 122], [122, 205, 206, 123], [123, 206, 207, 124], [124, 207, 208, 125], [125, 208, 209, 126], [126, 209, 210, 127], [127, 210, 211, 128], [128, 211, 212, 129], [129, 212, 213, 130], [130, 213, 214, 131], [131, 214, 215, 132], [132, 215, 216, 133], [133, 216, 217, 134], [134, 217, 218, 135], [135, 218, 219, 136], [136, 219, 220, 137], [137, 220, 221, 138], [138, 221, 222, 139], [139, 222, 223, 140], [140, 223, 224, 141], [141, 224, 225, 142], [142, 225, 226, 143], [143, 226, 227, 144], [144, 227, 228, 145], [145, 228, 229, 146], [146, 229, 230, 147], [147, 230, 231, 148], [148, 231, 232, 149], [149, 232, 233, 150], [150, 233, 234, 151], [151, 234, 235, 152], [152, 235, 236, 153], [153, 236, 237, 154], [154, 237, 238, 155], [155, 238, 239, 156], [156, 239, 240, 157], [157, 240, 241, 158], [158, 241, 242, 159], [159, 242, 243, 160], [160, 243, 244, 161], [161, 244, 245, 162], [162, 245, 246, 163], [163, 246, 247, 164], [164, 247, 248, 165], [165, 248, 166, 83], [166, 249, 250, 167], [167, 250, 251, 168], [168, 251, 252, 169], [169, 252, 253, 170], [170, 253, 254, 171], [171, 254, 255, 172], [172, 255, 256, 173], [173, 256, 257, 174], [174, 257, 258, 175], [175, 258, 259, 176], [176, 259, 260, 177], [177, 260, 261, 178], [178, 261, 262, 179], [179, 262, 263, 180], [180, 263, 264, 181], [181, 264, 265, 182], [182, 265, 266, 183], [183, 266, 267, 184], [184, 267, 268, 185], [185, 268, 269, 186], [186, 269, 270, 187], [187, 270, 271, 188], [188, 271, 272, 189], [189, 272, 273, 190], [190, 273, 274, 191], [191, 274, 275, 192], [192, 275, 276, 193], [193, 276, 277, 194], [194, 277, 278, 195], [195, 278, 279, 196], [196, 279, 280, 197], [197, 280, 281, 198], [198, 281, 282, 199], [199, 282, 283, 200], [200, 283, 284, 201], [201, 284, 285, 202], [202, 285, 286, 203], [203, 286, 287, 204], [204, 287, 288, 205], [205, 288, 289, 206], [206, 289, 290, 207], [207, 290, 291, 208], [208, 291, 292, 209], [209, 292, 293, 210], [210, 293, 294, 211], [211, 294, 295, 212], [212, 295, 296, 213], [213, 296, 297, 214], [214, 297, 298, 215], [215, 298, 299, 216], [216, 299, 300, 217], [217, 300, 301, 218], [218, 301, 302, 219], [219, 302, 303, 220], [220, 303, 304, 221], [221, 304, 305, 222], [222, 305, 306, 223], [223, 306, 307, 224], [224, 307, 308, 225], [225, 308, 309, 226], [226, 309, 310, 227], [227, 310, 311, 228], [228, 311, 312, 229], [229, 312, 313, 230], [230, 313, 314, 231], [231, 314, 315, 232], [232, 315, 316, 233], [233, 316, 317, 234], [234, 317, 318, 235], [235, 318, 319, 236], [236, 319, 320, 237], [237, 320, 321, 238], [238, 321, 322, 239], [239, 322, 323, 240], [240, 323, 324, 241], [241, 324, 325, 242], [242, 325, 326, 243], [243, 326, 327, 244], [244, 327, 328, 245], [245, 328, 329, 246], [246, 329, 330, 247], [247, 330, 331, 248], [248, 331, 249, 166], [249, 332, 333, 250], [250, 333, 334, 251], [251, 334, 335, 252], [252, 335, 336, 253], [253, 336, 337, 254], [254, 337, 338, 255], [255, 338, 339, 256], [256, 339, 340, 257], [257, 340, 341, 258], [258, 341, 342, 259], [259, 342, 343, 260], [260, 343, 344, 261], [261, 344, 345, 262], [262, 345, 346, 263], [263, 346, 347, 264], [264, 347, 348, 265], [265, 348, 349, 266], [266, 349, 350, 267], [267, 350, 351, 268], [268, 351, 352, 269], [269, 352, 353, 270], [270, 353, 354, 271], [271, 354, 355, 272], [272, 355, 356, 273], [273, 356, 357, 274], [274, 357, 358, 275], [275, 358, 359, 276], [276, 359, 360, 277], [277, 360, 361, 278], [278, 361, 362, 279], [279, 362, 363, 280], [280, 363, 364, 281], [281, 364, 365, 282], [282, 365, 366, 283], [283, 366, 367, 284], [284, 367, 368, 285], [285, 368, 369, 286], [286, 369, 370, 287], [287, 370, 371, 288], [288, 371, 372, 289], [289, 372, 373, 290], [290, 373, 374, 291], [291, 374, 375, 292], [292, 375, 376, 293], [293, 376, 377, 294], [294, 377, 378, 295], [295, 378, 379, 296], [296, 379, 380, 297], [297, 380, 381, 298], [298, 381, 382, 299], [299, 382, 383, 300], [300, 383, 384, 301], [301, 384, 385, 302], [302, 385, 386, 303], [303, 386, 387, 304], [304, 387, 388, 305], [305, 388, 389, 306], [306, 389, 390, 307], [307, 390, 391, 308], [308, 391, 392, 309], [309, 392, 393, 310], [310, 393, 394, 311], [311, 394, 395, 312], [312, 395, 396, 313], [313, 396, 397, 314], [314, 397, 398, 315], [315, 398, 399, 316], [316, 399, 400, 317], [317, 400, 401, 318], [318, 401, 402, 319], [319, 402, 403, 320], [320, 403, 404, 321], [321, 404, 405, 322], [322, 405, 406, 323], [323, 406, 407, 324], [324, 407, 408, 325], [325, 408, 409, 326], [326, 409, 410, 327], [327, 410, 411, 328], [328, 411, 412, 329], [329, 412, 413, 330], [330, 413, 414, 331], [331, 414, 332, 249], [332, 415, 416, 333], [333, 416, 417, 334], [334, 417, 418, 335], [335, 418, 419, 336], [336, 419, 420, 337], [337, 420, 421, 338], [338, 421, 422, 339], [339, 422, 423, 340], [340, 423, 424, 341], [341, 424, 425, 342], [342, 425, 426, 343], [343, 426, 427, 344], [344, 427, 428, 345], [345, 428, 429, 346], [346, 429, 430, 347], [347, 430, 431, 348], [348, 431, 432, 349], [349, 432, 433, 350], [350, 433, 434, 351], [351, 434, 435, 352], [352, 435, 436, 353], [353, 436, 437, 354], [354, 437, 438, 355], [355, 438, 439, 356], [356, 439, 440, 357], [357, 440, 441, 358], [358, 441, 442, 359], [359, 442, 443, 360], [360, 443, 444, 361], [361, 444, 445, 362], [362, 445, 446, 363], [363, 446, 447, 364], [364, 447, 448, 365], [365, 448, 449, 366], [366, 449, 450, 367], [367, 450, 451, 368], [368, 451, 452, 369], [369, 452, 453, 370], [370, 453, 454, 371], [371, 454, 455, 372], [372, 455, 456, 373], [373, 456, 457, 374], [374, 457, 458, 375], [375, 458, 459, 376], [376, 459, 460, 377], [377, 460, 461, 378], [378, 461, 462, 379], [379, 462, 463, 380], [380, 463, 464, 381], [381, 464, 465, 382], [382, 465, 466, 383], [383, 466, 467, 384], [384, 467, 468, 385], [385, 468, 469, 386], [386, 469, 470, 387], [387, 470, 471, 388], [388, 471, 472, 389], [389, 472, 473, 390], [390, 473, 474, 391], [391, 474, 475, 392], [392, 475, 476, 393], [393, 476, 477, 394], [394, 477, 478, 395], [395, 478, 479, 396], [396, 479, 480, 397], [397, 480, 481, 398], [398, 481, 482, 399], [399, 482, 483, 400], [400, 483, 484, 401], [401, 484, 485, 402], [402, 485, 486, 403], [403, 486, 487, 404], [404, 487, 488, 405], [405, 488, 489, 406], [406, 489, 490, 407], [407, 490, 491, 408], [408, 491, 492, 409], [409, 492, 493, 410], [410, 493, 494, 411], [411, 494, 495, 412], [412, 495, 496, 413], [413, 496, 497, 414], [414, 497, 415, 332], [415, 498, 499, 416], [416, 499, 500, 417], [417, 500, 501, 418], [418, 501, 502, 419], [419, 502, 503, 420], [420, 503, 504, 421], [421, 504, 505, 422], [422, 505, 506, 423], [423, 506, 507, 424], [424, 507, 508, 425], [425, 508, 509, 426], [426, 509, 510, 427], [427, 510, 511, 428], [428, 511, 512, 429], [429, 512, 513, 430], [430, 513, 514, 431], [431, 514, 515, 432], [432, 515, 516, 433], [433, 516, 517, 434], [434, 517, 518, 435], [435, 518, 519, 436], [436, 519, 520, 437], [437, 520, 521, 438], [438, 521, 522, 439], [439, 522, 523, 440], [440, 523, 524, 441], [441, 524, 525, 442], [442, 525, 526, 443], [443, 526, 527, 444], [444, 527, 528, 445], [445, 528, 529, 446], [446, 529, 530, 447], [447, 530, 531, 448], [448, 531, 532, 449], [449, 532, 533, 450], [450, 533, 534, 451], [451, 534, 535, 452], [452, 535, 536, 453], [453, 536, 537, 454], [454, 537, 538, 455], [455, 538, 539, 456], [456, 539, 540, 457], [457, 540, 541, 458], [458, 541, 542, 459], [459, 542, 543, 460], [460, 543, 544, 461], [461, 544, 545, 462], [462, 545, 546, 463], [463, 546, 547, 464], [464, 547, 548, 465], [465, 548, 549, 466], [466, 549, 550, 467], [467, 550, 551, 468], [468, 551, 552, 469], [469, 552, 553, 470], [470, 553, 554, 471], [471, 554, 555, 472], [472, 555, 556, 473], [473, 556, 557, 474], [474, 557, 558, 475], [475, 558, 559, 476], [476, 559, 560, 477], [477, 560, 561, 478], [478, 561, 562, 479], [479, 562, 563, 480], [480, 563, 564, 481], [481, 564, 565, 482], [482, 565, 566, 483], [483, 566, 567, 484], [484, 567, 568, 485], [485, 568, 569, 486], [486, 569, 570, 487], [487, 570, 571, 488], [488, 571, 572, 489], [489, 572, 573, 490], [490, 573, 574, 491], [491, 574, 575, 492], [492, 575, 576, 493], [493, 576, 577, 494], [494, 577, 578, 495], [495, 578, 579, 496], [496, 579, 580, 497], [497, 580, 498, 415], [498, 581, 582, 499], [499, 582, 583, 500], [500, 583, 584, 501], [501, 584, 585, 502], [502, 585, 586, 503], [503, 586, 587, 504], [504, 587, 588, 505], [505, 588, 589, 506], [506, 589, 590, 507], [507, 590, 591, 508], [508, 591, 592, 509], [509, 592, 593, 510], [510, 593, 594, 511], [511, 594, 595, 512], [512, 595, 596, 513], [513, 596, 597, 514], [514, 597, 598, 515], [515, 598, 599, 516], [516, 599, 600, 517], [517, 600, 601, 518], [518, 601, 602, 519], [519, 602, 603, 520], [520, 603, 604, 521], [521, 604, 605, 522], [522, 605, 606, 523], [523, 606, 607, 524], [524, 607, 608, 525], [525, 608, 609, 526], [526, 609, 610, 527], [527, 610, 611, 528], [528, 611, 612, 529], [529, 612, 613, 530], [530, 613, 614, 531], [531, 614, 615, 532], [532, 615, 616, 533], [533, 616, 617, 534], [534, 617, 618, 535], [535, 618, 619, 536], [536, 619, 620, 537], [537, 620, 621, 538], [538, 621, 622, 539], [539, 622, 623, 540], [540, 623, 624, 541], [541, 624, 625, 542], [542, 625, 626, 543], [543, 626, 627, 544], [544, 627, 628, 545], [545, 628, 629, 546], [546, 629, 630, 547], [547, 630, 631, 548], [548, 631, 632, 549], [549, 632, 633, 550], [550, 633, 634, 551], [551, 634, 635, 552], [552, 635, 636, 553], [553, 636, 637, 554], [554, 637, 638, 555], [555, 638, 639, 556], [556, 639, 640, 557], [557, 640, 641, 558], [558, 641, 642, 559], [559, 642, 643, 560], [560, 643, 644, 561], [561, 644, 645, 562], [562, 645, 646, 563], [563, 646, 647, 564], [564, 647, 648, 565], [565, 648, 649, 566], [566, 649, 650, 567], [567, 650, 651, 568], [568, 651, 652, 569], [569, 652, 653, 570], [570, 653, 654, 571], [571, 654, 655, 572], [572, 655, 656, 573], [573, 656, 657, 574], [574, 657, 658, 575], [575, 658, 659, 576], [576, 659, 660, 577], [577, 660, 661, 578], [578, 661, 662, 579], [579, 662, 663, 580], [580, 663, 581, 498], [581, 664, 665, 582], [582, 665, 666, 583], [583, 666, 667, 584], [584, 667, 668, 585], [585, 668, 669, 586], [586, 669, 670, 587], [587, 670, 671, 588], [588, 671, 672, 589], [589, 672, 673, 590], [590, 673, 674, 591], [591, 674, 675, 592], [592, 675, 676, 593], [593, 676, 677, 594], [594, 677, 678, 595], [595, 678, 679, 596], [596, 679, 680, 597], [597, 680, 681, 598], [598, 681, 682, 599], [599, 682, 683, 600], [600, 683, 684, 601], [601, 684, 685, 602], [602, 685, 686, 603], [603, 686, 687, 604], [604, 687, 688, 605], [605, 688, 689, 606], [606, 689, 690, 607], [607, 690, 691, 608], [608, 691, 692, 609], [609, 692, 693, 610], [610, 693, 694, 611], [611, 694, 695, 612], [612, 695, 696, 613], [613, 696, 697, 614], [614, 697, 698, 615], [615, 698, 699, 616], [616, 699, 700, 617], [617, 700, 701, 618], [618, 701, 702, 619], [619, 702, 703, 620], [620, 703, 704, 621], [621, 704, 705, 622], [622, 705, 706, 623], [623, 706, 707, 624], [624, 707, 708, 625], [625, 708, 709, 626], [626, 709, 710, 627], [627, 710, 711, 628], [628, 711, 712, 629], [629, 712, 713, 630], [630, 713, 714, 631], [631, 714, 715, 632], [632, 715, 716, 633], [633, 716, 717, 634], [634, 717, 718, 635], [635, 718, 719, 636], [636, 719, 720, 637], [637, 720, 721, 638], [638, 721, 722, 639], [639, 722, 723, 640], [640, 723, 724, 641], [641, 724, 725, 642], [642, 725, 726, 643], [643, 726, 727, 644], [644, 727, 728, 645], [645, 728, 729, 646], [646, 729, 730, 647], [647, 730, 731, 648], [648, 731, 732, 649], [649, 732, 733, 650], [650, 733, 734, 651], [651, 734, 735, 652], [652, 735, 736, 653], [653, 736, 737, 654], [654, 737, 738, 655], [655, 738, 739, 656], [656, 739, 740, 657], [657, 740, 741, 658], [658, 741, 742, 659], [659, 742, 743, 660], [660, 743, 744, 661], [661, 744, 745, 662], [662, 745, 746, 663], [663, 746, 664, 581], [664, 747, 748, 665], [665, 748, 749, 666], [666, 749, 750, 667], [667, 750, 751, 668], [668, 751, 752, 669], [669, 752, 753, 670], [670, 753, 754, 671], [671, 754, 755, 672], [672, 755, 756, 673], [673, 756, 757, 674], [674, 757, 758, 675], [675, 758, 759, 676], [676, 759, 760, 677], [677, 760, 761, 678], [678, 761, 762, 679], [679, 762, 763, 680], [680, 763, 764, 681], [681, 764, 765, 682], [682, 765, 766, 683], [683, 766, 767, 684], [684, 767, 768, 685], [685, 768, 769, 686], [686, 769, 770, 687], [687, 770, 771, 688], [688, 771, 772, 689], [689, 772, 773, 690], [690, 773, 774, 691], [691, 774, 775, 692], [692, 775, 776, 693], [693, 776, 777, 694], [694, 777, 778, 695], [695, 778, 779, 696], [696, 779, 780, 697], [697, 780, 781, 698], [698, 781, 782, 699], [699, 782, 783, 700], [700, 783, 784, 701], [701, 784, 785, 702], [702, 785, 786, 703], [703, 786, 787, 704], [704, 787, 788, 705], [705, 788, 789, 706], [706, 789, 790, 707], [707, 790, 791, 708], [708, 791, 792, 709], [709, 792, 793, 710], [710, 793, 794, 711], [711, 794, 795, 712], [712, 795, 796, 713], [713, 796, 797, 714], [714, 797, 798, 715], [715, 798, 799, 716], [716, 799, 800, 717], [717, 800, 801, 718], [718, 801, 802, 719], [719, 802, 803, 720], [720, 803, 804, 721], [721, 804, 805, 722], [722, 805, 806, 723], [723, 806, 807, 724], [724, 807, 808, 725], [725, 808, 809, 726], [726, 809, 810, 727], [727, 810, 811, 728], [728, 811, 812, 729], [729, 812, 813, 730], [730, 813, 814, 731], [731, 814, 815, 732], [732, 815, 816, 733], [733, 816, 817, 734], [734, 817, 818, 735], [735, 818, 819, 736], [736, 819, 820, 737], [737, 820, 821, 738], [738, 821, 822, 739], [739, 822, 823, 740], [740, 823, 824, 741], [741, 824, 825, 742], [742, 825, 826, 743], [743, 826, 827, 744], [744, 827, 828, 745], [745, 828, 829, 746], [746, 829, 747, 664], [747, 830, 831, 748], [748, 831, 832, 749], [749, 832, 833, 750], [750, 833, 834, 751], [751, 834, 835, 752], [752, 835, 836, 753], [753, 836, 837, 754], [754, 837, 838, 755], [755, 838, 839, 756], [756, 839, 840, 757], [757, 840, 841, 758], [758, 841, 842, 759], [759, 842, 843, 760], [760, 843, 844, 761], [761, 844, 845, 762], [762, 845, 846, 763], [763, 846, 847, 764], [764, 847, 848, 765], [765, 848, 849, 766], [766, 849, 850, 767], [767, 850, 851, 768], [768, 851, 852, 769], [769, 852, 853, 770], [770, 853, 854, 771], [771, 854, 855, 772], [772, 855, 856, 773], [773, 856, 857, 774], [774, 857, 858, 775], [775, 858, 859, 776], [776, 859, 860, 777], [777, 860, 861, 778], [778, 861, 862, 779], [779, 862, 863, 780], [780, 863, 864, 781], [781, 864, 865, 782], [782, 865, 866, 783], [783, 866, 867, 784], [784, 867, 868, 785], [785, 868, 869, 786], [786, 869, 870, 787], [787, 870, 871, 788], [788, 871, 872, 789], [789, 872, 873, 790], [790, 873, 874, 791], [791, 874, 875, 792], [792, 875, 876, 793], [793, 876, 877, 794], [794, 877, 878, 795], [795, 878, 879, 796], [796, 879, 880, 797], [797, 880, 881, 798], [798, 881, 882, 799], [799, 882, 883, 800], [800, 883, 884, 801], [801, 884, 885, 802], [802, 885, 886, 803], [803, 886, 887, 804], [804, 887, 888, 805], [805, 888, 889, 806], [806, 889, 890, 807], [807, 890, 891, 808], [808, 891, 892, 809], [809, 892, 893, 810], [810, 893, 894, 811], [811, 894, 895, 812], [812, 895, 896, 813], [813, 896, 897, 814], [814, 897, 898, 815], [815, 898, 899, 816], [816, 899, 900, 817], [817, 900, 901, 818], [818, 901, 902, 819], [819, 902, 903, 820], [820, 903, 904, 821], [821, 904, 905, 822], [822, 905, 906, 823], [823, 906, 907, 824], [824, 907, 908, 825], [825, 908, 909, 826], [826, 909, 910, 827], [827, 910, 911, 828], [828, 911, 912, 829], [829, 912, 830, 747], [830, 913, 914, 831], [831, 914, 915, 832], [832, 915, 916, 833], [833, 916, 917, 834], [834, 917, 918, 835], [835, 918, 919, 836], [836, 919, 920, 837], [837, 920, 921, 838], [838, 921, 922, 839], [839, 922, 923, 840], [840, 923, 924, 841], [841, 924, 925, 842], [842, 925, 926, 843], [843, 926, 927, 844], [844, 927, 928, 845], [845, 928, 929, 846], [846, 929, 930, 847], [847, 930, 931, 848], [848, 931, 932, 849], [849, 932, 933, 850], [850, 933, 934, 851], [851, 934, 935, 852], [852, 935, 936, 853], [853, 936, 937, 854], [854, 937, 938, 855], [855, 938, 939, 856], [856, 939, 940, 857], [857, 940, 941, 858], [858, 941, 942, 859], [859, 942, 943, 860], [860, 943, 944, 861], [861, 944, 945, 862], [862, 945, 946, 863], [863, 946, 947, 864], [864, 947, 948, 865], [865, 948, 949, 866], [866, 949, 950, 867], [867, 950, 951, 868], [868, 951, 952, 869], [869, 952, 953, 870], [870, 953, 954, 871], [871, 954, 955, 872], [872, 955, 956, 873], [873, 956, 957, 874], [874, 957, 958, 875], [875, 958, 959, 876], [876, 959, 960, 877], [877, 960, 961, 878], [878, 961, 962, 879], [879, 962, 963, 880], [880, 963, 964, 881], [881, 964, 965, 882], [882, 965, 966, 883], [883, 966, 967, 884], [884, 967, 968, 885], [885, 968, 969, 886], [886, 969, 970, 887], [887, 970, 971, 888], [888, 971, 972, 889], [889, 972, 973, 890], [890, 973, 974, 891], [891, 974, 975, 892], [892, 975, 976, 893], [893, 976, 977, 894], [894, 977, 978, 895], [895, 978, 979, 896], [896, 979, 980, 897], [897, 980, 981, 898], [898, 981, 982, 899], [899, 982, 983, 900], [900, 983, 984, 901], [901, 984, 985, 902], [902, 985, 986, 903], [903, 986, 987, 904], [904, 987, 988, 905], [905, 988, 989, 906], [906, 989, 990, 907], [907, 990, 991, 908], [908, 991, 992, 909], [909, 992, 993, 910], [910, 993, 994, 911], [911, 994, 995, 912], [912, 995, 913, 830], [913, 996, 997, 914], [914, 997, 998, 915], [915, 998, 999, 916], [916, 999, 1000, 917], [917, 1000, 1001, 918], [918, 1001, 1002, 919], [919, 1002, 1003, 920], [920, 1003, 1004, 921], [921, 1004, 1005, 922], [922, 1005, 1006, 923], [923, 1006, 1007, 924], [924, 1007, 1008, 925], [925, 1008, 1009, 926], [926, 1009, 1010, 927], [927, 1010, 1011, 928], [928, 1011, 1012, 929], [929, 1012, 1013, 930], [930, 1013, 1014, 931], [931, 1014, 1015, 932], [932, 1015, 1016, 933], [933, 1016, 1017, 934], [934, 1017, 1018, 935], [935, 1018, 1019, 936], [936, 1019, 1020, 937], [937, 1020, 1021, 938], [938, 1021, 1022, 939], [939, 1022, 1023, 940], [940, 1023, 1024, 941], [941, 1024, 1025, 942], [942, 1025, 1026, 943], [943, 1026, 1027, 944], [944, 1027, 1028, 945], [945, 1028, 1029, 946], [946, 1029, 1030, 947], [947, 1030, 1031, 948], [948, 1031, 1032, 949], [949, 1032, 1033, 950], [950, 1033, 1034, 951], [951, 1034, 1035, 952], [952, 1035, 1036, 953], [953, 1036, 1037, 954], [954, 1037, 1038, 955], [955, 1038, 1039, 956], [956, 1039, 1040, 957], [957, 1040, 1041, 958], [958, 1041, 1042, 959], [959, 1042, 1043, 960], [960, 1043, 1044, 961], [961, 1044, 1045, 962], [962, 1045, 1046, 963], [963, 1046, 1047, 964], [964, 1047, 1048, 965], [965, 1048, 1049, 966], [966, 1049, 1050, 967], [967, 1050, 1051, 968], [968, 1051, 1052, 969], [969, 1052, 1053, 970], [970, 1053, 1054, 971], [971, 1054, 1055, 972], [972, 1055, 1056, 973], [973, 1056, 1057, 974], [974, 1057, 1058, 975], [975, 1058, 1059, 976], [976, 1059, 1060, 977], [977, 1060, 1061, 978], [978, 1061, 1062, 979], [979, 1062, 1063, 980], [980, 1063, 1064, 981], [981, 1064, 1065, 982], [982, 1065, 1066, 983], [983, 1066, 1067, 984], [984, 1067, 1068, 985], [985, 1068, 1069, 986], [986, 1069, 1070, 987], [987, 1070, 1071, 988], [988, 1071, 1072, 989], [989, 1072, 1073, 990], [990, 1073, 1074, 991], [991, 1074, 1075, 992], [992, 1075, 1076, 993], [993, 1076, 1077, 994], [994, 1077, 1078, 995], [995, 1078, 996, 913], [996, 1079, 1080, 997], [997, 1080, 1081, 998], [998, 1081, 1082, 999], [999, 1082, 1083, 1000], [1000, 1083, 1084, 1001], [1001, 1084, 1085, 1002], [1002, 1085, 1086, 1003], [1003, 1086, 1087, 1004], [1004, 1087, 1088, 1005], [1005, 1088, 1089, 1006], [1006, 1089, 1090, 1007], [1007, 1090, 1091, 1008], [1008, 1091, 1092, 1009], [1009, 1092, 1093, 1010], [1010, 1093, 1094, 1011], [1011, 1094, 1095, 1012], [1012, 1095, 1096, 1013], [1013, 1096, 1097, 1014], [1014, 1097, 1098, 1015], [1015, 1098, 1099, 1016], [1016, 1099, 1100, 1017], [1017, 1100, 1101, 1018], [1018, 1101, 1102, 1019], [1019, 1102, 1103, 1020], [1020, 1103, 1104, 1021], [1021, 1104, 1105, 1022], [1022, 1105, 1106, 1023], [1023, 1106, 1107, 1024], [1024, 1107, 1108, 1025], [1025, 1108, 1109, 1026], [1026, 1109, 1110, 1027], [1027, 1110, 1111, 1028], [1028, 1111, 1112, 1029], [1029, 1112, 1113, 1030], [1030, 1113, 1114, 1031], [1031, 1114, 1115, 1032], [1032, 1115, 1116, 1033], [1033, 1116, 1117, 1034], [1034, 1117, 1118, 1035], [1035, 1118, 1119, 1036], [1036, 1119, 1120, 1037], [1037, 1120, 1121, 1038], [1038, 1121, 1122, 1039], [1039, 1122, 1123, 1040], [1040, 1123, 1124, 1041], [1041, 1124, 1125, 1042], [1042, 1125, 1126, 1043], [1043, 1126, 1127, 1044], [1044, 1127, 1128, 1045], [1045, 1128, 1129, 1046], [1046, 1129, 1130, 1047], [1047, 1130, 1131, 1048], [1048, 1131, 1132, 1049], [1049, 1132, 1133, 1050], [1050, 1133, 1134, 1051], [1051, 1134, 1135, 1052], [1052, 1135, 1136, 1053], [1053, 1136, 1137, 1054], [1054, 1137, 1138, 1055], [1055, 1138, 1139, 1056], [1056, 1139, 1140, 1057], [1057, 1140, 1141, 1058], [1058, 1141, 1142, 1059], [1059, 1142, 1143, 1060], [1060, 1143, 1144, 1061], [1061, 1144, 1145, 1062], [1062, 1145, 1146, 1063], [1063, 1146, 1147, 1064], [1064, 1147, 1148, 1065], [1065, 1148, 1149, 1066], [1066, 1149, 1150, 1067], [1067, 1150, 1151, 1068], [1068, 1151, 1152, 1069], [1069, 1152, 1153, 1070], [1070, 1153, 1154, 1071], [1071, 1154, 1155, 1072], [1072, 1155, 1156, 1073], [1073, 1156, 1157, 1074], [1074, 1157, 1158, 1075], [1075, 1158, 1159, 1076], [1076, 1159, 1160, 1077], [1077, 1160, 1161, 1078], [1078, 1161, 1079, 996], [1079, 1162, 1163, 1080], [1080, 1163, 1164, 1081], [1081, 1164, 1165, 1082], [1082, 1165, 1166, 1083], [1083, 1166, 1167, 1084], [1084, 1167, 1168, 1085], [1085, 1168, 1169, 1086], [1086, 1169, 1170, 1087], [1087, 1170, 1171, 1088], [1088, 1171, 1172, 1089], [1089, 1172, 1173, 1090], [1090, 1173, 1174, 1091], [1091, 1174, 1175, 1092], [1092, 1175, 1176, 1093], [1093, 1176, 1177, 1094], [1094, 1177, 1178, 1095], [1095, 1178, 1179, 1096], [1096, 1179, 1180, 1097], [1097, 1180, 1181, 1098], [1098, 1181, 1182, 1099], [1099, 1182, 1183, 1100], [1100, 1183, 1184, 1101], [1101, 1184, 1185, 1102], [1102, 1185, 1186, 1103], [1103, 1186, 1187, 1104], [1104, 1187, 1188, 1105], [1105, 1188, 1189, 1106], [1106, 1189, 1190, 1107], [1107, 1190, 1191, 1108], [1108, 1191, 1192, 1109], [1109, 1192, 1193, 1110], [1110, 1193, 1194, 1111], [1111, 1194, 1195, 1112], [1112, 1195, 1196, 1113], [1113, 1196, 1197, 1114], [1114, 1197, 1198, 1115], [1115, 1198, 1199, 1116], [1116, 1199, 1200, 1117], [1117, 1200, 1201, 1118], [1118, 1201, 1202, 1119], [1119, 1202, 1203, 1120], [1120, 1203, 1204, 1121], [1121, 1204, 1205, 1122], [1122, 1205, 1206, 1123], [1123, 1206, 1207, 1124], [1124, 1207, 1208, 1125], [1125, 1208, 1209, 1126], [1126, 1209, 1210, 1127], [1127, 1210, 1211, 1128], [1128, 1211, 1212, 1129], [1129, 1212, 1213, 1130], [1130, 1213, 1214, 1131], [1131, 1214, 1215, 1132], [1132, 1215, 1216, 1133], [1133, 1216, 1217, 1134], [1134, 1217, 1218, 1135], [1135, 1218, 1219, 1136], [1136, 1219, 1220, 1137], [1137, 1220, 1221, 1138], [1138, 1221, 1222, 1139], [1139, 1222, 1223, 1140], [1140, 1223, 1224, 1141], [1141, 1224, 1225, 1142], [1142, 1225, 1226, 1143], [1143, 1226, 1227, 1144], [1144, 1227, 1228, 1145], [1145, 1228, 1229, 1146], [1146, 1229, 1230, 1147], [1147, 1230, 1231, 1148], [1148, 1231, 1232, 1149], [1149, 1232, 1233, 1150], [1150, 1233, 1234, 1151], [1151, 1234, 1235, 1152], [1152, 1235, 1236, 1153], [1153, 1236, 1237, 1154], [1154, 1237, 1238, 1155], [1155, 1238, 1239, 1156], [1156, 1239, 1240, 1157], [1157, 1240, 1241, 1158], [1158, 1241, 1242, 1159], [1159, 1242, 1243, 1160], [1160, 1243, 1244, 1161], [1161, 1244, 1162, 1079], [1162, 1245, 1246, 1163], [1163, 1246, 1247, 1164], [1164, 1247, 1248, 1165], [1165, 1248, 1249, 1166], [1166, 1249, 1250, 1167], [1167, 1250, 1251, 1168], [1168, 1251, 1252, 1169], [1169, 1252, 1253, 1170], [1170, 1253, 1254, 1171], [1171, 1254, 1255, 1172], [1172, 1255, 1256, 1173], [1173, 1256, 1257, 1174], [1174, 1257, 1258, 1175], [1175, 1258, 1259, 1176], [1176, 1259, 1260, 1177], [1177, 1260, 1261, 1178], [1178, 1261, 1262, 1179], [1179, 1262, 1263, 1180], [1180, 1263, 1264, 1181], [1181, 1264, 1265, 1182], [1182, 1265, 1266, 1183], [1183, 1266, 1267, 1184], [1184, 1267, 1268, 1185], [1185, 1268, 1269, 1186], [1186, 1269, 1270, 1187], [1187, 1270, 1271, 1188], [1188, 1271, 1272, 1189], [1189, 1272, 1273, 1190], [1190, 1273, 1274, 1191], [1191, 1274, 1275, 1192], [1192, 1275, 1276, 1193], [1193, 1276, 1277, 1194], [1194, 1277, 1278, 1195], [1195, 1278, 1279, 1196], [1196, 1279, 1280, 1197], [1197, 1280, 1281, 1198], [1198, 1281, 1282, 1199], [1199, 1282, 1283, 1200], [1200, 1283, 1284, 1201], [1201, 1284, 1285, 1202], [1202, 1285, 1286, 1203], [1203, 1286, 1287, 1204], [1204, 1287, 1288, 1205], [1205, 1288, 1289, 1206], [1206, 1289, 1290, 1207], [1207, 1290, 1291, 1208], [1208, 1291, 1292, 1209], [1209, 1292, 1293, 1210], [1210, 1293, 1294, 1211], [1211, 1294, 1295, 1212], [1212, 1295, 1296, 1213], [1213, 1296, 1297, 1214], [1214, 1297, 1298, 1215], [1215, 1298, 1299, 1216], [1216, 1299, 1300, 1217], [1217, 1300, 1301, 1218], [1218, 1301, 1302, 1219], [1219, 1302, 1303, 1220], [1220, 1303, 1304, 1221], [1221, 1304, 1305, 1222], [1222, 1305, 1306, 1223], [1223, 1306, 1307, 1224], [1224, 1307, 1308, 1225], [1225, 1308, 1309, 1226], [1226, 1309, 1310, 1227], [1227, 1310, 1311, 1228], [1228, 1311, 1312, 1229], [1229, 1312, 1313, 1230], [1230, 1313, 1314, 1231], [1231, 1314, 1315, 1232], [1232, 1315, 1316, 1233], [1233, 1316, 1317, 1234], [1234, 1317, 1318, 1235], [1235, 1318, 1319, 1236], [1236, 1319, 1320, 1237], [1237, 1320, 1321, 1238], [1238, 1321, 1322, 1239], [1239, 1322, 1323, 1240], [1240, 1323, 1324, 1241], [1241, 1324, 1325, 1242], [1242, 1325, 1326, 1243], [1243, 1326, 1327, 1244], [1244, 1327, 1245, 1162], [1245, 1328, 1329, 1246], [1246, 1329, 1330, 1247], [1247, 1330, 1331, 1248], [1248, 1331, 1332, 1249], [1249, 1332, 1333, 1250], [1250, 1333, 1334, 1251], [1251, 1334, 1335, 1252], [1252, 1335, 1336, 1253], [1253, 1336, 1337, 1254], [1254, 1337, 1338, 1255], [1255, 1338, 1339, 1256], [1256, 1339, 1340, 1257], [1257, 1340, 1341, 1258], [1258, 1341, 1342, 1259], [1259, 1342, 1343, 1260], [1260, 1343, 1344, 1261], [1261, 1344, 1345, 1262], [1262, 1345, 1346, 1263], [1263, 1346, 1347, 1264], [1264, 1347, 1348, 1265], [1265, 1348, 1349, 1266], [1266, 1349, 1350, 1267], [1267, 1350, 1351, 1268], [1268, 1351, 1352, 1269], [1269, 1352, 1353, 1270], [1270, 1353, 1354, 1271], [1271, 1354, 1355, 1272], [1272, 1355, 1356, 1273], [1273, 1356, 1357, 1274], [1274, 1357, 1358, 1275], [1275, 1358, 1359, 1276], [1276, 1359, 1360, 1277], [1277, 1360, 1361, 1278], [1278, 1361, 1362, 1279], [1279, 1362, 1363, 1280], [1280, 1363, 1364, 1281], [1281, 1364, 1365, 1282], [1282, 1365, 1366, 1283], [1283, 1366, 1367, 1284], [1284, 1367, 1368, 1285], [1285, 1368, 1369, 1286], [1286, 1369, 1370, 1287], [1287, 1370, 1371, 1288], [1288, 1371, 1372, 1289], [1289, 1372, 1373, 1290], [1290, 1373, 1374, 1291], [1291, 1374, 1375, 1292], [1292, 1375, 1376, 1293], [1293, 1376, 1377, 1294], [1294, 1377, 1378, 1295], [1295, 1378, 1379, 1296], [1296, 1379, 1380, 1297], [1297, 1380, 1381, 1298], [1298, 1381, 1382, 1299], [1299, 1382, 1383, 1300], [1300, 1383, 1384, 1301], [1301, 1384, 1385, 1302], [1302, 1385, 1386, 1303], [1303, 1386, 1387, 1304], [1304, 1387, 1388, 1305], [1305, 1388, 1389, 1306], [1306, 1389, 1390, 1307], [1307, 1390, 1391, 1308], [1308, 1391, 1392, 1309], [1309, 1392, 1393, 1310], [1310, 1393, 1394, 1311], [1311, 1394, 1395, 1312], [1312, 1395, 1396, 1313], [1313, 1396, 1397, 1314], [1314, 1397, 1398, 1315], [1315, 1398, 1399, 1316], [1316, 1399, 1400, 1317], [1317, 1400, 1401, 1318], [1318, 1401, 1402, 1319], [1319, 1402, 1403, 1320], [1320, 1403, 1404, 1321], [1321, 1404, 1405, 1322], [1322, 1405, 1406, 1323], [1323, 1406, 1407, 1324], [1324, 1407, 1408, 1325], [1325, 1408, 1409, 1326], [1326, 1409, 1410, 1327], [1327, 1410, 1328, 1245], [1328, 1411, 1412, 1329], [1329, 1412, 1413, 1330], [1330, 1413, 1414, 1331], [1331, 1414, 1415, 1332], [1332, 1415, 1416, 1333], [1333, 1416, 1417, 1334], [1334, 1417, 1418, 1335], [1335, 1418, 1419, 1336], [1336, 1419, 1420, 1337], [1337, 1420, 1421, 1338], [1338, 1421, 1422, 1339], [1339, 1422, 1423, 1340], [1340, 1423, 1424, 1341], [1341, 1424, 1425, 1342], [1342, 1425, 1426, 1343], [1343, 1426, 1427, 1344], [1344, 1427, 1428, 1345], [1345, 1428, 1429, 1346], [1346, 1429, 1430, 1347], [1347, 1430, 1431, 1348], [1348, 1431, 1432, 1349], [1349, 1432, 1433, 1350], [1350, 1433, 1434, 1351], [1351, 1434, 1435, 1352], [1352, 1435, 1436, 1353], [1353, 1436, 1437, 1354], [1354, 1437, 1438, 1355], [1355, 1438, 1439, 1356], [1356, 1439, 1440, 1357], [1357, 1440, 1441, 1358], [1358, 1441, 1442, 1359], [1359, 1442, 1443, 1360], [1360, 1443, 1444, 1361], [1361, 1444, 1445, 1362], [1362, 1445, 1446, 1363], [1363, 1446, 1447, 1364], [1364, 1447, 1448, 1365], [1365, 1448, 1449, 1366], [1366, 1449, 1450, 1367], [1367, 1450, 1451, 1368], [1368, 1451, 1452, 1369], [1369, 1452, 1453, 1370], [1370, 1453, 1454, 1371], [1371, 1454, 1455, 1372], [1372, 1455, 1456, 1373], [1373, 1456, 1457, 1374], [1374, 1457, 1458, 1375], [1375, 1458, 1459, 1376], [1376, 1459, 1460, 1377], [1377, 1460, 1461, 1378], [1378, 1461, 1462, 1379], [1379, 1462, 1463, 1380], [1380, 1463, 1464, 1381], [1381, 1464, 1465, 1382], [1382, 1465, 1466, 1383], [1383, 1466, 1467, 1384], [1384, 1467, 1468, 1385], [1385, 1468, 1469, 1386], [1386, 1469, 1470, 1387], [1387, 1470, 1471, 1388], [1388, 1471, 1472, 1389], [1389, 1472, 1473, 1390], [1390, 1473, 1474, 1391], [1391, 1474, 1475, 1392], [1392, 1475, 1476, 1393], [1393, 1476, 1477, 1394], [1394, 1477, 1478, 1395], [1395, 1478, 1479, 1396], [1396, 1479, 1480, 1397], [1397, 1480, 1481, 1398], [1398, 1481, 1482, 1399], [1399, 1482, 1483, 1400], [1400, 1483, 1484, 1401], [1401, 1484, 1485, 1402], [1402, 1485, 1486, 1403], [1403, 1486, 1487, 1404], [1404, 1487, 1488, 1405], [1405, 1488, 1489, 1406], [1406, 1489, 1490, 1407], [1407, 1490, 1491, 1408], [1408, 1491, 1492, 1409], [1409, 1492, 1493, 1410], [1410, 1493, 1411, 1328], [1411, 1494, 1495, 1412], [1412, 1495, 1496, 1413], [1413, 1496, 1497, 1414], [1414, 1497, 1498, 1415], [1415, 1498, 1499, 1416], [1416, 1499, 1500, 1417], [1417, 1500, 1501, 1418], [1418, 1501, 1502, 1419], [1419, 1502, 1503, 1420], [1420, 1503, 1504, 1421], [1421, 1504, 1505, 1422], [1422, 1505, 1506, 1423], [1423, 1506, 1507, 1424], [1424, 1507, 1508, 1425], [1425, 1508, 1509, 1426], [1426, 1509, 1510, 1427], [1427, 1510, 1511, 1428], [1428, 1511, 1512, 1429], [1429, 1512, 1513, 1430], [1430, 1513, 1514, 1431], [1431, 1514, 1515, 1432], [1432, 1515, 1516, 1433], [1433, 1516, 1517, 1434], [1434, 1517, 1518, 1435], [1435, 1518, 1519, 1436], [1436, 1519, 1520, 1437], [1437, 1520, 1521, 1438], [1438, 1521, 1522, 1439], [1439, 1522, 1523, 1440], [1440, 1523, 1524, 1441], [1441, 1524, 1525, 1442], [1442, 1525, 1526, 1443], [1443, 1526, 1527, 1444], [1444, 1527, 1528, 1445], [1445, 1528, 1529, 1446], [1446, 1529, 1530, 1447], [1447, 1530, 1531, 1448], [1448, 1531, 1532, 1449], [1449, 1532, 1533, 1450], [1450, 1533, 1534, 1451], [1451, 1534, 1535, 1452], [1452, 1535, 1536, 1453], [1453, 1536, 1537, 1454], [1454, 1537, 1538, 1455], [1455, 1538, 1539, 1456], [1456, 1539, 1540, 1457], [1457, 1540, 1541, 1458], [1458, 1541, 1542, 1459], [1459, 1542, 1543, 1460], [1460, 1543, 1544, 1461], [1461, 1544, 1545, 1462], [1462, 1545, 1546, 1463], [1463, 1546, 1547, 1464], [1464, 1547, 1548, 1465], [1465, 1548, 1549, 1466], [1466, 1549, 1550, 1467], [1467, 1550, 1551, 1468], [1468, 1551, 1552, 1469], [1469, 1552, 1553, 1470], [1470, 1553, 1554, 1471], [1471, 1554, 1555, 1472], [1472, 1555, 1556, 1473], [1473, 1556, 1557, 1474], [1474, 1557, 1558, 1475], [1475, 1558, 1559, 1476], [1476, 1559, 1560, 1477], [1477, 1560, 1561, 1478], [1478, 1561, 1562, 1479], [1479, 1562, 1563, 1480], [1480, 1563, 1564, 1481], [1481, 1564, 1565, 1482], [1482, 1565, 1566, 1483], [1483, 1566, 1567, 1484], [1484, 1567, 1568, 1485], [1485, 1568, 1569, 1486], [1486, 1569, 1570, 1487], [1487, 1570, 1571, 1488], [1488, 1571, 1572, 1489], [1489, 1572, 1573, 1490], [1490, 1573, 1574, 1491], [1491, 1574, 1575, 1492], [1492, 1575, 1576, 1493], [1493, 1576, 1494, 1411], [1494, 1577, 1578, 1495], [1495, 1578, 1579, 1496], [1496, 1579, 1580, 1497], [1497, 1580, 1581, 1498], [1498, 1581, 1582, 1499], [1499, 1582, 1583, 1500], [1500, 1583, 1584, 1501], [1501, 1584, 1585, 1502], [1502, 1585, 1586, 1503], [1503, 1586, 1587, 1504], [1504, 1587, 1588, 1505], [1505, 1588, 1589, 1506], [1506, 1589, 1590, 1507], [1507, 1590, 1591, 1508], [1508, 1591, 1592, 1509], [1509, 1592, 1593, 1510], [1510, 1593, 1594, 1511], [1511, 1594, 1595, 1512], [1512, 1595, 1596, 1513], [1513, 1596, 1597, 1514], [1514, 1597, 1598, 1515], [1515, 1598, 1599, 1516], [1516, 1599, 1600, 1517], [1517, 1600, 1601, 1518], [1518, 1601, 1602, 1519], [1519, 1602, 1603, 1520], [1520, 1603, 1604, 1521], [1521, 1604, 1605, 1522], [1522, 1605, 1606, 1523], [1523, 1606, 1607, 1524], [1524, 1607, 1608, 1525], [1525, 1608, 1609, 1526], [1526, 1609, 1610, 1527], [1527, 1610, 1611, 1528], [1528, 1611, 1612, 1529], [1529, 1612, 1613, 1530], [1530, 1613, 1614, 1531], [1531, 1614, 1615, 1532], [1532, 1615, 1616, 1533], [1533, 1616, 1617, 1534], [1534, 1617, 1618, 1535], [1535, 1618, 1619, 1536], [1536, 1619, 1620, 1537], [1537, 1620, 1621, 1538], [1538, 1621, 1622, 1539], [1539, 1622, 1623, 1540], [1540, 1623, 1624, 1541], [1541, 1624, 1625, 1542], [1542, 1625, 1626, 1543], [1543, 1626, 1627, 1544], [1544, 1627, 1628, 1545], [1545, 1628, 1629, 1546], [1546, 1629, 1630, 1547], [1547, 1630, 1631, 1548], [1548, 1631, 1632, 1549], [1549, 1632, 1633, 1550], [1550, 1633, 1634, 1551], [1551, 1634, 1635, 1552], [1552, 1635, 1636, 1553], [1553, 1636, 1637, 1554], [1554, 1637, 1638, 1555], [1555, 1638, 1639, 1556], [1556, 1639, 1640, 1557], [1557, 1640, 1641, 1558], [1558, 1641, 1642, 1559], [1559, 1642, 1643, 1560], [1560, 1643, 1644, 1561], [1561, 1644, 1645, 1562], [1562, 1645, 1646, 1563], [1563, 1646, 1647, 1564], [1564, 1647, 1648, 1565], [1565, 1648, 1649, 1566], [1566, 1649, 1650, 1567], [1567, 1650, 1651, 1568], [1568, 1651, 1652, 1569], [1569, 1652, 1653, 1570], [1570, 1653, 1654, 1571], [1571, 1654, 1655, 1572], [1572, 1655, 1656, 1573], [1573, 1656, 1657, 1574], [1574, 1657, 1658, 1575], [1575, 1658, 1659, 1576], [1576, 1659, 1577, 1494], [1577, 1660, 1661, 1578], [1578, 1661, 1662, 1579], [1579, 1662, 1663, 1580], [1580, 1663, 1664, 1581], [1581, 1664, 1665, 1582], [1582, 1665, 1666, 1583], [1583, 1666, 1667, 1584], [1584, 1667, 1668, 1585], [1585, 1668, 1669, 1586], [1586, 1669, 1670, 1587], [1587, 1670, 1671, 1588], [1588, 1671, 1672, 1589], [1589, 1672, 1673, 1590], [1590, 1673, 1674, 1591], [1591, 1674, 1675, 1592], [1592, 1675, 1676, 1593], [1593, 1676, 1677, 1594], [1594, 1677, 1678, 1595], [1595, 1678, 1679, 1596], [1596, 1679, 1680, 1597], [1597, 1680, 1681, 1598], [1598, 1681, 1682, 1599], [1599, 1682, 1683, 1600], [1600, 1683, 1684, 1601], [1601, 1684, 1685, 1602], [1602, 1685, 1686, 1603], [1603, 1686, 1687, 1604], [1604, 1687, 1688, 1605], [1605, 1688, 1689, 1606], [1606, 1689, 1690, 1607], [1607, 1690, 1691, 1608], [1608, 1691, 1692, 1609], [1609, 1692, 1693, 1610], [1610, 1693, 1694, 1611], [1611, 1694, 1695, 1612], [1612, 1695, 1696, 1613], [1613, 1696, 1697, 1614], [1614, 1697, 1698, 1615], [1615, 1698, 1699, 1616], [1616, 1699, 1700, 1617], [1617, 1700, 1701, 1618], [1618, 1701, 1702, 1619], [1619, 1702, 1703, 1620], [1620, 1703, 1704, 1621], [1621, 1704, 1705, 1622], [1622, 1705, 1706, 1623], [1623, 1706, 1707, 1624], [1624, 1707, 1708, 1625], [1625, 1708, 1709, 1626], [1626, 1709, 1710, 1627], [1627, 1710, 1711, 1628], [1628, 1711, 1712, 1629], [1629, 1712, 1713, 1630], [1630, 1713, 1714, 1631], [1631, 1714, 1715, 1632], [1632, 1715, 1716, 1633], [1633, 1716, 1717, 1634], [1634, 1717, 1718, 1635], [1635, 1718, 1719, 1636], [1636, 1719, 1720, 1637], [1637, 1720, 1721, 1638], [1638, 1721, 1722, 1639], [1639, 1722, 1723, 1640], [1640, 1723, 1724, 1641], [1641, 1724, 1725, 1642], [1642, 1725, 1726, 1643], [1643, 1726, 1727, 1644], [1644, 1727, 1728, 1645], [1645, 1728, 1729, 1646], [1646, 1729, 1730, 1647], [1647, 1730, 1731, 1648], [1648, 1731, 1732, 1649], [1649, 1732, 1733, 1650], [1650, 1733, 1734, 1651], [1651, 1734, 1735, 1652], [1652, 1735, 1736, 1653], [1653, 1736, 1737, 1654], [1654, 1737, 1738, 1655], [1655, 1738, 1739, 1656], [1656, 1739, 1740, 1657], [1657, 1740, 1741, 1658], [1658, 1741, 1742, 1659], [1659, 1742, 1660, 1577], [1660, 1743, 1744, 1661], [1661, 1744, 1745, 1662], [1662, 1745, 1746, 1663], [1663, 1746, 1747, 1664], [1664, 1747, 1748, 1665], [1665, 1748, 1749, 1666], [1666, 1749, 1750, 1667], [1667, 1750, 1751, 1668], [1668, 1751, 1752, 1669], [1669, 1752, 1753, 1670], [1670, 1753, 1754, 1671], [1671, 1754, 1755, 1672], [1672, 1755, 1756, 1673], [1673, 1756, 1757, 1674], [1674, 1757, 1758, 1675], [1675, 1758, 1759, 1676], [1676, 1759, 1760, 1677], [1677, 1760, 1761, 1678], [1678, 1761, 1762, 1679], [1679, 1762, 1763, 1680], [1680, 1763, 1764, 1681], [1681, 1764, 1765, 1682], [1682, 1765, 1766, 1683], [1683, 1766, 1767, 1684], [1684, 1767, 1768, 1685], [1685, 1768, 1769, 1686], [1686, 1769, 1770, 1687], [1687, 1770, 1771, 1688], [1688, 1771, 1772, 1689], [1689, 1772, 1773, 1690], [1690, 1773, 1774, 1691], [1691, 1774, 1775, 1692], [1692, 1775, 1776, 1693], [1693, 1776, 1777, 1694], [1694, 1777, 1778, 1695], [1695, 1778, 1779, 1696], [1696, 1779, 1780, 1697], [1697, 1780, 1781, 1698], [1698, 1781, 1782, 1699], [1699, 1782, 1783, 1700], [1700, 1783, 1784, 1701], [1701, 1784, 1785, 1702], [1702, 1785, 1786, 1703], [1703, 1786, 1787, 1704], [1704, 1787, 1788, 1705], [1705, 1788, 1789, 1706], [1706, 1789, 1790, 1707], [1707, 1790, 1791, 1708], [1708, 1791, 1792, 1709], [1709, 1792, 1793, 1710], [1710, 1793, 1794, 1711], [1711, 1794, 1795, 1712], [1712, 1795, 1796, 1713], [1713, 1796, 1797, 1714], [1714, 1797, 1798, 1715], [1715, 1798, 1799, 1716], [1716, 1799, 1800, 1717], [1717, 1800, 1801, 1718], [1718, 1801, 1802, 1719], [1719, 1802, 1803, 1720], [1720, 1803, 1804, 1721], [1721, 1804, 1805, 1722], [1722, 1805, 1806, 1723], [1723, 1806, 1807, 1724], [1724, 1807, 1808, 1725], [1725, 1808, 1809, 1726], [1726, 1809, 1810, 1727], [1727, 1810, 1811, 1728], [1728, 1811, 1812, 1729], [1729, 1812, 1813, 1730], [1730, 1813, 1814, 1731], [1731, 1814, 1815, 1732], [1732, 1815, 1816, 1733], [1733, 1816, 1817, 1734], [1734, 1817, 1818, 1735], [1735, 1818, 1819, 1736], [1736, 1819, 1820, 1737], [1737, 1820, 1821, 1738], [1738, 1821, 1822, 1739], [1739, 1822, 1823, 1740], [1740, 1823, 1824, 1741], [1741, 1824, 1825, 1742], [1742, 1825, 1743, 1660], [1743, 1826, 1827, 1744], [1744, 1827, 1828, 1745], [1745, 1828, 1829, 1746], [1746, 1829, 1830, 1747], [1747, 1830, 1831, 1748], [1748, 1831, 1832, 1749], [1749, 1832, 1833, 1750], [1750, 1833, 1834, 1751], [1751, 1834, 1835, 1752], [1752, 1835, 1836, 1753], [1753, 1836, 1837, 1754], [1754, 1837, 1838, 1755], [1755, 1838, 1839, 1756], [1756, 1839, 1840, 1757], [1757, 1840, 1841, 1758], [1758, 1841, 1842, 1759], [1759, 1842, 1843, 1760], [1760, 1843, 1844, 1761], [1761, 1844, 1845, 1762], [1762, 1845, 1846, 1763], [1763, 1846, 1847, 1764], [1764, 1847, 1848, 1765], [1765, 1848, 1849, 1766], [1766, 1849, 1850, 1767], [1767, 1850, 1851, 1768], [1768, 1851, 1852, 1769], [1769, 1852, 1853, 1770], [1770, 1853, 1854, 1771], [1771, 1854, 1855, 1772], [1772, 1855, 1856, 1773], [1773, 1856, 1857, 1774], [1774, 1857, 1858, 1775], [1775, 1858, 1859, 1776], [1776, 1859, 1860, 1777], [1777, 1860, 1861, 1778], [1778, 1861, 1862, 1779], [1779, 1862, 1863, 1780], [1780, 1863, 1864, 1781], [1781, 1864, 1865, 1782], [1782, 1865, 1866, 1783], [1783, 1866, 1867, 1784], [1784, 1867, 1868, 1785], [1785, 1868, 1869, 1786], [1786, 1869, 1870, 1787], [1787, 1870, 1871, 1788], [1788, 1871, 1872, 1789], [1789, 1872, 1873, 1790], [1790, 1873, 1874, 1791], [1791, 1874, 1875, 1792], [1792, 1875, 1876, 1793], [1793, 1876, 1877, 1794], [1794, 1877, 1878, 1795], [1795, 1878, 1879, 1796], [1796, 1879, 1880, 1797], [1797, 1880, 1881, 1798], [1798, 1881, 1882, 1799], [1799, 1882, 1883, 1800], [1800, 1883, 1884, 1801], [1801, 1884, 1885, 1802], [1802, 1885, 1886, 1803], [1803, 1886, 1887, 1804], [1804, 1887, 1888, 1805], [1805, 1888, 1889, 1806], [1806, 1889, 1890, 1807], [1807, 1890, 1891, 1808], [1808, 1891, 1892, 1809], [1809, 1892, 1893, 1810], [1810, 1893, 1894, 1811], [1811, 1894, 1895, 1812], [1812, 1895, 1896, 1813], [1813, 1896, 1897, 1814], [1814, 1897, 1898, 1815], [1815, 1898, 1899, 1816], [1816, 1899, 1900, 1817], [1817, 1900, 1901, 1818], [1818, 1901, 1902, 1819], [1819, 1902, 1903, 1820], [1820, 1903, 1904, 1821], [1821, 1904, 1905, 1822], [1822, 1905, 1906, 1823], [1823, 1906, 1907, 1824], [1824, 1907, 1908, 1825], [1825, 1908, 1826, 1743], [1826, 1909, 1910, 1827], [1827, 1910, 1911, 1828], [1828, 1911, 1912, 1829], [1829, 1912, 1913, 1830], [1830, 1913, 1914, 1831], [1831, 1914, 1915, 1832], [1832, 1915, 1916, 1833], [1833, 1916, 1917, 1834], [1834, 1917, 1918, 1835], [1835, 1918, 1919, 1836], [1836, 1919, 1920, 1837], [1837, 1920, 1921, 1838], [1838, 1921, 1922, 1839], [1839, 1922, 1923, 1840], [1840, 1923, 1924, 1841], [1841, 1924, 1925, 1842], [1842, 1925, 1926, 1843], [1843, 1926, 1927, 1844], [1844, 1927, 1928, 1845], [1845, 1928, 1929, 1846], [1846, 1929, 1930, 1847], [1847, 1930, 1931, 1848], [1848, 1931, 1932, 1849], [1849, 1932, 1933, 1850], [1850, 1933, 1934, 1851], [1851, 1934, 1935, 1852], [1852, 1935, 1936, 1853], [1853, 1936, 1937, 1854], [1854, 1937, 1938, 1855], [1855, 1938, 1939, 1856], [1856, 1939, 1940, 1857], [1857, 1940, 1941, 1858], [1858, 1941, 1942, 1859], [1859, 1942, 1943, 1860], [1860, 1943, 1944, 1861], [1861, 1944, 1945, 1862], [1862, 1945, 1946, 1863], [1863, 1946, 1947, 1864], [1864, 1947, 1948, 1865], [1865, 1948, 1949, 1866], [1866, 1949, 1950, 1867], [1867, 1950, 1951, 1868], [1868, 1951, 1952, 1869], [1869, 1952, 1953, 1870], [1870, 1953, 1954, 1871], [1871, 1954, 1955, 1872], [1872, 1955, 1956, 1873], [1873, 1956, 1957, 1874], [1874, 1957, 1958, 1875], [1875, 1958, 1959, 1876], [1876, 1959, 1960, 1877], [1877, 1960, 1961, 1878], [1878, 1961, 1962, 1879], [1879, 1962, 1963, 1880], [1880, 1963, 1964, 1881], [1881, 1964, 1965, 1882], [1882, 1965, 1966, 1883], [1883, 1966, 1967, 1884], [1884, 1967, 1968, 1885], [1885, 1968, 1969, 1886], [1886, 1969, 1970, 1887], [1887, 1970, 1971, 1888], [1888, 1971, 1972, 1889], [1889, 1972, 1973, 1890], [1890, 1973, 1974, 1891], [1891, 1974, 1975, 1892], [1892, 1975, 1976, 1893], [1893, 1976, 1977, 1894], [1894, 1977, 1978, 1895], [1895, 1978, 1979, 1896], [1896, 1979, 1980, 1897], [1897, 1980, 1981, 1898], [1898, 1981, 1982, 1899], [1899, 1982, 1983, 1900], [1900, 1983, 1984, 1901], [1901, 1984, 1985, 1902], [1902, 1985, 1986, 1903], [1903, 1986, 1987, 1904], [1904, 1987, 1988, 1905], [1905, 1988, 1989, 1906], [1906, 1989, 1990, 1907], [1907, 1990, 1991, 1908], [1908, 1991, 1909, 1826], [1909, 1992, 1993, 1910], [1910, 1993, 1994, 1911], [1911, 1994, 1995, 1912], [1912, 1995, 1996, 1913], [1913, 1996, 1997, 1914], [1914, 1997, 1998, 1915], [1915, 1998, 1999, 1916], [1916, 1999, 2000, 1917], [1917, 2000, 2001, 1918], [1918, 2001, 2002, 1919], [1919, 2002, 2003, 1920], [1920, 2003, 2004, 1921], [1921, 2004, 2005, 1922], [1922, 2005, 2006, 1923], [1923, 2006, 2007, 1924], [1924, 2007, 2008, 1925], [1925, 2008, 2009, 1926], [1926, 2009, 2010, 1927], [1927, 2010, 2011, 1928], [1928, 2011, 2012, 1929], [1929, 2012, 2013, 1930], [1930, 2013, 2014, 1931], [1931, 2014, 2015, 1932], [1932, 2015, 2016, 1933], [1933, 2016, 2017, 1934], [1934, 2017, 2018, 1935], [1935, 2018, 2019, 1936], [1936, 2019, 2020, 1937], [1937, 2020, 2021, 1938], [1938, 2021, 2022, 1939], [1939, 2022, 2023, 1940], [1940, 2023, 2024, 1941], [1941, 2024, 2025, 1942], [1942, 2025, 2026, 1943], [1943, 2026, 2027, 1944], [1944, 2027, 2028, 1945], [1945, 2028, 2029, 1946], [1946, 2029, 2030, 1947], [1947, 2030, 2031, 1948], [1948, 2031, 2032, 1949], [1949, 2032, 2033, 1950], [1950, 2033, 2034, 1951], [1951, 2034, 2035, 1952], [1952, 2035, 2036, 1953], [1953, 2036, 2037, 1954], [1954, 2037, 2038, 1955], [1955, 2038, 2039, 1956], [1956, 2039, 2040, 1957], [1957, 2040, 2041, 1958], [1958, 2041, 2042, 1959], [1959, 2042, 2043, 1960], [1960, 2043, 2044, 1961], [1961, 2044, 2045, 1962], [1962, 2045, 2046, 1963], [1963, 2046, 2047, 1964], [1964, 2047, 2048, 1965], [1965, 2048, 2049, 1966], [1966, 2049, 2050, 1967], [1967, 2050, 2051, 1968], [1968, 2051, 2052, 1969], [1969, 2052, 2053, 1970], [1970, 2053, 2054, 1971], [1971, 2054, 2055, 1972], [1972, 2055, 2056, 1973], [1973, 2056, 2057, 1974], [1974, 2057, 2058, 1975], [1975, 2058, 2059, 1976], [1976, 2059, 2060, 1977], [1977, 2060, 2061, 1978], [1978, 2061, 2062, 1979], [1979, 2062, 2063, 1980], [1980, 2063, 2064, 1981], [1981, 2064, 2065, 1982], [1982, 2065, 2066, 1983], [1983, 2066, 2067, 1984], [1984, 2067, 2068, 1985], [1985, 2068, 2069, 1986], [1986, 2069, 2070, 1987], [1987, 2070, 2071, 1988], [1988, 2071, 2072, 1989], [1989, 2072, 2073, 1990], [1990, 2073, 2074, 1991], [1991, 2074, 1992, 1909], [1992, 2075, 2076, 1993], [1993, 2076, 2077, 1994], [1994, 2077, 2078, 1995], [1995, 2078, 2079, 1996], [1996, 2079, 2080, 1997], [1997, 2080, 2081, 1998], [1998, 2081, 2082, 1999], [1999, 2082, 2083, 2000], [2000, 2083, 2084, 2001], [2001, 2084, 2085, 2002], [2002, 2085, 2086, 2003], [2003, 2086, 2087, 2004], [2004, 2087, 2088, 2005], [2005, 2088, 2089, 2006], [2006, 2089, 2090, 2007], [2007, 2090, 2091, 2008], [2008, 2091, 2092, 2009], [2009, 2092, 2093, 2010], [2010, 2093, 2094, 2011], [2011, 2094, 2095, 2012], [2012, 2095, 2096, 2013], [2013, 2096, 2097, 2014], [2014, 2097, 2098, 2015], [2015, 2098, 2099, 2016], [2016, 2099, 2100, 2017], [2017, 2100, 2101, 2018], [2018, 2101, 2102, 2019], [2019, 2102, 2103, 2020], [2020, 2103, 2104, 2021], [2021, 2104, 2105, 2022], [2022, 2105, 2106, 2023], [2023, 2106, 2107, 2024], [2024, 2107, 2108, 2025], [2025, 2108, 2109, 2026], [2026, 2109, 2110, 2027], [2027, 2110, 2111, 2028], [2028, 2111, 2112, 2029], [2029, 2112, 2113, 2030], [2030, 2113, 2114, 2031], [2031, 2114, 2115, 2032], [2032, 2115, 2116, 2033], [2033, 2116, 2117, 2034], [2034, 2117, 2118, 2035], [2035, 2118, 2119, 2036], [2036, 2119, 2120, 2037], [2037, 2120, 2121, 2038], [2038, 2121, 2122, 2039], [2039, 2122, 2123, 2040], [2040, 2123, 2124, 2041], [2041, 2124, 2125, 2042], [2042, 2125, 2126, 2043], [2043, 2126, 2127, 2044], [2044, 2127, 2128, 2045], [2045, 2128, 2129, 2046], [2046, 2129, 2130, 2047], [2047, 2130, 2131, 2048], [2048, 2131, 2132, 2049], [2049, 2132, 2133, 2050], [2050, 2133, 2134, 2051], [2051, 2134, 2135, 2052], [2052, 2135, 2136, 2053], [2053, 2136, 2137, 2054], [2054, 2137, 2138, 2055], [2055, 2138, 2139, 2056], [2056, 2139, 2140, 2057], [2057, 2140, 2141, 2058], [2058, 2141, 2142, 2059], [2059, 2142, 2143, 2060], [2060, 2143, 2144, 2061], [2061, 2144, 2145, 2062], [2062, 2145, 2146, 2063], [2063, 2146, 2147, 2064], [2064, 2147, 2148, 2065], [2065, 2148, 2149, 2066], [2066, 2149, 2150, 2067], [2067, 2150, 2151, 2068], [2068, 2151, 2152, 2069], [2069, 2152, 2153, 2070], [2070, 2153, 2154, 2071], [2071, 2154, 2155, 2072], [2072, 2155, 2156, 2073], [2073, 2156, 2157, 2074], [2074, 2157, 2075, 1992], [2075, 2158, 2159, 2076], [2076, 2159, 2160, 2077], [2077, 2160, 2161, 2078], [2078, 2161, 2162, 2079], [2079, 2162, 2163, 2080], [2080, 2163, 2164, 2081], [2081, 2164, 2165, 2082], [2082, 2165, 2166, 2083], [2083, 2166, 2167, 2084], [2084, 2167, 2168, 2085], [2085, 2168, 2169, 2086], [2086, 2169, 2170, 2087], [2087, 2170, 2171, 2088], [2088, 2171, 2172, 2089], [2089, 2172, 2173, 2090], [2090, 2173, 2174, 2091], [2091, 2174, 2175, 2092], [2092, 2175, 2176, 2093], [2093, 2176, 2177, 2094], [2094, 2177, 2178, 2095], [2095, 2178, 2179, 2096], [2096, 2179, 2180, 2097], [2097, 2180, 2181, 2098], [2098, 2181, 2182, 2099], [2099, 2182, 2183, 2100], [2100, 2183, 2184, 2101], [2101, 2184, 2185, 2102], [2102, 2185, 2186, 2103], [2103, 2186, 2187, 2104], [2104, 2187, 2188, 2105], [2105, 2188, 2189, 2106], [2106, 2189, 2190, 2107], [2107, 2190, 2191, 2108], [2108, 2191, 2192, 2109], [2109, 2192, 2193, 2110], [2110, 2193, 2194, 2111], [2111, 2194, 2195, 2112], [2112, 2195, 2196, 2113], [2113, 2196, 2197, 2114], [2114, 2197, 2198, 2115], [2115, 2198, 2199, 2116], [2116, 2199, 2200, 2117], [2117, 2200, 2201, 2118], [2118, 2201, 2202, 2119], [2119, 2202, 2203, 2120], [2120, 2203, 2204, 2121], [2121, 2204, 2205, 2122], [2122, 2205, 2206, 2123], [2123, 2206, 2207, 2124], [2124, 2207, 2208, 2125], [2125, 2208, 2209, 2126], [2126, 2209, 2210, 2127], [2127, 2210, 2211, 2128], [2128, 2211, 2212, 2129], [2129, 2212, 2213, 2130], [2130, 2213, 2214, 2131], [2131, 2214, 2215, 2132], [2132, 2215, 2216, 2133], [2133, 2216, 2217, 2134], [2134, 2217, 2218, 2135], [2135, 2218, 2219, 2136], [2136, 2219, 2220, 2137], [2137, 2220, 2221, 2138], [2138, 2221, 2222, 2139], [2139, 2222, 2223, 2140], [2140, 2223, 2224, 2141], [2141, 2224, 2225, 2142], [2142, 2225, 2226, 2143], [2143, 2226, 2227, 2144], [2144, 2227, 2228, 2145], [2145, 2228, 2229, 2146], [2146, 2229, 2230, 2147], [2147, 2230, 2231, 2148], [2148, 2231, 2232, 2149], [2149, 2232, 2233, 2150], [2150, 2233, 2234, 2151], [2151, 2234, 2235, 2152], [2152, 2235, 2236, 2153], [2153, 2236, 2237, 2154], [2154, 2237, 2238, 2155], [2155, 2238, 2239, 2156], [2156, 2239, 2240, 2157], [2157, 2240, 2158, 2075], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82], [2240, 2239, 2238, 2237, 2236, 2235, 2234, 2233, 2232, 2231, 2230, 2229, 2228, 2227, 2226, 2225, 2224, 2223, 2222, 2221, 2220, 2219, 2218, 2217, 2216, 2215, 2214, 2213, 2212, 2211, 2210, 2209, 2208, 2207, 2206, 2205, 2204, 2203, 2202, 2201, 2200, 2199, 2198, 2197, 2196, 2195, 2194, 2193, 2192, 2191, 2190, 2189, 2188, 2187, 2186, 2185, 2184, 2183, 2182, 2181, 2180, 2179, 2178, 2177, 2176, 2175, 2174, 2173, 2172, 2171, 2170, 2169, 2168, 2167, 2166, 2165, 2164, 2163, 2162, 2161, 2160, 2159, 2158]], convexity=10);
+    }
+  }
+} // end module default_5_default_5
+

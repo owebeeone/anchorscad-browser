@@ -1,0 +1,40 @@
+digraph small_holes {
+	graph [rankdir=LR]
+	root_205 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	small_holes_206 [label=small_holes href="javascript:s=&quot;\(&#x27;small_holes&#x27;,\)\nSimpleGridBox&quot;; console.log(s); alert(s);" tooltip=SimpleGridBox]
+	box_207 [label=box href="javascript:s=&quot;\(&#x27;small_holes&#x27;,\ &#x27;box&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_208 [label="\('hole',\ 0,\ 0\)" href="javascript:s=&quot;\(&#x27;small_holes&#x27;,\ \(&#x27;hole&#x27;,\ 0,\ 0\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_209 [label="\('hole',\ 0,\ 1\)" href="javascript:s=&quot;\(&#x27;small_holes&#x27;,\ \(&#x27;hole&#x27;,\ 0,\ 1\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_210 [label="\('hole',\ 0,\ 2\)" href="javascript:s=&quot;\(&#x27;small_holes&#x27;,\ \(&#x27;hole&#x27;,\ 0,\ 2\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_211 [label="\('hole',\ 0,\ 3\)" href="javascript:s=&quot;\(&#x27;small_holes&#x27;,\ \(&#x27;hole&#x27;,\ 0,\ 3\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_212 [label="\('hole',\ 1,\ 0\)" href="javascript:s=&quot;\(&#x27;small_holes&#x27;,\ \(&#x27;hole&#x27;,\ 1,\ 0\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_213 [label="\('hole',\ 1,\ 1\)" href="javascript:s=&quot;\(&#x27;small_holes&#x27;,\ \(&#x27;hole&#x27;,\ 1,\ 1\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_214 [label="\('hole',\ 1,\ 2\)" href="javascript:s=&quot;\(&#x27;small_holes&#x27;,\ \(&#x27;hole&#x27;,\ 1,\ 2\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_215 [label="\('hole',\ 1,\ 3\)" href="javascript:s=&quot;\(&#x27;small_holes&#x27;,\ \(&#x27;hole&#x27;,\ 1,\ 3\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_216 [label="\('hole',\ 2,\ 0\)" href="javascript:s=&quot;\(&#x27;small_holes&#x27;,\ \(&#x27;hole&#x27;,\ 2,\ 0\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_217 [label="\('hole',\ 2,\ 1\)" href="javascript:s=&quot;\(&#x27;small_holes&#x27;,\ \(&#x27;hole&#x27;,\ 2,\ 1\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_218 [label="\('hole',\ 2,\ 2\)" href="javascript:s=&quot;\(&#x27;small_holes&#x27;,\ \(&#x27;hole&#x27;,\ 2,\ 2\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_219 [label="\('hole',\ 2,\ 3\)" href="javascript:s=&quot;\(&#x27;small_holes&#x27;,\ \(&#x27;hole&#x27;,\ 2,\ 3\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_220 [label="\('hole',\ 3,\ 0\)" href="javascript:s=&quot;\(&#x27;small_holes&#x27;,\ \(&#x27;hole&#x27;,\ 3,\ 0\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_221 [label="\('hole',\ 3,\ 1\)" href="javascript:s=&quot;\(&#x27;small_holes&#x27;,\ \(&#x27;hole&#x27;,\ 3,\ 1\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_222 [label="\('hole',\ 3,\ 2\)" href="javascript:s=&quot;\(&#x27;small_holes&#x27;,\ \(&#x27;hole&#x27;,\ 3,\ 2\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_223 [label="\('hole',\ 3,\ 3\)" href="javascript:s=&quot;\(&#x27;small_holes&#x27;,\ \(&#x27;hole&#x27;,\ 3,\ 3\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	root_205 -> small_holes_206
+	small_holes_206 -> box_207
+	small_holes_206 -> hole_208
+	small_holes_206 -> hole_209
+	small_holes_206 -> hole_210
+	small_holes_206 -> hole_211
+	small_holes_206 -> hole_212
+	small_holes_206 -> hole_213
+	small_holes_206 -> hole_214
+	small_holes_206 -> hole_215
+	small_holes_206 -> hole_216
+	small_holes_206 -> hole_217
+	small_holes_206 -> hole_218
+	small_holes_206 -> hole_219
+	small_holes_206 -> hole_220
+	small_holes_206 -> hole_221
+	small_holes_206 -> hole_222
+	small_holes_206 -> hole_223
+}

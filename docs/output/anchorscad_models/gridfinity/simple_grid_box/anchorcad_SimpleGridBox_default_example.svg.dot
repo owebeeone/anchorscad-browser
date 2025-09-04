@@ -1,0 +1,12 @@
+digraph default {
+	graph [rankdir=LR]
+	root_200 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_201 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nSimpleGridBox&quot;; console.log(s); alert(s);" tooltip=SimpleGridBox]
+	box_202 [label=box href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;box&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_203 [label="\('hole',\ 0,\ 0\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;hole&#x27;,\ 0,\ 0\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_204 [label="\('hole',\ 0,\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;hole&#x27;,\ 0,\ 1\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	root_200 -> default_201
+	default_201 -> box_202
+	default_201 -> hole_203
+	default_201 -> hole_204
+}

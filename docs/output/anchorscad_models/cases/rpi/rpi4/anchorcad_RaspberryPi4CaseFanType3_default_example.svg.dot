@@ -1,0 +1,542 @@
+digraph default {
+	graph [rankdir=LR]
+	root_851 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_852 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nRaspberryPi4CaseFanType3&quot;; console.log(s); alert(s);" tooltip=RaspberryPi4CaseFanType3]
+	main_853 [label=main href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;\)\nMaker&quot;; console.log(s); alert(s);" tooltip=Maker]
+	shell_854 [label=shell href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;shell&#x27;\)\nBoxShell&quot;; console.log(s); alert(s);" tooltip=BoxShell]
+	outer_855 [label=outer href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;shell&#x27;,\ &#x27;outer&#x27;\)\nBoxSideBevels&quot;; console.log(s); alert(s);" tooltip=BoxSideBevels]
+	shell_856 [label=shell href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;shell&#x27;,\ &#x27;outer&#x27;,\ &#x27;shell&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hull_857 [label=hull href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;shell&#x27;,\ &#x27;outer&#x27;,\ &#x27;hull&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	shell_centre_858 [label=shell_centre href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;shell&#x27;,\ &#x27;shell_centre&#x27;\)\nBoxSideBevels&quot;; console.log(s); alert(s);" tooltip=BoxSideBevels]
+	shell_859 [label=shell href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;shell&#x27;,\ &#x27;shell_centre&#x27;,\ &#x27;shell&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hull_860 [label=hull href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;shell&#x27;,\ &#x27;shell_centre&#x27;,\ &#x27;hull&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	inner_861 [label=inner href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;shell&#x27;,\ &#x27;inner&#x27;\)\nBoxSideBevels&quot;; console.log(s); alert(s);" tooltip=BoxSideBevels]
+	shell_862 [label=shell href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;shell&#x27;,\ &#x27;inner&#x27;,\ &#x27;shell&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hull_863 [label=hull href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;shell&#x27;,\ &#x27;inner&#x27;,\ &#x27;hull&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	outline_864 [label=outline href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;outline&#x27;\)\nRaspberryPi4Outline&quot;; console.log(s); alert(s);" tooltip=RaspberryPi4Outline]
+	board_865 [label=board href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;outline&#x27;,\ &#x27;board&#x27;\)\nBoxSideBevels&quot;; console.log(s); alert(s);" tooltip=BoxSideBevels]
+	shell_866 [label=shell href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;outline&#x27;,\ &#x27;board&#x27;,\ &#x27;shell&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hull_867 [label=hull href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;outline&#x27;,\ &#x27;board&#x27;,\ &#x27;hull&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	mount_hole_868 [label="\('mount_hole',\ 0\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;outline&#x27;,\ \(&#x27;mount_hole&#x27;,\ 0\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	mount_hole_869 [label="\('mount_hole',\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;outline&#x27;,\ \(&#x27;mount_hole&#x27;,\ 1\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	mount_hole_870 [label="\('mount_hole',\ 2\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;outline&#x27;,\ \(&#x27;mount_hole&#x27;,\ 2\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	mount_hole_871 [label="\('mount_hole',\ 3\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;outline&#x27;,\ \(&#x27;mount_hole&#x27;,\ 3\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	usbC_872 [label=usbC href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;outline&#x27;,\ &#x27;usbC&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	usbC_873 [label="\('usbC',\ 'outer'\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;outline&#x27;,\ \(&#x27;usbC&#x27;,\ &#x27;outer&#x27;\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hdmi1_874 [label=hdmi1 href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;outline&#x27;,\ &#x27;hdmi1&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hdmi1_875 [label="\('hdmi1',\ 'outer'\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;outline&#x27;,\ \(&#x27;hdmi1&#x27;,\ &#x27;outer&#x27;\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hdmi2_876 [label=hdmi2 href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;outline&#x27;,\ &#x27;hdmi2&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hdmi2_877 [label="\('hdmi2',\ 'outer'\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;outline&#x27;,\ \(&#x27;hdmi2&#x27;,\ &#x27;outer&#x27;\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	audio_878 [label=audio href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;outline&#x27;,\ &#x27;audio&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	audio_879 [label="\('audio',\ 'outer'\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;outline&#x27;,\ \(&#x27;audio&#x27;,\ &#x27;outer&#x27;\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	cpu_880 [label=cpu href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;outline&#x27;,\ &#x27;cpu&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	usbA2_881 [label=usbA2 href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;outline&#x27;,\ &#x27;usbA2&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	usbA2_882 [label="\('usbA2',\ 'outer'\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;outline&#x27;,\ \(&#x27;usbA2&#x27;,\ &#x27;outer&#x27;\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	usbA3_883 [label=usbA3 href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;outline&#x27;,\ &#x27;usbA3&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	usbA3_884 [label="\('usbA3',\ 'outer'\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;outline&#x27;,\ \(&#x27;usbA3&#x27;,\ &#x27;outer&#x27;\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	rj45_885 [label=rj45 href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;outline&#x27;,\ &#x27;rj45&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	rj45_886 [label="\('rj45',\ 'outer'\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;outline&#x27;,\ \(&#x27;rj45&#x27;,\ &#x27;outer&#x27;\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	micro_sd_887 [label=micro_sd href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;outline&#x27;,\ &#x27;micro_sd&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	micro_sd_888 [label="\('micro_sd',\ 'outer'\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;outline&#x27;,\ \(&#x27;micro_sd&#x27;,\ &#x27;outer&#x27;\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	header100_889 [label=header100 href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;outline&#x27;,\ &#x27;header100&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	split_box_890 [label=split_box href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;split_box&#x27;\)\nMaker&quot;; console.log(s); alert(s);" tooltip=Maker]
+	split_box_cage_891 [label=split_box_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;split_box&#x27;,\ &#x27;split_box_cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	split_box_892 [label=split_box href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;split_box&#x27;,\ &#x27;split_box&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	usb_usb_flange_893 [label=usb_usb_flange href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;usb_usb_flange&#x27;\)\nTriangularPrism&quot;; console.log(s); alert(s);" tooltip=TriangularPrism]
+	cage_894 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;usb_usb_flange&#x27;,\ &#x27;cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	prism_895 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;usb_usb_flange&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	usb_rj45_flange_896 [label=usb_rj45_flange href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;usb_rj45_flange&#x27;\)\nTriangularPrism&quot;; console.log(s); alert(s);" tooltip=TriangularPrism]
+	cage_897 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;usb_rj45_flange&#x27;,\ &#x27;cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	prism_898 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;usb_rj45_flange&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	rhs_grille_899 [label=rhs_grille href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;rhs_grille&#x27;\)\nRectangularGrilleHoles&quot;; console.log(s); alert(s);" tooltip=RectangularGrilleHoles]
+	cage_900 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;rhs_grille&#x27;,\ &#x27;cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	vane_901 [label="\('vane',\ 0\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;rhs_grille&#x27;,\ \(&#x27;vane&#x27;,\ 0\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	vane_902 [label="\('vane',\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;rhs_grille&#x27;,\ \(&#x27;vane&#x27;,\ 1\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	vane_903 [label="\('vane',\ 2\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;rhs_grille&#x27;,\ \(&#x27;vane&#x27;,\ 2\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	vane_904 [label="\('vane',\ 3\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;rhs_grille&#x27;,\ \(&#x27;vane&#x27;,\ 3\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	vane_905 [label="\('vane',\ 4\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;rhs_grille&#x27;,\ \(&#x27;vane&#x27;,\ 4\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	vane_906 [label="\('vane',\ 5\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;rhs_grille&#x27;,\ \(&#x27;vane&#x27;,\ 5\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	vane_907 [label="\('vane',\ 6\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;rhs_grille&#x27;,\ \(&#x27;vane&#x27;,\ 6\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	vane_908 [label="\('vane',\ 7\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;rhs_grille&#x27;,\ \(&#x27;vane&#x27;,\ 7\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	vane_909 [label="\('vane',\ 8\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;rhs_grille&#x27;,\ \(&#x27;vane&#x27;,\ 8\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	vane_910 [label="\('vane',\ 9\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;rhs_grille&#x27;,\ \(&#x27;vane&#x27;,\ 9\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	vane_911 [label="\('vane',\ 10\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;rhs_grille&#x27;,\ \(&#x27;vane&#x27;,\ 10\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	vane_912 [label="\('vane',\ 11\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;rhs_grille&#x27;,\ \(&#x27;vane&#x27;,\ 11\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	vane_913 [label="\('vane',\ 12\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;rhs_grille&#x27;,\ \(&#x27;vane&#x27;,\ 12\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	vane_914 [label="\('vane',\ 13\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;rhs_grille&#x27;,\ \(&#x27;vane&#x27;,\ 13\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	vane_915 [label="\('vane',\ 14\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;rhs_grille&#x27;,\ \(&#x27;vane&#x27;,\ 14\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	vane_916 [label="\('vane',\ 15\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;rhs_grille&#x27;,\ \(&#x27;vane&#x27;,\ 15\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	lhs_grille_917 [label=lhs_grille href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;lhs_grille&#x27;\)\nRectangularGrilleHoles&quot;; console.log(s); alert(s);" tooltip=RectangularGrilleHoles]
+	cage_918 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;lhs_grille&#x27;,\ &#x27;cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	vane_919 [label="\('vane',\ 0\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;lhs_grille&#x27;,\ \(&#x27;vane&#x27;,\ 0\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	vane_920 [label="\('vane',\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;lhs_grille&#x27;,\ \(&#x27;vane&#x27;,\ 1\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	vane_921 [label="\('vane',\ 2\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;lhs_grille&#x27;,\ \(&#x27;vane&#x27;,\ 2\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	vane_922 [label="\('vane',\ 3\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;lhs_grille&#x27;,\ \(&#x27;vane&#x27;,\ 3\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	vane_923 [label="\('vane',\ 4\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;lhs_grille&#x27;,\ \(&#x27;vane&#x27;,\ 4\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	vane_924 [label="\('vane',\ 5\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;lhs_grille&#x27;,\ \(&#x27;vane&#x27;,\ 5\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	vane_925 [label="\('vane',\ 6\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;lhs_grille&#x27;,\ \(&#x27;vane&#x27;,\ 6\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	vane_926 [label="\('vane',\ 7\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;lhs_grille&#x27;,\ \(&#x27;vane&#x27;,\ 7\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	vane_927 [label="\('vane',\ 8\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;lhs_grille&#x27;,\ \(&#x27;vane&#x27;,\ 8\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	vane_928 [label="\('vane',\ 9\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;lhs_grille&#x27;,\ \(&#x27;vane&#x27;,\ 9\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	vane_929 [label="\('vane',\ 10\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;lhs_grille&#x27;,\ \(&#x27;vane&#x27;,\ 10\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	vane_930 [label="\('vane',\ 11\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;lhs_grille&#x27;,\ \(&#x27;vane&#x27;,\ 11\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	vane_931 [label="\('vane',\ 12\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;lhs_grille&#x27;,\ \(&#x27;vane&#x27;,\ 12\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	vane_932 [label="\('vane',\ 13\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;lhs_grille&#x27;,\ \(&#x27;vane&#x27;,\ 13\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	vane_933 [label="\('vane',\ 14\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;lhs_grille&#x27;,\ \(&#x27;vane&#x27;,\ 14\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	vane_934 [label="\('vane',\ 15\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;lhs_grille&#x27;,\ \(&#x27;vane&#x27;,\ 15\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	fan_935 [label=fan href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;\)\nFanVent&quot;; console.log(s); alert(s);" tooltip=FanVent]
+	fan_936 [label=fan href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ &#x27;fan&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	screw_cage_937 [label=screw_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ &#x27;screw_cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	mount_938 [label="\('mount',\ 0\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ \(&#x27;mount&#x27;,\ 0\)\)\nPipe&quot;; console.log(s); alert(s);" tooltip=Pipe]
+	outer_939 [label=outer href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ \(&#x27;mount&#x27;,\ 0\),\ &#x27;outer&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_940 [label=pie_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ \(&#x27;mount&#x27;,\ 0\),\ &#x27;outer&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_941 [label=pie href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ \(&#x27;mount&#x27;,\ 0\),\ &#x27;outer&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	inner_942 [label=inner href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ \(&#x27;mount&#x27;,\ 0\),\ &#x27;inner&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_943 [label=pie_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ \(&#x27;mount&#x27;,\ 0\),\ &#x27;inner&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_944 [label=pie href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ \(&#x27;mount&#x27;,\ 0\),\ &#x27;inner&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	mount_945 [label="\('mount',\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ \(&#x27;mount&#x27;,\ 1\)\)\nPipe&quot;; console.log(s); alert(s);" tooltip=Pipe]
+	outer_946 [label=outer href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ \(&#x27;mount&#x27;,\ 1\),\ &#x27;outer&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_947 [label=pie_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ \(&#x27;mount&#x27;,\ 1\),\ &#x27;outer&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_948 [label=pie href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ \(&#x27;mount&#x27;,\ 1\),\ &#x27;outer&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	inner_949 [label=inner href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ \(&#x27;mount&#x27;,\ 1\),\ &#x27;inner&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_950 [label=pie_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ \(&#x27;mount&#x27;,\ 1\),\ &#x27;inner&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_951 [label=pie href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ \(&#x27;mount&#x27;,\ 1\),\ &#x27;inner&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	mount_952 [label="\('mount',\ 2\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ \(&#x27;mount&#x27;,\ 2\)\)\nPipe&quot;; console.log(s); alert(s);" tooltip=Pipe]
+	outer_953 [label=outer href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ \(&#x27;mount&#x27;,\ 2\),\ &#x27;outer&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_954 [label=pie_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ \(&#x27;mount&#x27;,\ 2\),\ &#x27;outer&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_955 [label=pie href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ \(&#x27;mount&#x27;,\ 2\),\ &#x27;outer&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	inner_956 [label=inner href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ \(&#x27;mount&#x27;,\ 2\),\ &#x27;inner&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_957 [label=pie_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ \(&#x27;mount&#x27;,\ 2\),\ &#x27;inner&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_958 [label=pie href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ \(&#x27;mount&#x27;,\ 2\),\ &#x27;inner&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	mount_959 [label="\('mount',\ 3\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ \(&#x27;mount&#x27;,\ 3\)\)\nPipe&quot;; console.log(s); alert(s);" tooltip=Pipe]
+	outer_960 [label=outer href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ \(&#x27;mount&#x27;,\ 3\),\ &#x27;outer&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_961 [label=pie_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ \(&#x27;mount&#x27;,\ 3\),\ &#x27;outer&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_962 [label=pie href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ \(&#x27;mount&#x27;,\ 3\),\ &#x27;outer&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	inner_963 [label=inner href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ \(&#x27;mount&#x27;,\ 3\),\ &#x27;inner&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_964 [label=pie_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ \(&#x27;mount&#x27;,\ 3\),\ &#x27;inner&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_965 [label=pie href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ \(&#x27;mount&#x27;,\ 3\),\ &#x27;inner&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	grille_966 [label=grille href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ &#x27;grille&#x27;\)\nCurlySpokes&quot;; console.log(s); alert(s);" tooltip=CurlySpokes]
+	cage_967 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ &#x27;grille&#x27;,\ &#x27;cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	core_968 [label=core href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ &#x27;grille&#x27;,\ &#x27;core&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	spoke_969 [label="\('spoke',\ 0\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 0\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_970 [label="\('spoke',\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 1\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_971 [label="\('spoke',\ 2\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 2\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_972 [label="\('spoke',\ 3\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 3\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_973 [label="\('spoke',\ 4\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 4\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_974 [label="\('spoke',\ 5\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 5\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_975 [label="\('spoke',\ 6\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 6\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_976 [label="\('spoke',\ 7\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 7\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_977 [label="\('spoke',\ 8\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 8\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_978 [label="\('spoke',\ 9\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 9\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_979 [label="\('spoke',\ 10\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 10\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_980 [label="\('spoke',\ 11\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 11\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_981 [label="\('spoke',\ 12\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 12\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_982 [label="\('spoke',\ 13\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 13\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_983 [label="\('spoke',\ 14\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 14\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_984 [label="\('spoke',\ 15\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 15\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	inner_core_985 [label=inner_core href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ &#x27;fan&#x27;,\ &#x27;grille&#x27;,\ &#x27;inner_core&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	support_986 [label="\('support',\ 0\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 0\)\)\nSelfTapHole&quot;; console.log(s); alert(s);" tooltip=SelfTapHole]
+	pipe_987 [label=pipe href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 0\),\ &#x27;pipe&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	thru_988 [label=thru href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 0\),\ &#x27;thru&#x27;\)\nPipe&quot;; console.log(s); alert(s);" tooltip=Pipe]
+	outer_989 [label=outer href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 0\),\ &#x27;thru&#x27;,\ &#x27;outer&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_990 [label=pie_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 0\),\ &#x27;thru&#x27;,\ &#x27;outer&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_991 [label=pie href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 0\),\ &#x27;thru&#x27;,\ &#x27;outer&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	inner_992 [label=inner href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 0\),\ &#x27;thru&#x27;,\ &#x27;inner&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_993 [label=pie_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 0\),\ &#x27;thru&#x27;,\ &#x27;inner&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_994 [label=pie href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 0\),\ &#x27;thru&#x27;,\ &#x27;inner&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	tap_995 [label=tap href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 0\),\ &#x27;tap&#x27;\)\nPipe&quot;; console.log(s); alert(s);" tooltip=Pipe]
+	outer_996 [label=outer href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 0\),\ &#x27;tap&#x27;,\ &#x27;outer&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_997 [label=pie_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 0\),\ &#x27;tap&#x27;,\ &#x27;outer&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_998 [label=pie href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 0\),\ &#x27;tap&#x27;,\ &#x27;outer&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	inner_999 [label=inner href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 0\),\ &#x27;tap&#x27;,\ &#x27;inner&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_1000 [label=pie_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 0\),\ &#x27;tap&#x27;,\ &#x27;inner&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_1001 [label=pie href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 0\),\ &#x27;tap&#x27;,\ &#x27;inner&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	support_1002 [label="\('support',\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 1\)\)\nSelfTapHole&quot;; console.log(s); alert(s);" tooltip=SelfTapHole]
+	pipe_1003 [label=pipe href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 1\),\ &#x27;pipe&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	thru_1004 [label=thru href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 1\),\ &#x27;thru&#x27;\)\nPipe&quot;; console.log(s); alert(s);" tooltip=Pipe]
+	outer_1005 [label=outer href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 1\),\ &#x27;thru&#x27;,\ &#x27;outer&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_1006 [label=pie_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 1\),\ &#x27;thru&#x27;,\ &#x27;outer&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_1007 [label=pie href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 1\),\ &#x27;thru&#x27;,\ &#x27;outer&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	inner_1008 [label=inner href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 1\),\ &#x27;thru&#x27;,\ &#x27;inner&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_1009 [label=pie_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 1\),\ &#x27;thru&#x27;,\ &#x27;inner&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_1010 [label=pie href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 1\),\ &#x27;thru&#x27;,\ &#x27;inner&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	tap_1011 [label=tap href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 1\),\ &#x27;tap&#x27;\)\nPipe&quot;; console.log(s); alert(s);" tooltip=Pipe]
+	outer_1012 [label=outer href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 1\),\ &#x27;tap&#x27;,\ &#x27;outer&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_1013 [label=pie_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 1\),\ &#x27;tap&#x27;,\ &#x27;outer&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_1014 [label=pie href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 1\),\ &#x27;tap&#x27;,\ &#x27;outer&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	inner_1015 [label=inner href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 1\),\ &#x27;tap&#x27;,\ &#x27;inner&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_1016 [label=pie_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 1\),\ &#x27;tap&#x27;,\ &#x27;inner&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_1017 [label=pie href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 1\),\ &#x27;tap&#x27;,\ &#x27;inner&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	support_1018 [label="\('support',\ 2\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 2\)\)\nSelfTapHole&quot;; console.log(s); alert(s);" tooltip=SelfTapHole]
+	pipe_1019 [label=pipe href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 2\),\ &#x27;pipe&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	thru_1020 [label=thru href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 2\),\ &#x27;thru&#x27;\)\nPipe&quot;; console.log(s); alert(s);" tooltip=Pipe]
+	outer_1021 [label=outer href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 2\),\ &#x27;thru&#x27;,\ &#x27;outer&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_1022 [label=pie_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 2\),\ &#x27;thru&#x27;,\ &#x27;outer&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_1023 [label=pie href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 2\),\ &#x27;thru&#x27;,\ &#x27;outer&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	inner_1024 [label=inner href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 2\),\ &#x27;thru&#x27;,\ &#x27;inner&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_1025 [label=pie_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 2\),\ &#x27;thru&#x27;,\ &#x27;inner&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_1026 [label=pie href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 2\),\ &#x27;thru&#x27;,\ &#x27;inner&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	tap_1027 [label=tap href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 2\),\ &#x27;tap&#x27;\)\nPipe&quot;; console.log(s); alert(s);" tooltip=Pipe]
+	outer_1028 [label=outer href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 2\),\ &#x27;tap&#x27;,\ &#x27;outer&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_1029 [label=pie_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 2\),\ &#x27;tap&#x27;,\ &#x27;outer&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_1030 [label=pie href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 2\),\ &#x27;tap&#x27;,\ &#x27;outer&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	inner_1031 [label=inner href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 2\),\ &#x27;tap&#x27;,\ &#x27;inner&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_1032 [label=pie_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 2\),\ &#x27;tap&#x27;,\ &#x27;inner&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_1033 [label=pie href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 2\),\ &#x27;tap&#x27;,\ &#x27;inner&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	support_1034 [label="\('support',\ 3\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 3\)\)\nSelfTapHole&quot;; console.log(s); alert(s);" tooltip=SelfTapHole]
+	pipe_1035 [label=pipe href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 3\),\ &#x27;pipe&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	thru_1036 [label=thru href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 3\),\ &#x27;thru&#x27;\)\nPipe&quot;; console.log(s); alert(s);" tooltip=Pipe]
+	outer_1037 [label=outer href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 3\),\ &#x27;thru&#x27;,\ &#x27;outer&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_1038 [label=pie_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 3\),\ &#x27;thru&#x27;,\ &#x27;outer&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_1039 [label=pie href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 3\),\ &#x27;thru&#x27;,\ &#x27;outer&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	inner_1040 [label=inner href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 3\),\ &#x27;thru&#x27;,\ &#x27;inner&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_1041 [label=pie_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 3\),\ &#x27;thru&#x27;,\ &#x27;inner&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_1042 [label=pie href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 3\),\ &#x27;thru&#x27;,\ &#x27;inner&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	tap_1043 [label=tap href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 3\),\ &#x27;tap&#x27;\)\nPipe&quot;; console.log(s); alert(s);" tooltip=Pipe]
+	outer_1044 [label=outer href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 3\),\ &#x27;tap&#x27;,\ &#x27;outer&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_1045 [label=pie_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 3\),\ &#x27;tap&#x27;,\ &#x27;outer&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_1046 [label=pie href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 3\),\ &#x27;tap&#x27;,\ &#x27;outer&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	inner_1047 [label=inner href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 3\),\ &#x27;tap&#x27;,\ &#x27;inner&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_1048 [label=pie_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 3\),\ &#x27;tap&#x27;,\ &#x27;inner&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_1049 [label=pie href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;main&#x27;,\ \(&#x27;support&#x27;,\ 3\),\ &#x27;tap&#x27;,\ &#x27;inner&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	clip_1050 [label="\('clip',\ 0\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;clip&#x27;,\ 0\)\)\nSnap&quot;; console.log(s); alert(s);" tooltip=Snap]
+	cage_1051 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;clip&#x27;,\ 0\),\ &#x27;cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	tooth_1052 [label=tooth href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;clip&#x27;,\ 0\),\ &#x27;tooth&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	clip_1053 [label=clip href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;clip&#x27;,\ 0\),\ &#x27;clip&#x27;\)\nMaker&quot;; console.log(s); alert(s);" tooltip=Maker]
+	clip_cage_1054 [label=clip_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;clip&#x27;,\ 0\),\ &#x27;clip&#x27;,\ &#x27;clip_cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	clip_1055 [label=clip href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;clip&#x27;,\ 0\),\ &#x27;clip&#x27;,\ &#x27;clip&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	keep_1056 [label=keep href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;clip&#x27;,\ 0\),\ &#x27;clip&#x27;,\ &#x27;keep&#x27;\)\nBoxSideBevels&quot;; console.log(s); alert(s);" tooltip=BoxSideBevels]
+	shell_1057 [label=shell href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;clip&#x27;,\ 0\),\ &#x27;clip&#x27;,\ &#x27;keep&#x27;,\ &#x27;shell&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hull_1058 [label=hull href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;clip&#x27;,\ 0\),\ &#x27;clip&#x27;,\ &#x27;keep&#x27;,\ &#x27;hull&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	clip_1059 [label="\('clip',\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;clip&#x27;,\ 1\)\)\nSnap&quot;; console.log(s); alert(s);" tooltip=Snap]
+	cage_1060 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;clip&#x27;,\ 1\),\ &#x27;cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	tooth_1061 [label=tooth href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;clip&#x27;,\ 1\),\ &#x27;tooth&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	clip_1062 [label=clip href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;clip&#x27;,\ 1\),\ &#x27;clip&#x27;\)\nMaker&quot;; console.log(s); alert(s);" tooltip=Maker]
+	clip_cage_1063 [label=clip_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;clip&#x27;,\ 1\),\ &#x27;clip&#x27;,\ &#x27;clip_cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	clip_1064 [label=clip href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;clip&#x27;,\ 1\),\ &#x27;clip&#x27;,\ &#x27;clip&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	keep_1065 [label=keep href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;clip&#x27;,\ 1\),\ &#x27;clip&#x27;,\ &#x27;keep&#x27;\)\nBoxSideBevels&quot;; console.log(s); alert(s);" tooltip=BoxSideBevels]
+	shell_1066 [label=shell href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;clip&#x27;,\ 1\),\ &#x27;clip&#x27;,\ &#x27;keep&#x27;,\ &#x27;shell&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hull_1067 [label=hull href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;clip&#x27;,\ 1\),\ &#x27;clip&#x27;,\ &#x27;keep&#x27;,\ &#x27;hull&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	clip_1068 [label="\('clip',\ 2\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;clip&#x27;,\ 2\)\)\nSnap&quot;; console.log(s); alert(s);" tooltip=Snap]
+	cage_1069 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;clip&#x27;,\ 2\),\ &#x27;cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	tooth_1070 [label=tooth href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;clip&#x27;,\ 2\),\ &#x27;tooth&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	clip_1071 [label=clip href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;clip&#x27;,\ 2\),\ &#x27;clip&#x27;\)\nMaker&quot;; console.log(s); alert(s);" tooltip=Maker]
+	clip_cage_1072 [label=clip_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;clip&#x27;,\ 2\),\ &#x27;clip&#x27;,\ &#x27;clip_cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	clip_1073 [label=clip href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;clip&#x27;,\ 2\),\ &#x27;clip&#x27;,\ &#x27;clip&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	keep_1074 [label=keep href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;clip&#x27;,\ 2\),\ &#x27;clip&#x27;,\ &#x27;keep&#x27;\)\nBoxSideBevels&quot;; console.log(s); alert(s);" tooltip=BoxSideBevels]
+	shell_1075 [label=shell href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;clip&#x27;,\ 2\),\ &#x27;clip&#x27;,\ &#x27;keep&#x27;,\ &#x27;shell&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hull_1076 [label=hull href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;clip&#x27;,\ 2\),\ &#x27;clip&#x27;,\ &#x27;keep&#x27;,\ &#x27;hull&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	clip_1077 [label="\('clip',\ 3\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;clip&#x27;,\ 3\)\)\nSnap&quot;; console.log(s); alert(s);" tooltip=Snap]
+	cage_1078 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;clip&#x27;,\ 3\),\ &#x27;cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	tooth_1079 [label=tooth href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;clip&#x27;,\ 3\),\ &#x27;tooth&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	clip_1080 [label=clip href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;clip&#x27;,\ 3\),\ &#x27;clip&#x27;\)\nMaker&quot;; console.log(s); alert(s);" tooltip=Maker]
+	clip_cage_1081 [label=clip_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;clip&#x27;,\ 3\),\ &#x27;clip&#x27;,\ &#x27;clip_cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	clip_1082 [label=clip href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;clip&#x27;,\ 3\),\ &#x27;clip&#x27;,\ &#x27;clip&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	keep_1083 [label=keep href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;clip&#x27;,\ 3\),\ &#x27;clip&#x27;,\ &#x27;keep&#x27;\)\nBoxSideBevels&quot;; console.log(s); alert(s);" tooltip=BoxSideBevels]
+	shell_1084 [label=shell href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;clip&#x27;,\ 3\),\ &#x27;clip&#x27;,\ &#x27;keep&#x27;,\ &#x27;shell&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hull_1085 [label=hull href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;clip&#x27;,\ 3\),\ &#x27;clip&#x27;,\ &#x27;keep&#x27;,\ &#x27;hull&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	pry_1086 [label="\('pry',\ 0\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pry&#x27;,\ 0\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	pry_1087 [label="\('pry',\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pry&#x27;,\ 1\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	1088 [label="\(\('version',\ 'upper'\),\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(\(&#x27;version&#x27;,\ &#x27;upper&#x27;\),\ 1\)\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	1089 [label="'shell',\ 'face_centre',\ 1,\ " href="javascript:s=&quot;\(&quot;&#x27;shell&#x27;,\ &#x27;face_centre&#x27;,\ 1,\ &quot;,\)\nAnnotatedCoordinates&quot;; console.log(s); alert(s);" tooltip=AnnotatedCoordinates]
+	coords_1090 [label=coords href="javascript:s=&quot;\(&quot;&#x27;shell&#x27;,\ &#x27;face_centre&#x27;,\ 1,\ &quot;,\ &#x27;coords&#x27;\)\nCoordinates&quot;; console.log(s); alert(s);" tooltip=Coordinates]
+	origin_1091 [label=origin href="javascript:s=&quot;\(&quot;&#x27;shell&#x27;,\ &#x27;face_centre&#x27;,\ 1,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;origin&#x27;\)\nCoordinatesCage&quot;; console.log(s); alert(s);" tooltip=CoordinatesCage]
+	x_arrow_1092 [label=x_arrow href="javascript:s=&quot;\(&quot;&#x27;shell&#x27;,\ &#x27;face_centre&#x27;,\ 1,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_1093 [label=stem href="javascript:s=&quot;\(&quot;&#x27;shell&#x27;,\ &#x27;face_centre&#x27;,\ 1,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_1094 [label=head href="javascript:s=&quot;\(&quot;&#x27;shell&#x27;,\ &#x27;face_centre&#x27;,\ 1,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	y_arrow_1095 [label=y_arrow href="javascript:s=&quot;\(&quot;&#x27;shell&#x27;,\ &#x27;face_centre&#x27;,\ 1,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_1096 [label=stem href="javascript:s=&quot;\(&quot;&#x27;shell&#x27;,\ &#x27;face_centre&#x27;,\ 1,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_1097 [label=head href="javascript:s=&quot;\(&quot;&#x27;shell&#x27;,\ &#x27;face_centre&#x27;,\ 1,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	z_arrow_1098 [label=z_arrow href="javascript:s=&quot;\(&quot;&#x27;shell&#x27;,\ &#x27;face_centre&#x27;,\ 1,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_1099 [label=stem href="javascript:s=&quot;\(&quot;&#x27;shell&#x27;,\ &#x27;face_centre&#x27;,\ 1,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_1100 [label=head href="javascript:s=&quot;\(&quot;&#x27;shell&#x27;,\ &#x27;face_centre&#x27;,\ 1,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	x_1101 [label=x href="javascript:s=&quot;\(&quot;&#x27;shell&#x27;,\ &#x27;face_centre&#x27;,\ 1,\ &quot;,\ &#x27;x&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	y_1102 [label=y href="javascript:s=&quot;\(&quot;&#x27;shell&#x27;,\ &#x27;face_centre&#x27;,\ 1,\ &quot;,\ &#x27;y&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	z_1103 [label=z href="javascript:s=&quot;\(&quot;&#x27;shell&#x27;,\ &#x27;face_centre&#x27;,\ 1,\ &quot;,\ &#x27;z&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	label_1104 [label=label href="javascript:s=&quot;\(&quot;&#x27;shell&#x27;,\ &#x27;face_centre&#x27;,\ 1,\ &quot;,\ &#x27;label&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	1105 [label="'main',\ 'fan',\ 'grille',\ \('spoke',\ 7\),\ \('inner',\ 'mid',\ 0\),\ 0,\ " href="javascript:s=&quot;\(&quot;&#x27;main&#x27;,\ &#x27;fan&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 7\),\ \(&#x27;inner&#x27;,\ &#x27;mid&#x27;,\ 0\),\ 0,\ &quot;,\)\nAnnotatedCoordinates&quot;; console.log(s); alert(s);" tooltip=AnnotatedCoordinates]
+	coords_1106 [label=coords href="javascript:s=&quot;\(&quot;&#x27;main&#x27;,\ &#x27;fan&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 7\),\ \(&#x27;inner&#x27;,\ &#x27;mid&#x27;,\ 0\),\ 0,\ &quot;,\ &#x27;coords&#x27;\)\nCoordinates&quot;; console.log(s); alert(s);" tooltip=Coordinates]
+	origin_1107 [label=origin href="javascript:s=&quot;\(&quot;&#x27;main&#x27;,\ &#x27;fan&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 7\),\ \(&#x27;inner&#x27;,\ &#x27;mid&#x27;,\ 0\),\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;origin&#x27;\)\nCoordinatesCage&quot;; console.log(s); alert(s);" tooltip=CoordinatesCage]
+	x_arrow_1108 [label=x_arrow href="javascript:s=&quot;\(&quot;&#x27;main&#x27;,\ &#x27;fan&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 7\),\ \(&#x27;inner&#x27;,\ &#x27;mid&#x27;,\ 0\),\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_1109 [label=stem href="javascript:s=&quot;\(&quot;&#x27;main&#x27;,\ &#x27;fan&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 7\),\ \(&#x27;inner&#x27;,\ &#x27;mid&#x27;,\ 0\),\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_1110 [label=head href="javascript:s=&quot;\(&quot;&#x27;main&#x27;,\ &#x27;fan&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 7\),\ \(&#x27;inner&#x27;,\ &#x27;mid&#x27;,\ 0\),\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	y_arrow_1111 [label=y_arrow href="javascript:s=&quot;\(&quot;&#x27;main&#x27;,\ &#x27;fan&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 7\),\ \(&#x27;inner&#x27;,\ &#x27;mid&#x27;,\ 0\),\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_1112 [label=stem href="javascript:s=&quot;\(&quot;&#x27;main&#x27;,\ &#x27;fan&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 7\),\ \(&#x27;inner&#x27;,\ &#x27;mid&#x27;,\ 0\),\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_1113 [label=head href="javascript:s=&quot;\(&quot;&#x27;main&#x27;,\ &#x27;fan&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 7\),\ \(&#x27;inner&#x27;,\ &#x27;mid&#x27;,\ 0\),\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	z_arrow_1114 [label=z_arrow href="javascript:s=&quot;\(&quot;&#x27;main&#x27;,\ &#x27;fan&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 7\),\ \(&#x27;inner&#x27;,\ &#x27;mid&#x27;,\ 0\),\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_1115 [label=stem href="javascript:s=&quot;\(&quot;&#x27;main&#x27;,\ &#x27;fan&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 7\),\ \(&#x27;inner&#x27;,\ &#x27;mid&#x27;,\ 0\),\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_1116 [label=head href="javascript:s=&quot;\(&quot;&#x27;main&#x27;,\ &#x27;fan&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 7\),\ \(&#x27;inner&#x27;,\ &#x27;mid&#x27;,\ 0\),\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	x_1117 [label=x href="javascript:s=&quot;\(&quot;&#x27;main&#x27;,\ &#x27;fan&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 7\),\ \(&#x27;inner&#x27;,\ &#x27;mid&#x27;,\ 0\),\ 0,\ &quot;,\ &#x27;x&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	y_1118 [label=y href="javascript:s=&quot;\(&quot;&#x27;main&#x27;,\ &#x27;fan&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 7\),\ \(&#x27;inner&#x27;,\ &#x27;mid&#x27;,\ 0\),\ 0,\ &quot;,\ &#x27;y&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	z_1119 [label=z href="javascript:s=&quot;\(&quot;&#x27;main&#x27;,\ &#x27;fan&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 7\),\ \(&#x27;inner&#x27;,\ &#x27;mid&#x27;,\ 0\),\ 0,\ &quot;,\ &#x27;z&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	label_1120 [label=label href="javascript:s=&quot;\(&quot;&#x27;main&#x27;,\ &#x27;fan&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 7\),\ \(&#x27;inner&#x27;,\ &#x27;mid&#x27;,\ 0\),\ 0,\ &quot;,\ &#x27;label&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	root_851 -> default_852
+	default_852 -> main_853
+	main_853 -> shell_854
+	shell_854 -> outer_855
+	outer_855 -> shell_856
+	outer_855 -> hull_857
+	shell_854 -> shell_centre_858
+	shell_centre_858 -> shell_859
+	shell_centre_858 -> hull_860
+	shell_854 -> inner_861
+	inner_861 -> shell_862
+	inner_861 -> hull_863
+	main_853 -> outline_864
+	outline_864 -> board_865
+	board_865 -> shell_866
+	board_865 -> hull_867
+	outline_864 -> mount_hole_868
+	outline_864 -> mount_hole_869
+	outline_864 -> mount_hole_870
+	outline_864 -> mount_hole_871
+	outline_864 -> usbC_872
+	outline_864 -> usbC_873
+	outline_864 -> hdmi1_874
+	outline_864 -> hdmi1_875
+	outline_864 -> hdmi2_876
+	outline_864 -> hdmi2_877
+	outline_864 -> audio_878
+	outline_864 -> audio_879
+	outline_864 -> cpu_880
+	outline_864 -> usbA2_881
+	outline_864 -> usbA2_882
+	outline_864 -> usbA3_883
+	outline_864 -> usbA3_884
+	outline_864 -> rj45_885
+	outline_864 -> rj45_886
+	outline_864 -> micro_sd_887
+	outline_864 -> micro_sd_888
+	outline_864 -> header100_889
+	main_853 -> split_box_890
+	split_box_890 -> split_box_cage_891
+	split_box_890 -> split_box_892
+	main_853 -> usb_usb_flange_893
+	usb_usb_flange_893 -> cage_894
+	usb_usb_flange_893 -> prism_895
+	main_853 -> usb_rj45_flange_896
+	usb_rj45_flange_896 -> cage_897
+	usb_rj45_flange_896 -> prism_898
+	main_853 -> rhs_grille_899
+	rhs_grille_899 -> cage_900
+	rhs_grille_899 -> vane_901
+	rhs_grille_899 -> vane_902
+	rhs_grille_899 -> vane_903
+	rhs_grille_899 -> vane_904
+	rhs_grille_899 -> vane_905
+	rhs_grille_899 -> vane_906
+	rhs_grille_899 -> vane_907
+	rhs_grille_899 -> vane_908
+	rhs_grille_899 -> vane_909
+	rhs_grille_899 -> vane_910
+	rhs_grille_899 -> vane_911
+	rhs_grille_899 -> vane_912
+	rhs_grille_899 -> vane_913
+	rhs_grille_899 -> vane_914
+	rhs_grille_899 -> vane_915
+	rhs_grille_899 -> vane_916
+	main_853 -> lhs_grille_917
+	lhs_grille_917 -> cage_918
+	lhs_grille_917 -> vane_919
+	lhs_grille_917 -> vane_920
+	lhs_grille_917 -> vane_921
+	lhs_grille_917 -> vane_922
+	lhs_grille_917 -> vane_923
+	lhs_grille_917 -> vane_924
+	lhs_grille_917 -> vane_925
+	lhs_grille_917 -> vane_926
+	lhs_grille_917 -> vane_927
+	lhs_grille_917 -> vane_928
+	lhs_grille_917 -> vane_929
+	lhs_grille_917 -> vane_930
+	lhs_grille_917 -> vane_931
+	lhs_grille_917 -> vane_932
+	lhs_grille_917 -> vane_933
+	lhs_grille_917 -> vane_934
+	main_853 -> fan_935
+	fan_935 -> fan_936
+	fan_935 -> screw_cage_937
+	fan_935 -> mount_938
+	mount_938 -> outer_939
+	outer_939 -> pie_cage_940
+	outer_939 -> pie_941
+	mount_938 -> inner_942
+	inner_942 -> pie_cage_943
+	inner_942 -> pie_944
+	fan_935 -> mount_945
+	mount_945 -> outer_946
+	outer_946 -> pie_cage_947
+	outer_946 -> pie_948
+	mount_945 -> inner_949
+	inner_949 -> pie_cage_950
+	inner_949 -> pie_951
+	fan_935 -> mount_952
+	mount_952 -> outer_953
+	outer_953 -> pie_cage_954
+	outer_953 -> pie_955
+	mount_952 -> inner_956
+	inner_956 -> pie_cage_957
+	inner_956 -> pie_958
+	fan_935 -> mount_959
+	mount_959 -> outer_960
+	outer_960 -> pie_cage_961
+	outer_960 -> pie_962
+	mount_959 -> inner_963
+	inner_963 -> pie_cage_964
+	inner_963 -> pie_965
+	fan_935 -> grille_966
+	grille_966 -> cage_967
+	grille_966 -> core_968
+	grille_966 -> spoke_969
+	grille_966 -> spoke_970
+	grille_966 -> spoke_971
+	grille_966 -> spoke_972
+	grille_966 -> spoke_973
+	grille_966 -> spoke_974
+	grille_966 -> spoke_975
+	grille_966 -> spoke_976
+	grille_966 -> spoke_977
+	grille_966 -> spoke_978
+	grille_966 -> spoke_979
+	grille_966 -> spoke_980
+	grille_966 -> spoke_981
+	grille_966 -> spoke_982
+	grille_966 -> spoke_983
+	grille_966 -> spoke_984
+	grille_966 -> inner_core_985
+	main_853 -> support_986
+	support_986 -> pipe_987
+	support_986 -> thru_988
+	thru_988 -> outer_989
+	outer_989 -> pie_cage_990
+	outer_989 -> pie_991
+	thru_988 -> inner_992
+	inner_992 -> pie_cage_993
+	inner_992 -> pie_994
+	support_986 -> tap_995
+	tap_995 -> outer_996
+	outer_996 -> pie_cage_997
+	outer_996 -> pie_998
+	tap_995 -> inner_999
+	inner_999 -> pie_cage_1000
+	inner_999 -> pie_1001
+	main_853 -> support_1002
+	support_1002 -> pipe_1003
+	support_1002 -> thru_1004
+	thru_1004 -> outer_1005
+	outer_1005 -> pie_cage_1006
+	outer_1005 -> pie_1007
+	thru_1004 -> inner_1008
+	inner_1008 -> pie_cage_1009
+	inner_1008 -> pie_1010
+	support_1002 -> tap_1011
+	tap_1011 -> outer_1012
+	outer_1012 -> pie_cage_1013
+	outer_1012 -> pie_1014
+	tap_1011 -> inner_1015
+	inner_1015 -> pie_cage_1016
+	inner_1015 -> pie_1017
+	main_853 -> support_1018
+	support_1018 -> pipe_1019
+	support_1018 -> thru_1020
+	thru_1020 -> outer_1021
+	outer_1021 -> pie_cage_1022
+	outer_1021 -> pie_1023
+	thru_1020 -> inner_1024
+	inner_1024 -> pie_cage_1025
+	inner_1024 -> pie_1026
+	support_1018 -> tap_1027
+	tap_1027 -> outer_1028
+	outer_1028 -> pie_cage_1029
+	outer_1028 -> pie_1030
+	tap_1027 -> inner_1031
+	inner_1031 -> pie_cage_1032
+	inner_1031 -> pie_1033
+	main_853 -> support_1034
+	support_1034 -> pipe_1035
+	support_1034 -> thru_1036
+	thru_1036 -> outer_1037
+	outer_1037 -> pie_cage_1038
+	outer_1037 -> pie_1039
+	thru_1036 -> inner_1040
+	inner_1040 -> pie_cage_1041
+	inner_1040 -> pie_1042
+	support_1034 -> tap_1043
+	tap_1043 -> outer_1044
+	outer_1044 -> pie_cage_1045
+	outer_1044 -> pie_1046
+	tap_1043 -> inner_1047
+	inner_1047 -> pie_cage_1048
+	inner_1047 -> pie_1049
+	default_852 -> clip_1050
+	clip_1050 -> cage_1051
+	clip_1050 -> tooth_1052
+	clip_1050 -> clip_1053
+	clip_1053 -> clip_cage_1054
+	clip_1053 -> clip_1055
+	clip_1053 -> keep_1056
+	keep_1056 -> shell_1057
+	keep_1056 -> hull_1058
+	default_852 -> clip_1059
+	clip_1059 -> cage_1060
+	clip_1059 -> tooth_1061
+	clip_1059 -> clip_1062
+	clip_1062 -> clip_cage_1063
+	clip_1062 -> clip_1064
+	clip_1062 -> keep_1065
+	keep_1065 -> shell_1066
+	keep_1065 -> hull_1067
+	default_852 -> clip_1068
+	clip_1068 -> cage_1069
+	clip_1068 -> tooth_1070
+	clip_1068 -> clip_1071
+	clip_1071 -> clip_cage_1072
+	clip_1071 -> clip_1073
+	clip_1071 -> keep_1074
+	keep_1074 -> shell_1075
+	keep_1074 -> hull_1076
+	default_852 -> clip_1077
+	clip_1077 -> cage_1078
+	clip_1077 -> tooth_1079
+	clip_1077 -> clip_1080
+	clip_1080 -> clip_cage_1081
+	clip_1080 -> clip_1082
+	clip_1080 -> keep_1083
+	keep_1083 -> shell_1084
+	keep_1083 -> hull_1085
+	default_852 -> pry_1086
+	default_852 -> pry_1087
+	default_852 -> 1088
+	root_851 -> 1089
+	1089 -> coords_1090
+	coords_1090 -> origin_1091
+	coords_1090 -> x_arrow_1092
+	x_arrow_1092 -> stem_1093
+	x_arrow_1092 -> head_1094
+	coords_1090 -> y_arrow_1095
+	y_arrow_1095 -> stem_1096
+	y_arrow_1095 -> head_1097
+	coords_1090 -> z_arrow_1098
+	z_arrow_1098 -> stem_1099
+	z_arrow_1098 -> head_1100
+	1089 -> x_1101
+	1089 -> y_1102
+	1089 -> z_1103
+	1089 -> label_1104
+	root_851 -> 1105
+	1105 -> coords_1106
+	coords_1106 -> origin_1107
+	coords_1106 -> x_arrow_1108
+	x_arrow_1108 -> stem_1109
+	x_arrow_1108 -> head_1110
+	coords_1106 -> y_arrow_1111
+	y_arrow_1111 -> stem_1112
+	y_arrow_1111 -> head_1113
+	coords_1106 -> z_arrow_1114
+	z_arrow_1114 -> stem_1115
+	z_arrow_1114 -> head_1116
+	1105 -> x_1117
+	1105 -> y_1118
+	1105 -> z_1119
+	1105 -> label_1120
+}

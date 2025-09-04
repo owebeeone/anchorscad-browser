@@ -1,0 +1,10 @@
+digraph default {
+	graph [rankdir=LR]
+	root_1 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_2 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nHdmiOutline&quot;; console.log(s); alert(s);" tooltip=HdmiOutline]
+	cage_3 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hdmi_4 [label=hdmi href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;hdmi&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	root_1 -> default_2
+	default_2 -> cage_3
+	default_2 -> hdmi_4
+}

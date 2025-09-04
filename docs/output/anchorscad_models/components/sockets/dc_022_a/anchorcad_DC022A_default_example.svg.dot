@@ -1,0 +1,14 @@
+digraph default {
+	graph [rankdir=LR]
+	root_1 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_2 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nDC022A&quot;; console.log(s); alert(s);" tooltip=DC022A]
+	outer_3 [label=outer href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;outer&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	body_4 [label=body href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;body&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	top_access_hole_5 [label=top_access_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;top_access_hole&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	rear_access_hole_6 [label=rear_access_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;rear_access_hole&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	root_1 -> default_2
+	default_2 -> outer_3
+	default_2 -> body_4
+	default_2 -> top_access_hole_5
+	default_2 -> rear_access_hole_6
+}

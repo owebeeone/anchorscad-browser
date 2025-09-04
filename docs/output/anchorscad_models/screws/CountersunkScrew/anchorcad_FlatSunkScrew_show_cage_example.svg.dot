@@ -1,0 +1,16 @@
+digraph show_cage {
+	graph [rankdir=LR]
+	root_228 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	show_cage_229 [label=show_cage href="javascript:s=&quot;\(&#x27;show_cage&#x27;,\)\nFlatSunkScrew&quot;; console.log(s); alert(s);" tooltip=FlatSunkScrew]
+	screw_cage_230 [label=screw_cage href="javascript:s=&quot;\(&#x27;show_cage&#x27;,\ &#x27;screw_cage&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	tap_shaft_231 [label=tap_shaft href="javascript:s=&quot;\(&#x27;show_cage&#x27;,\ &#x27;tap_shaft&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	thru_shaft_232 [label=thru_shaft href="javascript:s=&quot;\(&#x27;show_cage&#x27;,\ &#x27;thru_shaft&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	access_hole_233 [label=access_hole href="javascript:s=&quot;\(&#x27;show_cage&#x27;,\ &#x27;access_hole&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	screw_hole_234 [label=screw_hole href="javascript:s=&quot;\(&#x27;show_cage&#x27;,\ &#x27;screw_hole&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	root_228 -> show_cage_229
+	show_cage_229 -> screw_cage_230
+	show_cage_229 -> tap_shaft_231
+	show_cage_229 -> thru_shaft_232
+	show_cage_229 -> access_hole_233
+	show_cage_229 -> screw_hole_234
+}

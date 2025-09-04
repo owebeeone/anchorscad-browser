@@ -1,0 +1,322 @@
+digraph default {
+	graph [rankdir=LR]
+	root_151 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_152 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nArduinoNanoClassicMountPad&quot;; console.log(s); alert(s);" tooltip=ArduinoNanoClassicMountPad]
+	pad_box_153 [label=pad_box href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;pad_box&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	mock_board_154 [label=mock_board href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;\)\nArduinoNanoClassic&quot;; console.log(s); alert(s);" tooltip=ArduinoNanoClassic]
+	pcb_155 [label=pcb href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;pcb&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	pin_156 [label="\('pin',\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ \(&#x27;pin&#x27;,\ 1\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_157 [label="\('pin',\ 2\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ \(&#x27;pin&#x27;,\ 2\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_158 [label="\('pin',\ 3\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ \(&#x27;pin&#x27;,\ 3\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_159 [label="\('pin',\ 4\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ \(&#x27;pin&#x27;,\ 4\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_160 [label="\('pin',\ 5\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ \(&#x27;pin&#x27;,\ 5\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_161 [label="\('pin',\ 6\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ \(&#x27;pin&#x27;,\ 6\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_162 [label="\('pin',\ 7\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ \(&#x27;pin&#x27;,\ 7\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_163 [label="\('pin',\ 8\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ \(&#x27;pin&#x27;,\ 8\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_164 [label="\('pin',\ 9\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ \(&#x27;pin&#x27;,\ 9\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_165 [label="\('pin',\ 10\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ \(&#x27;pin&#x27;,\ 10\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_166 [label="\('pin',\ 11\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ \(&#x27;pin&#x27;,\ 11\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_167 [label="\('pin',\ 12\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ \(&#x27;pin&#x27;,\ 12\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_168 [label="\('pin',\ 13\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ \(&#x27;pin&#x27;,\ 13\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_169 [label="\('pin',\ 14\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ \(&#x27;pin&#x27;,\ 14\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_170 [label="\('pin',\ 15\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ \(&#x27;pin&#x27;,\ 15\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_171 [label="\('pin',\ 30\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ \(&#x27;pin&#x27;,\ 30\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_172 [label="\('pin',\ 29\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ \(&#x27;pin&#x27;,\ 29\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_173 [label="\('pin',\ 28\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ \(&#x27;pin&#x27;,\ 28\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_174 [label="\('pin',\ 27\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ \(&#x27;pin&#x27;,\ 27\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_175 [label="\('pin',\ 26\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ \(&#x27;pin&#x27;,\ 26\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_176 [label="\('pin',\ 25\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ \(&#x27;pin&#x27;,\ 25\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_177 [label="\('pin',\ 24\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ \(&#x27;pin&#x27;,\ 24\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_178 [label="\('pin',\ 23\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ \(&#x27;pin&#x27;,\ 23\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_179 [label="\('pin',\ 22\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ \(&#x27;pin&#x27;,\ 22\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_180 [label="\('pin',\ 21\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ \(&#x27;pin&#x27;,\ 21\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_181 [label="\('pin',\ 20\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ \(&#x27;pin&#x27;,\ 20\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_182 [label="\('pin',\ 19\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ \(&#x27;pin&#x27;,\ 19\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_183 [label="\('pin',\ 18\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ \(&#x27;pin&#x27;,\ 18\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_184 [label="\('pin',\ 17\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ \(&#x27;pin&#x27;,\ 17\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_185 [label="\('pin',\ 16\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ \(&#x27;pin&#x27;,\ 16\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	mount_hole_186 [label="\('mount_hole',\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ \(&#x27;mount_hole&#x27;,\ 1\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	mount_hole_187 [label="\('mount_hole',\ 2\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ \(&#x27;mount_hole&#x27;,\ 2\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	mount_hole_188 [label="\('mount_hole',\ 4\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ \(&#x27;mount_hole&#x27;,\ 4\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	mount_hole_189 [label="\('mount_hole',\ 3\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ \(&#x27;mount_hole&#x27;,\ 3\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	icsp_header_190 [label=icsp_header href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;\)\nHeader&quot;; console.log(s); alert(s);" tooltip=Header]
+	cage_191 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ &#x27;cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	pin_192 [label="\('pin',\ 2,\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 1\)\)\nMaker&quot;; console.log(s); alert(s);" tooltip=Maker]
+	base_193 [label=base href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 1\),\ &#x27;base&#x27;\)\nHeaderBase&quot;; console.log(s); alert(s);" tooltip=HeaderBase]
+	base_194 [label=base href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 1\),\ &#x27;base&#x27;,\ &#x27;base&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	pin_195 [label=pin href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 1\),\ &#x27;pin&#x27;\)\nHeaderPin&quot;; console.log(s); alert(s);" tooltip=HeaderPin]
+	cage_196 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 1\),\ &#x27;pin&#x27;,\ &#x27;cage&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_197 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 1\),\ &#x27;pin&#x27;,\ &#x27;cage&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	mid_198 [label=mid href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 1\),\ &#x27;pin&#x27;,\ &#x27;mid&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_199 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 1\),\ &#x27;pin&#x27;,\ &#x27;mid&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	upper_200 [label=upper href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 1\),\ &#x27;pin&#x27;,\ &#x27;upper&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_201 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 1\),\ &#x27;pin&#x27;,\ &#x27;upper&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	lower_202 [label=lower href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 1\),\ &#x27;pin&#x27;,\ &#x27;lower&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_203 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 1\),\ &#x27;pin&#x27;,\ &#x27;lower&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	pin_204 [label="\('pin',\ 2,\ 2\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 2\)\)\nMaker&quot;; console.log(s); alert(s);" tooltip=Maker]
+	base_205 [label=base href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 2\),\ &#x27;base&#x27;\)\nHeaderBase&quot;; console.log(s); alert(s);" tooltip=HeaderBase]
+	base_206 [label=base href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 2\),\ &#x27;base&#x27;,\ &#x27;base&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	pin_207 [label=pin href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 2\),\ &#x27;pin&#x27;\)\nHeaderPin&quot;; console.log(s); alert(s);" tooltip=HeaderPin]
+	cage_208 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 2\),\ &#x27;pin&#x27;,\ &#x27;cage&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_209 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 2\),\ &#x27;pin&#x27;,\ &#x27;cage&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	mid_210 [label=mid href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 2\),\ &#x27;pin&#x27;,\ &#x27;mid&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_211 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 2\),\ &#x27;pin&#x27;,\ &#x27;mid&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	upper_212 [label=upper href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 2\),\ &#x27;pin&#x27;,\ &#x27;upper&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_213 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 2\),\ &#x27;pin&#x27;,\ &#x27;upper&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	lower_214 [label=lower href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 2\),\ &#x27;pin&#x27;,\ &#x27;lower&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_215 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 2\),\ &#x27;pin&#x27;,\ &#x27;lower&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	pin_216 [label="\('pin',\ 2,\ 3\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 3\)\)\nMaker&quot;; console.log(s); alert(s);" tooltip=Maker]
+	base_217 [label=base href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 3\),\ &#x27;base&#x27;\)\nHeaderBase&quot;; console.log(s); alert(s);" tooltip=HeaderBase]
+	base_218 [label=base href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 3\),\ &#x27;base&#x27;,\ &#x27;base&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	pin_219 [label=pin href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 3\),\ &#x27;pin&#x27;\)\nHeaderPin&quot;; console.log(s); alert(s);" tooltip=HeaderPin]
+	cage_220 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 3\),\ &#x27;pin&#x27;,\ &#x27;cage&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_221 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 3\),\ &#x27;pin&#x27;,\ &#x27;cage&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	mid_222 [label=mid href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 3\),\ &#x27;pin&#x27;,\ &#x27;mid&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_223 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 3\),\ &#x27;pin&#x27;,\ &#x27;mid&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	upper_224 [label=upper href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 3\),\ &#x27;pin&#x27;,\ &#x27;upper&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_225 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 3\),\ &#x27;pin&#x27;,\ &#x27;upper&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	lower_226 [label=lower href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 3\),\ &#x27;pin&#x27;,\ &#x27;lower&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_227 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 3\),\ &#x27;pin&#x27;,\ &#x27;lower&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	pin_228 [label="\('pin',\ 1,\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\)\)\nMaker&quot;; console.log(s); alert(s);" tooltip=Maker]
+	base_229 [label=base href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;base&#x27;\)\nHeaderBase&quot;; console.log(s); alert(s);" tooltip=HeaderBase]
+	base_230 [label=base href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;base&#x27;,\ &#x27;base&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	pin_231 [label=pin href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;pin&#x27;\)\nHeaderPin&quot;; console.log(s); alert(s);" tooltip=HeaderPin]
+	cage_232 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;pin&#x27;,\ &#x27;cage&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_233 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;pin&#x27;,\ &#x27;cage&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	mid_234 [label=mid href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;pin&#x27;,\ &#x27;mid&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_235 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;pin&#x27;,\ &#x27;mid&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	upper_236 [label=upper href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;pin&#x27;,\ &#x27;upper&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_237 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;pin&#x27;,\ &#x27;upper&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	lower_238 [label=lower href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;pin&#x27;,\ &#x27;lower&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_239 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;pin&#x27;,\ &#x27;lower&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	pin_240 [label="\('pin',\ 1,\ 2\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 2\)\)\nMaker&quot;; console.log(s); alert(s);" tooltip=Maker]
+	base_241 [label=base href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 2\),\ &#x27;base&#x27;\)\nHeaderBase&quot;; console.log(s); alert(s);" tooltip=HeaderBase]
+	base_242 [label=base href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 2\),\ &#x27;base&#x27;,\ &#x27;base&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	pin_243 [label=pin href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 2\),\ &#x27;pin&#x27;\)\nHeaderPin&quot;; console.log(s); alert(s);" tooltip=HeaderPin]
+	cage_244 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 2\),\ &#x27;pin&#x27;,\ &#x27;cage&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_245 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 2\),\ &#x27;pin&#x27;,\ &#x27;cage&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	mid_246 [label=mid href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 2\),\ &#x27;pin&#x27;,\ &#x27;mid&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_247 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 2\),\ &#x27;pin&#x27;,\ &#x27;mid&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	upper_248 [label=upper href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 2\),\ &#x27;pin&#x27;,\ &#x27;upper&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_249 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 2\),\ &#x27;pin&#x27;,\ &#x27;upper&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	lower_250 [label=lower href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 2\),\ &#x27;pin&#x27;,\ &#x27;lower&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_251 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 2\),\ &#x27;pin&#x27;,\ &#x27;lower&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	pin_252 [label="\('pin',\ 1,\ 3\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 3\)\)\nMaker&quot;; console.log(s); alert(s);" tooltip=Maker]
+	base_253 [label=base href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 3\),\ &#x27;base&#x27;\)\nHeaderBase&quot;; console.log(s); alert(s);" tooltip=HeaderBase]
+	base_254 [label=base href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 3\),\ &#x27;base&#x27;,\ &#x27;base&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	pin_255 [label=pin href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 3\),\ &#x27;pin&#x27;\)\nHeaderPin&quot;; console.log(s); alert(s);" tooltip=HeaderPin]
+	cage_256 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 3\),\ &#x27;pin&#x27;,\ &#x27;cage&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_257 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 3\),\ &#x27;pin&#x27;,\ &#x27;cage&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	mid_258 [label=mid href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 3\),\ &#x27;pin&#x27;,\ &#x27;mid&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_259 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 3\),\ &#x27;pin&#x27;,\ &#x27;mid&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	upper_260 [label=upper href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 3\),\ &#x27;pin&#x27;,\ &#x27;upper&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_261 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 3\),\ &#x27;pin&#x27;,\ &#x27;upper&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	lower_262 [label=lower href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 3\),\ &#x27;pin&#x27;,\ &#x27;lower&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_263 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;icsp_header&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 3\),\ &#x27;pin&#x27;,\ &#x27;lower&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	usb_264 [label=usb href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;usb&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	pin_hole_265 [label="\('pin_hole',\ 1,\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ \(&#x27;pin_hole&#x27;,\ 1,\ 1\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_hole_266 [label="\('pin_hole',\ 1,\ 2\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ \(&#x27;pin_hole&#x27;,\ 1,\ 2\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_hole_267 [label="\('pin_hole',\ 1,\ 3\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ \(&#x27;pin_hole&#x27;,\ 1,\ 3\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_hole_268 [label="\('pin_hole',\ 2,\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ \(&#x27;pin_hole&#x27;,\ 2,\ 1\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_hole_269 [label="\('pin_hole',\ 2,\ 2\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ \(&#x27;pin_hole&#x27;,\ 2,\ 2\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_hole_270 [label="\('pin_hole',\ 2,\ 3\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ \(&#x27;pin_hole&#x27;,\ 2,\ 3\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pcb_screw_hole_271 [label="\('pcb_screw_hole',\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pcb_screw_hole&#x27;,\ 1\)\)\nFlatHeadScrew&quot;; console.log(s); alert(s);" tooltip=FlatHeadScrew]
+	screw_cage_272 [label=screw_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pcb_screw_hole&#x27;,\ 1\),\ &#x27;screw_cage&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	tap_shaft_273 [label=tap_shaft href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pcb_screw_hole&#x27;,\ 1\),\ &#x27;tap_shaft&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	thru_shaft_274 [label=thru_shaft href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pcb_screw_hole&#x27;,\ 1\),\ &#x27;thru_shaft&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	access_hole_275 [label=access_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pcb_screw_hole&#x27;,\ 1\),\ &#x27;access_hole&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	screw_hole_276 [label=screw_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pcb_screw_hole&#x27;,\ 1\),\ &#x27;screw_hole&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	pcb_screw_hole_277 [label="\('pcb_screw_hole',\ 2\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pcb_screw_hole&#x27;,\ 2\)\)\nFlatHeadScrew&quot;; console.log(s); alert(s);" tooltip=FlatHeadScrew]
+	screw_cage_278 [label=screw_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pcb_screw_hole&#x27;,\ 2\),\ &#x27;screw_cage&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	tap_shaft_279 [label=tap_shaft href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pcb_screw_hole&#x27;,\ 2\),\ &#x27;tap_shaft&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	thru_shaft_280 [label=thru_shaft href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pcb_screw_hole&#x27;,\ 2\),\ &#x27;thru_shaft&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	access_hole_281 [label=access_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pcb_screw_hole&#x27;,\ 2\),\ &#x27;access_hole&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	screw_hole_282 [label=screw_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pcb_screw_hole&#x27;,\ 2\),\ &#x27;screw_hole&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	pcb_screw_hole_283 [label="\('pcb_screw_hole',\ 3\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pcb_screw_hole&#x27;,\ 3\)\)\nFlatHeadScrew&quot;; console.log(s); alert(s);" tooltip=FlatHeadScrew]
+	screw_cage_284 [label=screw_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pcb_screw_hole&#x27;,\ 3\),\ &#x27;screw_cage&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	tap_shaft_285 [label=tap_shaft href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pcb_screw_hole&#x27;,\ 3\),\ &#x27;tap_shaft&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	thru_shaft_286 [label=thru_shaft href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pcb_screw_hole&#x27;,\ 3\),\ &#x27;thru_shaft&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	access_hole_287 [label=access_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pcb_screw_hole&#x27;,\ 3\),\ &#x27;access_hole&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	screw_hole_288 [label=screw_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pcb_screw_hole&#x27;,\ 3\),\ &#x27;screw_hole&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	pcb_screw_hole_289 [label="\('pcb_screw_hole',\ 4\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pcb_screw_hole&#x27;,\ 4\)\)\nFlatHeadScrew&quot;; console.log(s); alert(s);" tooltip=FlatHeadScrew]
+	screw_cage_290 [label=screw_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pcb_screw_hole&#x27;,\ 4\),\ &#x27;screw_cage&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	tap_shaft_291 [label=tap_shaft href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pcb_screw_hole&#x27;,\ 4\),\ &#x27;tap_shaft&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	thru_shaft_292 [label=thru_shaft href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pcb_screw_hole&#x27;,\ 4\),\ &#x27;thru_shaft&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	access_hole_293 [label=access_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pcb_screw_hole&#x27;,\ 4\),\ &#x27;access_hole&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	screw_hole_294 [label=screw_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pcb_screw_hole&#x27;,\ 4\),\ &#x27;screw_hole&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	295 [label="'face_centre',\ 'base',\ " href="javascript:s=&quot;\(&quot;&#x27;face_centre&#x27;,\ &#x27;base&#x27;,\ &quot;,\)\nAnnotatedCoordinates&quot;; console.log(s); alert(s);" tooltip=AnnotatedCoordinates]
+	coords_296 [label=coords href="javascript:s=&quot;\(&quot;&#x27;face_centre&#x27;,\ &#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;\)\nCoordinates&quot;; console.log(s); alert(s);" tooltip=Coordinates]
+	origin_297 [label=origin href="javascript:s=&quot;\(&quot;&#x27;face_centre&#x27;,\ &#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;origin&#x27;\)\nCoordinatesCage&quot;; console.log(s); alert(s);" tooltip=CoordinatesCage]
+	x_arrow_298 [label=x_arrow href="javascript:s=&quot;\(&quot;&#x27;face_centre&#x27;,\ &#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_299 [label=stem href="javascript:s=&quot;\(&quot;&#x27;face_centre&#x27;,\ &#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_300 [label=head href="javascript:s=&quot;\(&quot;&#x27;face_centre&#x27;,\ &#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	y_arrow_301 [label=y_arrow href="javascript:s=&quot;\(&quot;&#x27;face_centre&#x27;,\ &#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_302 [label=stem href="javascript:s=&quot;\(&quot;&#x27;face_centre&#x27;,\ &#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_303 [label=head href="javascript:s=&quot;\(&quot;&#x27;face_centre&#x27;,\ &#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	z_arrow_304 [label=z_arrow href="javascript:s=&quot;\(&quot;&#x27;face_centre&#x27;,\ &#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_305 [label=stem href="javascript:s=&quot;\(&quot;&#x27;face_centre&#x27;,\ &#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_306 [label=head href="javascript:s=&quot;\(&quot;&#x27;face_centre&#x27;,\ &#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	x_307 [label=x href="javascript:s=&quot;\(&quot;&#x27;face_centre&#x27;,\ &#x27;base&#x27;,\ &quot;,\ &#x27;x&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	y_308 [label=y href="javascript:s=&quot;\(&quot;&#x27;face_centre&#x27;,\ &#x27;base&#x27;,\ &quot;,\ &#x27;y&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	z_309 [label=z href="javascript:s=&quot;\(&quot;&#x27;face_centre&#x27;,\ &#x27;base&#x27;,\ &quot;,\ &#x27;z&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	label_310 [label=label href="javascript:s=&quot;\(&quot;&#x27;face_centre&#x27;,\ &#x27;base&#x27;,\ &quot;,\ &#x27;label&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	root_151 -> default_152
+	default_152 -> pad_box_153
+	default_152 -> mock_board_154
+	mock_board_154 -> pcb_155
+	mock_board_154 -> pin_156
+	mock_board_154 -> pin_157
+	mock_board_154 -> pin_158
+	mock_board_154 -> pin_159
+	mock_board_154 -> pin_160
+	mock_board_154 -> pin_161
+	mock_board_154 -> pin_162
+	mock_board_154 -> pin_163
+	mock_board_154 -> pin_164
+	mock_board_154 -> pin_165
+	mock_board_154 -> pin_166
+	mock_board_154 -> pin_167
+	mock_board_154 -> pin_168
+	mock_board_154 -> pin_169
+	mock_board_154 -> pin_170
+	mock_board_154 -> pin_171
+	mock_board_154 -> pin_172
+	mock_board_154 -> pin_173
+	mock_board_154 -> pin_174
+	mock_board_154 -> pin_175
+	mock_board_154 -> pin_176
+	mock_board_154 -> pin_177
+	mock_board_154 -> pin_178
+	mock_board_154 -> pin_179
+	mock_board_154 -> pin_180
+	mock_board_154 -> pin_181
+	mock_board_154 -> pin_182
+	mock_board_154 -> pin_183
+	mock_board_154 -> pin_184
+	mock_board_154 -> pin_185
+	mock_board_154 -> mount_hole_186
+	mock_board_154 -> mount_hole_187
+	mock_board_154 -> mount_hole_188
+	mock_board_154 -> mount_hole_189
+	mock_board_154 -> icsp_header_190
+	icsp_header_190 -> cage_191
+	icsp_header_190 -> pin_192
+	pin_192 -> base_193
+	base_193 -> base_194
+	pin_192 -> pin_195
+	pin_195 -> cage_196
+	cage_196 -> prism_197
+	pin_195 -> mid_198
+	mid_198 -> prism_199
+	pin_195 -> upper_200
+	upper_200 -> prism_201
+	pin_195 -> lower_202
+	lower_202 -> prism_203
+	icsp_header_190 -> pin_204
+	pin_204 -> base_205
+	base_205 -> base_206
+	pin_204 -> pin_207
+	pin_207 -> cage_208
+	cage_208 -> prism_209
+	pin_207 -> mid_210
+	mid_210 -> prism_211
+	pin_207 -> upper_212
+	upper_212 -> prism_213
+	pin_207 -> lower_214
+	lower_214 -> prism_215
+	icsp_header_190 -> pin_216
+	pin_216 -> base_217
+	base_217 -> base_218
+	pin_216 -> pin_219
+	pin_219 -> cage_220
+	cage_220 -> prism_221
+	pin_219 -> mid_222
+	mid_222 -> prism_223
+	pin_219 -> upper_224
+	upper_224 -> prism_225
+	pin_219 -> lower_226
+	lower_226 -> prism_227
+	icsp_header_190 -> pin_228
+	pin_228 -> base_229
+	base_229 -> base_230
+	pin_228 -> pin_231
+	pin_231 -> cage_232
+	cage_232 -> prism_233
+	pin_231 -> mid_234
+	mid_234 -> prism_235
+	pin_231 -> upper_236
+	upper_236 -> prism_237
+	pin_231 -> lower_238
+	lower_238 -> prism_239
+	icsp_header_190 -> pin_240
+	pin_240 -> base_241
+	base_241 -> base_242
+	pin_240 -> pin_243
+	pin_243 -> cage_244
+	cage_244 -> prism_245
+	pin_243 -> mid_246
+	mid_246 -> prism_247
+	pin_243 -> upper_248
+	upper_248 -> prism_249
+	pin_243 -> lower_250
+	lower_250 -> prism_251
+	icsp_header_190 -> pin_252
+	pin_252 -> base_253
+	base_253 -> base_254
+	pin_252 -> pin_255
+	pin_255 -> cage_256
+	cage_256 -> prism_257
+	pin_255 -> mid_258
+	mid_258 -> prism_259
+	pin_255 -> upper_260
+	upper_260 -> prism_261
+	pin_255 -> lower_262
+	lower_262 -> prism_263
+	mock_board_154 -> usb_264
+	mock_board_154 -> pin_hole_265
+	mock_board_154 -> pin_hole_266
+	mock_board_154 -> pin_hole_267
+	mock_board_154 -> pin_hole_268
+	mock_board_154 -> pin_hole_269
+	mock_board_154 -> pin_hole_270
+	default_152 -> pcb_screw_hole_271
+	pcb_screw_hole_271 -> screw_cage_272
+	pcb_screw_hole_271 -> tap_shaft_273
+	pcb_screw_hole_271 -> thru_shaft_274
+	pcb_screw_hole_271 -> access_hole_275
+	pcb_screw_hole_271 -> screw_hole_276
+	default_152 -> pcb_screw_hole_277
+	pcb_screw_hole_277 -> screw_cage_278
+	pcb_screw_hole_277 -> tap_shaft_279
+	pcb_screw_hole_277 -> thru_shaft_280
+	pcb_screw_hole_277 -> access_hole_281
+	pcb_screw_hole_277 -> screw_hole_282
+	default_152 -> pcb_screw_hole_283
+	pcb_screw_hole_283 -> screw_cage_284
+	pcb_screw_hole_283 -> tap_shaft_285
+	pcb_screw_hole_283 -> thru_shaft_286
+	pcb_screw_hole_283 -> access_hole_287
+	pcb_screw_hole_283 -> screw_hole_288
+	default_152 -> pcb_screw_hole_289
+	pcb_screw_hole_289 -> screw_cage_290
+	pcb_screw_hole_289 -> tap_shaft_291
+	pcb_screw_hole_289 -> thru_shaft_292
+	pcb_screw_hole_289 -> access_hole_293
+	pcb_screw_hole_289 -> screw_hole_294
+	root_151 -> 295
+	295 -> coords_296
+	coords_296 -> origin_297
+	coords_296 -> x_arrow_298
+	x_arrow_298 -> stem_299
+	x_arrow_298 -> head_300
+	coords_296 -> y_arrow_301
+	y_arrow_301 -> stem_302
+	y_arrow_301 -> head_303
+	coords_296 -> z_arrow_304
+	z_arrow_304 -> stem_305
+	z_arrow_304 -> head_306
+	295 -> x_307
+	295 -> y_308
+	295 -> z_309
+	295 -> label_310
+}

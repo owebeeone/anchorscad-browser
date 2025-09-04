@@ -1,0 +1,31 @@
+digraph default {
+    root_1 [label="root"];
+    default_2 [label="default"];
+    cage_3 [label="cage"];
+    point_4 [label="\('point',\ 0\)"];
+    point_5 [label="\('point',\ 1\)"];
+    point_6 [label="\('point',\ 2\)"];
+    point_7 [label="\('point',\ 3\)"];
+    point_8 [label="\('point',\ 4\)"];
+    point_9 [label="\('point',\ 5\)"];
+    point_10 [label="\('point',\ 6\)"];
+    point_11 [label="\('point',\ 7\)"];
+    point_12 [label="\('point',\ 8\)"];
+    point_13 [label="\('point',\ 9\)"];
+    point_14 [label="\('point',\ 10\)"];
+    point_15 [label="\('point',\ 11\)"];
+    root_1 -> default_2;
+    default_2 -> cage_3;
+    default_2 -> point_4;
+    default_2 -> point_5;
+    default_2 -> point_6;
+    default_2 -> point_7;
+    default_2 -> point_8;
+    default_2 -> point_9;
+    default_2 -> point_10;
+    default_2 -> point_11;
+    default_2 -> point_12;
+    default_2 -> point_13;
+    default_2 -> point_14;
+    default_2 -> point_15;
+}

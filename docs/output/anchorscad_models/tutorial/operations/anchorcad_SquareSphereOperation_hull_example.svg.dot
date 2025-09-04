@@ -1,0 +1,12 @@
+digraph hull {
+	graph [rankdir=LR]
+	root_11 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	hull_12 [label=hull href="javascript:s=&quot;\(&#x27;hull&#x27;,\)\nSquareSphereOperation&quot;; console.log(s); alert(s);" tooltip=SquareSphereOperation]
+	overall_13 [label=overall href="javascript:s=&quot;\(&#x27;hull&#x27;,\ &#x27;overall&#x27;\)\nMaker&quot;; console.log(s); alert(s);" tooltip=Maker]
+	box_14 [label=box href="javascript:s=&quot;\(&#x27;hull&#x27;,\ &#x27;overall&#x27;,\ &#x27;box&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	sphere_15 [label=sphere href="javascript:s=&quot;\(&#x27;hull&#x27;,\ &#x27;overall&#x27;,\ &#x27;sphere&#x27;\)\nSphere&quot;; console.log(s); alert(s);" tooltip=Sphere]
+	root_11 -> hull_12
+	hull_12 -> overall_13
+	overall_13 -> box_14
+	overall_13 -> sphere_15
+}

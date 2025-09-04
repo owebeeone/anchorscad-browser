@@ -1,0 +1,27 @@
+digraph rings {
+    root_311 [label="root"];
+    rings_312 [label="rings"];
+    box_313 [label="box"];
+    hole_314 [label="\('hole',\ 0,\ 0\)"];
+    hole_315 [label="\('hole',\ 1,\ 0\)"];
+    hole_316 [label="\('hole',\ 2,\ 0\)"];
+    hole_317 [label="\('hole',\ 3,\ 0\)"];
+    hole_318 [label="\('hole',\ 4,\ 0\)"];
+    hole_319 [label="\('hole',\ 5,\ 0\)"];
+    hole_320 [label="\('hole',\ 6,\ 0\)"];
+    hole_321 [label="\('hole',\ 7,\ 0\)"];
+    hole_322 [label="\('hole',\ 8,\ 0\)"];
+    hole_323 [label="\('hole',\ 9,\ 0\)"];
+    root_311 -> rings_312;
+    rings_312 -> box_313;
+    rings_312 -> hole_314;
+    rings_312 -> hole_315;
+    rings_312 -> hole_316;
+    rings_312 -> hole_317;
+    rings_312 -> hole_318;
+    rings_312 -> hole_319;
+    rings_312 -> hole_320;
+    rings_312 -> hole_321;
+    rings_312 -> hole_322;
+    rings_312 -> hole_323;
+}

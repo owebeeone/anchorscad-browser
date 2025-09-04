@@ -1,0 +1,26 @@
+digraph default {
+	graph [rankdir=LR]
+	root_761 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_762 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nCoordinates&quot;; console.log(s); alert(s);" tooltip=Coordinates]
+	origin_763 [label=origin href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;origin&#x27;\)\nCoordinatesCage&quot;; console.log(s); alert(s);" tooltip=CoordinatesCage]
+	x_arrow_764 [label=x_arrow href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;x_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_765 [label=stem href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_766 [label=head href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	y_arrow_767 [label=y_arrow href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;y_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_768 [label=stem href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_769 [label=head href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	z_arrow_770 [label=z_arrow href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;z_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_771 [label=stem href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_772 [label=head href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	root_761 -> default_762
+	default_762 -> origin_763
+	default_762 -> x_arrow_764
+	x_arrow_764 -> stem_765
+	x_arrow_764 -> head_766
+	default_762 -> y_arrow_767
+	y_arrow_767 -> stem_768
+	y_arrow_767 -> head_769
+	default_762 -> z_arrow_770
+	z_arrow_770 -> stem_771
+	z_arrow_770 -> head_772
+}

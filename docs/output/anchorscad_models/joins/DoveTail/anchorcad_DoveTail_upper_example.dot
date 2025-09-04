@@ -1,0 +1,9 @@
+digraph upper {
+    root_5 [label="root"];
+    upper_6 [label="upper"];
+    dovetail_cage_7 [label="dovetail_cage"];
+    front_8 [label="front"];
+    root_5 -> upper_6;
+    upper_6 -> dovetail_cage_7;
+    upper_6 -> front_8;
+}

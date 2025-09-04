@@ -1,0 +1,219 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Datatree Injected Fields for DC022A</title>
+            <style>
+                table {
+                    width: 100%;
+                    border-collapse: collapse;
+                }
+                th, td {
+                    border: 1px solid #ddd;
+                    padding: 8px;
+                    text-align: left;
+                }
+                th {
+                    background-color: #4CAF50;
+                    color: white;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>Datatree Injected Fields for DC022A</h1>
+            <p>An outline of a DC-022-2.5A-2.0 socket.<br/>Args:<br/>    top_r: Top radius of the socket<br/>    top_h: Height of top of the socket<br/>    fn: fixed number of segments. Overrides fa and fs<br/>    fa: minimum angle (in degrees) of each segment<br/>    fs: minimum length of each segment<br/>    top_access_hole_r: Front access hole radius, only used for clearance for inserting the jack and plug.<br/>    top_access_hole_h: Height of rear access hole<br/>    body_r: Body radius of the socket<br/>    body_flat_r: Flat radius of the socket<br/>    body_h: Height of body of the socket<br/>    body_twist: The twist of the extrusion in degrees.<br/>    body_slices: The number of slices to use for the extrusion if twist is applied.<br/>    body_scale: The scale of the extrusion in X and Y.<br/>    body_path_fn: The number of facets to use for the extrusion.<br/>    body_use_polyhedrons: If true will use polyhedrons to generate the extrusion.<br/>    rear_access_hole_r: Rear access hole radius, must take mounting bolt<br/>    rear_access_hole_h: Height of rear access hole<br/>    plug_r: Plug radius of the socket<br/>    plug_h: Height of plug hole of the socket<br/>    add_access_holes: Add access holes for inserting the plug and jack<br/>    thickness: Thickness of the housing wall</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Field Name</th>
+                        <th>Node Field Name</th>
+                        <th>Node Class/Func</th>
+                    </tr>
+                </thead>
+                <tbody>
+        
+                <tr>
+                    <td>body_flat_r</td>
+                    <td>body_flat_r</td>
+                    <td><a href='<class 'anchorscad_models.components.sockets.dc_022_a.DC022ABodyShapeBuilder'>'>DC022ABodyShapeBuilder</a></td>
+                </tr>
+                
+                <tr>
+                    <td>body_h</td>
+                    <td>h</td>
+                    <td><a href='<class 'anchorscad.extrude.LinearExtrude'>'>LinearExtrude</a></td>
+                </tr>
+                
+                <tr>
+                    <td>body_path</td>
+                    <td>path</td>
+                    <td><a href='<class 'anchorscad.extrude.LinearExtrude'>'>LinearExtrude</a></td>
+                </tr>
+                
+                <tr>
+                    <td>body_path_fn</td>
+                    <td>path_fn</td>
+                    <td><a href='<class 'anchorscad.extrude.LinearExtrude'>'>LinearExtrude</a></td>
+                </tr>
+                
+                <tr>
+                    <td>body_r</td>
+                    <td>body_r</td>
+                    <td><a href='<class 'anchorscad_models.components.sockets.dc_022_a.DC022ABodyShapeBuilder'>'>DC022ABodyShapeBuilder</a></td>
+                </tr>
+                
+                <tr>
+                    <td>body_scale</td>
+                    <td>scale</td>
+                    <td><a href='<class 'anchorscad.extrude.LinearExtrude'>'>LinearExtrude</a></td>
+                </tr>
+                
+                <tr>
+                    <td>body_slices</td>
+                    <td>slices</td>
+                    <td><a href='<class 'anchorscad.extrude.LinearExtrude'>'>LinearExtrude</a></td>
+                </tr>
+                
+                <tr>
+                    <td>body_twist</td>
+                    <td>twist</td>
+                    <td><a href='<class 'anchorscad.extrude.LinearExtrude'>'>LinearExtrude</a></td>
+                </tr>
+                
+                <tr>
+                    <td>body_use_polyhedrons</td>
+                    <td>use_polyhedrons</td>
+                    <td><a href='<class 'anchorscad.extrude.LinearExtrude'>'>LinearExtrude</a></td>
+                </tr>
+                
+                <tr>
+                    <td>fa</td>
+                    <td>fa</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                    <td>fa</td>
+                    <td>fa</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                    <td>fa</td>
+                    <td>fa</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                    <td>fa</td>
+                    <td>fa</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                    <td>fn</td>
+                    <td>fn</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                    <td>fn</td>
+                    <td>fn</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                    <td>fn</td>
+                    <td>fn</td>
+                    <td><a href='<class 'anchorscad.extrude.LinearExtrude'>'>LinearExtrude</a></td>
+                </tr>
+                
+                <tr>
+                    <td>fn</td>
+                    <td>fn</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                    <td>fn</td>
+                    <td>fn</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                    <td>fs</td>
+                    <td>fs</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                    <td>fs</td>
+                    <td>fs</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                    <td>fs</td>
+                    <td>fs</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                    <td>fs</td>
+                    <td>fs</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                    <td>plug_h</td>
+                    <td>h</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                    <td>plug_r</td>
+                    <td>r</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                    <td>rear_access_hole_h</td>
+                    <td>h</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                    <td>rear_access_hole_r</td>
+                    <td>r</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                    <td>top_access_hole_h</td>
+                    <td>h</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                    <td>top_access_hole_r</td>
+                    <td>r</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                    <td>top_h</td>
+                    <td>h</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                    <td>top_r</td>
+                    <td>r</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                </tbody>
+            </table>
+        </body>
+        </html>
+        

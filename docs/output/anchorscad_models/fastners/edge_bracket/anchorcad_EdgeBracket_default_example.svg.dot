@@ -1,0 +1,52 @@
+digraph default {
+	graph [rankdir=LR]
+	root_1 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_2 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nEdgeBracket&quot;; console.log(s); alert(s);" tooltip=EdgeBracket]
+	extrusion_3 [label=extrusion href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;extrusion&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	sepatator_4 [label=sepatator href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;sepatator&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	screw_hole_5 [label=screw_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;screw_hole&#x27;\)\nCountersinkSelfTapHole&quot;; console.log(s); alert(s);" tooltip=CountersinkSelfTapHole]
+	screw_hole_6 [label=screw_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;screw_hole&#x27;,\ &#x27;screw_hole&#x27;\)\nSelfTapHole&quot;; console.log(s); alert(s);" tooltip=SelfTapHole]
+	pipe_7 [label=pipe href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;screw_hole&#x27;,\ &#x27;screw_hole&#x27;,\ &#x27;pipe&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	thru_8 [label=thru href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;screw_hole&#x27;,\ &#x27;screw_hole&#x27;,\ &#x27;thru&#x27;\)\nPipe&quot;; console.log(s); alert(s);" tooltip=Pipe]
+	outer_9 [label=outer href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;screw_hole&#x27;,\ &#x27;screw_hole&#x27;,\ &#x27;thru&#x27;,\ &#x27;outer&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_10 [label=pie_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;screw_hole&#x27;,\ &#x27;screw_hole&#x27;,\ &#x27;thru&#x27;,\ &#x27;outer&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_11 [label=pie href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;screw_hole&#x27;,\ &#x27;screw_hole&#x27;,\ &#x27;thru&#x27;,\ &#x27;outer&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	inner_12 [label=inner href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;screw_hole&#x27;,\ &#x27;screw_hole&#x27;,\ &#x27;thru&#x27;,\ &#x27;inner&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_13 [label=pie_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;screw_hole&#x27;,\ &#x27;screw_hole&#x27;,\ &#x27;thru&#x27;,\ &#x27;inner&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_14 [label=pie href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;screw_hole&#x27;,\ &#x27;screw_hole&#x27;,\ &#x27;thru&#x27;,\ &#x27;inner&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	tap_15 [label=tap href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;screw_hole&#x27;,\ &#x27;screw_hole&#x27;,\ &#x27;tap&#x27;\)\nPipe&quot;; console.log(s); alert(s);" tooltip=Pipe]
+	outer_16 [label=outer href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;screw_hole&#x27;,\ &#x27;screw_hole&#x27;,\ &#x27;tap&#x27;,\ &#x27;outer&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_17 [label=pie_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;screw_hole&#x27;,\ &#x27;screw_hole&#x27;,\ &#x27;tap&#x27;,\ &#x27;outer&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_18 [label=pie href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;screw_hole&#x27;,\ &#x27;screw_hole&#x27;,\ &#x27;tap&#x27;,\ &#x27;outer&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	inner_19 [label=inner href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;screw_hole&#x27;,\ &#x27;screw_hole&#x27;,\ &#x27;tap&#x27;,\ &#x27;inner&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_20 [label=pie_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;screw_hole&#x27;,\ &#x27;screw_hole&#x27;,\ &#x27;tap&#x27;,\ &#x27;inner&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_21 [label=pie href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;screw_hole&#x27;,\ &#x27;screw_hole&#x27;,\ &#x27;tap&#x27;,\ &#x27;inner&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	access_hole_22 [label=access_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;screw_hole&#x27;,\ &#x27;access_hole&#x27;\)\nCountersinkAccessHole&quot;; console.log(s); alert(s);" tooltip=CountersinkAccessHole]
+	access_hole_cage_23 [label=access_hole_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;screw_hole&#x27;,\ &#x27;access_hole&#x27;,\ &#x27;access_hole_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	access_hole_24 [label=access_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;screw_hole&#x27;,\ &#x27;access_hole&#x27;,\ &#x27;access_hole&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	couter_sink_hole_25 [label=couter_sink_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;screw_hole&#x27;,\ &#x27;access_hole&#x27;,\ &#x27;couter_sink_hole&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	root_1 -> default_2
+	default_2 -> extrusion_3
+	default_2 -> sepatator_4
+	default_2 -> screw_hole_5
+	screw_hole_5 -> screw_hole_6
+	screw_hole_6 -> pipe_7
+	screw_hole_6 -> thru_8
+	thru_8 -> outer_9
+	outer_9 -> pie_cage_10
+	outer_9 -> pie_11
+	thru_8 -> inner_12
+	inner_12 -> pie_cage_13
+	inner_12 -> pie_14
+	screw_hole_6 -> tap_15
+	tap_15 -> outer_16
+	outer_16 -> pie_cage_17
+	outer_16 -> pie_18
+	tap_15 -> inner_19
+	inner_19 -> pie_cage_20
+	inner_19 -> pie_21
+	screw_hole_5 -> access_hole_22
+	access_hole_22 -> access_hole_cage_23
+	access_hole_22 -> access_hole_24
+	access_hole_22 -> couter_sink_hole_25
+}

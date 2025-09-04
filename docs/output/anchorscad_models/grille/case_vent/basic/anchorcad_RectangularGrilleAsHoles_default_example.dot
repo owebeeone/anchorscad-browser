@@ -1,0 +1,25 @@
+digraph default {
+    root_13 [label="root"];
+    default_14 [label="default"];
+    cage_15 [label="cage"];
+    vane_16 [label="\('vane',\ 'left'\)"];
+    vane_17 [label="\('vane',\ 0\)"];
+    vane_18 [label="\('vane',\ 1\)"];
+    vane_19 [label="\('vane',\ 2\)"];
+    vane_20 [label="\('vane',\ 3\)"];
+    vane_21 [label="\('vane',\ 4\)"];
+    vane_22 [label="\('vane',\ 5\)"];
+    vane_23 [label="\('vane',\ 6\)"];
+    vane_24 [label="\('vane',\ 'right'\)"];
+    root_13 -> default_14;
+    default_14 -> cage_15;
+    default_14 -> vane_16;
+    default_14 -> vane_17;
+    default_14 -> vane_18;
+    default_14 -> vane_19;
+    default_14 -> vane_20;
+    default_14 -> vane_21;
+    default_14 -> vane_22;
+    default_14 -> vane_23;
+    default_14 -> vane_24;
+}

@@ -1,0 +1,9 @@
+digraph default {
+    root_1 [label="root"];
+    default_2 [label="default"];
+    cage_3 [label="cage"];
+    cap_4 [label="cap"];
+    root_1 -> default_2;
+    default_2 -> cage_3;
+    default_2 -> cap_4;
+}

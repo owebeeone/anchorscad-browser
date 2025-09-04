@@ -1,0 +1,184 @@
+digraph default {
+	graph [rankdir=LR]
+	root_1 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_2 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nHeader&quot;; console.log(s); alert(s);" tooltip=Header]
+	cage_3 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	pin_4 [label="\('pin',\ 2,\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 1\)\)\nMaker&quot;; console.log(s); alert(s);" tooltip=Maker]
+	base_5 [label=base href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 1\),\ &#x27;base&#x27;\)\nHeaderBase&quot;; console.log(s); alert(s);" tooltip=HeaderBase]
+	base_6 [label=base href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 1\),\ &#x27;base&#x27;,\ &#x27;base&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	pin_7 [label=pin href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 1\),\ &#x27;pin&#x27;\)\nHeaderPin&quot;; console.log(s); alert(s);" tooltip=HeaderPin]
+	cage_8 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 1\),\ &#x27;pin&#x27;,\ &#x27;cage&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_9 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 1\),\ &#x27;pin&#x27;,\ &#x27;cage&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	mid_10 [label=mid href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 1\),\ &#x27;pin&#x27;,\ &#x27;mid&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_11 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 1\),\ &#x27;pin&#x27;,\ &#x27;mid&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	upper_12 [label=upper href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 1\),\ &#x27;pin&#x27;,\ &#x27;upper&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_13 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 1\),\ &#x27;pin&#x27;,\ &#x27;upper&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	lower_14 [label=lower href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 1\),\ &#x27;pin&#x27;,\ &#x27;lower&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_15 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 1\),\ &#x27;pin&#x27;,\ &#x27;lower&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	pin_16 [label="\('pin',\ 2,\ 2\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 2\)\)\nMaker&quot;; console.log(s); alert(s);" tooltip=Maker]
+	base_17 [label=base href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 2\),\ &#x27;base&#x27;\)\nHeaderBase&quot;; console.log(s); alert(s);" tooltip=HeaderBase]
+	base_18 [label=base href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 2\),\ &#x27;base&#x27;,\ &#x27;base&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	pin_19 [label=pin href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 2\),\ &#x27;pin&#x27;\)\nHeaderPin&quot;; console.log(s); alert(s);" tooltip=HeaderPin]
+	cage_20 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 2\),\ &#x27;pin&#x27;,\ &#x27;cage&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_21 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 2\),\ &#x27;pin&#x27;,\ &#x27;cage&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	mid_22 [label=mid href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 2\),\ &#x27;pin&#x27;,\ &#x27;mid&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_23 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 2\),\ &#x27;pin&#x27;,\ &#x27;mid&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	upper_24 [label=upper href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 2\),\ &#x27;pin&#x27;,\ &#x27;upper&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_25 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 2\),\ &#x27;pin&#x27;,\ &#x27;upper&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	lower_26 [label=lower href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 2\),\ &#x27;pin&#x27;,\ &#x27;lower&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_27 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 2\),\ &#x27;pin&#x27;,\ &#x27;lower&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	pin_28 [label="\('pin',\ 2,\ 3\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 3\)\)\nMaker&quot;; console.log(s); alert(s);" tooltip=Maker]
+	base_29 [label=base href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 3\),\ &#x27;base&#x27;\)\nHeaderBase&quot;; console.log(s); alert(s);" tooltip=HeaderBase]
+	base_30 [label=base href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 3\),\ &#x27;base&#x27;,\ &#x27;base&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	pin_31 [label=pin href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 3\),\ &#x27;pin&#x27;\)\nHeaderPin&quot;; console.log(s); alert(s);" tooltip=HeaderPin]
+	cage_32 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 3\),\ &#x27;pin&#x27;,\ &#x27;cage&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_33 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 3\),\ &#x27;pin&#x27;,\ &#x27;cage&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	mid_34 [label=mid href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 3\),\ &#x27;pin&#x27;,\ &#x27;mid&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_35 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 3\),\ &#x27;pin&#x27;,\ &#x27;mid&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	upper_36 [label=upper href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 3\),\ &#x27;pin&#x27;,\ &#x27;upper&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_37 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 3\),\ &#x27;pin&#x27;,\ &#x27;upper&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	lower_38 [label=lower href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 3\),\ &#x27;pin&#x27;,\ &#x27;lower&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_39 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 2,\ 3\),\ &#x27;pin&#x27;,\ &#x27;lower&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	pin_40 [label="\('pin',\ 1,\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\)\)\nMaker&quot;; console.log(s); alert(s);" tooltip=Maker]
+	base_41 [label=base href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;base&#x27;\)\nHeaderBase&quot;; console.log(s); alert(s);" tooltip=HeaderBase]
+	base_42 [label=base href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;base&#x27;,\ &#x27;base&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	pin_43 [label=pin href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;pin&#x27;\)\nHeaderPin&quot;; console.log(s); alert(s);" tooltip=HeaderPin]
+	cage_44 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;pin&#x27;,\ &#x27;cage&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_45 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;pin&#x27;,\ &#x27;cage&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	mid_46 [label=mid href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;pin&#x27;,\ &#x27;mid&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_47 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;pin&#x27;,\ &#x27;mid&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	upper_48 [label=upper href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;pin&#x27;,\ &#x27;upper&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_49 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;pin&#x27;,\ &#x27;upper&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	lower_50 [label=lower href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;pin&#x27;,\ &#x27;lower&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_51 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;pin&#x27;,\ &#x27;lower&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	pin_52 [label="\('pin',\ 1,\ 2\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 2\)\)\nMaker&quot;; console.log(s); alert(s);" tooltip=Maker]
+	base_53 [label=base href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 2\),\ &#x27;base&#x27;\)\nHeaderBase&quot;; console.log(s); alert(s);" tooltip=HeaderBase]
+	base_54 [label=base href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 2\),\ &#x27;base&#x27;,\ &#x27;base&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	pin_55 [label=pin href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 2\),\ &#x27;pin&#x27;\)\nHeaderPin&quot;; console.log(s); alert(s);" tooltip=HeaderPin]
+	cage_56 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 2\),\ &#x27;pin&#x27;,\ &#x27;cage&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_57 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 2\),\ &#x27;pin&#x27;,\ &#x27;cage&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	mid_58 [label=mid href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 2\),\ &#x27;pin&#x27;,\ &#x27;mid&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_59 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 2\),\ &#x27;pin&#x27;,\ &#x27;mid&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	upper_60 [label=upper href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 2\),\ &#x27;pin&#x27;,\ &#x27;upper&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_61 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 2\),\ &#x27;pin&#x27;,\ &#x27;upper&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	lower_62 [label=lower href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 2\),\ &#x27;pin&#x27;,\ &#x27;lower&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_63 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 2\),\ &#x27;pin&#x27;,\ &#x27;lower&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	pin_64 [label="\('pin',\ 1,\ 3\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 3\)\)\nMaker&quot;; console.log(s); alert(s);" tooltip=Maker]
+	base_65 [label=base href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 3\),\ &#x27;base&#x27;\)\nHeaderBase&quot;; console.log(s); alert(s);" tooltip=HeaderBase]
+	base_66 [label=base href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 3\),\ &#x27;base&#x27;,\ &#x27;base&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	pin_67 [label=pin href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 3\),\ &#x27;pin&#x27;\)\nHeaderPin&quot;; console.log(s); alert(s);" tooltip=HeaderPin]
+	cage_68 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 3\),\ &#x27;pin&#x27;,\ &#x27;cage&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_69 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 3\),\ &#x27;pin&#x27;,\ &#x27;cage&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	mid_70 [label=mid href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 3\),\ &#x27;pin&#x27;,\ &#x27;mid&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_71 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 3\),\ &#x27;pin&#x27;,\ &#x27;mid&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	upper_72 [label=upper href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 3\),\ &#x27;pin&#x27;,\ &#x27;upper&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_73 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 3\),\ &#x27;pin&#x27;,\ &#x27;upper&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	lower_74 [label=lower href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 3\),\ &#x27;pin&#x27;,\ &#x27;lower&#x27;\)\nRegularPrism&quot;; console.log(s); alert(s);" tooltip=RegularPrism]
+	prism_75 [label=prism href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pin&#x27;,\ 1,\ 3\),\ &#x27;pin&#x27;,\ &#x27;lower&#x27;,\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	76 [label="\('pin',\ 1,\ 1\),\ 'base',\ " href="javascript:s=&quot;\(&quot;\(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;base&#x27;,\ &quot;,\)\nAnnotatedCoordinates&quot;; console.log(s); alert(s);" tooltip=AnnotatedCoordinates]
+	coords_77 [label=coords href="javascript:s=&quot;\(&quot;\(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;\)\nCoordinates&quot;; console.log(s); alert(s);" tooltip=Coordinates]
+	origin_78 [label=origin href="javascript:s=&quot;\(&quot;\(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;origin&#x27;\)\nCoordinatesCage&quot;; console.log(s); alert(s);" tooltip=CoordinatesCage]
+	x_arrow_79 [label=x_arrow href="javascript:s=&quot;\(&quot;\(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_80 [label=stem href="javascript:s=&quot;\(&quot;\(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_81 [label=head href="javascript:s=&quot;\(&quot;\(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	y_arrow_82 [label=y_arrow href="javascript:s=&quot;\(&quot;\(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_83 [label=stem href="javascript:s=&quot;\(&quot;\(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_84 [label=head href="javascript:s=&quot;\(&quot;\(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	z_arrow_85 [label=z_arrow href="javascript:s=&quot;\(&quot;\(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_86 [label=stem href="javascript:s=&quot;\(&quot;\(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_87 [label=head href="javascript:s=&quot;\(&quot;\(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	x_88 [label=x href="javascript:s=&quot;\(&quot;\(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;base&#x27;,\ &quot;,\ &#x27;x&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	y_89 [label=y href="javascript:s=&quot;\(&quot;\(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;base&#x27;,\ &quot;,\ &#x27;y&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	z_90 [label=z href="javascript:s=&quot;\(&quot;\(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;base&#x27;,\ &quot;,\ &#x27;z&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	label_91 [label=label href="javascript:s=&quot;\(&quot;\(&#x27;pin&#x27;,\ 1,\ 1\),\ &#x27;base&#x27;,\ &quot;,\ &#x27;label&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	root_1 -> default_2
+	default_2 -> cage_3
+	default_2 -> pin_4
+	pin_4 -> base_5
+	base_5 -> base_6
+	pin_4 -> pin_7
+	pin_7 -> cage_8
+	cage_8 -> prism_9
+	pin_7 -> mid_10
+	mid_10 -> prism_11
+	pin_7 -> upper_12
+	upper_12 -> prism_13
+	pin_7 -> lower_14
+	lower_14 -> prism_15
+	default_2 -> pin_16
+	pin_16 -> base_17
+	base_17 -> base_18
+	pin_16 -> pin_19
+	pin_19 -> cage_20
+	cage_20 -> prism_21
+	pin_19 -> mid_22
+	mid_22 -> prism_23
+	pin_19 -> upper_24
+	upper_24 -> prism_25
+	pin_19 -> lower_26
+	lower_26 -> prism_27
+	default_2 -> pin_28
+	pin_28 -> base_29
+	base_29 -> base_30
+	pin_28 -> pin_31
+	pin_31 -> cage_32
+	cage_32 -> prism_33
+	pin_31 -> mid_34
+	mid_34 -> prism_35
+	pin_31 -> upper_36
+	upper_36 -> prism_37
+	pin_31 -> lower_38
+	lower_38 -> prism_39
+	default_2 -> pin_40
+	pin_40 -> base_41
+	base_41 -> base_42
+	pin_40 -> pin_43
+	pin_43 -> cage_44
+	cage_44 -> prism_45
+	pin_43 -> mid_46
+	mid_46 -> prism_47
+	pin_43 -> upper_48
+	upper_48 -> prism_49
+	pin_43 -> lower_50
+	lower_50 -> prism_51
+	default_2 -> pin_52
+	pin_52 -> base_53
+	base_53 -> base_54
+	pin_52 -> pin_55
+	pin_55 -> cage_56
+	cage_56 -> prism_57
+	pin_55 -> mid_58
+	mid_58 -> prism_59
+	pin_55 -> upper_60
+	upper_60 -> prism_61
+	pin_55 -> lower_62
+	lower_62 -> prism_63
+	default_2 -> pin_64
+	pin_64 -> base_65
+	base_65 -> base_66
+	pin_64 -> pin_67
+	pin_67 -> cage_68
+	cage_68 -> prism_69
+	pin_67 -> mid_70
+	mid_70 -> prism_71
+	pin_67 -> upper_72
+	upper_72 -> prism_73
+	pin_67 -> lower_74
+	lower_74 -> prism_75
+	root_1 -> 76
+	76 -> coords_77
+	coords_77 -> origin_78
+	coords_77 -> x_arrow_79
+	x_arrow_79 -> stem_80
+	x_arrow_79 -> head_81
+	coords_77 -> y_arrow_82
+	y_arrow_82 -> stem_83
+	y_arrow_82 -> head_84
+	coords_77 -> z_arrow_85
+	z_arrow_85 -> stem_86
+	z_arrow_85 -> head_87
+	76 -> x_88
+	76 -> y_89
+	76 -> z_90
+	76 -> label_91
+}

@@ -1,0 +1,13 @@
+digraph default {
+    root_5 [label="root"];
+    default_6 [label="default"];
+    test_7 [label="test"];
+    outline_8 [label="outline"];
+    cage_9 [label="cage"];
+    hdmi_10 [label="hdmi"];
+    root_5 -> default_6;
+    default_6 -> test_7;
+    default_6 -> outline_8;
+    outline_8 -> cage_9;
+    outline_8 -> hdmi_10;
+}

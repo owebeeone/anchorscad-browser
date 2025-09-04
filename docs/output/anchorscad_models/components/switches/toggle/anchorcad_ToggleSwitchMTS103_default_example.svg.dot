@@ -1,0 +1,14 @@
+digraph default {
+	graph [rankdir=LR]
+	root_93 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_94 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nToggleSwitchMTS103&quot;; console.log(s); alert(s);" tooltip=ToggleSwitchMTS103]
+	case_95 [label=case href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;case&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	shaft_96 [label=shaft href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;shaft&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	bat_97 [label=bat href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;bat&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	terminal_cavity_98 [label=terminal_cavity href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;terminal_cavity&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	root_93 -> default_94
+	default_94 -> case_95
+	default_94 -> shaft_96
+	default_94 -> bat_97
+	default_94 -> terminal_cavity_98
+}

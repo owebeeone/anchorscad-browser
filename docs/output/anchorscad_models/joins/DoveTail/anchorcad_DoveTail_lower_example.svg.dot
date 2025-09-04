@@ -1,0 +1,10 @@
+digraph lower {
+	graph [rankdir=LR]
+	root_9 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	lower_10 [label=lower href="javascript:s=&quot;\(&#x27;lower&#x27;,\)\nDoveTail&quot;; console.log(s); alert(s);" tooltip=DoveTail]
+	dovetail_cage_11 [label=dovetail_cage href="javascript:s=&quot;\(&#x27;lower&#x27;,\ &#x27;dovetail_cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	front_12 [label=front href="javascript:s=&quot;\(&#x27;lower&#x27;,\ &#x27;front&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	root_9 -> lower_10
+	lower_10 -> dovetail_cage_11
+	lower_10 -> front_12
+}

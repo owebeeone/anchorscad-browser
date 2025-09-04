@@ -1,0 +1,5 @@
+digraph default {
+    root_773 [label="root"];
+    default_774 [label="default"];
+    root_773 -> default_774;
+}

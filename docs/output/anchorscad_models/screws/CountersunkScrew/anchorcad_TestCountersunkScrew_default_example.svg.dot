@@ -1,0 +1,22 @@
+digraph default {
+	graph [rankdir=LR]
+	root_235 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_236 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nTestCountersunkScrew&quot;; console.log(s); alert(s);" tooltip=TestCountersunkScrew]
+	test_box_237 [label=test_box href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;test_box&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	test_cut_box_238 [label=test_cut_box href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;test_cut_box&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	screw_239 [label=screw href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;screw&#x27;\)\nCountersunkScrew&quot;; console.log(s); alert(s);" tooltip=CountersunkScrew]
+	screw_cage_240 [label=screw_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;screw&#x27;,\ &#x27;screw_cage&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	tap_shaft_241 [label=tap_shaft href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;screw&#x27;,\ &#x27;tap_shaft&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	thru_shaft_242 [label=thru_shaft href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;screw&#x27;,\ &#x27;thru_shaft&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	access_hole_243 [label=access_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;screw&#x27;,\ &#x27;access_hole&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	screw_hole_244 [label=screw_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;screw&#x27;,\ &#x27;screw_hole&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	root_235 -> default_236
+	default_236 -> test_box_237
+	default_236 -> test_cut_box_238
+	default_236 -> screw_239
+	screw_239 -> screw_cage_240
+	screw_239 -> tap_shaft_241
+	screw_239 -> thru_shaft_242
+	screw_239 -> access_hole_243
+	screw_239 -> screw_hole_244
+}

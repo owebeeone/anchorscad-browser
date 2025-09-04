@@ -1,0 +1,34 @@
+digraph default {
+	graph [rankdir=LR]
+	root_1 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_2 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nHoleGauge&quot;; console.log(s); alert(s);" tooltip=HoleGauge]
+	plate_3 [label=plate href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;plate&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	inner_plate_4 [label="\('inner_plate',\ 0\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;inner_plate&#x27;,\ 0\)\)\nSingleHoleGauge&quot;; console.log(s); alert(s);" tooltip=SingleHoleGauge]
+	plate_5 [label=plate href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;inner_plate&#x27;,\ 0\),\ &#x27;plate&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_6 [label="\('hole',\ 0\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;inner_plate&#x27;,\ 0\),\ \(&#x27;hole&#x27;,\ 0\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	hole_7 [label="\('hole',\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;inner_plate&#x27;,\ 0\),\ \(&#x27;hole&#x27;,\ 1\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	hole_8 [label="\('hole',\ 2\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;inner_plate&#x27;,\ 0\),\ \(&#x27;hole&#x27;,\ 2\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	hole_9 [label="\('hole',\ 3\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;inner_plate&#x27;,\ 0\),\ \(&#x27;hole&#x27;,\ 3\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	hole_10 [label="\('hole',\ 4\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;inner_plate&#x27;,\ 0\),\ \(&#x27;hole&#x27;,\ 4\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	hole_11 [label="\('hole',\ 5\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;inner_plate&#x27;,\ 0\),\ \(&#x27;hole&#x27;,\ 5\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	inner_plate_12 [label="\('inner_plate',\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;inner_plate&#x27;,\ 1\)\)\nSingleHoleGauge&quot;; console.log(s); alert(s);" tooltip=SingleHoleGauge]
+	plate_13 [label=plate href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;inner_plate&#x27;,\ 1\),\ &#x27;plate&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_14 [label="\('hole',\ 0\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;inner_plate&#x27;,\ 1\),\ \(&#x27;hole&#x27;,\ 0\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	hole_15 [label="\('hole',\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;inner_plate&#x27;,\ 1\),\ \(&#x27;hole&#x27;,\ 1\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	hole_16 [label="\('hole',\ 2\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;inner_plate&#x27;,\ 1\),\ \(&#x27;hole&#x27;,\ 2\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	root_1 -> default_2
+	default_2 -> plate_3
+	default_2 -> inner_plate_4
+	inner_plate_4 -> plate_5
+	inner_plate_4 -> hole_6
+	inner_plate_4 -> hole_7
+	inner_plate_4 -> hole_8
+	inner_plate_4 -> hole_9
+	inner_plate_4 -> hole_10
+	inner_plate_4 -> hole_11
+	default_2 -> inner_plate_12
+	inner_plate_12 -> plate_13
+	inner_plate_12 -> hole_14
+	inner_plate_12 -> hole_15
+	inner_plate_12 -> hole_16
+}

@@ -1,0 +1,22 @@
+digraph default {
+	graph [rankdir=LR]
+	root_1 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_2 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nDivingKnifeHolder&quot;; console.log(s); alert(s);" tooltip=DivingKnifeHolder]
+	holder_3 [label=holder href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;holder&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	ring_4 [label=ring href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;ring&#x27;\)\nPipe&quot;; console.log(s); alert(s);" tooltip=Pipe]
+	outer_5 [label=outer href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;ring&#x27;,\ &#x27;outer&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_6 [label=pie_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;ring&#x27;,\ &#x27;outer&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_7 [label=pie href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;ring&#x27;,\ &#x27;outer&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	inner_8 [label=inner href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;ring&#x27;,\ &#x27;inner&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_9 [label=pie_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;ring&#x27;,\ &#x27;inner&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_10 [label=pie href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;ring&#x27;,\ &#x27;inner&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	root_1 -> default_2
+	default_2 -> holder_3
+	default_2 -> ring_4
+	ring_4 -> outer_5
+	outer_5 -> pie_cage_6
+	outer_5 -> pie_7
+	ring_4 -> inner_8
+	inner_8 -> pie_cage_9
+	inner_8 -> pie_10
+}

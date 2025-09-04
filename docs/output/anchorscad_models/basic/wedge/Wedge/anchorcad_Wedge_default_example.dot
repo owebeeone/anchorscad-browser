@@ -1,0 +1,13 @@
+digraph default {
+    root_1 [label="root"];
+    default_2 [label="default"];
+    base_3 [label="base"];
+    roof_4 [label="roof"];
+    door_5 [label="door"];
+    chimney_6 [label="chimney"];
+    root_1 -> default_2;
+    default_2 -> base_3;
+    default_2 -> roof_4;
+    default_2 -> door_5;
+    default_2 -> chimney_6;
+}

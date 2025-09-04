@@ -1,0 +1,44 @@
+digraph default {
+	graph [rankdir=LR]
+	root_1 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_2 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nCurlySpokes&quot;; console.log(s); alert(s);" tooltip=CurlySpokes]
+	cage_3 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	core_4 [label=core href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;core&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	spoke_5 [label="\('spoke',\ 0\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;spoke&#x27;,\ 0\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_6 [label="\('spoke',\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;spoke&#x27;,\ 1\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_7 [label="\('spoke',\ 2\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;spoke&#x27;,\ 2\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_8 [label="\('spoke',\ 3\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;spoke&#x27;,\ 3\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_9 [label="\('spoke',\ 4\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;spoke&#x27;,\ 4\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_10 [label="\('spoke',\ 5\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;spoke&#x27;,\ 5\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_11 [label="\('spoke',\ 6\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;spoke&#x27;,\ 6\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_12 [label="\('spoke',\ 7\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;spoke&#x27;,\ 7\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_13 [label="\('spoke',\ 8\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;spoke&#x27;,\ 8\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_14 [label="\('spoke',\ 9\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;spoke&#x27;,\ 9\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_15 [label="\('spoke',\ 10\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;spoke&#x27;,\ 10\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_16 [label="\('spoke',\ 11\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;spoke&#x27;,\ 11\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_17 [label="\('spoke',\ 12\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;spoke&#x27;,\ 12\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_18 [label="\('spoke',\ 13\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;spoke&#x27;,\ 13\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_19 [label="\('spoke',\ 14\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;spoke&#x27;,\ 14\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_20 [label="\('spoke',\ 15\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;spoke&#x27;,\ 15\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	inner_core_21 [label=inner_core href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;inner_core&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	root_1 -> default_2
+	default_2 -> cage_3
+	default_2 -> core_4
+	default_2 -> spoke_5
+	default_2 -> spoke_6
+	default_2 -> spoke_7
+	default_2 -> spoke_8
+	default_2 -> spoke_9
+	default_2 -> spoke_10
+	default_2 -> spoke_11
+	default_2 -> spoke_12
+	default_2 -> spoke_13
+	default_2 -> spoke_14
+	default_2 -> spoke_15
+	default_2 -> spoke_16
+	default_2 -> spoke_17
+	default_2 -> spoke_18
+	default_2 -> spoke_19
+	default_2 -> spoke_20
+	default_2 -> inner_core_21
+}

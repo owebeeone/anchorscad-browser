@@ -1,0 +1,12 @@
+digraph default {
+	graph [rankdir=LR]
+	root_1 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_2 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nCountersinkAccessHole&quot;; console.log(s); alert(s);" tooltip=CountersinkAccessHole]
+	access_hole_cage_3 [label=access_hole_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;access_hole_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	access_hole_4 [label=access_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;access_hole&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	couter_sink_hole_5 [label=couter_sink_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;couter_sink_hole&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	root_1 -> default_2
+	default_2 -> access_hole_cage_3
+	default_2 -> access_hole_4
+	default_2 -> couter_sink_hole_5
+}

@@ -1,0 +1,100 @@
+digraph default {
+	graph [rankdir=LR]
+	root_76 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_77 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nSpringHandleHolder&quot;; console.log(s); alert(s);" tooltip=SpringHandleHolder]
+	spring_base_78 [label=spring_base href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;spring_base&#x27;\)\nSpringBase&quot;; console.log(s); alert(s);" tooltip=SpringBase]
+	handle_79 [label=handle href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;spring_base&#x27;,\ &#x27;handle&#x27;\)\nStadiumSequence&quot;; console.log(s); alert(s);" tooltip=StadiumSequence]
+	80 [label="element\-0" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;spring_base&#x27;,\ &#x27;handle&#x27;,\ &#x27;element\-0&#x27;\)\nStadiumPrism&quot;; console.log(s); alert(s);" tooltip=StadiumPrism]
+	cage_81 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;spring_base&#x27;,\ &#x27;handle&#x27;,\ &#x27;element\-0&#x27;,\ &#x27;cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	stadium_82 [label=stadium href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;spring_base&#x27;,\ &#x27;handle&#x27;,\ &#x27;element\-0&#x27;,\ &#x27;stadium&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	83 [label="element\-1" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;spring_base&#x27;,\ &#x27;handle&#x27;,\ &#x27;element\-1&#x27;\)\nStadiumRevolution&quot;; console.log(s); alert(s);" tooltip=StadiumRevolution]
+	stadium_84 [label=stadium href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;spring_base&#x27;,\ &#x27;handle&#x27;,\ &#x27;element\-1&#x27;,\ &#x27;stadium&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	85 [label="element\-2" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;spring_base&#x27;,\ &#x27;handle&#x27;,\ &#x27;element\-2&#x27;\)\nStadiumPrism&quot;; console.log(s); alert(s);" tooltip=StadiumPrism]
+	cage_86 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;spring_base&#x27;,\ &#x27;handle&#x27;,\ &#x27;element\-2&#x27;,\ &#x27;cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	stadium_87 [label=stadium href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;spring_base&#x27;,\ &#x27;handle&#x27;,\ &#x27;element\-2&#x27;,\ &#x27;stadium&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	88 [label="element\-3" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;spring_base&#x27;,\ &#x27;handle&#x27;,\ &#x27;element\-3&#x27;\)\nStadiumRevolution&quot;; console.log(s); alert(s);" tooltip=StadiumRevolution]
+	stadium_89 [label=stadium href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;spring_base&#x27;,\ &#x27;handle&#x27;,\ &#x27;element\-3&#x27;,\ &#x27;stadium&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	90 [label="element\-4" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;spring_base&#x27;,\ &#x27;handle&#x27;,\ &#x27;element\-4&#x27;\)\nStadiumPrism&quot;; console.log(s); alert(s);" tooltip=StadiumPrism]
+	cage_91 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;spring_base&#x27;,\ &#x27;handle&#x27;,\ &#x27;element\-4&#x27;,\ &#x27;cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	stadium_92 [label=stadium href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;spring_base&#x27;,\ &#x27;handle&#x27;,\ &#x27;element\-4&#x27;,\ &#x27;stadium&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	93 [label="element\-5" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;spring_base&#x27;,\ &#x27;handle&#x27;,\ &#x27;element\-5&#x27;\)\nStadiumRevolution&quot;; console.log(s); alert(s);" tooltip=StadiumRevolution]
+	stadium_94 [label=stadium href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;spring_base&#x27;,\ &#x27;handle&#x27;,\ &#x27;element\-5&#x27;,\ &#x27;stadium&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	95 [label="element\-6" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;spring_base&#x27;,\ &#x27;handle&#x27;,\ &#x27;element\-6&#x27;\)\nStadiumPrism&quot;; console.log(s); alert(s);" tooltip=StadiumPrism]
+	cage_96 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;spring_base&#x27;,\ &#x27;handle&#x27;,\ &#x27;element\-6&#x27;,\ &#x27;cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	stadium_97 [label=stadium href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;spring_base&#x27;,\ &#x27;handle&#x27;,\ &#x27;element\-6&#x27;,\ &#x27;stadium&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	98 [label="element\-7" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;spring_base&#x27;,\ &#x27;handle&#x27;,\ &#x27;element\-7&#x27;\)\nStadiumRevolution&quot;; console.log(s); alert(s);" tooltip=StadiumRevolution]
+	stadium_99 [label=stadium href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;spring_base&#x27;,\ &#x27;handle&#x27;,\ &#x27;element\-7&#x27;,\ &#x27;stadium&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	100 [label="element\-8" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;spring_base&#x27;,\ &#x27;handle&#x27;,\ &#x27;element\-8&#x27;\)\nStadiumPrism&quot;; console.log(s); alert(s);" tooltip=StadiumPrism]
+	cage_101 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;spring_base&#x27;,\ &#x27;handle&#x27;,\ &#x27;element\-8&#x27;,\ &#x27;cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	stadium_102 [label=stadium href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;spring_base&#x27;,\ &#x27;handle&#x27;,\ &#x27;element\-8&#x27;,\ &#x27;stadium&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	103 [label="element\-9" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;spring_base&#x27;,\ &#x27;handle&#x27;,\ &#x27;element\-9&#x27;\)\nStadiumRevolution&quot;; console.log(s); alert(s);" tooltip=StadiumRevolution]
+	stadium_104 [label=stadium href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;spring_base&#x27;,\ &#x27;handle&#x27;,\ &#x27;element\-9&#x27;,\ &#x27;stadium&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	105 [label="element\-10" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;spring_base&#x27;,\ &#x27;handle&#x27;,\ &#x27;element\-10&#x27;\)\nStadiumRevolution&quot;; console.log(s); alert(s);" tooltip=StadiumRevolution]
+	stadium_106 [label=stadium href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;spring_base&#x27;,\ &#x27;handle&#x27;,\ &#x27;element\-10&#x27;,\ &#x27;stadium&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	107 [label="element\-11" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;spring_base&#x27;,\ &#x27;handle&#x27;,\ &#x27;element\-11&#x27;\)\nStadiumPrism&quot;; console.log(s); alert(s);" tooltip=StadiumPrism]
+	cage_108 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;spring_base&#x27;,\ &#x27;handle&#x27;,\ &#x27;element\-11&#x27;,\ &#x27;cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	stadium_109 [label=stadium href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;spring_base&#x27;,\ &#x27;handle&#x27;,\ &#x27;element\-11&#x27;,\ &#x27;stadium&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	110 [label="element\-12" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;spring_base&#x27;,\ &#x27;handle&#x27;,\ &#x27;element\-12&#x27;\)\nStadiumRevolution&quot;; console.log(s); alert(s);" tooltip=StadiumRevolution]
+	stadium_111 [label=stadium href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;spring_base&#x27;,\ &#x27;handle&#x27;,\ &#x27;element\-12&#x27;,\ &#x27;stadium&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	112 [label="element\-13" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;spring_base&#x27;,\ &#x27;handle&#x27;,\ &#x27;element\-13&#x27;\)\nStadiumPrism&quot;; console.log(s); alert(s);" tooltip=StadiumPrism]
+	cage_113 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;spring_base&#x27;,\ &#x27;handle&#x27;,\ &#x27;element\-13&#x27;,\ &#x27;cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	stadium_114 [label=stadium href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;spring_base&#x27;,\ &#x27;handle&#x27;,\ &#x27;element\-13&#x27;,\ &#x27;stadium&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	115 [label="element\-14" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;spring_base&#x27;,\ &#x27;handle&#x27;,\ &#x27;element\-14&#x27;\)\nStadiumRevolution&quot;; console.log(s); alert(s);" tooltip=StadiumRevolution]
+	stadium_116 [label=stadium href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;spring_base&#x27;,\ &#x27;handle&#x27;,\ &#x27;element\-14&#x27;,\ &#x27;stadium&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	117 [label="element\-15" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;spring_base&#x27;,\ &#x27;handle&#x27;,\ &#x27;element\-15&#x27;\)\nStadiumRevolution&quot;; console.log(s); alert(s);" tooltip=StadiumRevolution]
+	stadium_118 [label=stadium href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;spring_base&#x27;,\ &#x27;handle&#x27;,\ &#x27;element\-15&#x27;,\ &#x27;stadium&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	mount_119 [label=mount href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mount&#x27;\)\nScabbardMountHole&quot;; console.log(s); alert(s);" tooltip=ScabbardMountHole]
+	inner_hole_120 [label=inner_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mount&#x27;,\ &#x27;inner_hole&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	inner_top_121 [label=inner_top href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mount&#x27;,\ &#x27;inner_top&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	cut_recess_hole_122 [label=cut_recess_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mount&#x27;,\ &#x27;cut_recess_hole&#x27;\)\nMaker&quot;; console.log(s); alert(s);" tooltip=Maker]
+	recess_hole_123 [label=recess_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mount&#x27;,\ &#x27;cut_recess_hole&#x27;,\ &#x27;recess_hole&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	cut_box_124 [label=cut_box href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mount&#x27;,\ &#x27;cut_recess_hole&#x27;,\ &#x27;cut_box&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	root_76 -> default_77
+	default_77 -> spring_base_78
+	spring_base_78 -> handle_79
+	handle_79 -> 80
+	80 -> cage_81
+	80 -> stadium_82
+	handle_79 -> 83
+	83 -> stadium_84
+	handle_79 -> 85
+	85 -> cage_86
+	85 -> stadium_87
+	handle_79 -> 88
+	88 -> stadium_89
+	handle_79 -> 90
+	90 -> cage_91
+	90 -> stadium_92
+	handle_79 -> 93
+	93 -> stadium_94
+	handle_79 -> 95
+	95 -> cage_96
+	95 -> stadium_97
+	handle_79 -> 98
+	98 -> stadium_99
+	handle_79 -> 100
+	100 -> cage_101
+	100 -> stadium_102
+	handle_79 -> 103
+	103 -> stadium_104
+	handle_79 -> 105
+	105 -> stadium_106
+	handle_79 -> 107
+	107 -> cage_108
+	107 -> stadium_109
+	handle_79 -> 110
+	110 -> stadium_111
+	handle_79 -> 112
+	112 -> cage_113
+	112 -> stadium_114
+	handle_79 -> 115
+	115 -> stadium_116
+	handle_79 -> 117
+	117 -> stadium_118
+	default_77 -> mount_119
+	mount_119 -> inner_hole_120
+	mount_119 -> inner_top_121
+	mount_119 -> cut_recess_hole_122
+	cut_recess_hole_122 -> recess_hole_123
+	cut_recess_hole_122 -> cut_box_124
+}

@@ -1,0 +1,3143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>AnchorScad Paths</title>
+    <style type="text/css">
+        .main-container {
+            text-align: center;
+            width: 640px;
+            margin: 0px;
+        }
+        .svg-path {
+            width: 600px;
+            margin-top: 10px;
+            margin-bottom: 0px;
+            padding: 2px 20px;
+        }
+        .svg-container {
+            width: 600px;
+            margin-top: 10px;
+            margin-bottom: 0px;
+            padding: 0px;
+        }
+        .download-button {
+            display: inline-block;
+            margin-top: 0px;
+            margin-bottom: 10px;
+            padding: 2px 20px;
+            font-size: 16px;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            margin: 0;
+            padding: 0;
+        }
+        .tooltip {
+            position: absolute;
+            background-color: #ffffff;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            padding: 5px;
+            border: 1px solid #ffffff;
+            z-index: 100;
+        }
+        #infoArea {
+            width: 50%; /* Set the width of the text area */
+            z-index: 1000; /* Ensure it floats above other elements */
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            resize: none; /* Optional: Disable resize if desired */
+        }
+        #infoArea.hovering {
+            height: 30%;
+        }
+        #infoArea.selected {
+            height: 50%;
+        }
+        @media print {
+            .no-print {
+                display: none;
+            }
+            .print-flow {
+                display: none;
+                position: static;
+                top: auto;
+                right: auto; 
+                height: 200px;
+                min-height: 50px;     /* Minimum height */
+                max-height: 300px;    /* Maximum height to prevent excessive growth */
+                overflow: hidden;     /* Hide scrollbars */
+                resize: none;         /* Disable manual resizing */
+            }
+        }
+        @media screen {      
+            .screen-flow {
+                position: fixed;
+                top: 10px; /* Adjust as needed */
+                right: 10px; /* Adjust as needed */
+                height: 40px; /* Set the height of the text area */
+            }
+        }
+        
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    
+        let image_metadata = {
+  "path_items": {
+    "path0": {
+      "id": 0,
+      "div_id": "div0",
+      "path_id": "path0",
+      "anchors": {
+        "anchor_paths": [
+          {
+            "shape_path": [
+              "root",
+              "default",
+              "case",
+              "hull"
+            ]
+          },
+          {
+            "shape_path": [
+              "root",
+              "default",
+              "case_base",
+              "hull"
+            ]
+          },
+          {
+            "shape_path": [
+              "root",
+              "default",
+              "case_lid",
+              "hull"
+            ]
+          }
+        ]
+      }
+    },
+    "path1": {
+      "id": 1,
+      "div_id": "div1",
+      "path_id": "path1",
+      "anchors": {
+        "anchor_paths": [
+          {
+            "shape_path": [
+              "root",
+              "default",
+              "wire_hole_upper",
+              "wire_hole",
+              "('item', 0)"
+            ]
+          },
+          {
+            "shape_path": [
+              "root",
+              "default",
+              "wire_hole_upper",
+              "wire_hole",
+              "('item', 2)"
+            ]
+          },
+          {
+            "shape_path": [
+              "root",
+              "default",
+              "wire_hole_upper",
+              "wire_hole",
+              "('item', 4)"
+            ]
+          },
+          {
+            "shape_path": [
+              "root",
+              "default",
+              "wire_hole_lower",
+              "wire_hole",
+              "('item', 0)"
+            ]
+          },
+          {
+            "shape_path": [
+              "root",
+              "default",
+              "wire_hole_lower",
+              "wire_hole",
+              "('item', 2)"
+            ]
+          },
+          {
+            "shape_path": [
+              "root",
+              "default",
+              "wire_hole_lower",
+              "wire_hole",
+              "('item', 4)"
+            ]
+          }
+        ]
+      }
+    },
+    "path2": {
+      "id": 2,
+      "div_id": "div2",
+      "path_id": "path2",
+      "anchors": {
+        "anchor_paths": [
+          {
+            "shape_path": [
+              "root",
+              "default",
+              "wire_hole_upper",
+              "wire_hole",
+              "('item', 1)"
+            ]
+          },
+          {
+            "shape_path": [
+              "root",
+              "default",
+              "wire_hole_lower",
+              "wire_hole",
+              "('item', 3)"
+            ]
+          }
+        ]
+      }
+    },
+    "path3": {
+      "id": 3,
+      "div_id": "div3",
+      "path_id": "path3",
+      "anchors": {
+        "anchor_paths": [
+          {
+            "shape_path": [
+              "root",
+              "default",
+              "wire_hole_upper",
+              "wire_hole",
+              "('item', 3)"
+            ]
+          },
+          {
+            "shape_path": [
+              "root",
+              "default",
+              "wire_hole_lower",
+              "wire_hole",
+              "('item', 1)"
+            ]
+          }
+        ]
+      }
+    },
+    "path4": {
+      "id": 4,
+      "div_id": "div4",
+      "path_id": "path4",
+      "anchors": {
+        "anchor_paths": [
+          {
+            "shape_path": [
+              "root",
+              "default",
+              "('screw', 0)",
+              "top_screw",
+              "screw_hole"
+            ]
+          },
+          {
+            "shape_path": [
+              "root",
+              "default",
+              "('screw', 1)",
+              "top_screw",
+              "screw_hole"
+            ]
+          },
+          {
+            "shape_path": [
+              "root",
+              "default",
+              "('screw', 2)",
+              "top_screw",
+              "screw_hole"
+            ]
+          },
+          {
+            "shape_path": [
+              "root",
+              "default",
+              "('screw', 3)",
+              "top_screw",
+              "screw_hole"
+            ]
+          }
+        ]
+      }
+    }
+  }
+};
+        let segment_metadata = {
+  "segdict": {
+    "seg_id1": {
+      "path_id": "path0",
+      "name": null,
+      "trace": [
+        "anchorscad_models/basic/box_side_bevels.py",
+        69
+      ],
+      "shape_type": "moveto",
+      "path": "M 4 0",
+      "points": [
+        [
+          4.0,
+          0.0
+        ]
+      ],
+      "sweep_angle": null,
+      "sweep_flag": null,
+      "id": "seg_id1",
+      "css_clazz": "path",
+      "shape_css_clazz": "shape"
+    },
+    "seg_id2": {
+      "path_id": "path0",
+      "name": "face_0",
+      "trace": [
+        "anchorscad_models/basic/box_side_bevels.py",
+        70
+      ],
+      "shape_type": "lineto",
+      "path": "M 4 0 L 60.3 0",
+      "points": [
+        [
+          4.0,
+          0.0
+        ],
+        [
+          60.3,
+          0.0
+        ]
+      ],
+      "sweep_angle": null,
+      "sweep_flag": null,
+      "id": "seg_id2",
+      "css_clazz": "path",
+      "shape_css_clazz": "shape"
+    },
+    "seg_id3": {
+      "path_id": "path0",
+      "name": "edge_0_5",
+      "trace": [
+        "anchorscad_models/basic/box_side_bevels.py",
+        71
+      ],
+      "shape_type": "arcto1",
+      "path": "M 60.3 0 A 4 4 0 0 1 64.3 4",
+      "points": [
+        [
+          60.3,
+          0.0
+        ],
+        [
+          64.3,
+          4.0
+        ],
+        [
+          60.30000000000001,
+          4.000000000000006
+        ]
+      ],
+      "sweep_angle": 1.5707963267948986,
+      "sweep_flag": 1,
+      "id": "seg_id3",
+      "css_clazz": "path",
+      "shape_css_clazz": "shape"
+    },
+    "seg_id4": {
+      "path_id": "path0",
+      "name": "face_5",
+      "trace": [
+        "anchorscad_models/basic/box_side_bevels.py",
+        72
+      ],
+      "shape_type": "lineto",
+      "path": "M 64.3 4 L 64.3 61",
+      "points": [
+        [
+          64.3,
+          4.0
+        ],
+        [
+          64.3,
+          61.0
+        ]
+      ],
+      "sweep_angle": null,
+      "sweep_flag": null,
+      "id": "seg_id4",
+      "css_clazz": "path",
+      "shape_css_clazz": "shape"
+    },
+    "seg_id5": {
+      "path_id": "path0",
+      "name": "edge_5_3",
+      "trace": [
+        "anchorscad_models/basic/box_side_bevels.py",
+        73
+      ],
+      "shape_type": "arcto1",
+      "path": "M 64.3 61 A 4 4 0 0 1 60.3 65",
+      "points": [
+        [
+          64.3,
+          61.0
+        ],
+        [
+          60.3,
+          65.0
+        ],
+        [
+          60.30000000000001,
+          61.00000000000001
+        ]
+      ],
+      "sweep_angle": 1.5707963267949019,
+      "sweep_flag": 1,
+      "id": "seg_id5",
+      "css_clazz": "path",
+      "shape_css_clazz": "shape"
+    },
+    "seg_id6": {
+      "path_id": "path0",
+      "name": "face_3",
+      "trace": [
+        "anchorscad_models/basic/box_side_bevels.py",
+        74
+      ],
+      "shape_type": "lineto",
+      "path": "M 60.3 65 L 4 65",
+      "points": [
+        [
+          60.3,
+          65.0
+        ],
+        [
+          4.0,
+          65.0
+        ]
+      ],
+      "sweep_angle": null,
+      "sweep_flag": null,
+      "id": "seg_id6",
+      "css_clazz": "path",
+      "shape_css_clazz": "shape"
+    },
+    "seg_id7": {
+      "path_id": "path0",
+      "name": "edge_3_2",
+      "trace": [
+        "anchorscad_models/basic/box_side_bevels.py",
+        75
+      ],
+      "shape_type": "arcto1",
+      "path": "M 4 65 A 4 4 0 0 1 0 61",
+      "points": [
+        [
+          4.0,
+          65.0
+        ],
+        [
+          0.0,
+          61.0
+        ],
+        [
+          4.0,
+          61.00000000000001
+        ]
+      ],
+      "sweep_angle": 1.5707963267948983,
+      "sweep_flag": 1,
+      "id": "seg_id7",
+      "css_clazz": "path",
+      "shape_css_clazz": "shape"
+    },
+    "seg_id8": {
+      "path_id": "path0",
+      "name": "face_2",
+      "trace": [
+        "anchorscad_models/basic/box_side_bevels.py",
+        76
+      ],
+      "shape_type": "lineto",
+      "path": "M 0 61 L 0 4",
+      "points": [
+        [
+          0.0,
+          61.0
+        ],
+        [
+          0.0,
+          4.0
+        ]
+      ],
+      "sweep_angle": null,
+      "sweep_flag": null,
+      "id": "seg_id8",
+      "css_clazz": "path",
+      "shape_css_clazz": "shape"
+    },
+    "seg_id9": {
+      "path_id": "path0",
+      "name": "edge_3_0",
+      "trace": [
+        "anchorscad_models/basic/box_side_bevels.py",
+        77
+      ],
+      "shape_type": "arcto1",
+      "path": "M 0 4 A 4 4 0 0 1 4 0",
+      "points": [
+        [
+          0.0,
+          4.0
+        ],
+        [
+          4.0,
+          0.0
+        ],
+        [
+          4.0,
+          4.0
+        ]
+      ],
+      "sweep_angle": 1.5707963267948966,
+      "sweep_flag": 1,
+      "id": "seg_id9",
+      "css_clazz": "path",
+      "shape_css_clazz": "shape"
+    },
+    "seg_id10": {
+      "path_id": "path1",
+      "name": null,
+      "trace": [
+        "anchorscad_models/components/switches/toggle.py",
+        146
+      ],
+      "shape_type": "moveto",
+      "path": "M 0 0",
+      "points": [
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "sweep_angle": null,
+      "sweep_flag": null,
+      "id": "seg_id10",
+      "css_clazz": "path",
+      "shape_css_clazz": "shape"
+    },
+    "seg_id11": {
+      "path_id": "path1",
+      "name": "centerline",
+      "trace": [
+        "anchorscad_models/components/switches/toggle.py",
+        147
+      ],
+      "shape_type": "lineto",
+      "path": "M 0 0 L -3.3 0",
+      "points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -3.3,
+          0.0
+        ]
+      ],
+      "sweep_angle": null,
+      "sweep_flag": null,
+      "id": "seg_id11",
+      "css_clazz": "path",
+      "shape_css_clazz": "shape"
+    },
+    "seg_id12": {
+      "path_id": "path1",
+      "name": "arc",
+      "trace": [
+        "anchorscad_models/components/switches/toggle.py",
+        148
+      ],
+      "shape_type": "arcto1",
+      "path": "M -3.3 0 A 3.3 3.3 0 0 0 3.3 4.04133E-16",
+      "points": [
+        [
+          -3.3,
+          0.0
+        ],
+        [
+          3.3,
+          4.0413344371862655e-16
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "sweep_angle": 3.141592653589793,
+      "sweep_flag": 0,
+      "id": "seg_id12",
+      "css_clazz": "path",
+      "shape_css_clazz": "shape"
+    },
+    "seg_id13": {
+      "path_id": "path1",
+      "name": "rhs",
+      "trace": [
+        "anchorscad_models/components/switches/toggle.py",
+        154
+      ],
+      "shape_type": "lineto",
+      "path": "M 3.3 4.04133E-16 L 3.3 -3.3",
+      "points": [
+        [
+          3.3,
+          4.0413344371862655e-16
+        ],
+        [
+          3.3,
+          -3.2999999999999994
+        ]
+      ],
+      "sweep_angle": null,
+      "sweep_flag": null,
+      "id": "seg_id13",
+      "css_clazz": "path",
+      "shape_css_clazz": "shape"
+    },
+    "seg_id14": {
+      "path_id": "path1",
+      "name": "base",
+      "trace": [
+        "anchorscad_models/components/switches/toggle.py",
+        155
+      ],
+      "shape_type": "lineto",
+      "path": "M 3.3 -3.3 L -3.3 -3.3",
+      "points": [
+        [
+          3.3,
+          -3.2999999999999994
+        ],
+        [
+          -3.3,
+          -3.2999999999999994
+        ]
+      ],
+      "sweep_angle": null,
+      "sweep_flag": null,
+      "id": "seg_id14",
+      "css_clazz": "path",
+      "shape_css_clazz": "shape"
+    },
+    "seg_id15": {
+      "path_id": "path1",
+      "name": "lhs",
+      "trace": [
+        "anchorscad_models/components/switches/toggle.py",
+        156
+      ],
+      "shape_type": "lineto",
+      "path": "M -3.3 -3.3 L -3.3 4.44089E-16",
+      "points": [
+        [
+          -3.3,
+          -3.2999999999999994
+        ],
+        [
+          -3.3,
+          4.440892098500626e-16
+        ]
+      ],
+      "sweep_angle": null,
+      "sweep_flag": null,
+      "id": "seg_id15",
+      "css_clazz": "path",
+      "shape_css_clazz": "shape"
+    },
+    "seg_id16": {
+      "path_id": "path2",
+      "name": null,
+      "trace": [
+        "anchorscad_models/components/switches/toggle.py",
+        146
+      ],
+      "shape_type": "moveto",
+      "path": "M 9.3 3.3",
+      "points": [
+        [
+          9.3,
+          3.2999999999999994
+        ]
+      ],
+      "sweep_angle": null,
+      "sweep_flag": null,
+      "id": "seg_id16",
+      "css_clazz": "path",
+      "shape_css_clazz": "shape"
+    },
+    "seg_id17": {
+      "path_id": "path2",
+      "name": "centerline",
+      "trace": [
+        "anchorscad_models/components/switches/toggle.py",
+        147
+      ],
+      "shape_type": "lineto",
+      "path": "M 9.3 3.3 L 6 3.3",
+      "points": [
+        [
+          9.3,
+          3.2999999999999994
+        ],
+        [
+          6.0,
+          3.2999999999999994
+        ]
+      ],
+      "sweep_angle": null,
+      "sweep_flag": null,
+      "id": "seg_id17",
+      "css_clazz": "path",
+      "shape_css_clazz": "shape"
+    },
+    "seg_id18": {
+      "path_id": "path2",
+      "name": "arc",
+      "trace": [
+        "anchorscad_models/components/switches/toggle.py",
+        148
+      ],
+      "shape_type": "arcto1",
+      "path": "M 6 3.3 A 3.3 3.3 0 0 0 12.6 3.3",
+      "points": [
+        [
+          6.0,
+          3.2999999999999994
+        ],
+        [
+          12.6,
+          3.3
+        ],
+        [
+          9.3,
+          3.2999999999999994
+        ]
+      ],
+      "sweep_angle": 3.141592653589793,
+      "sweep_flag": 0,
+      "id": "seg_id18",
+      "css_clazz": "path",
+      "shape_css_clazz": "shape"
+    },
+    "seg_id19": {
+      "path_id": "path2",
+      "name": "rhs",
+      "trace": [
+        "anchorscad_models/components/switches/toggle.py",
+        154
+      ],
+      "shape_type": "lineto",
+      "path": "M 12.6 3.3 L 12.6 0",
+      "points": [
+        [
+          12.6,
+          3.3
+        ],
+        [
+          12.6,
+          0.0
+        ]
+      ],
+      "sweep_angle": null,
+      "sweep_flag": null,
+      "id": "seg_id19",
+      "css_clazz": "path",
+      "shape_css_clazz": "shape"
+    },
+    "seg_id20": {
+      "path_id": "path2",
+      "name": "base",
+      "trace": [
+        "anchorscad_models/components/switches/toggle.py",
+        155
+      ],
+      "shape_type": "lineto",
+      "path": "M 12.6 0 L 6 0",
+      "points": [
+        [
+          12.6,
+          0.0
+        ],
+        [
+          6.0,
+          0.0
+        ]
+      ],
+      "sweep_angle": null,
+      "sweep_flag": null,
+      "id": "seg_id20",
+      "css_clazz": "path",
+      "shape_css_clazz": "shape"
+    },
+    "seg_id21": {
+      "path_id": "path2",
+      "name": "lhs",
+      "trace": [
+        "anchorscad_models/components/switches/toggle.py",
+        156
+      ],
+      "shape_type": "lineto",
+      "path": "M 6 0 L 6 3.3",
+      "points": [
+        [
+          6.0,
+          0.0
+        ],
+        [
+          6.0,
+          3.3
+        ]
+      ],
+      "sweep_angle": null,
+      "sweep_flag": null,
+      "id": "seg_id21",
+      "css_clazz": "path",
+      "shape_css_clazz": "shape"
+    },
+    "seg_id22": {
+      "path_id": "path3",
+      "name": null,
+      "trace": [
+        "anchorscad_models/components/switches/toggle.py",
+        146
+      ],
+      "shape_type": "moveto",
+      "path": "M 9.3 4.44089E-16",
+      "points": [
+        [
+          9.3,
+          4.440892098500626e-16
+        ]
+      ],
+      "sweep_angle": null,
+      "sweep_flag": null,
+      "id": "seg_id22",
+      "css_clazz": "path",
+      "shape_css_clazz": "shape"
+    },
+    "seg_id23": {
+      "path_id": "path3",
+      "name": "centerline",
+      "trace": [
+        "anchorscad_models/components/switches/toggle.py",
+        147
+      ],
+      "shape_type": "lineto",
+      "path": "M 9.3 4.44089E-16 L 12.6 4.44089E-16",
+      "points": [
+        [
+          9.3,
+          4.440892098500626e-16
+        ],
+        [
+          12.6,
+          4.440892098500626e-16
+        ]
+      ],
+      "sweep_angle": null,
+      "sweep_flag": null,
+      "id": "seg_id23",
+      "css_clazz": "path",
+      "shape_css_clazz": "shape"
+    },
+    "seg_id24": {
+      "path_id": "path3",
+      "name": "arc",
+      "trace": [
+        "anchorscad_models/components/switches/toggle.py",
+        148
+      ],
+      "shape_type": "arcto1",
+      "path": "M 12.6 4.44089E-16 A 3.3 3.3 0 0 0 6 3.99558E-17",
+      "points": [
+        [
+          12.6,
+          4.440892098500626e-16
+        ],
+        [
+          6.0,
+          3.9955766131436065e-17
+        ],
+        [
+          9.3,
+          4.440892098500626e-16
+        ]
+      ],
+      "sweep_angle": 3.141592653589793,
+      "sweep_flag": 0,
+      "id": "seg_id24",
+      "css_clazz": "path",
+      "shape_css_clazz": "shape"
+    },
+    "seg_id25": {
+      "path_id": "path3",
+      "name": "rhs",
+      "trace": [
+        "anchorscad_models/components/switches/toggle.py",
+        154
+      ],
+      "shape_type": "lineto",
+      "path": "M 6 3.99558E-17 L 6 3.3",
+      "points": [
+        [
+          6.0,
+          3.9955766131436065e-17
+        ],
+        [
+          6.0,
+          3.3
+        ]
+      ],
+      "sweep_angle": null,
+      "sweep_flag": null,
+      "id": "seg_id25",
+      "css_clazz": "path",
+      "shape_css_clazz": "shape"
+    },
+    "seg_id26": {
+      "path_id": "path3",
+      "name": "base",
+      "trace": [
+        "anchorscad_models/components/switches/toggle.py",
+        155
+      ],
+      "shape_type": "lineto",
+      "path": "M 6 3.3 L 12.6 3.3",
+      "points": [
+        [
+          6.0,
+          3.3
+        ],
+        [
+          12.6,
+          3.3
+        ]
+      ],
+      "sweep_angle": null,
+      "sweep_flag": null,
+      "id": "seg_id26",
+      "css_clazz": "path",
+      "shape_css_clazz": "shape"
+    },
+    "seg_id27": {
+      "path_id": "path3",
+      "name": "lhs",
+      "trace": [
+        "anchorscad_models/components/switches/toggle.py",
+        156
+      ],
+      "shape_type": "lineto",
+      "path": "M 12.6 3.3 L 12.6 0",
+      "points": [
+        [
+          12.6,
+          3.3
+        ],
+        [
+          12.6,
+          0.0
+        ]
+      ],
+      "sweep_angle": null,
+      "sweep_flag": null,
+      "id": "seg_id27",
+      "css_clazz": "path",
+      "shape_css_clazz": "shape"
+    },
+    "seg_id28": {
+      "path_id": "path4",
+      "name": null,
+      "trace": [
+        "anchorscad_models/screws/CountersunkScrew.py",
+        155
+      ],
+      "shape_type": "moveto",
+      "path": "M 0 0",
+      "points": [
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "sweep_angle": null,
+      "sweep_flag": null,
+      "id": "seg_id28",
+      "css_clazz": "path",
+      "shape_css_clazz": "shape"
+    },
+    "seg_id29": {
+      "path_id": "path4",
+      "name": "base_edge",
+      "trace": [
+        "anchorscad_models/screws/CountersunkScrew.py",
+        156
+      ],
+      "shape_type": "lineto",
+      "path": "M 0 0 L -2.275 0",
+      "points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -2.275,
+          0.0
+        ]
+      ],
+      "sweep_angle": null,
+      "sweep_flag": null,
+      "id": "seg_id29",
+      "css_clazz": "path",
+      "shape_css_clazz": "shape"
+    },
+    "seg_id30": {
+      "path_id": "path4",
+      "name": "tapping_edge",
+      "trace": [
+        "anchorscad_models/screws/CountersunkScrew.py",
+        157
+      ],
+      "shape_type": "lineto",
+      "path": "M -2.275 0 L -2.275 0",
+      "points": [
+        [
+          -2.275,
+          0.0
+        ],
+        [
+          -2.275,
+          0.0
+        ]
+      ],
+      "sweep_angle": null,
+      "sweep_flag": null,
+      "id": "seg_id30",
+      "css_clazz": "path",
+      "shape_css_clazz": "shape"
+    },
+    "seg_id31": {
+      "path_id": "path4",
+      "name": "taper_edge",
+      "trace": [
+        "anchorscad_models/screws/CountersunkScrew.py",
+        158
+      ],
+      "shape_type": "lineto",
+      "path": "M -2.275 0 L -2.4 0",
+      "points": [
+        [
+          -2.275,
+          0.0
+        ],
+        [
+          -2.4,
+          0.0
+        ]
+      ],
+      "sweep_angle": null,
+      "sweep_flag": null,
+      "id": "seg_id31",
+      "css_clazz": "path",
+      "shape_css_clazz": "shape"
+    },
+    "seg_id32": {
+      "path_id": "path4",
+      "name": "head_bot",
+      "trace": [
+        "anchorscad_models/screws/CountersunkScrew.py",
+        159
+      ],
+      "shape_type": "lineto",
+      "path": "M -2.4 0 L -2.4 32.9",
+      "points": [
+        [
+          -2.4,
+          0.0
+        ],
+        [
+          -2.4,
+          32.9
+        ]
+      ],
+      "sweep_angle": null,
+      "sweep_flag": null,
+      "id": "seg_id32",
+      "css_clazz": "path",
+      "shape_css_clazz": "shape"
+    },
+    "seg_id33": {
+      "path_id": "path4",
+      "name": "head_bot_base",
+      "trace": [
+        "anchorscad_models/screws/CountersunkScrew.py",
+        160
+      ],
+      "shape_type": "lineto",
+      "path": "M -2.4 32.9 L -2.275 32.9",
+      "points": [
+        [
+          -2.4,
+          32.9
+        ],
+        [
+          -2.275,
+          32.9
+        ]
+      ],
+      "sweep_angle": null,
+      "sweep_flag": null,
+      "id": "seg_id33",
+      "css_clazz": "path",
+      "shape_css_clazz": "shape"
+    },
+    "seg_id34": {
+      "path_id": "path4",
+      "name": "head_mid",
+      "trace": [
+        "anchorscad_models/screws/CountersunkScrew.py",
+        161
+      ],
+      "shape_type": "lineto",
+      "path": "M -2.275 32.9 L -4.75 34.9",
+      "points": [
+        [
+          -2.275,
+          32.9
+        ],
+        [
+          -4.75,
+          34.9
+        ]
+      ],
+      "sweep_angle": null,
+      "sweep_flag": null,
+      "id": "seg_id34",
+      "css_clazz": "path",
+      "shape_css_clazz": "shape"
+    },
+    "seg_id35": {
+      "path_id": "path4",
+      "name": "head_top",
+      "trace": [
+        "anchorscad_models/screws/CountersunkScrew.py",
+        162
+      ],
+      "shape_type": "lineto",
+      "path": "M -4.75 34.9 L -4.75 35",
+      "points": [
+        [
+          -4.75,
+          34.9
+        ],
+        [
+          -4.75,
+          35.0
+        ]
+      ],
+      "sweep_angle": null,
+      "sweep_flag": null,
+      "id": "seg_id35",
+      "css_clazz": "path",
+      "shape_css_clazz": "shape"
+    },
+    "seg_id36": {
+      "path_id": "path4",
+      "name": "top_edge",
+      "trace": [
+        "anchorscad_models/screws/CountersunkScrew.py",
+        163
+      ],
+      "shape_type": "lineto",
+      "path": "M -4.75 35 L 0 35",
+      "points": [
+        [
+          -4.75,
+          35.0
+        ],
+        [
+          0.0,
+          35.0
+        ]
+      ],
+      "sweep_angle": null,
+      "sweep_flag": null,
+      "id": "seg_id36",
+      "css_clazz": "path",
+      "shape_css_clazz": "shape"
+    },
+    "seg_id37": {
+      "path_id": "path4",
+      "name": "centre_edge",
+      "trace": [
+        "anchorscad_models/screws/CountersunkScrew.py",
+        164
+      ],
+      "shape_type": "lineto",
+      "path": "M 0 35 L 0 0",
+      "points": [
+        [
+          0.0,
+          35.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "sweep_angle": null,
+      "sweep_flag": null,
+      "id": "seg_id37",
+      "css_clazz": "path",
+      "shape_css_clazz": "shape"
+    }
+  }
+};
+    
+        /**
+         * Downloads an SVG element as a file.
+         *
+         * @param {string} svgId - The ID of the SVG element to download.
+         * @param {string} filename - The name of the file to be downloaded (e.g., "image.svg").
+         */
+        function downloadSVG(svgId, filename) {
+            // Get the SVG element by its ID
+            const svgElement = document.getElementById(svgId);
+            if (!svgElement) {
+                console.error(`No SVG element found with ID "${svgId}".`);
+                return;
+            }
+
+            // Clone the SVG node to avoid modifying the original
+            const clonedSvg = svgElement.cloneNode(true);
+
+            // Serialize the SVG to a string
+            const serializer = new XMLSerializer();
+            let svgString = serializer.serializeToString(clonedSvg);
+
+            // Create a Blob from the SVG string
+            const blob = new Blob([svgString], { type: "image/svg+xml;charset=utf-8" });
+
+            // Create a temporary link element
+            const link = document.createElement("a");
+            link.href = URL.createObjectURL(blob);
+            link.download = filename;
+
+            // Append the link to the body (required for Firefox)
+            document.body.appendChild(link);
+
+            // Trigger the download by simulating a click
+            link.click();
+
+            // Clean up by removing the link and revoking the object URL
+            document.body.removeChild(link);
+            URL.revokeObjectURL(link.href);
+        }
+    
+        /**
+         * Downloads an SVG element as a PNG file.
+         *
+         * @param {string} svgId - The ID of the SVG element to download.
+         * @param {string} filename - The name of the file to be downloaded (e.g., "image.png").
+         */
+        function downloadPNG(svgId, filename) {
+            const svg = document.getElementById(svgId);
+
+            // Serialize the SVG XML
+            const serializer = new XMLSerializer();
+            let svgString = serializer.serializeToString(svg);
+
+            // Convert SVG string to a data URL
+            const svgData = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svgString);
+
+            // Create an Image object
+            const img = new Image();
+            
+            // Handle CORS if necessary (uncomment if your SVG uses external resources)
+            // img.crossOrigin = 'anonymous';
+
+            img.onload = function () {
+                // Create a canvas element
+                const canvas = document.createElement('canvas');
+                canvas.width = svg.clientWidth;
+                canvas.height = svg.clientHeight;
+
+                // Draw the SVG image onto the canvas
+                const ctx = canvas.getContext('2d');
+                ctx.drawImage(img, 0, 0);
+
+                // Convert the canvas to a PNG data URL
+                const pngData = canvas.toDataURL('image/png');
+
+                // Create a temporary link to trigger the download
+                const downloadLink = document.createElement('a');
+                downloadLink.href = pngData;
+                downloadLink.download = filename;
+
+                // Append the link, click it, and remove it
+                document.body.appendChild(downloadLink);
+                downloadLink.click();
+                document.body.removeChild(downloadLink);
+            };
+
+            // Set the source of the Image to the SVG data URL
+            img.src = svgData;
+        }
+        
+        function deferrred() {
+            let JQ = $;  // Alias for jQuery.
+            
+            // Updates the text area with metadata information.
+            function updateTextArea(content) {
+                JQ('#infoArea').val(content);
+            }
+            
+            function clearSelected(includeVisuals=true) {
+                JQ('.selected').removeClass('selected');
+                if (includeVisuals) {
+                    JQ('.metadata-visuals').remove();
+                }
+            }
+            
+            function addDots(points, svgGroup, segId) {
+                points.forEach(point => {
+                    const dot = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+                    dot.setAttribute('cx', point[0]);
+                    dot.setAttribute('cy', point[1]);
+                    dot.classList.add('dot', 'metadata-visuals', segId);
+                    svgGroup.append(dot, document.createTextNode('\n        '));
+                });
+            }
+            
+            function addCursorDot(point, svgGroup, segId) {
+                const dot = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+                dot.setAttribute('cx', point[0]);
+                dot.setAttribute('cy', point[1]);
+                // Remove existing cursor dots with the same ID.
+                JQ(`.cursor-dot`).remove();
+                dot.classList.add('cursor-dot', 'metadata-visuals', segId);
+                svgGroup.append(dot, document.createTextNode('\n        '));
+            }
+            
+            function addControlLine(p1, p2, svgGroup, segId) {
+                const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+                line.setAttribute('x1', p1[0]);
+                line.setAttribute('y1', p1[1]);
+                line.setAttribute('x2', p2[0]);
+                line.setAttribute('y2', p2[1]);
+                line.classList.add('control-line', 'metadata-visuals', segId);
+                svgGroup.append(line, document.createTextNode('\n        '));
+            }
+            
+            function handleArc(segmentData, svgGroup, segId) {
+                addDots(segmentData.points, svgGroup, segId);
+                addControlLine(segmentData.points[0], segmentData.points[2], svgGroup, segId);
+                addControlLine(segmentData.points[1], segmentData.points[2], svgGroup, segId);
+            }
+
+            function handleSpline(segmentData, svgGroup, segId) {
+                addDots(segmentData.points, svgGroup, segId);
+                addControlLine(segmentData.points[0], segmentData.points[1], svgGroup, segId);
+                addControlLine(segmentData.points[2], segmentData.points[3], svgGroup, segId);
+            }
+
+            function handleLine(segmentData, svgGroup, segId) {
+                addDots(segmentData.points, svgGroup, segId);
+            }
+            
+            function handleQuadSpline(segmentData, svgGroup, segId) {
+                addDots(segmentData.points, svgGroup, segId);
+                addControlLine(segmentData.points[0], segmentData.points[1], svgGroup, segId);
+                addControlLine(segmentData.points[1], segmentData.points[2], svgGroup, segId);
+            }
+            
+            class Handler {
+                constructor(renderHandler, evaluator) {
+                    this.renderHandler = renderHandler;
+                    this.evaluator = evaluator;
+                }
+            }
+                        
+            function evaluateCubicBezier(segmentData, t) {
+                const [p0, p1, p2, p3] = segmentData.points;
+
+                const x = (1 - t) ** 3 * p0[0] 
+                        + 3 * (1 - t) ** 2 * t * p1[0] 
+                        + 3 * (1 - t) * t ** 2 * p2[0] 
+                        + t ** 3 * p3[0];
+                const y = (1 - t) ** 3 * p0[1] 
+                        + 3 * (1 - t) ** 2 * t * p1[1] 
+                        + 3 * (1 - t) * t ** 2 * p2[1] 
+                        + t ** 3 * p3[1];
+
+                return [x, y];
+            }
+
+            function evaluateQuadraticBezier(segmentData, t) {
+                const [p0, p1, p2] = segmentData.points;
+
+                const x = (1 - t) ** 2 * p0[0] 
+                        + 2 * (1 - t) * t * p1[0] 
+                        + t ** 2 * p2[0];
+                const y = (1 - t) ** 2 * p0[1] 
+                        + 2 * (1 - t) * t * p1[1] 
+                        + t ** 2 * p2[1];
+
+                return [x, y];
+            }
+
+            function evaluateArc(segmentData, t) {
+                const [startPoint, endPoint, centerPoint] = segmentData.points;
+
+                // Calculate initial radius
+                const radius1 = Math.sqrt(
+                    (startPoint[0] - centerPoint[0]) ** 2 + (startPoint[1] - centerPoint[1]) ** 2);
+
+                // Calculate final radius
+                const radius2 = Math.sqrt(
+                    (endPoint[0] - centerPoint[0]) ** 2 + (endPoint[1] - centerPoint[1]) ** 2);
+
+                // Interpolate radius
+                const interpolatedRadius = radius1 + (radius2 - radius1) * t;
+
+                // Calculate initial angle
+                const initialAngle = Math.atan2(
+                    startPoint[1] - centerPoint[1], startPoint[0] - centerPoint[0]);
+
+                const sweepAngle = segmentData.sweep_flag ? segmentData.sweep_angle : -segmentData.sweep_angle;
+                //const sweepAngle = segmentData.sweep_angle;
+                
+                // Calculate final angle
+                const finalAngle = sweepAngle * t + initialAngle;;
+
+                // Calculate point on arc
+                const x = centerPoint[0] + interpolatedRadius * Math.cos(finalAngle);
+                const y = centerPoint[1] + interpolatedRadius * Math.sin(finalAngle);
+
+                return [x, y];
+            }
+
+            function evaluateLine(segmentData, t) {
+                const [startPoint, endPoint] = segmentData.points;
+
+                // Calculate point on line based on t
+                const x = startPoint[0] + t * (endPoint[0] - startPoint[0]);
+                const y = startPoint[1] + t * (endPoint[1] - startPoint[1]);
+
+                return [x, y];
+            }
+
+            const SEGMENT_HANDLERS = {
+                'arcto1': new Handler(handleArc, evaluateArc),
+                'splineto': new Handler(handleSpline, evaluateCubicBezier),
+                'lineto': new Handler(handleLine, evaluateLine),
+                'qsplineto': new Handler(handleQuadSpline, evaluateQuadraticBezier),
+                // Add more shape types as needed
+            };
+            
+            function handleSegment(node, segmentData, event, segId) {
+                const handler = SEGMENT_HANDLERS[segmentData.shape_type];
+                if (handler) {         
+                    const svg = document.getElementById(segmentData.path_id);
+                    const group = svg.querySelector('g');
+                    const pointer = getSVGCoordinates(event, svg, group);
+                    const t = findClosestT(handler.evaluator, segmentData, pointer);
+                    const actualPoint = handler.evaluator(segmentData, t);
+                    const svgGroup = getSvgGroup(segmentData.path_id);
+                
+                    // Remove existing visual elements.
+                    JQ(`.dot.${segId}`).remove();
+                    JQ(`.control-line.${segId}`).remove();
+                    handler.renderHandler(segmentData, svgGroup, segId);
+                    addCursorDot(actualPoint, group, segId);
+                    return { 'point': actualPoint, 't': t };
+                } else {
+                    console.error(`No handler found for shape_type: ${segmentData.shape_type}`);
+                }
+                return null;
+            }
+            
+            function getSvgGroup(pathId) {
+                return JQ(`#${pathId} > g`);
+            }
+            
+            function findClosestT(evaluator, segmentData, point) {
+                function distanceSquared(t) {
+                    const evaluatedPoint = evaluator(segmentData, t);
+                    const dx = evaluatedPoint[0] - point[0];
+                    const dy = evaluatedPoint[1] - point[1];
+                    return dx * dx + dy * dy;
+                }
+
+                const t = newtonRaphson(distanceSquared, 0.5); // Initial guess: t = 0.5
+
+                return t;
+            }
+
+            function newtonRaphson(f, x0, tol = 1e-6, maxIter = 100) {
+                let x = x0;
+                let fx = f(x);
+                let df = numericalDerivative(f, x);
+
+                for (let i = 0; i < maxIter; i++) {
+                    if (Math.abs(df) < tol) {
+                        break;
+                    }
+
+                    const dx = -fx / df;
+                    x += dx;
+                    if (x < 0) {
+                        x = i * 1.0 / maxIter;
+                    } else if (x > 1) {
+                        x = 1.0 - i * 1.0 / maxIter;
+                    }
+                    fx = f(x);
+                    df = numericalDerivative(f, x);
+                }
+
+                return x;
+            }
+
+            function numericalDerivative(f, x, h = 1e-6) {
+                return (f(x + h) - f(x)) / h;
+            }
+            
+            function getSVGCoordinates(evt, svg, group) {
+                // Create an SVGPoint instance to hold the mouse coordinates
+                const point = svg.createSVGPoint();
+
+                // Set the point's x and y to the mouse event's client coordinates
+                point.x = evt.clientX;
+                point.y = evt.clientY;
+
+                // Get the current transformation matrix of the SVG element
+                const ctm = group.getScreenCTM();
+
+                if (ctm === null) {
+                    return null;
+                }
+
+                // Apply the inverse of the CTM to the point to transform it into SVG coordinates
+                const svgPoint = point.matrixTransform(ctm.inverse());
+
+                return [svgPoint.x, svgPoint.y];
+            }
+    
+            var doclear = true;
+            var timeSelected = 0;
+            var lastEntered = null;
+            
+            // Run this function after the document has fully loaded
+            JQ(document).ready(function() {
+                // Add event listeners to each segment using jQuery
+                JQ('.segment').on('mouseenter', function(event) {
+                    // Get segment id and use it to fetch metadata from image_metadata
+                    if (this === lastEntered) {
+                        return;
+                    }
+                    const isShift = event.shiftKey;
+                    JQ('#infoArea').addClass('selected').addClass('hovering');
+                    if (!isShift) {
+                        clearSelected();
+                    }
+                    const segId = JQ(this).attr('id');
+                    const segmentData = segment_metadata.segdict[segId];
+                    const cursorResult = handleSegment(this, segmentData, event, segId);
+                    const pathId = segmentData.path_id;
+                    const metadata = image_metadata.path_items[pathId]; // Assuming segment data from image_metadata map
+                    const pathList = [];
+                    metadata.anchors.anchor_paths.forEach(function(anchorPath) {
+                        pathList.push(``);
+                        pathList.push(anchorPath.shape_path.join(', ') + ', ' + segmentData.name);
+                    });
+                    var pointInfo = '';
+                    if (cursorResult) {
+                        const {point, t} = cursorResult;
+                        pointInfo = `Point: (${point[0].toFixed(3)}, ${point[1].toFixed(3)})\n`
+                            + `Paraneter t: ${t.toFixed(3)}\n`;
+                    }
+                    const segmentInfo = `name: ${segmentData.name}\n`
+                            + `type: ${segmentData.shape_type}\n`
+                            + pointInfo
+                            + `call site: ${segmentData.trace[0]}:${segmentData.trace[1]}\n`
+                            + `Shape anchor paths:\n${pathList.join('\n')}`;
+
+                    updateTextArea(segmentInfo);
+                    doclear = true;
+                });
+
+                    
+                JQ('.segment').on('mouseleave', function(event) {
+                    const isShift = event.shiftKey;
+                    const isSelected = JQ(this).hasClass('selected');
+                    if (doclear && !isShift) {
+                        // Clear text area when mouse leaves the segment
+                        updateTextArea('');
+                        clearSelected();
+                        lastEntered = null;
+                    } else if (!isSelected) {
+                        // Remove the visual elements when the mouse leaves the segment
+                        // if the segment is not selected.
+                        JQ(`.${JQ(this).attr('id')}`).remove();
+                    }
+                    JQ('#infoArea').removeClass('hovering');
+                    const currentTime = Date.now();
+                    const elapsed = currentTime - timeSelected;
+                    if (elapsed > 1000) {
+                        doclear = true;
+                    }
+                });
+                
+                JQ('.segment').on('click', function(event) {
+                    // Persist the text area content when clicked.
+                    doclear = false;
+                    const isShift = event.shiftKey;
+                    if (!isShift) {
+                        clearSelected(false);
+                    }
+                    const isSelected = JQ(this).hasClass('selected');
+                    if (!isShift || !isSelected) {
+                        timeSelected = Date.now();
+                        JQ(this).addClass('selected');
+                        JQ('#infoArea').addClass('selected').removeClass('hovering');
+                    } else {
+                        // Deselect this segment.
+                        JQ(this).removeClass('selected');
+                        const segId = JQ(this).attr('id');
+                        JQ(`.${segId}`).remove();  
+                    }
+
+                });
+            });
+        }
+        document.addEventListener('DOMContentLoaded', deferrred);
+    </script>
+</head>
+<body>
+</body>
+  <!-- Text area to display segment information -->
+  <textarea 
+        id="infoArea" 
+        class="print-flow screen-flow"
+        placeholder="Hover over a path segment to display information. Click to select."></textarea>
+  <div class="main-container">
+      <div class="svg-path" id="div0">
+      <div class="svg-container">
+        <svg width="600.0" height="600.0" id="path0" class="svg_path" xmlns="http://www.w3.org/2000/svg">
+        <style>
+        #path0 > g > .shape {
+                    stroke: black;
+                    stroke-width: 0.207447;
+                    fill: #bfbf10;
+                }
+        #path0 > g > .construction_shape {
+                    stroke: black;
+                    stroke-width: 0.207447;
+                    fill: None;
+                }
+        #path0 > g > .path {
+                    stroke: black;
+                    stroke-width: 0.207447;
+                    fill: none;
+                    pointer-events: stroke;
+                }
+        #path0 > g > .construction {
+                    stroke: deepskyblue;
+                    stroke-width: 0.207447;
+                    fill: none;
+                    pointer-events: stroke;
+                }
+        #path0 > g > .path.selected,
+        #path0 > g > .path.selected:hover {
+                    stroke: green;
+                    stroke-width: 0.898936;
+                    fill: #0000;
+                    pointer-events: stroke;
+                }
+        #path0 > g > .path:hover {
+                    stroke: red;
+                    stroke-width: 0.62234;
+                    fill: #0000;
+                    pointer-events: stroke;
+                }
+        #path0 > g > .construction.selected,
+        #path0 > g > .construction.selected:hover {
+                    stroke: purple;
+                    stroke-width: 0.62234;
+                    fill: #0000;
+                    pointer-events: stroke;
+                }
+        #path0 > g > .construction:hover {
+                    stroke: orange;
+                    stroke-width: 0.484043;
+                    fill: #0000;
+                    pointer-events: stroke;
+                }
+        #path0 > g > .dot {
+                    fill: darkgreen;
+                    r: 0.898936;
+                    pointer-events: none;
+                }
+        #path0 > g > .cursor-dot {
+                    fill: yellow;
+                    r: 0.484043;
+                    pointer-events: none;
+                }
+        #path0 > g > .control-line {
+                    stroke: blue;
+                    stroke-width: 0.484043;
+                    stroke-dasharray: 1.38298;
+                }
+        #path0 > g > .graduation_small {
+                    stroke: #0000af;
+                    stroke-width: 0.13829787234042554;
+                    fill: none;
+                }
+        #path0 > g > .graduation_medium {
+                    stroke: #0000af;
+                    stroke-width: 0.2074468085106383;
+                    fill: none;
+                }
+        #path0 > g > .graduation_large {
+                    stroke: #0000af;
+                    stroke-width: 0.23510638297872338;
+                    fill: none;
+                }
+        #path0 > g > .grid_fives {
+                    stroke: #7010500f;
+                    stroke-width: 0.13829787234042554;
+                    }
+        #path0 > g > .grid_tens {
+                    stroke: #0070102f;
+                    stroke-width: 0.2074468085106383;
+                    }
+        #path0 > g > .grid_axes {
+                    stroke: #0000ffff;
+                    stroke-width: 0.23510638297872338;
+                    }
+        #path0 > g > text {
+                    fill: #101010;
+                    font-size: 0.13829787234042554em;
+                    }
+        #path0 > g > .frame {
+                    stroke: #00003f;
+                    stroke-width: 0.2765957446808511;
+                    fill: #f7f7f7;
+                }
+        </style>
+        <g transform="matrix(7.23077,0,0,-7.23077,67.5308,535)">
+        <path d="M -2.42447 67.0745 L 66.7245 67.0745 L 66.7245 -2.07447 L -2.42447 -2.07447 Z" class="frame"/>
+        <path d="M 0 65.6915 L 0 -0.691489" class="grid_axes"/>
+        <path d="M -1.04149 0 L 65.3415 0" class="grid_axes"/>
+        <path d="M 4 0 L 60.3 0 A 4 4 0 0 1 64.3 4 L 64.3 61 A 4 4 0 0 1 60.3 65 L 4 65 A 4 4 0 0 1 0 61 L 0 4 A 4 4 0 0 1 4 0 Z" class="shape"/>
+        <path d="M 0 67.0745 L 0 65.6915" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(-0.691489 67.766) rotate(270) scale(1, -1)">0</text>
+        <path d="M 0 -2.07447 L 0 -0.691489" class="graduation_large"/>
+        <path d="M 0 65.6915 L 0 -0.691489" class="grid_tens"/>
+        <path d="M 2.5 67.0745 L 2.5 66.6596" class="graduation_small"/>
+        <path d="M 2.5 -2.07447 L 2.5 -1.65957" class="graduation_small"/>
+        <path d="M 5 67.0745 L 5 66.383" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(4.30851 67.766) rotate(270) scale(1, -1)">5</text>
+        <path d="M 5 -2.07447 L 5 -1.38298" class="graduation_medium"/>
+        <path d="M 5 66.383 L 5 -1.38298" class="grid_fives"/>
+        <path d="M 7.5 67.0745 L 7.5 66.6596" class="graduation_small"/>
+        <path d="M 7.5 -2.07447 L 7.5 -1.65957" class="graduation_small"/>
+        <path d="M 10 67.0745 L 10 65.6915" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(9.30851 67.766) rotate(270) scale(1, -1)">10</text>
+        <path d="M 10 -2.07447 L 10 -0.691489" class="graduation_large"/>
+        <path d="M 10 65.6915 L 10 -0.691489" class="grid_tens"/>
+        <path d="M 12.5 67.0745 L 12.5 66.6596" class="graduation_small"/>
+        <path d="M 12.5 -2.07447 L 12.5 -1.65957" class="graduation_small"/>
+        <path d="M 15 67.0745 L 15 66.383" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(14.3085 67.766) rotate(270) scale(1, -1)">15</text>
+        <path d="M 15 -2.07447 L 15 -1.38298" class="graduation_medium"/>
+        <path d="M 15 66.383 L 15 -1.38298" class="grid_fives"/>
+        <path d="M 17.5 67.0745 L 17.5 66.6596" class="graduation_small"/>
+        <path d="M 17.5 -2.07447 L 17.5 -1.65957" class="graduation_small"/>
+        <path d="M 20 67.0745 L 20 65.6915" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(19.3085 67.766) rotate(270) scale(1, -1)">20</text>
+        <path d="M 20 -2.07447 L 20 -0.691489" class="graduation_large"/>
+        <path d="M 20 65.6915 L 20 -0.691489" class="grid_tens"/>
+        <path d="M 22.5 67.0745 L 22.5 66.6596" class="graduation_small"/>
+        <path d="M 22.5 -2.07447 L 22.5 -1.65957" class="graduation_small"/>
+        <path d="M 25 67.0745 L 25 66.383" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(24.3085 67.766) rotate(270) scale(1, -1)">25</text>
+        <path d="M 25 -2.07447 L 25 -1.38298" class="graduation_medium"/>
+        <path d="M 25 66.383 L 25 -1.38298" class="grid_fives"/>
+        <path d="M 27.5 67.0745 L 27.5 66.6596" class="graduation_small"/>
+        <path d="M 27.5 -2.07447 L 27.5 -1.65957" class="graduation_small"/>
+        <path d="M 30 67.0745 L 30 65.6915" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(29.3085 67.766) rotate(270) scale(1, -1)">30</text>
+        <path d="M 30 -2.07447 L 30 -0.691489" class="graduation_large"/>
+        <path d="M 30 65.6915 L 30 -0.691489" class="grid_tens"/>
+        <path d="M 32.5 67.0745 L 32.5 66.6596" class="graduation_small"/>
+        <path d="M 32.5 -2.07447 L 32.5 -1.65957" class="graduation_small"/>
+        <path d="M 35 67.0745 L 35 66.383" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(34.3085 67.766) rotate(270) scale(1, -1)">35</text>
+        <path d="M 35 -2.07447 L 35 -1.38298" class="graduation_medium"/>
+        <path d="M 35 66.383 L 35 -1.38298" class="grid_fives"/>
+        <path d="M 37.5 67.0745 L 37.5 66.6596" class="graduation_small"/>
+        <path d="M 37.5 -2.07447 L 37.5 -1.65957" class="graduation_small"/>
+        <path d="M 40 67.0745 L 40 65.6915" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(39.3085 67.766) rotate(270) scale(1, -1)">40</text>
+        <path d="M 40 -2.07447 L 40 -0.691489" class="graduation_large"/>
+        <path d="M 40 65.6915 L 40 -0.691489" class="grid_tens"/>
+        <path d="M 42.5 67.0745 L 42.5 66.6596" class="graduation_small"/>
+        <path d="M 42.5 -2.07447 L 42.5 -1.65957" class="graduation_small"/>
+        <path d="M 45 67.0745 L 45 66.383" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(44.3085 67.766) rotate(270) scale(1, -1)">45</text>
+        <path d="M 45 -2.07447 L 45 -1.38298" class="graduation_medium"/>
+        <path d="M 45 66.383 L 45 -1.38298" class="grid_fives"/>
+        <path d="M 47.5 67.0745 L 47.5 66.6596" class="graduation_small"/>
+        <path d="M 47.5 -2.07447 L 47.5 -1.65957" class="graduation_small"/>
+        <path d="M 50 67.0745 L 50 65.6915" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(49.3085 67.766) rotate(270) scale(1, -1)">50</text>
+        <path d="M 50 -2.07447 L 50 -0.691489" class="graduation_large"/>
+        <path d="M 50 65.6915 L 50 -0.691489" class="grid_tens"/>
+        <path d="M 52.5 67.0745 L 52.5 66.6596" class="graduation_small"/>
+        <path d="M 52.5 -2.07447 L 52.5 -1.65957" class="graduation_small"/>
+        <path d="M 55 67.0745 L 55 66.383" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(54.3085 67.766) rotate(270) scale(1, -1)">55</text>
+        <path d="M 55 -2.07447 L 55 -1.38298" class="graduation_medium"/>
+        <path d="M 55 66.383 L 55 -1.38298" class="grid_fives"/>
+        <path d="M 57.5 67.0745 L 57.5 66.6596" class="graduation_small"/>
+        <path d="M 57.5 -2.07447 L 57.5 -1.65957" class="graduation_small"/>
+        <path d="M 60 67.0745 L 60 65.6915" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(59.3085 67.766) rotate(270) scale(1, -1)">60</text>
+        <path d="M 60 -2.07447 L 60 -0.691489" class="graduation_large"/>
+        <path d="M 60 65.6915 L 60 -0.691489" class="grid_tens"/>
+        <path d="M 62.5 67.0745 L 62.5 66.6596" class="graduation_small"/>
+        <path d="M 62.5 -2.07447 L 62.5 -1.65957" class="graduation_small"/>
+        <path d="M 65 67.0745 L 65 66.383" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(64.3085 67.766) rotate(270) scale(1, -1)">65</text>
+        <path d="M 65 -2.07447 L 65 -1.38298" class="graduation_medium"/>
+        <path d="M 65 66.383 L 65 -1.38298" class="grid_fives"/>
+        <path d="M -2.42447 0 L -1.04149 0" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(-3.11596 -0.691489) rotate(0) scale(1, -1)">0</text>
+        <path d="M 66.7245 0 L 65.3415 0" class="graduation_large"/>
+        <path d="M -1.04149 0 L 65.3415 0" class="grid_tens"/>
+        <path d="M -2.42447 2.5 L -2.00957 2.5" class="graduation_small"/>
+        <path d="M 66.7245 2.5 L 66.3096 2.5" class="graduation_small"/>
+        <path d="M -2.42447 5 L -1.73298 5" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(-3.11596 4.30851) rotate(0) scale(1, -1)">5</text>
+        <path d="M 66.7245 5 L 66.033 5" class="graduation_medium"/>
+        <path d="M -1.73298 5 L 66.033 5" class="grid_fives"/>
+        <path d="M -2.42447 7.5 L -2.00957 7.5" class="graduation_small"/>
+        <path d="M 66.7245 7.5 L 66.3096 7.5" class="graduation_small"/>
+        <path d="M -2.42447 10 L -1.04149 10" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(-3.11596 9.30851) rotate(0) scale(1, -1)">10</text>
+        <path d="M 66.7245 10 L 65.3415 10" class="graduation_large"/>
+        <path d="M -1.04149 10 L 65.3415 10" class="grid_tens"/>
+        <path d="M -2.42447 12.5 L -2.00957 12.5" class="graduation_small"/>
+        <path d="M 66.7245 12.5 L 66.3096 12.5" class="graduation_small"/>
+        <path d="M -2.42447 15 L -1.73298 15" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(-3.11596 14.3085) rotate(0) scale(1, -1)">15</text>
+        <path d="M 66.7245 15 L 66.033 15" class="graduation_medium"/>
+        <path d="M -1.73298 15 L 66.033 15" class="grid_fives"/>
+        <path d="M -2.42447 17.5 L -2.00957 17.5" class="graduation_small"/>
+        <path d="M 66.7245 17.5 L 66.3096 17.5" class="graduation_small"/>
+        <path d="M -2.42447 20 L -1.04149 20" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(-3.11596 19.3085) rotate(0) scale(1, -1)">20</text>
+        <path d="M 66.7245 20 L 65.3415 20" class="graduation_large"/>
+        <path d="M -1.04149 20 L 65.3415 20" class="grid_tens"/>
+        <path d="M -2.42447 22.5 L -2.00957 22.5" class="graduation_small"/>
+        <path d="M 66.7245 22.5 L 66.3096 22.5" class="graduation_small"/>
+        <path d="M -2.42447 25 L -1.73298 25" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(-3.11596 24.3085) rotate(0) scale(1, -1)">25</text>
+        <path d="M 66.7245 25 L 66.033 25" class="graduation_medium"/>
+        <path d="M -1.73298 25 L 66.033 25" class="grid_fives"/>
+        <path d="M -2.42447 27.5 L -2.00957 27.5" class="graduation_small"/>
+        <path d="M 66.7245 27.5 L 66.3096 27.5" class="graduation_small"/>
+        <path d="M -2.42447 30 L -1.04149 30" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(-3.11596 29.3085) rotate(0) scale(1, -1)">30</text>
+        <path d="M 66.7245 30 L 65.3415 30" class="graduation_large"/>
+        <path d="M -1.04149 30 L 65.3415 30" class="grid_tens"/>
+        <path d="M -2.42447 32.5 L -2.00957 32.5" class="graduation_small"/>
+        <path d="M 66.7245 32.5 L 66.3096 32.5" class="graduation_small"/>
+        <path d="M -2.42447 35 L -1.73298 35" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(-3.11596 34.3085) rotate(0) scale(1, -1)">35</text>
+        <path d="M 66.7245 35 L 66.033 35" class="graduation_medium"/>
+        <path d="M -1.73298 35 L 66.033 35" class="grid_fives"/>
+        <path d="M -2.42447 37.5 L -2.00957 37.5" class="graduation_small"/>
+        <path d="M 66.7245 37.5 L 66.3096 37.5" class="graduation_small"/>
+        <path d="M -2.42447 40 L -1.04149 40" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(-3.11596 39.3085) rotate(0) scale(1, -1)">40</text>
+        <path d="M 66.7245 40 L 65.3415 40" class="graduation_large"/>
+        <path d="M -1.04149 40 L 65.3415 40" class="grid_tens"/>
+        <path d="M -2.42447 42.5 L -2.00957 42.5" class="graduation_small"/>
+        <path d="M 66.7245 42.5 L 66.3096 42.5" class="graduation_small"/>
+        <path d="M -2.42447 45 L -1.73298 45" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(-3.11596 44.3085) rotate(0) scale(1, -1)">45</text>
+        <path d="M 66.7245 45 L 66.033 45" class="graduation_medium"/>
+        <path d="M -1.73298 45 L 66.033 45" class="grid_fives"/>
+        <path d="M -2.42447 47.5 L -2.00957 47.5" class="graduation_small"/>
+        <path d="M 66.7245 47.5 L 66.3096 47.5" class="graduation_small"/>
+        <path d="M -2.42447 50 L -1.04149 50" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(-3.11596 49.3085) rotate(0) scale(1, -1)">50</text>
+        <path d="M 66.7245 50 L 65.3415 50" class="graduation_large"/>
+        <path d="M -1.04149 50 L 65.3415 50" class="grid_tens"/>
+        <path d="M -2.42447 52.5 L -2.00957 52.5" class="graduation_small"/>
+        <path d="M 66.7245 52.5 L 66.3096 52.5" class="graduation_small"/>
+        <path d="M -2.42447 55 L -1.73298 55" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(-3.11596 54.3085) rotate(0) scale(1, -1)">55</text>
+        <path d="M 66.7245 55 L 66.033 55" class="graduation_medium"/>
+        <path d="M -1.73298 55 L 66.033 55" class="grid_fives"/>
+        <path d="M -2.42447 57.5 L -2.00957 57.5" class="graduation_small"/>
+        <path d="M 66.7245 57.5 L 66.3096 57.5" class="graduation_small"/>
+        <path d="M -2.42447 60 L -1.04149 60" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(-3.11596 59.3085) rotate(0) scale(1, -1)">60</text>
+        <path d="M 66.7245 60 L 65.3415 60" class="graduation_large"/>
+        <path d="M -1.04149 60 L 65.3415 60" class="grid_tens"/>
+        <path d="M -2.42447 62.5 L -2.00957 62.5" class="graduation_small"/>
+        <path d="M 66.7245 62.5 L 66.3096 62.5" class="graduation_small"/>
+        <path d="M -2.42447 65 L -1.73298 65" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(-3.11596 64.3085) rotate(0) scale(1, -1)">65</text>
+        <path d="M 66.7245 65 L 66.033 65" class="graduation_medium"/>
+        <path d="M -1.73298 65 L 66.033 65" class="grid_fives"/>
+        <path d="M 4 0" id="seg_id1" class="segment path"/>
+        <path d="M 4 0 L 60.3 0" id="seg_id2" class="segment path"/>
+        <path d="M 60.3 0 A 4 4 0 0 1 64.3 4" id="seg_id3" class="segment path"/>
+        <path d="M 64.3 4 L 64.3 61" id="seg_id4" class="segment path"/>
+        <path d="M 64.3 61 A 4 4 0 0 1 60.3 65" id="seg_id5" class="segment path"/>
+        <path d="M 60.3 65 L 4 65" id="seg_id6" class="segment path"/>
+        <path d="M 4 65 A 4 4 0 0 1 0 61" id="seg_id7" class="segment path"/>
+        <path d="M 0 61 L 0 4" id="seg_id8" class="segment path"/>
+        <path d="M 0 4 A 4 4 0 0 1 4 0" id="seg_id9" class="segment path"/>
+        </g>
+        </svg>
+
+      </div>
+      <div class="buttons-container no-print">
+        <button class="download-button" onclick="downloadSVG('path0', 'anchorscad_path.svg')">Download SVG</button>
+        <button class="download-button" onclick="downloadPNG('path0', 'anchorscad_path.png')">Download PNG</button>
+      </div>
+    </div>
+    <div class="svg-path" id="div1">
+      <div class="svg-container">
+        <svg width="600.0" height="600.0" id="path1" class="svg_path" xmlns="http://www.w3.org/2000/svg">
+        <style>
+        #path1 > g > .shape {
+                    stroke: black;
+                    stroke-width: 0.0210638;
+                    fill: #bfbf10;
+                }
+        #path1 > g > .construction_shape {
+                    stroke: black;
+                    stroke-width: 0.0210638;
+                    fill: None;
+                }
+        #path1 > g > .path {
+                    stroke: black;
+                    stroke-width: 0.0210638;
+                    fill: none;
+                    pointer-events: stroke;
+                }
+        #path1 > g > .construction {
+                    stroke: deepskyblue;
+                    stroke-width: 0.0210638;
+                    fill: none;
+                    pointer-events: stroke;
+                }
+        #path1 > g > .path.selected,
+        #path1 > g > .path.selected:hover {
+                    stroke: green;
+                    stroke-width: 0.0912766;
+                    fill: #0000;
+                    pointer-events: stroke;
+                }
+        #path1 > g > .path:hover {
+                    stroke: red;
+                    stroke-width: 0.0631915;
+                    fill: #0000;
+                    pointer-events: stroke;
+                }
+        #path1 > g > .construction.selected,
+        #path1 > g > .construction.selected:hover {
+                    stroke: purple;
+                    stroke-width: 0.0631915;
+                    fill: #0000;
+                    pointer-events: stroke;
+                }
+        #path1 > g > .construction:hover {
+                    stroke: orange;
+                    stroke-width: 0.0491489;
+                    fill: #0000;
+                    pointer-events: stroke;
+                }
+        #path1 > g > .dot {
+                    fill: darkgreen;
+                    r: 0.0912766;
+                    pointer-events: none;
+                }
+        #path1 > g > .cursor-dot {
+                    fill: yellow;
+                    r: 0.0491489;
+                    pointer-events: none;
+                }
+        #path1 > g > .control-line {
+                    stroke: blue;
+                    stroke-width: 0.0491489;
+                    stroke-dasharray: 0.140426;
+                }
+        #path1 > g > .graduation_small {
+                    stroke: #0000af;
+                    stroke-width: 0.01404255319148936;
+                    fill: none;
+                }
+        #path1 > g > .graduation_medium {
+                    stroke: #0000af;
+                    stroke-width: 0.02106382978723404;
+                    fill: none;
+                }
+        #path1 > g > .graduation_large {
+                    stroke: #0000af;
+                    stroke-width: 0.02387234042553191;
+                    fill: none;
+                }
+        #path1 > g > .grid_fives {
+                    stroke: #7010500f;
+                    stroke-width: 0.01404255319148936;
+                    }
+        #path1 > g > .grid_tens {
+                    stroke: #0070102f;
+                    stroke-width: 0.02106382978723404;
+                    }
+        #path1 > g > .grid_axes {
+                    stroke: #0000ffff;
+                    stroke-width: 0.02387234042553191;
+                    }
+        #path1 > g > text {
+                    fill: #101010;
+                    font-size: 0.01404255319148936em;
+                    }
+        #path1 > g > .frame {
+                    stroke: #00003f;
+                    stroke-width: 0.02808510638297872;
+                    fill: #f7f7f7;
+                }
+        </style>
+        <g transform="matrix(71.2121,0,0,-71.2121,300,300)">
+        <path d="M -3.51064 3.51064 L 3.51064 3.51064 L 3.51064 -3.51064 L -3.51064 -3.51064 Z" class="frame"/>
+        <path d="M 0 3.37021 L 0 -3.37021" class="grid_axes"/>
+        <path d="M -3.37021 0 L 3.37021 0" class="grid_axes"/>
+        <path d="M 0 0 L -3.3 0 A 3.3 3.3 0 0 0 3.3 4.04133E-16 L 3.3 -3.3 L -3.3 -3.3 L -3.3 4.44089E-16 Z" class="shape"/>
+        <path d="M -3.5 3.51064 L -3.5 3.44043" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(-3.57021 3.58085) rotate(270) scale(1, -1)">-3.5</text>
+        <path d="M -3.5 -3.51064 L -3.5 -3.44043" class="graduation_medium"/>
+        <path d="M -3.5 3.44043 L -3.5 -3.44043" class="grid_fives"/>
+        <path d="M -3.25 3.51064 L -3.25 3.46851" class="graduation_small"/>
+        <path d="M -3.25 -3.51064 L -3.25 -3.46851" class="graduation_small"/>
+        <path d="M -3 3.51064 L -3 3.37021" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(-3.07021 3.58085) rotate(270) scale(1, -1)">-3</text>
+        <path d="M -3 -3.51064 L -3 -3.37021" class="graduation_large"/>
+        <path d="M -3 3.37021 L -3 -3.37021" class="grid_tens"/>
+        <path d="M -2.75 3.51064 L -2.75 3.46851" class="graduation_small"/>
+        <path d="M -2.75 -3.51064 L -2.75 -3.46851" class="graduation_small"/>
+        <path d="M -2.5 3.51064 L -2.5 3.44043" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(-2.57021 3.58085) rotate(270) scale(1, -1)">-2.5</text>
+        <path d="M -2.5 -3.51064 L -2.5 -3.44043" class="graduation_medium"/>
+        <path d="M -2.5 3.44043 L -2.5 -3.44043" class="grid_fives"/>
+        <path d="M -2.25 3.51064 L -2.25 3.46851" class="graduation_small"/>
+        <path d="M -2.25 -3.51064 L -2.25 -3.46851" class="graduation_small"/>
+        <path d="M -2 3.51064 L -2 3.37021" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(-2.07021 3.58085) rotate(270) scale(1, -1)">-2</text>
+        <path d="M -2 -3.51064 L -2 -3.37021" class="graduation_large"/>
+        <path d="M -2 3.37021 L -2 -3.37021" class="grid_tens"/>
+        <path d="M -1.75 3.51064 L -1.75 3.46851" class="graduation_small"/>
+        <path d="M -1.75 -3.51064 L -1.75 -3.46851" class="graduation_small"/>
+        <path d="M -1.5 3.51064 L -1.5 3.44043" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(-1.57021 3.58085) rotate(270) scale(1, -1)">-1.5</text>
+        <path d="M -1.5 -3.51064 L -1.5 -3.44043" class="graduation_medium"/>
+        <path d="M -1.5 3.44043 L -1.5 -3.44043" class="grid_fives"/>
+        <path d="M -1.25 3.51064 L -1.25 3.46851" class="graduation_small"/>
+        <path d="M -1.25 -3.51064 L -1.25 -3.46851" class="graduation_small"/>
+        <path d="M -1 3.51064 L -1 3.37021" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(-1.07021 3.58085) rotate(270) scale(1, -1)">-1</text>
+        <path d="M -1 -3.51064 L -1 -3.37021" class="graduation_large"/>
+        <path d="M -1 3.37021 L -1 -3.37021" class="grid_tens"/>
+        <path d="M -0.75 3.51064 L -0.75 3.46851" class="graduation_small"/>
+        <path d="M -0.75 -3.51064 L -0.75 -3.46851" class="graduation_small"/>
+        <path d="M -0.5 3.51064 L -0.5 3.44043" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(-0.570213 3.58085) rotate(270) scale(1, -1)">-0.5</text>
+        <path d="M -0.5 -3.51064 L -0.5 -3.44043" class="graduation_medium"/>
+        <path d="M -0.5 3.44043 L -0.5 -3.44043" class="grid_fives"/>
+        <path d="M -0.25 3.51064 L -0.25 3.46851" class="graduation_small"/>
+        <path d="M -0.25 -3.51064 L -0.25 -3.46851" class="graduation_small"/>
+        <path d="M 0 3.51064 L 0 3.37021" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(-0.0702128 3.58085) rotate(270) scale(1, -1)">0</text>
+        <path d="M 0 -3.51064 L 0 -3.37021" class="graduation_large"/>
+        <path d="M 0 3.37021 L 0 -3.37021" class="grid_tens"/>
+        <path d="M 0.25 3.51064 L 0.25 3.46851" class="graduation_small"/>
+        <path d="M 0.25 -3.51064 L 0.25 -3.46851" class="graduation_small"/>
+        <path d="M 0.5 3.51064 L 0.5 3.44043" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(0.429787 3.58085) rotate(270) scale(1, -1)">0.5</text>
+        <path d="M 0.5 -3.51064 L 0.5 -3.44043" class="graduation_medium"/>
+        <path d="M 0.5 3.44043 L 0.5 -3.44043" class="grid_fives"/>
+        <path d="M 0.75 3.51064 L 0.75 3.46851" class="graduation_small"/>
+        <path d="M 0.75 -3.51064 L 0.75 -3.46851" class="graduation_small"/>
+        <path d="M 1 3.51064 L 1 3.37021" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(0.929787 3.58085) rotate(270) scale(1, -1)">1</text>
+        <path d="M 1 -3.51064 L 1 -3.37021" class="graduation_large"/>
+        <path d="M 1 3.37021 L 1 -3.37021" class="grid_tens"/>
+        <path d="M 1.25 3.51064 L 1.25 3.46851" class="graduation_small"/>
+        <path d="M 1.25 -3.51064 L 1.25 -3.46851" class="graduation_small"/>
+        <path d="M 1.5 3.51064 L 1.5 3.44043" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(1.42979 3.58085) rotate(270) scale(1, -1)">1.5</text>
+        <path d="M 1.5 -3.51064 L 1.5 -3.44043" class="graduation_medium"/>
+        <path d="M 1.5 3.44043 L 1.5 -3.44043" class="grid_fives"/>
+        <path d="M 1.75 3.51064 L 1.75 3.46851" class="graduation_small"/>
+        <path d="M 1.75 -3.51064 L 1.75 -3.46851" class="graduation_small"/>
+        <path d="M 2 3.51064 L 2 3.37021" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(1.92979 3.58085) rotate(270) scale(1, -1)">2</text>
+        <path d="M 2 -3.51064 L 2 -3.37021" class="graduation_large"/>
+        <path d="M 2 3.37021 L 2 -3.37021" class="grid_tens"/>
+        <path d="M 2.25 3.51064 L 2.25 3.46851" class="graduation_small"/>
+        <path d="M 2.25 -3.51064 L 2.25 -3.46851" class="graduation_small"/>
+        <path d="M 2.5 3.51064 L 2.5 3.44043" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(2.42979 3.58085) rotate(270) scale(1, -1)">2.5</text>
+        <path d="M 2.5 -3.51064 L 2.5 -3.44043" class="graduation_medium"/>
+        <path d="M 2.5 3.44043 L 2.5 -3.44043" class="grid_fives"/>
+        <path d="M 2.75 3.51064 L 2.75 3.46851" class="graduation_small"/>
+        <path d="M 2.75 -3.51064 L 2.75 -3.46851" class="graduation_small"/>
+        <path d="M 3 3.51064 L 3 3.37021" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(2.92979 3.58085) rotate(270) scale(1, -1)">3</text>
+        <path d="M 3 -3.51064 L 3 -3.37021" class="graduation_large"/>
+        <path d="M 3 3.37021 L 3 -3.37021" class="grid_tens"/>
+        <path d="M 3.25 3.51064 L 3.25 3.46851" class="graduation_small"/>
+        <path d="M 3.25 -3.51064 L 3.25 -3.46851" class="graduation_small"/>
+        <path d="M 3.5 3.51064 L 3.5 3.44043" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(3.42979 3.58085) rotate(270) scale(1, -1)">3.5</text>
+        <path d="M 3.5 -3.51064 L 3.5 -3.44043" class="graduation_medium"/>
+        <path d="M 3.5 3.44043 L 3.5 -3.44043" class="grid_fives"/>
+        <path d="M -3.51064 -3.5 L -3.44043 -3.5" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(-3.58085 -3.57021) rotate(0) scale(1, -1)">-3.5</text>
+        <path d="M 3.51064 -3.5 L 3.44043 -3.5" class="graduation_medium"/>
+        <path d="M -3.44043 -3.5 L 3.44043 -3.5" class="grid_fives"/>
+        <path d="M -3.51064 -3.25 L -3.46851 -3.25" class="graduation_small"/>
+        <path d="M 3.51064 -3.25 L 3.46851 -3.25" class="graduation_small"/>
+        <path d="M -3.51064 -3 L -3.37021 -3" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(-3.58085 -3.07021) rotate(0) scale(1, -1)">-3</text>
+        <path d="M 3.51064 -3 L 3.37021 -3" class="graduation_large"/>
+        <path d="M -3.37021 -3 L 3.37021 -3" class="grid_tens"/>
+        <path d="M -3.51064 -2.75 L -3.46851 -2.75" class="graduation_small"/>
+        <path d="M 3.51064 -2.75 L 3.46851 -2.75" class="graduation_small"/>
+        <path d="M -3.51064 -2.5 L -3.44043 -2.5" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(-3.58085 -2.57021) rotate(0) scale(1, -1)">-2.5</text>
+        <path d="M 3.51064 -2.5 L 3.44043 -2.5" class="graduation_medium"/>
+        <path d="M -3.44043 -2.5 L 3.44043 -2.5" class="grid_fives"/>
+        <path d="M -3.51064 -2.25 L -3.46851 -2.25" class="graduation_small"/>
+        <path d="M 3.51064 -2.25 L 3.46851 -2.25" class="graduation_small"/>
+        <path d="M -3.51064 -2 L -3.37021 -2" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(-3.58085 -2.07021) rotate(0) scale(1, -1)">-2</text>
+        <path d="M 3.51064 -2 L 3.37021 -2" class="graduation_large"/>
+        <path d="M -3.37021 -2 L 3.37021 -2" class="grid_tens"/>
+        <path d="M -3.51064 -1.75 L -3.46851 -1.75" class="graduation_small"/>
+        <path d="M 3.51064 -1.75 L 3.46851 -1.75" class="graduation_small"/>
+        <path d="M -3.51064 -1.5 L -3.44043 -1.5" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(-3.58085 -1.57021) rotate(0) scale(1, -1)">-1.5</text>
+        <path d="M 3.51064 -1.5 L 3.44043 -1.5" class="graduation_medium"/>
+        <path d="M -3.44043 -1.5 L 3.44043 -1.5" class="grid_fives"/>
+        <path d="M -3.51064 -1.25 L -3.46851 -1.25" class="graduation_small"/>
+        <path d="M 3.51064 -1.25 L 3.46851 -1.25" class="graduation_small"/>
+        <path d="M -3.51064 -1 L -3.37021 -1" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(-3.58085 -1.07021) rotate(0) scale(1, -1)">-1</text>
+        <path d="M 3.51064 -1 L 3.37021 -1" class="graduation_large"/>
+        <path d="M -3.37021 -1 L 3.37021 -1" class="grid_tens"/>
+        <path d="M -3.51064 -0.75 L -3.46851 -0.75" class="graduation_small"/>
+        <path d="M 3.51064 -0.75 L 3.46851 -0.75" class="graduation_small"/>
+        <path d="M -3.51064 -0.5 L -3.44043 -0.5" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(-3.58085 -0.570213) rotate(0) scale(1, -1)">-0.5</text>
+        <path d="M 3.51064 -0.5 L 3.44043 -0.5" class="graduation_medium"/>
+        <path d="M -3.44043 -0.5 L 3.44043 -0.5" class="grid_fives"/>
+        <path d="M -3.51064 -0.25 L -3.46851 -0.25" class="graduation_small"/>
+        <path d="M 3.51064 -0.25 L 3.46851 -0.25" class="graduation_small"/>
+        <path d="M -3.51064 0 L -3.37021 0" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(-3.58085 -0.0702128) rotate(0) scale(1, -1)">0</text>
+        <path d="M 3.51064 0 L 3.37021 0" class="graduation_large"/>
+        <path d="M -3.37021 0 L 3.37021 0" class="grid_tens"/>
+        <path d="M -3.51064 0.25 L -3.46851 0.25" class="graduation_small"/>
+        <path d="M 3.51064 0.25 L 3.46851 0.25" class="graduation_small"/>
+        <path d="M -3.51064 0.5 L -3.44043 0.5" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(-3.58085 0.429787) rotate(0) scale(1, -1)">0.5</text>
+        <path d="M 3.51064 0.5 L 3.44043 0.5" class="graduation_medium"/>
+        <path d="M -3.44043 0.5 L 3.44043 0.5" class="grid_fives"/>
+        <path d="M -3.51064 0.75 L -3.46851 0.75" class="graduation_small"/>
+        <path d="M 3.51064 0.75 L 3.46851 0.75" class="graduation_small"/>
+        <path d="M -3.51064 1 L -3.37021 1" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(-3.58085 0.929787) rotate(0) scale(1, -1)">1</text>
+        <path d="M 3.51064 1 L 3.37021 1" class="graduation_large"/>
+        <path d="M -3.37021 1 L 3.37021 1" class="grid_tens"/>
+        <path d="M -3.51064 1.25 L -3.46851 1.25" class="graduation_small"/>
+        <path d="M 3.51064 1.25 L 3.46851 1.25" class="graduation_small"/>
+        <path d="M -3.51064 1.5 L -3.44043 1.5" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(-3.58085 1.42979) rotate(0) scale(1, -1)">1.5</text>
+        <path d="M 3.51064 1.5 L 3.44043 1.5" class="graduation_medium"/>
+        <path d="M -3.44043 1.5 L 3.44043 1.5" class="grid_fives"/>
+        <path d="M -3.51064 1.75 L -3.46851 1.75" class="graduation_small"/>
+        <path d="M 3.51064 1.75 L 3.46851 1.75" class="graduation_small"/>
+        <path d="M -3.51064 2 L -3.37021 2" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(-3.58085 1.92979) rotate(0) scale(1, -1)">2</text>
+        <path d="M 3.51064 2 L 3.37021 2" class="graduation_large"/>
+        <path d="M -3.37021 2 L 3.37021 2" class="grid_tens"/>
+        <path d="M -3.51064 2.25 L -3.46851 2.25" class="graduation_small"/>
+        <path d="M 3.51064 2.25 L 3.46851 2.25" class="graduation_small"/>
+        <path d="M -3.51064 2.5 L -3.44043 2.5" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(-3.58085 2.42979) rotate(0) scale(1, -1)">2.5</text>
+        <path d="M 3.51064 2.5 L 3.44043 2.5" class="graduation_medium"/>
+        <path d="M -3.44043 2.5 L 3.44043 2.5" class="grid_fives"/>
+        <path d="M -3.51064 2.75 L -3.46851 2.75" class="graduation_small"/>
+        <path d="M 3.51064 2.75 L 3.46851 2.75" class="graduation_small"/>
+        <path d="M -3.51064 3 L -3.37021 3" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(-3.58085 2.92979) rotate(0) scale(1, -1)">3</text>
+        <path d="M 3.51064 3 L 3.37021 3" class="graduation_large"/>
+        <path d="M -3.37021 3 L 3.37021 3" class="grid_tens"/>
+        <path d="M -3.51064 3.25 L -3.46851 3.25" class="graduation_small"/>
+        <path d="M 3.51064 3.25 L 3.46851 3.25" class="graduation_small"/>
+        <path d="M -3.51064 3.5 L -3.44043 3.5" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(-3.58085 3.42979) rotate(0) scale(1, -1)">3.5</text>
+        <path d="M 3.51064 3.5 L 3.44043 3.5" class="graduation_medium"/>
+        <path d="M -3.44043 3.5 L 3.44043 3.5" class="grid_fives"/>
+        <path d="M 0 0" id="seg_id10" class="segment path"/>
+        <path d="M 0 0 L -3.3 0" id="seg_id11" class="segment path"/>
+        <path d="M -3.3 0 A 3.3 3.3 0 0 0 3.3 4.04133E-16" id="seg_id12" class="segment path"/>
+        <path d="M 3.3 4.04133E-16 L 3.3 -3.3" id="seg_id13" class="segment path"/>
+        <path d="M 3.3 -3.3 L -3.3 -3.3" id="seg_id14" class="segment path"/>
+        <path d="M -3.3 -3.3 L -3.3 4.44089E-16" id="seg_id15" class="segment path"/>
+        </g>
+        </svg>
+
+      </div>
+      <div class="buttons-container no-print">
+        <button class="download-button" onclick="downloadSVG('path1', 'anchorscad_path.svg')">Download SVG</button>
+        <button class="download-button" onclick="downloadPNG('path1', 'anchorscad_path.png')">Download PNG</button>
+      </div>
+    </div>
+    <div class="svg-path" id="div2">
+      <div class="svg-container">
+        <svg width="600.0" height="600.0" id="path2" class="svg_path" xmlns="http://www.w3.org/2000/svg">
+        <style>
+        #path2 > g > .shape {
+                    stroke: black;
+                    stroke-width: 0.0210638;
+                    fill: #bfbf10;
+                }
+        #path2 > g > .construction_shape {
+                    stroke: black;
+                    stroke-width: 0.0210638;
+                    fill: None;
+                }
+        #path2 > g > .path {
+                    stroke: black;
+                    stroke-width: 0.0210638;
+                    fill: none;
+                    pointer-events: stroke;
+                }
+        #path2 > g > .construction {
+                    stroke: deepskyblue;
+                    stroke-width: 0.0210638;
+                    fill: none;
+                    pointer-events: stroke;
+                }
+        #path2 > g > .path.selected,
+        #path2 > g > .path.selected:hover {
+                    stroke: green;
+                    stroke-width: 0.0912766;
+                    fill: #0000;
+                    pointer-events: stroke;
+                }
+        #path2 > g > .path:hover {
+                    stroke: red;
+                    stroke-width: 0.0631915;
+                    fill: #0000;
+                    pointer-events: stroke;
+                }
+        #path2 > g > .construction.selected,
+        #path2 > g > .construction.selected:hover {
+                    stroke: purple;
+                    stroke-width: 0.0631915;
+                    fill: #0000;
+                    pointer-events: stroke;
+                }
+        #path2 > g > .construction:hover {
+                    stroke: orange;
+                    stroke-width: 0.0491489;
+                    fill: #0000;
+                    pointer-events: stroke;
+                }
+        #path2 > g > .dot {
+                    fill: darkgreen;
+                    r: 0.0912766;
+                    pointer-events: none;
+                }
+        #path2 > g > .cursor-dot {
+                    fill: yellow;
+                    r: 0.0491489;
+                    pointer-events: none;
+                }
+        #path2 > g > .control-line {
+                    stroke: blue;
+                    stroke-width: 0.0491489;
+                    stroke-dasharray: 0.140426;
+                }
+        #path2 > g > .graduation_small {
+                    stroke: #0000af;
+                    stroke-width: 0.014042553191489365;
+                    fill: none;
+                }
+        #path2 > g > .graduation_medium {
+                    stroke: #0000af;
+                    stroke-width: 0.021063829787234048;
+                    fill: none;
+                }
+        #path2 > g > .graduation_large {
+                    stroke: #0000af;
+                    stroke-width: 0.02387234042553192;
+                    fill: none;
+                }
+        #path2 > g > .grid_fives {
+                    stroke: #7010500f;
+                    stroke-width: 0.014042553191489365;
+                    }
+        #path2 > g > .grid_tens {
+                    stroke: #0070102f;
+                    stroke-width: 0.021063829787234048;
+                    }
+        #path2 > g > .grid_axes {
+                    stroke: #0000ffff;
+                    stroke-width: 0.02387234042553192;
+                    }
+        #path2 > g > text {
+                    fill: #101010;
+                    font-size: 0.014042553191489365em;
+                    }
+        #path2 > g > .frame {
+                    stroke: #00003f;
+                    stroke-width: 0.02808510638297873;
+                    fill: #f7f7f7;
+                }
+        </style>
+        <g transform="matrix(71.2121,0,0,-71.2121,-362.273,535)">
+        <path d="M 5.78936 6.81064 L 12.8106 6.81064 L 12.8106 -0.210638 L 5.78936 -0.210638 Z" class="frame"/>
+        <path d="M 5.92979 0 L 12.6702 0" class="grid_axes"/>
+        <path d="M 9.3 3.3 L 6 3.3 A 3.3 3.3 0 0 0 12.6 3.3 L 12.6 0 L 6 0 L 6 3.3 Z" class="shape"/>
+        <path d="M 6 6.81064 L 6 6.67021" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(5.92979 6.88085) rotate(270) scale(1, -1)">6</text>
+        <path d="M 6 -0.210638 L 6 -0.0702128" class="graduation_large"/>
+        <path d="M 6 6.67021 L 6 -0.0702128" class="grid_tens"/>
+        <path d="M 6.25 6.81064 L 6.25 6.76851" class="graduation_small"/>
+        <path d="M 6.25 -0.210638 L 6.25 -0.168511" class="graduation_small"/>
+        <path d="M 6.5 6.81064 L 6.5 6.74043" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(6.42979 6.88085) rotate(270) scale(1, -1)">6.5</text>
+        <path d="M 6.5 -0.210638 L 6.5 -0.140426" class="graduation_medium"/>
+        <path d="M 6.5 6.74043 L 6.5 -0.140426" class="grid_fives"/>
+        <path d="M 6.75 6.81064 L 6.75 6.76851" class="graduation_small"/>
+        <path d="M 6.75 -0.210638 L 6.75 -0.168511" class="graduation_small"/>
+        <path d="M 7 6.81064 L 7 6.67021" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(6.92979 6.88085) rotate(270) scale(1, -1)">7</text>
+        <path d="M 7 -0.210638 L 7 -0.0702128" class="graduation_large"/>
+        <path d="M 7 6.67021 L 7 -0.0702128" class="grid_tens"/>
+        <path d="M 7.25 6.81064 L 7.25 6.76851" class="graduation_small"/>
+        <path d="M 7.25 -0.210638 L 7.25 -0.168511" class="graduation_small"/>
+        <path d="M 7.5 6.81064 L 7.5 6.74043" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(7.42979 6.88085) rotate(270) scale(1, -1)">7.5</text>
+        <path d="M 7.5 -0.210638 L 7.5 -0.140426" class="graduation_medium"/>
+        <path d="M 7.5 6.74043 L 7.5 -0.140426" class="grid_fives"/>
+        <path d="M 7.75 6.81064 L 7.75 6.76851" class="graduation_small"/>
+        <path d="M 7.75 -0.210638 L 7.75 -0.168511" class="graduation_small"/>
+        <path d="M 8 6.81064 L 8 6.67021" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(7.92979 6.88085) rotate(270) scale(1, -1)">8</text>
+        <path d="M 8 -0.210638 L 8 -0.0702128" class="graduation_large"/>
+        <path d="M 8 6.67021 L 8 -0.0702128" class="grid_tens"/>
+        <path d="M 8.25 6.81064 L 8.25 6.76851" class="graduation_small"/>
+        <path d="M 8.25 -0.210638 L 8.25 -0.168511" class="graduation_small"/>
+        <path d="M 8.5 6.81064 L 8.5 6.74043" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(8.42979 6.88085) rotate(270) scale(1, -1)">8.5</text>
+        <path d="M 8.5 -0.210638 L 8.5 -0.140426" class="graduation_medium"/>
+        <path d="M 8.5 6.74043 L 8.5 -0.140426" class="grid_fives"/>
+        <path d="M 8.75 6.81064 L 8.75 6.76851" class="graduation_small"/>
+        <path d="M 8.75 -0.210638 L 8.75 -0.168511" class="graduation_small"/>
+        <path d="M 9 6.81064 L 9 6.67021" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(8.92979 6.88085) rotate(270) scale(1, -1)">9</text>
+        <path d="M 9 -0.210638 L 9 -0.0702128" class="graduation_large"/>
+        <path d="M 9 6.67021 L 9 -0.0702128" class="grid_tens"/>
+        <path d="M 9.25 6.81064 L 9.25 6.76851" class="graduation_small"/>
+        <path d="M 9.25 -0.210638 L 9.25 -0.168511" class="graduation_small"/>
+        <path d="M 9.5 6.81064 L 9.5 6.74043" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(9.42979 6.88085) rotate(270) scale(1, -1)">9.5</text>
+        <path d="M 9.5 -0.210638 L 9.5 -0.140426" class="graduation_medium"/>
+        <path d="M 9.5 6.74043 L 9.5 -0.140426" class="grid_fives"/>
+        <path d="M 9.75 6.81064 L 9.75 6.76851" class="graduation_small"/>
+        <path d="M 9.75 -0.210638 L 9.75 -0.168511" class="graduation_small"/>
+        <path d="M 10 6.81064 L 10 6.67021" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(9.92979 6.88085) rotate(270) scale(1, -1)">10</text>
+        <path d="M 10 -0.210638 L 10 -0.0702128" class="graduation_large"/>
+        <path d="M 10 6.67021 L 10 -0.0702128" class="grid_tens"/>
+        <path d="M 10.25 6.81064 L 10.25 6.76851" class="graduation_small"/>
+        <path d="M 10.25 -0.210638 L 10.25 -0.168511" class="graduation_small"/>
+        <path d="M 10.5 6.81064 L 10.5 6.74043" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(10.4298 6.88085) rotate(270) scale(1, -1)">10.5</text>
+        <path d="M 10.5 -0.210638 L 10.5 -0.140426" class="graduation_medium"/>
+        <path d="M 10.5 6.74043 L 10.5 -0.140426" class="grid_fives"/>
+        <path d="M 10.75 6.81064 L 10.75 6.76851" class="graduation_small"/>
+        <path d="M 10.75 -0.210638 L 10.75 -0.168511" class="graduation_small"/>
+        <path d="M 11 6.81064 L 11 6.67021" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(10.9298 6.88085) rotate(270) scale(1, -1)">11</text>
+        <path d="M 11 -0.210638 L 11 -0.0702128" class="graduation_large"/>
+        <path d="M 11 6.67021 L 11 -0.0702128" class="grid_tens"/>
+        <path d="M 11.25 6.81064 L 11.25 6.76851" class="graduation_small"/>
+        <path d="M 11.25 -0.210638 L 11.25 -0.168511" class="graduation_small"/>
+        <path d="M 11.5 6.81064 L 11.5 6.74043" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(11.4298 6.88085) rotate(270) scale(1, -1)">11.5</text>
+        <path d="M 11.5 -0.210638 L 11.5 -0.140426" class="graduation_medium"/>
+        <path d="M 11.5 6.74043 L 11.5 -0.140426" class="grid_fives"/>
+        <path d="M 11.75 6.81064 L 11.75 6.76851" class="graduation_small"/>
+        <path d="M 11.75 -0.210638 L 11.75 -0.168511" class="graduation_small"/>
+        <path d="M 12 6.81064 L 12 6.67021" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(11.9298 6.88085) rotate(270) scale(1, -1)">12</text>
+        <path d="M 12 -0.210638 L 12 -0.0702128" class="graduation_large"/>
+        <path d="M 12 6.67021 L 12 -0.0702128" class="grid_tens"/>
+        <path d="M 12.25 6.81064 L 12.25 6.76851" class="graduation_small"/>
+        <path d="M 12.25 -0.210638 L 12.25 -0.168511" class="graduation_small"/>
+        <path d="M 12.5 6.81064 L 12.5 6.74043" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(12.4298 6.88085) rotate(270) scale(1, -1)">12.5</text>
+        <path d="M 12.5 -0.210638 L 12.5 -0.140426" class="graduation_medium"/>
+        <path d="M 12.5 6.74043 L 12.5 -0.140426" class="grid_fives"/>
+        <path d="M 12.75 6.81064 L 12.75 6.76851" class="graduation_small"/>
+        <path d="M 12.75 -0.210638 L 12.75 -0.168511" class="graduation_small"/>
+        <path d="M 5.78936 0 L 5.92979 0" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(5.71915 -0.0702128) rotate(0) scale(1, -1)">0</text>
+        <path d="M 12.8106 0 L 12.6702 0" class="graduation_large"/>
+        <path d="M 5.92979 0 L 12.6702 0" class="grid_tens"/>
+        <path d="M 5.78936 0.25 L 5.83149 0.25" class="graduation_small"/>
+        <path d="M 12.8106 0.25 L 12.7685 0.25" class="graduation_small"/>
+        <path d="M 5.78936 0.5 L 5.85957 0.5" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(5.71915 0.429787) rotate(0) scale(1, -1)">0.5</text>
+        <path d="M 12.8106 0.5 L 12.7404 0.5" class="graduation_medium"/>
+        <path d="M 5.85957 0.5 L 12.7404 0.5" class="grid_fives"/>
+        <path d="M 5.78936 0.75 L 5.83149 0.75" class="graduation_small"/>
+        <path d="M 12.8106 0.75 L 12.7685 0.75" class="graduation_small"/>
+        <path d="M 5.78936 1 L 5.92979 1" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(5.71915 0.929787) rotate(0) scale(1, -1)">1</text>
+        <path d="M 12.8106 1 L 12.6702 1" class="graduation_large"/>
+        <path d="M 5.92979 1 L 12.6702 1" class="grid_tens"/>
+        <path d="M 5.78936 1.25 L 5.83149 1.25" class="graduation_small"/>
+        <path d="M 12.8106 1.25 L 12.7685 1.25" class="graduation_small"/>
+        <path d="M 5.78936 1.5 L 5.85957 1.5" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(5.71915 1.42979) rotate(0) scale(1, -1)">1.5</text>
+        <path d="M 12.8106 1.5 L 12.7404 1.5" class="graduation_medium"/>
+        <path d="M 5.85957 1.5 L 12.7404 1.5" class="grid_fives"/>
+        <path d="M 5.78936 1.75 L 5.83149 1.75" class="graduation_small"/>
+        <path d="M 12.8106 1.75 L 12.7685 1.75" class="graduation_small"/>
+        <path d="M 5.78936 2 L 5.92979 2" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(5.71915 1.92979) rotate(0) scale(1, -1)">2</text>
+        <path d="M 12.8106 2 L 12.6702 2" class="graduation_large"/>
+        <path d="M 5.92979 2 L 12.6702 2" class="grid_tens"/>
+        <path d="M 5.78936 2.25 L 5.83149 2.25" class="graduation_small"/>
+        <path d="M 12.8106 2.25 L 12.7685 2.25" class="graduation_small"/>
+        <path d="M 5.78936 2.5 L 5.85957 2.5" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(5.71915 2.42979) rotate(0) scale(1, -1)">2.5</text>
+        <path d="M 12.8106 2.5 L 12.7404 2.5" class="graduation_medium"/>
+        <path d="M 5.85957 2.5 L 12.7404 2.5" class="grid_fives"/>
+        <path d="M 5.78936 2.75 L 5.83149 2.75" class="graduation_small"/>
+        <path d="M 12.8106 2.75 L 12.7685 2.75" class="graduation_small"/>
+        <path d="M 5.78936 3 L 5.92979 3" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(5.71915 2.92979) rotate(0) scale(1, -1)">3</text>
+        <path d="M 12.8106 3 L 12.6702 3" class="graduation_large"/>
+        <path d="M 5.92979 3 L 12.6702 3" class="grid_tens"/>
+        <path d="M 5.78936 3.25 L 5.83149 3.25" class="graduation_small"/>
+        <path d="M 12.8106 3.25 L 12.7685 3.25" class="graduation_small"/>
+        <path d="M 5.78936 3.5 L 5.85957 3.5" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(5.71915 3.42979) rotate(0) scale(1, -1)">3.5</text>
+        <path d="M 12.8106 3.5 L 12.7404 3.5" class="graduation_medium"/>
+        <path d="M 5.85957 3.5 L 12.7404 3.5" class="grid_fives"/>
+        <path d="M 5.78936 3.75 L 5.83149 3.75" class="graduation_small"/>
+        <path d="M 12.8106 3.75 L 12.7685 3.75" class="graduation_small"/>
+        <path d="M 5.78936 4 L 5.92979 4" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(5.71915 3.92979) rotate(0) scale(1, -1)">4</text>
+        <path d="M 12.8106 4 L 12.6702 4" class="graduation_large"/>
+        <path d="M 5.92979 4 L 12.6702 4" class="grid_tens"/>
+        <path d="M 5.78936 4.25 L 5.83149 4.25" class="graduation_small"/>
+        <path d="M 12.8106 4.25 L 12.7685 4.25" class="graduation_small"/>
+        <path d="M 5.78936 4.5 L 5.85957 4.5" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(5.71915 4.42979) rotate(0) scale(1, -1)">4.5</text>
+        <path d="M 12.8106 4.5 L 12.7404 4.5" class="graduation_medium"/>
+        <path d="M 5.85957 4.5 L 12.7404 4.5" class="grid_fives"/>
+        <path d="M 5.78936 4.75 L 5.83149 4.75" class="graduation_small"/>
+        <path d="M 12.8106 4.75 L 12.7685 4.75" class="graduation_small"/>
+        <path d="M 5.78936 5 L 5.92979 5" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(5.71915 4.92979) rotate(0) scale(1, -1)">5</text>
+        <path d="M 12.8106 5 L 12.6702 5" class="graduation_large"/>
+        <path d="M 5.92979 5 L 12.6702 5" class="grid_tens"/>
+        <path d="M 5.78936 5.25 L 5.83149 5.25" class="graduation_small"/>
+        <path d="M 12.8106 5.25 L 12.7685 5.25" class="graduation_small"/>
+        <path d="M 5.78936 5.5 L 5.85957 5.5" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(5.71915 5.42979) rotate(0) scale(1, -1)">5.5</text>
+        <path d="M 12.8106 5.5 L 12.7404 5.5" class="graduation_medium"/>
+        <path d="M 5.85957 5.5 L 12.7404 5.5" class="grid_fives"/>
+        <path d="M 5.78936 5.75 L 5.83149 5.75" class="graduation_small"/>
+        <path d="M 12.8106 5.75 L 12.7685 5.75" class="graduation_small"/>
+        <path d="M 5.78936 6 L 5.92979 6" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(5.71915 5.92979) rotate(0) scale(1, -1)">6</text>
+        <path d="M 12.8106 6 L 12.6702 6" class="graduation_large"/>
+        <path d="M 5.92979 6 L 12.6702 6" class="grid_tens"/>
+        <path d="M 5.78936 6.25 L 5.83149 6.25" class="graduation_small"/>
+        <path d="M 12.8106 6.25 L 12.7685 6.25" class="graduation_small"/>
+        <path d="M 5.78936 6.5 L 5.85957 6.5" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(5.71915 6.42979) rotate(0) scale(1, -1)">6.5</text>
+        <path d="M 12.8106 6.5 L 12.7404 6.5" class="graduation_medium"/>
+        <path d="M 5.85957 6.5 L 12.7404 6.5" class="grid_fives"/>
+        <path d="M 5.78936 6.75 L 5.83149 6.75" class="graduation_small"/>
+        <path d="M 12.8106 6.75 L 12.7685 6.75" class="graduation_small"/>
+        <path d="M 9.3 3.3" id="seg_id16" class="segment path"/>
+        <path d="M 9.3 3.3 L 6 3.3" id="seg_id17" class="segment path"/>
+        <path d="M 6 3.3 A 3.3 3.3 0 0 0 12.6 3.3" id="seg_id18" class="segment path"/>
+        <path d="M 12.6 3.3 L 12.6 0" id="seg_id19" class="segment path"/>
+        <path d="M 12.6 0 L 6 0" id="seg_id20" class="segment path"/>
+        <path d="M 6 0 L 6 3.3" id="seg_id21" class="segment path"/>
+        </g>
+        </svg>
+
+      </div>
+      <div class="buttons-container no-print">
+        <button class="download-button" onclick="downloadSVG('path2', 'anchorscad_path.svg')">Download SVG</button>
+        <button class="download-button" onclick="downloadPNG('path2', 'anchorscad_path.png')">Download PNG</button>
+      </div>
+    </div>
+    <div class="svg-path" id="div3">
+      <div class="svg-container">
+        <svg width="600.0" height="600.0" id="path3" class="svg_path" xmlns="http://www.w3.org/2000/svg">
+        <style>
+        #path3 > g > .shape {
+                    stroke: black;
+                    stroke-width: 0.0210638;
+                    fill: #bfbf10;
+                }
+        #path3 > g > .construction_shape {
+                    stroke: black;
+                    stroke-width: 0.0210638;
+                    fill: None;
+                }
+        #path3 > g > .path {
+                    stroke: black;
+                    stroke-width: 0.0210638;
+                    fill: none;
+                    pointer-events: stroke;
+                }
+        #path3 > g > .construction {
+                    stroke: deepskyblue;
+                    stroke-width: 0.0210638;
+                    fill: none;
+                    pointer-events: stroke;
+                }
+        #path3 > g > .path.selected,
+        #path3 > g > .path.selected:hover {
+                    stroke: green;
+                    stroke-width: 0.0912766;
+                    fill: #0000;
+                    pointer-events: stroke;
+                }
+        #path3 > g > .path:hover {
+                    stroke: red;
+                    stroke-width: 0.0631915;
+                    fill: #0000;
+                    pointer-events: stroke;
+                }
+        #path3 > g > .construction.selected,
+        #path3 > g > .construction.selected:hover {
+                    stroke: purple;
+                    stroke-width: 0.0631915;
+                    fill: #0000;
+                    pointer-events: stroke;
+                }
+        #path3 > g > .construction:hover {
+                    stroke: orange;
+                    stroke-width: 0.0491489;
+                    fill: #0000;
+                    pointer-events: stroke;
+                }
+        #path3 > g > .dot {
+                    fill: darkgreen;
+                    r: 0.0912766;
+                    pointer-events: none;
+                }
+        #path3 > g > .cursor-dot {
+                    fill: yellow;
+                    r: 0.0491489;
+                    pointer-events: none;
+                }
+        #path3 > g > .control-line {
+                    stroke: blue;
+                    stroke-width: 0.0491489;
+                    stroke-dasharray: 0.140426;
+                }
+        #path3 > g > .graduation_small {
+                    stroke: #0000af;
+                    stroke-width: 0.01404255319148936;
+                    fill: none;
+                }
+        #path3 > g > .graduation_medium {
+                    stroke: #0000af;
+                    stroke-width: 0.02106382978723404;
+                    fill: none;
+                }
+        #path3 > g > .graduation_large {
+                    stroke: #0000af;
+                    stroke-width: 0.02387234042553191;
+                    fill: none;
+                }
+        #path3 > g > .grid_fives {
+                    stroke: #7010500f;
+                    stroke-width: 0.01404255319148936;
+                    }
+        #path3 > g > .grid_tens {
+                    stroke: #0070102f;
+                    stroke-width: 0.02106382978723404;
+                    }
+        #path3 > g > .grid_axes {
+                    stroke: #0000ffff;
+                    stroke-width: 0.02387234042553191;
+                    }
+        #path3 > g > text {
+                    fill: #101010;
+                    font-size: 0.01404255319148936em;
+                    }
+        #path3 > g > .frame {
+                    stroke: #00003f;
+                    stroke-width: 0.02808510638297872;
+                    fill: #f7f7f7;
+                }
+        </style>
+        <g transform="matrix(71.2121,0,0,-71.2121,-362.273,300)">
+        <path d="M 5.78936 3.51064 L 12.8106 3.51064 L 12.8106 -3.51064 L 5.78936 -3.51064 Z" class="frame"/>
+        <path d="M 5.92979 0 L 12.6702 0" class="grid_axes"/>
+        <path d="M 9.3 4.44089E-16 L 12.6 4.44089E-16 A 3.3 3.3 0 0 0 6 3.99558E-17 L 6 3.3 L 12.6 3.3 L 12.6 0 Z" class="shape"/>
+        <path d="M 6 3.51064 L 6 3.37021" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(5.92979 3.58085) rotate(270) scale(1, -1)">6</text>
+        <path d="M 6 -3.51064 L 6 -3.37021" class="graduation_large"/>
+        <path d="M 6 3.37021 L 6 -3.37021" class="grid_tens"/>
+        <path d="M 6.25 3.51064 L 6.25 3.46851" class="graduation_small"/>
+        <path d="M 6.25 -3.51064 L 6.25 -3.46851" class="graduation_small"/>
+        <path d="M 6.5 3.51064 L 6.5 3.44043" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(6.42979 3.58085) rotate(270) scale(1, -1)">6.5</text>
+        <path d="M 6.5 -3.51064 L 6.5 -3.44043" class="graduation_medium"/>
+        <path d="M 6.5 3.44043 L 6.5 -3.44043" class="grid_fives"/>
+        <path d="M 6.75 3.51064 L 6.75 3.46851" class="graduation_small"/>
+        <path d="M 6.75 -3.51064 L 6.75 -3.46851" class="graduation_small"/>
+        <path d="M 7 3.51064 L 7 3.37021" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(6.92979 3.58085) rotate(270) scale(1, -1)">7</text>
+        <path d="M 7 -3.51064 L 7 -3.37021" class="graduation_large"/>
+        <path d="M 7 3.37021 L 7 -3.37021" class="grid_tens"/>
+        <path d="M 7.25 3.51064 L 7.25 3.46851" class="graduation_small"/>
+        <path d="M 7.25 -3.51064 L 7.25 -3.46851" class="graduation_small"/>
+        <path d="M 7.5 3.51064 L 7.5 3.44043" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(7.42979 3.58085) rotate(270) scale(1, -1)">7.5</text>
+        <path d="M 7.5 -3.51064 L 7.5 -3.44043" class="graduation_medium"/>
+        <path d="M 7.5 3.44043 L 7.5 -3.44043" class="grid_fives"/>
+        <path d="M 7.75 3.51064 L 7.75 3.46851" class="graduation_small"/>
+        <path d="M 7.75 -3.51064 L 7.75 -3.46851" class="graduation_small"/>
+        <path d="M 8 3.51064 L 8 3.37021" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(7.92979 3.58085) rotate(270) scale(1, -1)">8</text>
+        <path d="M 8 -3.51064 L 8 -3.37021" class="graduation_large"/>
+        <path d="M 8 3.37021 L 8 -3.37021" class="grid_tens"/>
+        <path d="M 8.25 3.51064 L 8.25 3.46851" class="graduation_small"/>
+        <path d="M 8.25 -3.51064 L 8.25 -3.46851" class="graduation_small"/>
+        <path d="M 8.5 3.51064 L 8.5 3.44043" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(8.42979 3.58085) rotate(270) scale(1, -1)">8.5</text>
+        <path d="M 8.5 -3.51064 L 8.5 -3.44043" class="graduation_medium"/>
+        <path d="M 8.5 3.44043 L 8.5 -3.44043" class="grid_fives"/>
+        <path d="M 8.75 3.51064 L 8.75 3.46851" class="graduation_small"/>
+        <path d="M 8.75 -3.51064 L 8.75 -3.46851" class="graduation_small"/>
+        <path d="M 9 3.51064 L 9 3.37021" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(8.92979 3.58085) rotate(270) scale(1, -1)">9</text>
+        <path d="M 9 -3.51064 L 9 -3.37021" class="graduation_large"/>
+        <path d="M 9 3.37021 L 9 -3.37021" class="grid_tens"/>
+        <path d="M 9.25 3.51064 L 9.25 3.46851" class="graduation_small"/>
+        <path d="M 9.25 -3.51064 L 9.25 -3.46851" class="graduation_small"/>
+        <path d="M 9.5 3.51064 L 9.5 3.44043" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(9.42979 3.58085) rotate(270) scale(1, -1)">9.5</text>
+        <path d="M 9.5 -3.51064 L 9.5 -3.44043" class="graduation_medium"/>
+        <path d="M 9.5 3.44043 L 9.5 -3.44043" class="grid_fives"/>
+        <path d="M 9.75 3.51064 L 9.75 3.46851" class="graduation_small"/>
+        <path d="M 9.75 -3.51064 L 9.75 -3.46851" class="graduation_small"/>
+        <path d="M 10 3.51064 L 10 3.37021" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(9.92979 3.58085) rotate(270) scale(1, -1)">10</text>
+        <path d="M 10 -3.51064 L 10 -3.37021" class="graduation_large"/>
+        <path d="M 10 3.37021 L 10 -3.37021" class="grid_tens"/>
+        <path d="M 10.25 3.51064 L 10.25 3.46851" class="graduation_small"/>
+        <path d="M 10.25 -3.51064 L 10.25 -3.46851" class="graduation_small"/>
+        <path d="M 10.5 3.51064 L 10.5 3.44043" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(10.4298 3.58085) rotate(270) scale(1, -1)">10.5</text>
+        <path d="M 10.5 -3.51064 L 10.5 -3.44043" class="graduation_medium"/>
+        <path d="M 10.5 3.44043 L 10.5 -3.44043" class="grid_fives"/>
+        <path d="M 10.75 3.51064 L 10.75 3.46851" class="graduation_small"/>
+        <path d="M 10.75 -3.51064 L 10.75 -3.46851" class="graduation_small"/>
+        <path d="M 11 3.51064 L 11 3.37021" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(10.9298 3.58085) rotate(270) scale(1, -1)">11</text>
+        <path d="M 11 -3.51064 L 11 -3.37021" class="graduation_large"/>
+        <path d="M 11 3.37021 L 11 -3.37021" class="grid_tens"/>
+        <path d="M 11.25 3.51064 L 11.25 3.46851" class="graduation_small"/>
+        <path d="M 11.25 -3.51064 L 11.25 -3.46851" class="graduation_small"/>
+        <path d="M 11.5 3.51064 L 11.5 3.44043" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(11.4298 3.58085) rotate(270) scale(1, -1)">11.5</text>
+        <path d="M 11.5 -3.51064 L 11.5 -3.44043" class="graduation_medium"/>
+        <path d="M 11.5 3.44043 L 11.5 -3.44043" class="grid_fives"/>
+        <path d="M 11.75 3.51064 L 11.75 3.46851" class="graduation_small"/>
+        <path d="M 11.75 -3.51064 L 11.75 -3.46851" class="graduation_small"/>
+        <path d="M 12 3.51064 L 12 3.37021" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(11.9298 3.58085) rotate(270) scale(1, -1)">12</text>
+        <path d="M 12 -3.51064 L 12 -3.37021" class="graduation_large"/>
+        <path d="M 12 3.37021 L 12 -3.37021" class="grid_tens"/>
+        <path d="M 12.25 3.51064 L 12.25 3.46851" class="graduation_small"/>
+        <path d="M 12.25 -3.51064 L 12.25 -3.46851" class="graduation_small"/>
+        <path d="M 12.5 3.51064 L 12.5 3.44043" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(12.4298 3.58085) rotate(270) scale(1, -1)">12.5</text>
+        <path d="M 12.5 -3.51064 L 12.5 -3.44043" class="graduation_medium"/>
+        <path d="M 12.5 3.44043 L 12.5 -3.44043" class="grid_fives"/>
+        <path d="M 12.75 3.51064 L 12.75 3.46851" class="graduation_small"/>
+        <path d="M 12.75 -3.51064 L 12.75 -3.46851" class="graduation_small"/>
+        <path d="M 5.78936 -3.5 L 5.85957 -3.5" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(5.71915 -3.57021) rotate(0) scale(1, -1)">-3.5</text>
+        <path d="M 12.8106 -3.5 L 12.7404 -3.5" class="graduation_medium"/>
+        <path d="M 5.85957 -3.5 L 12.7404 -3.5" class="grid_fives"/>
+        <path d="M 5.78936 -3.25 L 5.83149 -3.25" class="graduation_small"/>
+        <path d="M 12.8106 -3.25 L 12.7685 -3.25" class="graduation_small"/>
+        <path d="M 5.78936 -3 L 5.92979 -3" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(5.71915 -3.07021) rotate(0) scale(1, -1)">-3</text>
+        <path d="M 12.8106 -3 L 12.6702 -3" class="graduation_large"/>
+        <path d="M 5.92979 -3 L 12.6702 -3" class="grid_tens"/>
+        <path d="M 5.78936 -2.75 L 5.83149 -2.75" class="graduation_small"/>
+        <path d="M 12.8106 -2.75 L 12.7685 -2.75" class="graduation_small"/>
+        <path d="M 5.78936 -2.5 L 5.85957 -2.5" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(5.71915 -2.57021) rotate(0) scale(1, -1)">-2.5</text>
+        <path d="M 12.8106 -2.5 L 12.7404 -2.5" class="graduation_medium"/>
+        <path d="M 5.85957 -2.5 L 12.7404 -2.5" class="grid_fives"/>
+        <path d="M 5.78936 -2.25 L 5.83149 -2.25" class="graduation_small"/>
+        <path d="M 12.8106 -2.25 L 12.7685 -2.25" class="graduation_small"/>
+        <path d="M 5.78936 -2 L 5.92979 -2" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(5.71915 -2.07021) rotate(0) scale(1, -1)">-2</text>
+        <path d="M 12.8106 -2 L 12.6702 -2" class="graduation_large"/>
+        <path d="M 5.92979 -2 L 12.6702 -2" class="grid_tens"/>
+        <path d="M 5.78936 -1.75 L 5.83149 -1.75" class="graduation_small"/>
+        <path d="M 12.8106 -1.75 L 12.7685 -1.75" class="graduation_small"/>
+        <path d="M 5.78936 -1.5 L 5.85957 -1.5" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(5.71915 -1.57021) rotate(0) scale(1, -1)">-1.5</text>
+        <path d="M 12.8106 -1.5 L 12.7404 -1.5" class="graduation_medium"/>
+        <path d="M 5.85957 -1.5 L 12.7404 -1.5" class="grid_fives"/>
+        <path d="M 5.78936 -1.25 L 5.83149 -1.25" class="graduation_small"/>
+        <path d="M 12.8106 -1.25 L 12.7685 -1.25" class="graduation_small"/>
+        <path d="M 5.78936 -1 L 5.92979 -1" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(5.71915 -1.07021) rotate(0) scale(1, -1)">-1</text>
+        <path d="M 12.8106 -1 L 12.6702 -1" class="graduation_large"/>
+        <path d="M 5.92979 -1 L 12.6702 -1" class="grid_tens"/>
+        <path d="M 5.78936 -0.75 L 5.83149 -0.75" class="graduation_small"/>
+        <path d="M 12.8106 -0.75 L 12.7685 -0.75" class="graduation_small"/>
+        <path d="M 5.78936 -0.5 L 5.85957 -0.5" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(5.71915 -0.570213) rotate(0) scale(1, -1)">-0.5</text>
+        <path d="M 12.8106 -0.5 L 12.7404 -0.5" class="graduation_medium"/>
+        <path d="M 5.85957 -0.5 L 12.7404 -0.5" class="grid_fives"/>
+        <path d="M 5.78936 -0.25 L 5.83149 -0.25" class="graduation_small"/>
+        <path d="M 12.8106 -0.25 L 12.7685 -0.25" class="graduation_small"/>
+        <path d="M 5.78936 0 L 5.92979 0" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(5.71915 -0.0702128) rotate(0) scale(1, -1)">0</text>
+        <path d="M 12.8106 0 L 12.6702 0" class="graduation_large"/>
+        <path d="M 5.92979 0 L 12.6702 0" class="grid_tens"/>
+        <path d="M 5.78936 0.25 L 5.83149 0.25" class="graduation_small"/>
+        <path d="M 12.8106 0.25 L 12.7685 0.25" class="graduation_small"/>
+        <path d="M 5.78936 0.5 L 5.85957 0.5" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(5.71915 0.429787) rotate(0) scale(1, -1)">0.5</text>
+        <path d="M 12.8106 0.5 L 12.7404 0.5" class="graduation_medium"/>
+        <path d="M 5.85957 0.5 L 12.7404 0.5" class="grid_fives"/>
+        <path d="M 5.78936 0.75 L 5.83149 0.75" class="graduation_small"/>
+        <path d="M 12.8106 0.75 L 12.7685 0.75" class="graduation_small"/>
+        <path d="M 5.78936 1 L 5.92979 1" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(5.71915 0.929787) rotate(0) scale(1, -1)">1</text>
+        <path d="M 12.8106 1 L 12.6702 1" class="graduation_large"/>
+        <path d="M 5.92979 1 L 12.6702 1" class="grid_tens"/>
+        <path d="M 5.78936 1.25 L 5.83149 1.25" class="graduation_small"/>
+        <path d="M 12.8106 1.25 L 12.7685 1.25" class="graduation_small"/>
+        <path d="M 5.78936 1.5 L 5.85957 1.5" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(5.71915 1.42979) rotate(0) scale(1, -1)">1.5</text>
+        <path d="M 12.8106 1.5 L 12.7404 1.5" class="graduation_medium"/>
+        <path d="M 5.85957 1.5 L 12.7404 1.5" class="grid_fives"/>
+        <path d="M 5.78936 1.75 L 5.83149 1.75" class="graduation_small"/>
+        <path d="M 12.8106 1.75 L 12.7685 1.75" class="graduation_small"/>
+        <path d="M 5.78936 2 L 5.92979 2" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(5.71915 1.92979) rotate(0) scale(1, -1)">2</text>
+        <path d="M 12.8106 2 L 12.6702 2" class="graduation_large"/>
+        <path d="M 5.92979 2 L 12.6702 2" class="grid_tens"/>
+        <path d="M 5.78936 2.25 L 5.83149 2.25" class="graduation_small"/>
+        <path d="M 12.8106 2.25 L 12.7685 2.25" class="graduation_small"/>
+        <path d="M 5.78936 2.5 L 5.85957 2.5" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(5.71915 2.42979) rotate(0) scale(1, -1)">2.5</text>
+        <path d="M 12.8106 2.5 L 12.7404 2.5" class="graduation_medium"/>
+        <path d="M 5.85957 2.5 L 12.7404 2.5" class="grid_fives"/>
+        <path d="M 5.78936 2.75 L 5.83149 2.75" class="graduation_small"/>
+        <path d="M 12.8106 2.75 L 12.7685 2.75" class="graduation_small"/>
+        <path d="M 5.78936 3 L 5.92979 3" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(5.71915 2.92979) rotate(0) scale(1, -1)">3</text>
+        <path d="M 12.8106 3 L 12.6702 3" class="graduation_large"/>
+        <path d="M 5.92979 3 L 12.6702 3" class="grid_tens"/>
+        <path d="M 5.78936 3.25 L 5.83149 3.25" class="graduation_small"/>
+        <path d="M 12.8106 3.25 L 12.7685 3.25" class="graduation_small"/>
+        <path d="M 5.78936 3.5 L 5.85957 3.5" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(5.71915 3.42979) rotate(0) scale(1, -1)">3.5</text>
+        <path d="M 12.8106 3.5 L 12.7404 3.5" class="graduation_medium"/>
+        <path d="M 5.85957 3.5 L 12.7404 3.5" class="grid_fives"/>
+        <path d="M 9.3 4.44089E-16" id="seg_id22" class="segment path"/>
+        <path d="M 9.3 4.44089E-16 L 12.6 4.44089E-16" id="seg_id23" class="segment path"/>
+        <path d="M 12.6 4.44089E-16 A 3.3 3.3 0 0 0 6 3.99558E-17" id="seg_id24" class="segment path"/>
+        <path d="M 6 3.99558E-17 L 6 3.3" id="seg_id25" class="segment path"/>
+        <path d="M 6 3.3 L 12.6 3.3" id="seg_id26" class="segment path"/>
+        <path d="M 12.6 3.3 L 12.6 0" id="seg_id27" class="segment path"/>
+        </g>
+        </svg>
+
+      </div>
+      <div class="buttons-container no-print">
+        <button class="download-button" onclick="downloadSVG('path3', 'anchorscad_path.svg')">Download SVG</button>
+        <button class="download-button" onclick="downloadPNG('path3', 'anchorscad_path.png')">Download PNG</button>
+      </div>
+    </div>
+    <div class="svg-path" id="div4">
+      <div class="svg-container">
+        <svg width="600.0" height="600.0" id="path4" class="svg_path" xmlns="http://www.w3.org/2000/svg">
+        <style>
+        #path4 > g > .shape {
+                    stroke: black;
+                    stroke-width: 0.111702;
+                    fill: #bfbf10;
+                }
+        #path4 > g > .construction_shape {
+                    stroke: black;
+                    stroke-width: 0.111702;
+                    fill: None;
+                }
+        #path4 > g > .path {
+                    stroke: black;
+                    stroke-width: 0.111702;
+                    fill: none;
+                    pointer-events: stroke;
+                }
+        #path4 > g > .construction {
+                    stroke: deepskyblue;
+                    stroke-width: 0.111702;
+                    fill: none;
+                    pointer-events: stroke;
+                }
+        #path4 > g > .path.selected,
+        #path4 > g > .path.selected:hover {
+                    stroke: green;
+                    stroke-width: 0.484043;
+                    fill: #0000;
+                    pointer-events: stroke;
+                }
+        #path4 > g > .path:hover {
+                    stroke: red;
+                    stroke-width: 0.335106;
+                    fill: #0000;
+                    pointer-events: stroke;
+                }
+        #path4 > g > .construction.selected,
+        #path4 > g > .construction.selected:hover {
+                    stroke: purple;
+                    stroke-width: 0.335106;
+                    fill: #0000;
+                    pointer-events: stroke;
+                }
+        #path4 > g > .construction:hover {
+                    stroke: orange;
+                    stroke-width: 0.260638;
+                    fill: #0000;
+                    pointer-events: stroke;
+                }
+        #path4 > g > .dot {
+                    fill: darkgreen;
+                    r: 0.484043;
+                    pointer-events: none;
+                }
+        #path4 > g > .cursor-dot {
+                    fill: yellow;
+                    r: 0.260638;
+                    pointer-events: none;
+                }
+        #path4 > g > .control-line {
+                    stroke: blue;
+                    stroke-width: 0.260638;
+                    stroke-dasharray: 0.744681;
+                }
+        #path4 > g > .graduation_small {
+                    stroke: #0000af;
+                    stroke-width: 0.07446808510638298;
+                    fill: none;
+                }
+        #path4 > g > .graduation_medium {
+                    stroke: #0000af;
+                    stroke-width: 0.11170212765957446;
+                    fill: none;
+                }
+        #path4 > g > .graduation_large {
+                    stroke: #0000af;
+                    stroke-width: 0.12659574468085105;
+                    fill: none;
+                }
+        #path4 > g > .grid_fives {
+                    stroke: #7010500f;
+                    stroke-width: 0.07446808510638298;
+                    }
+        #path4 > g > .grid_tens {
+                    stroke: #0070102f;
+                    stroke-width: 0.11170212765957446;
+                    }
+        #path4 > g > .grid_axes {
+                    stroke: #0000ffff;
+                    stroke-width: 0.12659574468085105;
+                    }
+        #path4 > g > text {
+                    fill: #101010;
+                    font-size: 0.07446808510638298em;
+                    }
+        #path4 > g > .frame {
+                    stroke: #00003f;
+                    stroke-width: 0.14893617021276595;
+                    fill: #f7f7f7;
+                }
+        </style>
+        <g transform="matrix(13.4286,0,0,-13.4286,331.893,535)">
+        <path d="M -20.992 36.117 L 16.242 36.117 L 16.242 -1.11702 L -20.992 -1.11702 Z" class="frame"/>
+        <path d="M 0 35.3723 L 0 -0.37234" class="grid_axes"/>
+        <path d="M -20.2473 0 L 15.4973 0" class="grid_axes"/>
+        <path d="M 0 0 L -2.275 0 L -2.275 0 L -2.4 0 L -2.4 32.9 L -2.275 32.9 L -4.75 34.9 L -4.75 35 L 0 35 L 0 0 Z" class="shape"/>
+        <path d="M -20 36.117 L -20 35.3723" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(-20.3723 36.4894) rotate(270) scale(1, -1)">-20</text>
+        <path d="M -20 -1.11702 L -20 -0.37234" class="graduation_large"/>
+        <path d="M -20 35.3723 L -20 -0.37234" class="grid_tens"/>
+        <path d="M -19 36.117 L -19 35.8936" class="graduation_small"/>
+        <path d="M -19 -1.11702 L -19 -0.893617" class="graduation_small"/>
+        <path d="M -18 36.117 L -18 35.8936" class="graduation_small"/>
+        <path d="M -18 -1.11702 L -18 -0.893617" class="graduation_small"/>
+        <path d="M -17 36.117 L -17 35.8936" class="graduation_small"/>
+        <path d="M -17 -1.11702 L -17 -0.893617" class="graduation_small"/>
+        <path d="M -16 36.117 L -16 35.8936" class="graduation_small"/>
+        <path d="M -16 -1.11702 L -16 -0.893617" class="graduation_small"/>
+        <path d="M -15 36.117 L -15 35.7447" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(-15.3723 36.4894) rotate(270) scale(1, -1)">-15</text>
+        <path d="M -15 -1.11702 L -15 -0.744681" class="graduation_medium"/>
+        <path d="M -15 35.7447 L -15 -0.744681" class="grid_fives"/>
+        <path d="M -14 36.117 L -14 35.8936" class="graduation_small"/>
+        <path d="M -14 -1.11702 L -14 -0.893617" class="graduation_small"/>
+        <path d="M -13 36.117 L -13 35.8936" class="graduation_small"/>
+        <path d="M -13 -1.11702 L -13 -0.893617" class="graduation_small"/>
+        <path d="M -12 36.117 L -12 35.8936" class="graduation_small"/>
+        <path d="M -12 -1.11702 L -12 -0.893617" class="graduation_small"/>
+        <path d="M -11 36.117 L -11 35.8936" class="graduation_small"/>
+        <path d="M -11 -1.11702 L -11 -0.893617" class="graduation_small"/>
+        <path d="M -10 36.117 L -10 35.3723" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(-10.3723 36.4894) rotate(270) scale(1, -1)">-10</text>
+        <path d="M -10 -1.11702 L -10 -0.37234" class="graduation_large"/>
+        <path d="M -10 35.3723 L -10 -0.37234" class="grid_tens"/>
+        <path d="M -9 36.117 L -9 35.8936" class="graduation_small"/>
+        <path d="M -9 -1.11702 L -9 -0.893617" class="graduation_small"/>
+        <path d="M -8 36.117 L -8 35.8936" class="graduation_small"/>
+        <path d="M -8 -1.11702 L -8 -0.893617" class="graduation_small"/>
+        <path d="M -7 36.117 L -7 35.8936" class="graduation_small"/>
+        <path d="M -7 -1.11702 L -7 -0.893617" class="graduation_small"/>
+        <path d="M -6 36.117 L -6 35.8936" class="graduation_small"/>
+        <path d="M -6 -1.11702 L -6 -0.893617" class="graduation_small"/>
+        <path d="M -5 36.117 L -5 35.7447" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(-5.37234 36.4894) rotate(270) scale(1, -1)">-5</text>
+        <path d="M -5 -1.11702 L -5 -0.744681" class="graduation_medium"/>
+        <path d="M -5 35.7447 L -5 -0.744681" class="grid_fives"/>
+        <path d="M -4 36.117 L -4 35.8936" class="graduation_small"/>
+        <path d="M -4 -1.11702 L -4 -0.893617" class="graduation_small"/>
+        <path d="M -3 36.117 L -3 35.8936" class="graduation_small"/>
+        <path d="M -3 -1.11702 L -3 -0.893617" class="graduation_small"/>
+        <path d="M -2 36.117 L -2 35.8936" class="graduation_small"/>
+        <path d="M -2 -1.11702 L -2 -0.893617" class="graduation_small"/>
+        <path d="M -1 36.117 L -1 35.8936" class="graduation_small"/>
+        <path d="M -1 -1.11702 L -1 -0.893617" class="graduation_small"/>
+        <path d="M 0 36.117 L 0 35.3723" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(-0.37234 36.4894) rotate(270) scale(1, -1)">0</text>
+        <path d="M 0 -1.11702 L 0 -0.37234" class="graduation_large"/>
+        <path d="M 0 35.3723 L 0 -0.37234" class="grid_tens"/>
+        <path d="M 1 36.117 L 1 35.8936" class="graduation_small"/>
+        <path d="M 1 -1.11702 L 1 -0.893617" class="graduation_small"/>
+        <path d="M 2 36.117 L 2 35.8936" class="graduation_small"/>
+        <path d="M 2 -1.11702 L 2 -0.893617" class="graduation_small"/>
+        <path d="M 3 36.117 L 3 35.8936" class="graduation_small"/>
+        <path d="M 3 -1.11702 L 3 -0.893617" class="graduation_small"/>
+        <path d="M 4 36.117 L 4 35.8936" class="graduation_small"/>
+        <path d="M 4 -1.11702 L 4 -0.893617" class="graduation_small"/>
+        <path d="M 5 36.117 L 5 35.7447" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(4.62766 36.4894) rotate(270) scale(1, -1)">5</text>
+        <path d="M 5 -1.11702 L 5 -0.744681" class="graduation_medium"/>
+        <path d="M 5 35.7447 L 5 -0.744681" class="grid_fives"/>
+        <path d="M 6 36.117 L 6 35.8936" class="graduation_small"/>
+        <path d="M 6 -1.11702 L 6 -0.893617" class="graduation_small"/>
+        <path d="M 7 36.117 L 7 35.8936" class="graduation_small"/>
+        <path d="M 7 -1.11702 L 7 -0.893617" class="graduation_small"/>
+        <path d="M 8 36.117 L 8 35.8936" class="graduation_small"/>
+        <path d="M 8 -1.11702 L 8 -0.893617" class="graduation_small"/>
+        <path d="M 9 36.117 L 9 35.8936" class="graduation_small"/>
+        <path d="M 9 -1.11702 L 9 -0.893617" class="graduation_small"/>
+        <path d="M 10 36.117 L 10 35.3723" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(9.62766 36.4894) rotate(270) scale(1, -1)">10</text>
+        <path d="M 10 -1.11702 L 10 -0.37234" class="graduation_large"/>
+        <path d="M 10 35.3723 L 10 -0.37234" class="grid_tens"/>
+        <path d="M 11 36.117 L 11 35.8936" class="graduation_small"/>
+        <path d="M 11 -1.11702 L 11 -0.893617" class="graduation_small"/>
+        <path d="M 12 36.117 L 12 35.8936" class="graduation_small"/>
+        <path d="M 12 -1.11702 L 12 -0.893617" class="graduation_small"/>
+        <path d="M 13 36.117 L 13 35.8936" class="graduation_small"/>
+        <path d="M 13 -1.11702 L 13 -0.893617" class="graduation_small"/>
+        <path d="M 14 36.117 L 14 35.8936" class="graduation_small"/>
+        <path d="M 14 -1.11702 L 14 -0.893617" class="graduation_small"/>
+        <path d="M 15 36.117 L 15 35.7447" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(14.6277 36.4894) rotate(270) scale(1, -1)">15</text>
+        <path d="M 15 -1.11702 L 15 -0.744681" class="graduation_medium"/>
+        <path d="M 15 35.7447 L 15 -0.744681" class="grid_fives"/>
+        <path d="M 16 36.117 L 16 35.8936" class="graduation_small"/>
+        <path d="M 16 -1.11702 L 16 -0.893617" class="graduation_small"/>
+        <path d="M -20.992 -1 L -20.7686 -1" class="graduation_small"/>
+        <path d="M 16.242 -1 L 16.0186 -1" class="graduation_small"/>
+        <path d="M -20.992 0 L -20.2473 0" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(-21.3644 -0.37234) rotate(0) scale(1, -1)">0</text>
+        <path d="M 16.242 0 L 15.4973 0" class="graduation_large"/>
+        <path d="M -20.2473 0 L 15.4973 0" class="grid_tens"/>
+        <path d="M -20.992 1 L -20.7686 1" class="graduation_small"/>
+        <path d="M 16.242 1 L 16.0186 1" class="graduation_small"/>
+        <path d="M -20.992 2 L -20.7686 2" class="graduation_small"/>
+        <path d="M 16.242 2 L 16.0186 2" class="graduation_small"/>
+        <path d="M -20.992 3 L -20.7686 3" class="graduation_small"/>
+        <path d="M 16.242 3 L 16.0186 3" class="graduation_small"/>
+        <path d="M -20.992 4 L -20.7686 4" class="graduation_small"/>
+        <path d="M 16.242 4 L 16.0186 4" class="graduation_small"/>
+        <path d="M -20.992 5 L -20.6197 5" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(-21.3644 4.62766) rotate(0) scale(1, -1)">5</text>
+        <path d="M 16.242 5 L 15.8697 5" class="graduation_medium"/>
+        <path d="M -20.6197 5 L 15.8697 5" class="grid_fives"/>
+        <path d="M -20.992 6 L -20.7686 6" class="graduation_small"/>
+        <path d="M 16.242 6 L 16.0186 6" class="graduation_small"/>
+        <path d="M -20.992 7 L -20.7686 7" class="graduation_small"/>
+        <path d="M 16.242 7 L 16.0186 7" class="graduation_small"/>
+        <path d="M -20.992 8 L -20.7686 8" class="graduation_small"/>
+        <path d="M 16.242 8 L 16.0186 8" class="graduation_small"/>
+        <path d="M -20.992 9 L -20.7686 9" class="graduation_small"/>
+        <path d="M 16.242 9 L 16.0186 9" class="graduation_small"/>
+        <path d="M -20.992 10 L -20.2473 10" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(-21.3644 9.62766) rotate(0) scale(1, -1)">10</text>
+        <path d="M 16.242 10 L 15.4973 10" class="graduation_large"/>
+        <path d="M -20.2473 10 L 15.4973 10" class="grid_tens"/>
+        <path d="M -20.992 11 L -20.7686 11" class="graduation_small"/>
+        <path d="M 16.242 11 L 16.0186 11" class="graduation_small"/>
+        <path d="M -20.992 12 L -20.7686 12" class="graduation_small"/>
+        <path d="M 16.242 12 L 16.0186 12" class="graduation_small"/>
+        <path d="M -20.992 13 L -20.7686 13" class="graduation_small"/>
+        <path d="M 16.242 13 L 16.0186 13" class="graduation_small"/>
+        <path d="M -20.992 14 L -20.7686 14" class="graduation_small"/>
+        <path d="M 16.242 14 L 16.0186 14" class="graduation_small"/>
+        <path d="M -20.992 15 L -20.6197 15" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(-21.3644 14.6277) rotate(0) scale(1, -1)">15</text>
+        <path d="M 16.242 15 L 15.8697 15" class="graduation_medium"/>
+        <path d="M -20.6197 15 L 15.8697 15" class="grid_fives"/>
+        <path d="M -20.992 16 L -20.7686 16" class="graduation_small"/>
+        <path d="M 16.242 16 L 16.0186 16" class="graduation_small"/>
+        <path d="M -20.992 17 L -20.7686 17" class="graduation_small"/>
+        <path d="M 16.242 17 L 16.0186 17" class="graduation_small"/>
+        <path d="M -20.992 18 L -20.7686 18" class="graduation_small"/>
+        <path d="M 16.242 18 L 16.0186 18" class="graduation_small"/>
+        <path d="M -20.992 19 L -20.7686 19" class="graduation_small"/>
+        <path d="M 16.242 19 L 16.0186 19" class="graduation_small"/>
+        <path d="M -20.992 20 L -20.2473 20" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(-21.3644 19.6277) rotate(0) scale(1, -1)">20</text>
+        <path d="M 16.242 20 L 15.4973 20" class="graduation_large"/>
+        <path d="M -20.2473 20 L 15.4973 20" class="grid_tens"/>
+        <path d="M -20.992 21 L -20.7686 21" class="graduation_small"/>
+        <path d="M 16.242 21 L 16.0186 21" class="graduation_small"/>
+        <path d="M -20.992 22 L -20.7686 22" class="graduation_small"/>
+        <path d="M 16.242 22 L 16.0186 22" class="graduation_small"/>
+        <path d="M -20.992 23 L -20.7686 23" class="graduation_small"/>
+        <path d="M 16.242 23 L 16.0186 23" class="graduation_small"/>
+        <path d="M -20.992 24 L -20.7686 24" class="graduation_small"/>
+        <path d="M 16.242 24 L 16.0186 24" class="graduation_small"/>
+        <path d="M -20.992 25 L -20.6197 25" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(-21.3644 24.6277) rotate(0) scale(1, -1)">25</text>
+        <path d="M 16.242 25 L 15.8697 25" class="graduation_medium"/>
+        <path d="M -20.6197 25 L 15.8697 25" class="grid_fives"/>
+        <path d="M -20.992 26 L -20.7686 26" class="graduation_small"/>
+        <path d="M 16.242 26 L 16.0186 26" class="graduation_small"/>
+        <path d="M -20.992 27 L -20.7686 27" class="graduation_small"/>
+        <path d="M 16.242 27 L 16.0186 27" class="graduation_small"/>
+        <path d="M -20.992 28 L -20.7686 28" class="graduation_small"/>
+        <path d="M 16.242 28 L 16.0186 28" class="graduation_small"/>
+        <path d="M -20.992 29 L -20.7686 29" class="graduation_small"/>
+        <path d="M 16.242 29 L 16.0186 29" class="graduation_small"/>
+        <path d="M -20.992 30 L -20.2473 30" class="graduation_large"/>
+        <text text-anchor="end" transform="translate(-21.3644 29.6277) rotate(0) scale(1, -1)">30</text>
+        <path d="M 16.242 30 L 15.4973 30" class="graduation_large"/>
+        <path d="M -20.2473 30 L 15.4973 30" class="grid_tens"/>
+        <path d="M -20.992 31 L -20.7686 31" class="graduation_small"/>
+        <path d="M 16.242 31 L 16.0186 31" class="graduation_small"/>
+        <path d="M -20.992 32 L -20.7686 32" class="graduation_small"/>
+        <path d="M 16.242 32 L 16.0186 32" class="graduation_small"/>
+        <path d="M -20.992 33 L -20.7686 33" class="graduation_small"/>
+        <path d="M 16.242 33 L 16.0186 33" class="graduation_small"/>
+        <path d="M -20.992 34 L -20.7686 34" class="graduation_small"/>
+        <path d="M 16.242 34 L 16.0186 34" class="graduation_small"/>
+        <path d="M -20.992 35 L -20.6197 35" class="graduation_medium"/>
+        <text text-anchor="end" transform="translate(-21.3644 34.6277) rotate(0) scale(1, -1)">35</text>
+        <path d="M 16.242 35 L 15.8697 35" class="graduation_medium"/>
+        <path d="M -20.6197 35 L 15.8697 35" class="grid_fives"/>
+        <path d="M -20.992 36 L -20.7686 36" class="graduation_small"/>
+        <path d="M 16.242 36 L 16.0186 36" class="graduation_small"/>
+        <path d="M 0 0" id="seg_id28" class="segment path"/>
+        <path d="M 0 0 L -2.275 0" id="seg_id29" class="segment path"/>
+        <path d="M -2.275 0 L -2.275 0" id="seg_id30" class="segment path"/>
+        <path d="M -2.275 0 L -2.4 0" id="seg_id31" class="segment path"/>
+        <path d="M -2.4 0 L -2.4 32.9" id="seg_id32" class="segment path"/>
+        <path d="M -2.4 32.9 L -2.275 32.9" id="seg_id33" class="segment path"/>
+        <path d="M -2.275 32.9 L -4.75 34.9" id="seg_id34" class="segment path"/>
+        <path d="M -4.75 34.9 L -4.75 35" id="seg_id35" class="segment path"/>
+        <path d="M -4.75 35 L 0 35" id="seg_id36" class="segment path"/>
+        <path d="M 0 35 L 0 0" id="seg_id37" class="segment path"/>
+        </g>
+        </svg>
+
+      </div>
+      <div class="buttons-container no-print">
+        <button class="download-button" onclick="downloadSVG('path4', 'anchorscad_path.svg')">Download SVG</button>
+        <button class="download-button" onclick="downloadPNG('path4', 'anchorscad_path.png')">Download PNG</button>
+      </div>
+    </div>
+  </div>
+</html>

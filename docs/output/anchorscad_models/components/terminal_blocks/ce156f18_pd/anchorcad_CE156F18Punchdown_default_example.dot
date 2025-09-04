@@ -1,0 +1,15 @@
+digraph default {
+    root_1 [label="root"];
+    default_2 [label="default"];
+    box_3 [label="box"];
+    handle_4 [label="handle"];
+    slit_5 [label="\('slit',\ 0\)"];
+    slit_6 [label="\('slit',\ 1\)"];
+    notch_7 [label="notch"];
+    root_1 -> default_2;
+    default_2 -> box_3;
+    default_2 -> handle_4;
+    default_2 -> slit_5;
+    default_2 -> slit_6;
+    default_2 -> notch_7;
+}

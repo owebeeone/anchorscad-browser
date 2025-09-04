@@ -1,0 +1,19 @@
+digraph default {
+    root_1 [label="root"];
+    default_2 [label="default"];
+    box_3 [label="box"];
+    hole_4 [label="\('hole',\ 0,\ 0\)"];
+    hole_5 [label="\('hole',\ 0,\ 1\)"];
+    hole_6 [label="\('hole',\ 1,\ 0\)"];
+    hole_7 [label="\('hole',\ 1,\ 1\)"];
+    hole_8 [label="\('hole',\ 2,\ 0\)"];
+    hole_9 [label="\('hole',\ 2,\ 1\)"];
+    root_1 -> default_2;
+    default_2 -> box_3;
+    default_2 -> hole_4;
+    default_2 -> hole_5;
+    default_2 -> hole_6;
+    default_2 -> hole_7;
+    default_2 -> hole_8;
+    default_2 -> hole_9;
+}

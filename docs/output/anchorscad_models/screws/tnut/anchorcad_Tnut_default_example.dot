@@ -1,0 +1,23 @@
+digraph default {
+    root_1 [label="root"];
+    default_2 [label="default"];
+    cage_3 [label="cage"];
+    flat_4 [label="flat"];
+    bevel_5 [label="bevel"];
+    shaft_6 [label="shaft"];
+    shaft_extension_7 [label="shaft_extension"];
+    wing_8 [label="\('wing',\ 0\)"];
+    wing_9 [label="\('wing',\ 1\)"];
+    wing_10 [label="\('wing',\ 2\)"];
+    wing_11 [label="\('wing',\ 3\)"];
+    root_1 -> default_2;
+    default_2 -> cage_3;
+    default_2 -> flat_4;
+    default_2 -> bevel_5;
+    default_2 -> shaft_6;
+    default_2 -> shaft_extension_7;
+    default_2 -> wing_8;
+    default_2 -> wing_9;
+    default_2 -> wing_10;
+    default_2 -> wing_11;
+}

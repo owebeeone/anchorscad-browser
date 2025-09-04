@@ -1,0 +1,27 @@
+digraph default {
+    root_1 [label="root"];
+    default_2 [label="default"];
+    spool_adaptor_3 [label="spool_adaptor"];
+    adaptor_4 [label="adaptor"];
+    rib_5 [label="\('rib',\ 0\)"];
+    cage_6 [label="cage"];
+    prism_7 [label="prism"];
+    rib_8 [label="\('rib',\ 1\)"];
+    cage_9 [label="cage"];
+    prism_10 [label="prism"];
+    rib_11 [label="\('rib',\ 2\)"];
+    cage_12 [label="cage"];
+    prism_13 [label="prism"];
+    root_1 -> default_2;
+    default_2 -> spool_adaptor_3;
+    spool_adaptor_3 -> adaptor_4;
+    default_2 -> rib_5;
+    rib_5 -> cage_6;
+    rib_5 -> prism_7;
+    default_2 -> rib_8;
+    rib_8 -> cage_9;
+    rib_8 -> prism_10;
+    default_2 -> rib_11;
+    rib_11 -> cage_12;
+    rib_11 -> prism_13;
+}

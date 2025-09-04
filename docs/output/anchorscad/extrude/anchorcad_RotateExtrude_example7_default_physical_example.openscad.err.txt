@@ -1,0 +1,13 @@
+
+Geometries in cache: 4
+Geometry cache size in bytes: 654944
+CGAL Polyhedrons in cache: 0
+CGAL cache size in bytes: 0
+Total rendering time: 0:00:00.023
+Top level object is a 3D object (PolySet):
+   Convex:       no
+   Triangles:   4532
+EXPORT-ERROR: Can't add triangle to 3MF model.
+
+Command failed: ['C:\\Program Files\\OpenSCAD (Nightly)\\openscad.exe', '-o', 'generated\\output\\anchorscad\\extrude\\anchorcad_RotateExtrude_example7_default_physical_example.stl', '-o', 'generated\\output\\anchorscad\\extrude\\anchorcad_RotateExtrude_example7_default_physical_example.3mf', '--backend', 'Manifold', '--enable', 'lazy-union', '-o', 'generated\\output\\anchorscad\\extrude\\anchorcad_RotateExtrude_example7_default_physical_example.png', '--autocenter', '--view', 'axes', '--imgsize', '1280,1024', 'generated\\output\\anchorscad\\extrude\\anchorcad_RotateExtrude_example7_default_physical_example.scad']
+Exit code: 3221226356

@@ -1,0 +1,10 @@
+digraph "5mm" {
+	graph [rankdir=LR]
+	root_5 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	6 [label="5mm" href="javascript:s=&quot;\(&#x27;5mm&#x27;,\)\nCylindricalLedBody&quot;; console.log(s); alert(s);" tooltip=CylindricalLedBody]
+	led_body_7 [label=led_body href="javascript:s=&quot;\(&#x27;5mm&#x27;,\ &#x27;led_body&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	cutout_8 [label=cutout href="javascript:s=&quot;\(&#x27;5mm&#x27;,\ &#x27;cutout&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	root_5 -> 6
+	6 -> led_body_7
+	6 -> cutout_8
+}

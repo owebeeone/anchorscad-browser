@@ -1,0 +1,19 @@
+digraph B6x1 {
+    root_302 [label="root"];
+    B6x1_303 [label="B6x1"];
+    box_304 [label="box"];
+    hole_305 [label="\('hole',\ 0,\ 0\)"];
+    hole_306 [label="\('hole',\ 1,\ 0\)"];
+    hole_307 [label="\('hole',\ 2,\ 0\)"];
+    hole_308 [label="\('hole',\ 3,\ 0\)"];
+    hole_309 [label="\('hole',\ 4,\ 0\)"];
+    hole_310 [label="\('hole',\ 5,\ 0\)"];
+    root_302 -> B6x1_303;
+    B6x1_303 -> box_304;
+    B6x1_303 -> hole_305;
+    B6x1_303 -> hole_306;
+    B6x1_303 -> hole_307;
+    B6x1_303 -> hole_308;
+    B6x1_303 -> hole_309;
+    B6x1_303 -> hole_310;
+}

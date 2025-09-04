@@ -1,0 +1,9 @@
+digraph default {
+    root_1 [label="root"];
+    default_2 [label="default"];
+    dovetail_cage_3 [label="dovetail_cage"];
+    front_4 [label="front"];
+    root_1 -> default_2;
+    default_2 -> dovetail_cage_3;
+    default_2 -> front_4;
+}

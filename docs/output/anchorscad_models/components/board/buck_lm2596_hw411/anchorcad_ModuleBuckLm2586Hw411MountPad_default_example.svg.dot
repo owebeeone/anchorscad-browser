@@ -1,0 +1,82 @@
+digraph default {
+	graph [rankdir=LR]
+	root_11 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_12 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nModuleBuckLm2586Hw411MountPad&quot;; console.log(s); alert(s);" tooltip=ModuleBuckLm2586Hw411MountPad]
+	pad_box_13 [label=pad_box href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;pad_box&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	mock_board_14 [label=mock_board href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;\)\nModuleBuckLm2586Hw411&quot;; console.log(s); alert(s);" tooltip=ModuleBuckLm2586Hw411]
+	pcb_15 [label=pcb href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;pcb&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	cap_in_16 [label=cap_in href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;cap_in&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	cap_out_17 [label=cap_out href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;cap_out&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	mount_hole_18 [label="\('mount_hole',\ 0\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ \(&#x27;mount_hole&#x27;,\ 0\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	mount_hole_19 [label="\('mount_hole',\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ \(&#x27;mount_hole&#x27;,\ 1\)\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	trimpot_20 [label=trimpot href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;trimpot&#x27;\)\nBourns3296&quot;; console.log(s); alert(s);" tooltip=Bourns3296]
+	trimpot_21 [label=trimpot href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;trimpot&#x27;,\ &#x27;trimpot&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	adj_22 [label=adj href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;mock_board&#x27;,\ &#x27;trimpot&#x27;,\ &#x27;adj&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pcb_screw_hole_23 [label="\('pcb_screw_hole',\ 0\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pcb_screw_hole&#x27;,\ 0\)\)\nFlatHeadScrew&quot;; console.log(s); alert(s);" tooltip=FlatHeadScrew]
+	screw_cage_24 [label=screw_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pcb_screw_hole&#x27;,\ 0\),\ &#x27;screw_cage&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	tap_shaft_25 [label=tap_shaft href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pcb_screw_hole&#x27;,\ 0\),\ &#x27;tap_shaft&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	thru_shaft_26 [label=thru_shaft href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pcb_screw_hole&#x27;,\ 0\),\ &#x27;thru_shaft&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	access_hole_27 [label=access_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pcb_screw_hole&#x27;,\ 0\),\ &#x27;access_hole&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	screw_hole_28 [label=screw_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pcb_screw_hole&#x27;,\ 0\),\ &#x27;screw_hole&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	pcb_screw_hole_29 [label="\('pcb_screw_hole',\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pcb_screw_hole&#x27;,\ 1\)\)\nFlatHeadScrew&quot;; console.log(s); alert(s);" tooltip=FlatHeadScrew]
+	screw_cage_30 [label=screw_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pcb_screw_hole&#x27;,\ 1\),\ &#x27;screw_cage&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	tap_shaft_31 [label=tap_shaft href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pcb_screw_hole&#x27;,\ 1\),\ &#x27;tap_shaft&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	thru_shaft_32 [label=thru_shaft href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pcb_screw_hole&#x27;,\ 1\),\ &#x27;thru_shaft&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	access_hole_33 [label=access_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pcb_screw_hole&#x27;,\ 1\),\ &#x27;access_hole&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	screw_hole_34 [label=screw_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;pcb_screw_hole&#x27;,\ 1\),\ &#x27;screw_hole&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	35 [label="'face_centre',\ 'base',\ " href="javascript:s=&quot;\(&quot;&#x27;face_centre&#x27;,\ &#x27;base&#x27;,\ &quot;,\)\nAnnotatedCoordinates&quot;; console.log(s); alert(s);" tooltip=AnnotatedCoordinates]
+	coords_36 [label=coords href="javascript:s=&quot;\(&quot;&#x27;face_centre&#x27;,\ &#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;\)\nCoordinates&quot;; console.log(s); alert(s);" tooltip=Coordinates]
+	origin_37 [label=origin href="javascript:s=&quot;\(&quot;&#x27;face_centre&#x27;,\ &#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;origin&#x27;\)\nCoordinatesCage&quot;; console.log(s); alert(s);" tooltip=CoordinatesCage]
+	x_arrow_38 [label=x_arrow href="javascript:s=&quot;\(&quot;&#x27;face_centre&#x27;,\ &#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_39 [label=stem href="javascript:s=&quot;\(&quot;&#x27;face_centre&#x27;,\ &#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_40 [label=head href="javascript:s=&quot;\(&quot;&#x27;face_centre&#x27;,\ &#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	y_arrow_41 [label=y_arrow href="javascript:s=&quot;\(&quot;&#x27;face_centre&#x27;,\ &#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_42 [label=stem href="javascript:s=&quot;\(&quot;&#x27;face_centre&#x27;,\ &#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_43 [label=head href="javascript:s=&quot;\(&quot;&#x27;face_centre&#x27;,\ &#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	z_arrow_44 [label=z_arrow href="javascript:s=&quot;\(&quot;&#x27;face_centre&#x27;,\ &#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_45 [label=stem href="javascript:s=&quot;\(&quot;&#x27;face_centre&#x27;,\ &#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_46 [label=head href="javascript:s=&quot;\(&quot;&#x27;face_centre&#x27;,\ &#x27;base&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	x_47 [label=x href="javascript:s=&quot;\(&quot;&#x27;face_centre&#x27;,\ &#x27;base&#x27;,\ &quot;,\ &#x27;x&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	y_48 [label=y href="javascript:s=&quot;\(&quot;&#x27;face_centre&#x27;,\ &#x27;base&#x27;,\ &quot;,\ &#x27;y&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	z_49 [label=z href="javascript:s=&quot;\(&quot;&#x27;face_centre&#x27;,\ &#x27;base&#x27;,\ &quot;,\ &#x27;z&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	label_50 [label=label href="javascript:s=&quot;\(&quot;&#x27;face_centre&#x27;,\ &#x27;base&#x27;,\ &quot;,\ &#x27;label&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	root_11 -> default_12
+	default_12 -> pad_box_13
+	default_12 -> mock_board_14
+	mock_board_14 -> pcb_15
+	mock_board_14 -> cap_in_16
+	mock_board_14 -> cap_out_17
+	mock_board_14 -> mount_hole_18
+	mock_board_14 -> mount_hole_19
+	mock_board_14 -> trimpot_20
+	trimpot_20 -> trimpot_21
+	trimpot_20 -> adj_22
+	default_12 -> pcb_screw_hole_23
+	pcb_screw_hole_23 -> screw_cage_24
+	pcb_screw_hole_23 -> tap_shaft_25
+	pcb_screw_hole_23 -> thru_shaft_26
+	pcb_screw_hole_23 -> access_hole_27
+	pcb_screw_hole_23 -> screw_hole_28
+	default_12 -> pcb_screw_hole_29
+	pcb_screw_hole_29 -> screw_cage_30
+	pcb_screw_hole_29 -> tap_shaft_31
+	pcb_screw_hole_29 -> thru_shaft_32
+	pcb_screw_hole_29 -> access_hole_33
+	pcb_screw_hole_29 -> screw_hole_34
+	root_11 -> 35
+	35 -> coords_36
+	coords_36 -> origin_37
+	coords_36 -> x_arrow_38
+	x_arrow_38 -> stem_39
+	x_arrow_38 -> head_40
+	coords_36 -> y_arrow_41
+	y_arrow_41 -> stem_42
+	y_arrow_41 -> head_43
+	coords_36 -> z_arrow_44
+	z_arrow_44 -> stem_45
+	z_arrow_44 -> head_46
+	35 -> x_47
+	35 -> y_48
+	35 -> z_49
+	35 -> label_50
+}

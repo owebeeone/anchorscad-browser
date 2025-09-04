@@ -1,0 +1,21 @@
+digraph default {
+    root_7 [label="root"];
+    default_8 [label="default"];
+    extender_9 [label="extender"];
+    cage_10 [label="cage"];
+    stadium_11 [label="stadium"];
+    housing_12 [label="housing"];
+    outer_13 [label="outer"];
+    body_14 [label="body"];
+    top_access_hole_15 [label="top_access_hole"];
+    rear_access_hole_16 [label="rear_access_hole"];
+    root_7 -> default_8;
+    default_8 -> extender_9;
+    extender_9 -> cage_10;
+    extender_9 -> stadium_11;
+    default_8 -> housing_12;
+    housing_12 -> outer_13;
+    housing_12 -> body_14;
+    housing_12 -> top_access_hole_15;
+    housing_12 -> rear_access_hole_16;
+}

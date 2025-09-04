@@ -1,0 +1,31 @@
+digraph x_y_only {
+    root_18 [label="root"];
+    x_y_only_19 [label="x_y_only"];
+    coords_20 [label="coords"];
+    origin_21 [label="origin"];
+    x_arrow_22 [label="x_arrow"];
+    stem_23 [label="stem"];
+    head_24 [label="head"];
+    y_arrow_25 [label="y_arrow"];
+    stem_26 [label="stem"];
+    head_27 [label="head"];
+    z_arrow_28 [label="z_arrow"];
+    stem_29 [label="stem"];
+    head_30 [label="head"];
+    x_31 [label="x"];
+    y_32 [label="y"];
+    root_18 -> x_y_only_19;
+    x_y_only_19 -> coords_20;
+    coords_20 -> origin_21;
+    coords_20 -> x_arrow_22;
+    x_arrow_22 -> stem_23;
+    x_arrow_22 -> head_24;
+    coords_20 -> y_arrow_25;
+    y_arrow_25 -> stem_26;
+    y_arrow_25 -> head_27;
+    coords_20 -> z_arrow_28;
+    z_arrow_28 -> stem_29;
+    z_arrow_28 -> head_30;
+    x_y_only_19 -> x_31;
+    x_y_only_19 -> y_32;
+}

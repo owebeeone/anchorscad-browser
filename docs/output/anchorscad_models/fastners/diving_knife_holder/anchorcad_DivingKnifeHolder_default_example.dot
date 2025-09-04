@@ -1,0 +1,21 @@
+digraph default {
+    root_1 [label="root"];
+    default_2 [label="default"];
+    holder_3 [label="holder"];
+    ring_4 [label="ring"];
+    outer_5 [label="outer"];
+    pie_cage_6 [label="pie_cage"];
+    pie_7 [label="pie"];
+    inner_8 [label="inner"];
+    pie_cage_9 [label="pie_cage"];
+    pie_10 [label="pie"];
+    root_1 -> default_2;
+    default_2 -> holder_3;
+    default_2 -> ring_4;
+    ring_4 -> outer_5;
+    outer_5 -> pie_cage_6;
+    outer_5 -> pie_7;
+    ring_4 -> inner_8;
+    inner_8 -> pie_cage_9;
+    inner_8 -> pie_10;
+}

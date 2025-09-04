@@ -1,0 +1,16 @@
+digraph larger_holes {
+	graph [rankdir=LR]
+	root_235 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	larger_holes_236 [label=larger_holes href="javascript:s=&quot;\(&#x27;larger_holes&#x27;,\)\nSimpleGridBox&quot;; console.log(s); alert(s);" tooltip=SimpleGridBox]
+	box_237 [label=box href="javascript:s=&quot;\(&#x27;larger_holes&#x27;,\ &#x27;box&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_238 [label="\('hole',\ 0,\ 0\)" href="javascript:s=&quot;\(&#x27;larger_holes&#x27;,\ \(&#x27;hole&#x27;,\ 0,\ 0\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_239 [label="\('hole',\ 0,\ 1\)" href="javascript:s=&quot;\(&#x27;larger_holes&#x27;,\ \(&#x27;hole&#x27;,\ 0,\ 1\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_240 [label="\('hole',\ 1,\ 0\)" href="javascript:s=&quot;\(&#x27;larger_holes&#x27;,\ \(&#x27;hole&#x27;,\ 1,\ 0\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_241 [label="\('hole',\ 1,\ 1\)" href="javascript:s=&quot;\(&#x27;larger_holes&#x27;,\ \(&#x27;hole&#x27;,\ 1,\ 1\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	root_235 -> larger_holes_236
+	larger_holes_236 -> box_237
+	larger_holes_236 -> hole_238
+	larger_holes_236 -> hole_239
+	larger_holes_236 -> hole_240
+	larger_holes_236 -> hole_241
+}

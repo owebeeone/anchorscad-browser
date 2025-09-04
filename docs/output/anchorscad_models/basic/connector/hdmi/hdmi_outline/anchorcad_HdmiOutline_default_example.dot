@@ -1,0 +1,9 @@
+digraph default {
+    root_1 [label="root"];
+    default_2 [label="default"];
+    cage_3 [label="cage"];
+    hdmi_4 [label="hdmi"];
+    root_1 -> default_2;
+    default_2 -> cage_3;
+    default_2 -> hdmi_4;
+}

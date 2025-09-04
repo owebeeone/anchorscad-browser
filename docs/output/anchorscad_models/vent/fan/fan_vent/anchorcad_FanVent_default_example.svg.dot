@@ -1,0 +1,104 @@
+digraph default {
+	graph [rankdir=LR]
+	root_1 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_2 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nFanVent&quot;; console.log(s); alert(s);" tooltip=FanVent]
+	fan_3 [label=fan href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;fan&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	screw_cage_4 [label=screw_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;screw_cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	mount_5 [label="\('mount',\ 0\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;mount&#x27;,\ 0\)\)\nPipe&quot;; console.log(s); alert(s);" tooltip=Pipe]
+	outer_6 [label=outer href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;mount&#x27;,\ 0\),\ &#x27;outer&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_7 [label=pie_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;mount&#x27;,\ 0\),\ &#x27;outer&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_8 [label=pie href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;mount&#x27;,\ 0\),\ &#x27;outer&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	inner_9 [label=inner href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;mount&#x27;,\ 0\),\ &#x27;inner&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_10 [label=pie_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;mount&#x27;,\ 0\),\ &#x27;inner&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_11 [label=pie href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;mount&#x27;,\ 0\),\ &#x27;inner&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	mount_12 [label="\('mount',\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;mount&#x27;,\ 1\)\)\nPipe&quot;; console.log(s); alert(s);" tooltip=Pipe]
+	outer_13 [label=outer href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;mount&#x27;,\ 1\),\ &#x27;outer&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_14 [label=pie_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;mount&#x27;,\ 1\),\ &#x27;outer&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_15 [label=pie href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;mount&#x27;,\ 1\),\ &#x27;outer&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	inner_16 [label=inner href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;mount&#x27;,\ 1\),\ &#x27;inner&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_17 [label=pie_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;mount&#x27;,\ 1\),\ &#x27;inner&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_18 [label=pie href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;mount&#x27;,\ 1\),\ &#x27;inner&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	mount_19 [label="\('mount',\ 2\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;mount&#x27;,\ 2\)\)\nPipe&quot;; console.log(s); alert(s);" tooltip=Pipe]
+	outer_20 [label=outer href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;mount&#x27;,\ 2\),\ &#x27;outer&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_21 [label=pie_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;mount&#x27;,\ 2\),\ &#x27;outer&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_22 [label=pie href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;mount&#x27;,\ 2\),\ &#x27;outer&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	inner_23 [label=inner href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;mount&#x27;,\ 2\),\ &#x27;inner&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_24 [label=pie_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;mount&#x27;,\ 2\),\ &#x27;inner&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_25 [label=pie href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;mount&#x27;,\ 2\),\ &#x27;inner&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	mount_26 [label="\('mount',\ 3\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;mount&#x27;,\ 3\)\)\nPipe&quot;; console.log(s); alert(s);" tooltip=Pipe]
+	outer_27 [label=outer href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;mount&#x27;,\ 3\),\ &#x27;outer&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_28 [label=pie_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;mount&#x27;,\ 3\),\ &#x27;outer&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_29 [label=pie href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;mount&#x27;,\ 3\),\ &#x27;outer&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	inner_30 [label=inner href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;mount&#x27;,\ 3\),\ &#x27;inner&#x27;\)\nPie&quot;; console.log(s); alert(s);" tooltip=Pie]
+	pie_cage_31 [label=pie_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;mount&#x27;,\ 3\),\ &#x27;inner&#x27;,\ &#x27;pie_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pie_32 [label=pie href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;mount&#x27;,\ 3\),\ &#x27;inner&#x27;,\ &#x27;pie&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	grille_33 [label=grille href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;grille&#x27;\)\nCurlySpokes&quot;; console.log(s); alert(s);" tooltip=CurlySpokes]
+	cage_34 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;grille&#x27;,\ &#x27;cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	spoke_35 [label="\('spoke',\ 0\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 0\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_36 [label="\('spoke',\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 1\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_37 [label="\('spoke',\ 2\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 2\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_38 [label="\('spoke',\ 3\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 3\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_39 [label="\('spoke',\ 4\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 4\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_40 [label="\('spoke',\ 5\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 5\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_41 [label="\('spoke',\ 6\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 6\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_42 [label="\('spoke',\ 7\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 7\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_43 [label="\('spoke',\ 8\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 8\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_44 [label="\('spoke',\ 9\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 9\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_45 [label="\('spoke',\ 10\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 10\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_46 [label="\('spoke',\ 11\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 11\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_47 [label="\('spoke',\ 12\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 12\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_48 [label="\('spoke',\ 13\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 13\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_49 [label="\('spoke',\ 14\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 14\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_50 [label="\('spoke',\ 15\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;grille&#x27;,\ \(&#x27;spoke&#x27;,\ 15\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	inner_core_51 [label=inner_core href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;grille&#x27;,\ &#x27;inner_core&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	root_1 -> default_2
+	default_2 -> fan_3
+	default_2 -> screw_cage_4
+	default_2 -> mount_5
+	mount_5 -> outer_6
+	outer_6 -> pie_cage_7
+	outer_6 -> pie_8
+	mount_5 -> inner_9
+	inner_9 -> pie_cage_10
+	inner_9 -> pie_11
+	default_2 -> mount_12
+	mount_12 -> outer_13
+	outer_13 -> pie_cage_14
+	outer_13 -> pie_15
+	mount_12 -> inner_16
+	inner_16 -> pie_cage_17
+	inner_16 -> pie_18
+	default_2 -> mount_19
+	mount_19 -> outer_20
+	outer_20 -> pie_cage_21
+	outer_20 -> pie_22
+	mount_19 -> inner_23
+	inner_23 -> pie_cage_24
+	inner_23 -> pie_25
+	default_2 -> mount_26
+	mount_26 -> outer_27
+	outer_27 -> pie_cage_28
+	outer_27 -> pie_29
+	mount_26 -> inner_30
+	inner_30 -> pie_cage_31
+	inner_30 -> pie_32
+	default_2 -> grille_33
+	grille_33 -> cage_34
+	grille_33 -> spoke_35
+	grille_33 -> spoke_36
+	grille_33 -> spoke_37
+	grille_33 -> spoke_38
+	grille_33 -> spoke_39
+	grille_33 -> spoke_40
+	grille_33 -> spoke_41
+	grille_33 -> spoke_42
+	grille_33 -> spoke_43
+	grille_33 -> spoke_44
+	grille_33 -> spoke_45
+	grille_33 -> spoke_46
+	grille_33 -> spoke_47
+	grille_33 -> spoke_48
+	grille_33 -> spoke_49
+	grille_33 -> spoke_50
+	grille_33 -> inner_core_51
+}

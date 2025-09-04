@@ -1,0 +1,16 @@
+digraph default {
+	graph [rankdir=LR]
+	root_1 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_2 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nCE156F18Punchdown&quot;; console.log(s); alert(s);" tooltip=CE156F18Punchdown]
+	box_3 [label=box href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;box&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	handle_4 [label=handle href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;handle&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	slit_5 [label="\('slit',\ 0\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;slit&#x27;,\ 0\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	slit_6 [label="\('slit',\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;slit&#x27;,\ 1\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	notch_7 [label=notch href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;notch&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	root_1 -> default_2
+	default_2 -> box_3
+	default_2 -> handle_4
+	default_2 -> slit_5
+	default_2 -> slit_6
+	default_2 -> notch_7
+}

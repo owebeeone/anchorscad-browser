@@ -1,0 +1,13 @@
+
+Current top level object is empty.
+Current top level object is empty.
+Compiling design (CSG Products normalization)...
+Normalized CSG tree has 1 elements
+Geometries in cache: 1
+Geometry cache size in bytes: 0
+CGAL Polyhedrons in cache: 0
+CGAL cache size in bytes: 0
+Total rendering time: 0:00:00.616
+
+Command failed: ['C:\\Program Files\\OpenSCAD (Nightly)\\openscad.exe', '-o', 'generated\\output\\anchorscad\\core\\anchorcad_CoordinatesCage_default_example.stl', '-o', 'generated\\output\\anchorscad\\core\\anchorcad_CoordinatesCage_default_example.3mf', '--backend', 'Manifold', '--enable', 'lazy-union', '-o', 'generated\\output\\anchorscad\\core\\anchorcad_CoordinatesCage_default_example.png', '--autocenter', '--view', 'axes', '--imgsize', '1280,1024', 'generated\\output\\anchorscad\\core\\anchorcad_CoordinatesCage_default_example.scad']
+Exit code: 1

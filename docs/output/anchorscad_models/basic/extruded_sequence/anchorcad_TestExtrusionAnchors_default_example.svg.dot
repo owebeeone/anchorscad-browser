@@ -1,0 +1,40 @@
+digraph default {
+	graph [rankdir=LR]
+	root_42 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_43 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nTestExtrusionAnchors&quot;; console.log(s); alert(s);" tooltip=TestExtrusionAnchors]
+	test_44 [label=test href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;test&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	45 [label="'test',\ 'spline1',\ 0\.5,\ ex_end=True,\ linear_compat=True" href="javascript:s=&quot;\(&quot;&#x27;test&#x27;,\ &#x27;spline1&#x27;,\ 0\.5,\ ex_end=True,\ linear_compat=True&quot;,\)\nAnnotatedCoordinates&quot;; console.log(s); alert(s);" tooltip=AnnotatedCoordinates]
+	coords_46 [label=coords href="javascript:s=&quot;\(&quot;&#x27;test&#x27;,\ &#x27;spline1&#x27;,\ 0\.5,\ ex_end=True,\ linear_compat=True&quot;,\ &#x27;coords&#x27;\)\nCoordinates&quot;; console.log(s); alert(s);" tooltip=Coordinates]
+	origin_47 [label=origin href="javascript:s=&quot;\(&quot;&#x27;test&#x27;,\ &#x27;spline1&#x27;,\ 0\.5,\ ex_end=True,\ linear_compat=True&quot;,\ &#x27;coords&#x27;,\ &#x27;origin&#x27;\)\nCoordinatesCage&quot;; console.log(s); alert(s);" tooltip=CoordinatesCage]
+	x_arrow_48 [label=x_arrow href="javascript:s=&quot;\(&quot;&#x27;test&#x27;,\ &#x27;spline1&#x27;,\ 0\.5,\ ex_end=True,\ linear_compat=True&quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_49 [label=stem href="javascript:s=&quot;\(&quot;&#x27;test&#x27;,\ &#x27;spline1&#x27;,\ 0\.5,\ ex_end=True,\ linear_compat=True&quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_50 [label=head href="javascript:s=&quot;\(&quot;&#x27;test&#x27;,\ &#x27;spline1&#x27;,\ 0\.5,\ ex_end=True,\ linear_compat=True&quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	y_arrow_51 [label=y_arrow href="javascript:s=&quot;\(&quot;&#x27;test&#x27;,\ &#x27;spline1&#x27;,\ 0\.5,\ ex_end=True,\ linear_compat=True&quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_52 [label=stem href="javascript:s=&quot;\(&quot;&#x27;test&#x27;,\ &#x27;spline1&#x27;,\ 0\.5,\ ex_end=True,\ linear_compat=True&quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_53 [label=head href="javascript:s=&quot;\(&quot;&#x27;test&#x27;,\ &#x27;spline1&#x27;,\ 0\.5,\ ex_end=True,\ linear_compat=True&quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	z_arrow_54 [label=z_arrow href="javascript:s=&quot;\(&quot;&#x27;test&#x27;,\ &#x27;spline1&#x27;,\ 0\.5,\ ex_end=True,\ linear_compat=True&quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_55 [label=stem href="javascript:s=&quot;\(&quot;&#x27;test&#x27;,\ &#x27;spline1&#x27;,\ 0\.5,\ ex_end=True,\ linear_compat=True&quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_56 [label=head href="javascript:s=&quot;\(&quot;&#x27;test&#x27;,\ &#x27;spline1&#x27;,\ 0\.5,\ ex_end=True,\ linear_compat=True&quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	x_57 [label=x href="javascript:s=&quot;\(&quot;&#x27;test&#x27;,\ &#x27;spline1&#x27;,\ 0\.5,\ ex_end=True,\ linear_compat=True&quot;,\ &#x27;x&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	y_58 [label=y href="javascript:s=&quot;\(&quot;&#x27;test&#x27;,\ &#x27;spline1&#x27;,\ 0\.5,\ ex_end=True,\ linear_compat=True&quot;,\ &#x27;y&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	z_59 [label=z href="javascript:s=&quot;\(&quot;&#x27;test&#x27;,\ &#x27;spline1&#x27;,\ 0\.5,\ ex_end=True,\ linear_compat=True&quot;,\ &#x27;z&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	label_60 [label=label href="javascript:s=&quot;\(&quot;&#x27;test&#x27;,\ &#x27;spline1&#x27;,\ 0\.5,\ ex_end=True,\ linear_compat=True&quot;,\ &#x27;label&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	root_42 -> default_43
+	default_43 -> test_44
+	root_42 -> 45
+	45 -> coords_46
+	coords_46 -> origin_47
+	coords_46 -> x_arrow_48
+	x_arrow_48 -> stem_49
+	x_arrow_48 -> head_50
+	coords_46 -> y_arrow_51
+	y_arrow_51 -> stem_52
+	y_arrow_51 -> head_53
+	coords_46 -> z_arrow_54
+	z_arrow_54 -> stem_55
+	z_arrow_54 -> head_56
+	45 -> x_57
+	45 -> y_58
+	45 -> z_59
+	45 -> label_60
+}

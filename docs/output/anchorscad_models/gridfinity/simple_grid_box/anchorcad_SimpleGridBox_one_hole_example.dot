@@ -1,0 +1,9 @@
+digraph one_hole {
+    root_242 [label="root"];
+    one_hole_243 [label="one_hole"];
+    box_244 [label="box"];
+    hole_245 [label="\('hole',\ 0,\ 0\)"];
+    root_242 -> one_hole_243;
+    one_hole_243 -> box_244;
+    one_hole_243 -> hole_245;
+}

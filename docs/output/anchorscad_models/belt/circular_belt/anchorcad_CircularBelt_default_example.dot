@@ -1,0 +1,11 @@
+digraph default {
+    root_1 [label="root"];
+    default_2 [label="default"];
+    belt_3 [label="belt"];
+    torus_4 [label="torus"];
+    cage_5 [label="cage"];
+    root_1 -> default_2;
+    default_2 -> belt_3;
+    belt_3 -> torus_4;
+    belt_3 -> cage_5;
+}

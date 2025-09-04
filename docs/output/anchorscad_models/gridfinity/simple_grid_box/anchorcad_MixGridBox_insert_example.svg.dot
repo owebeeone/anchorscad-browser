@@ -1,0 +1,168 @@
+digraph insert {
+	graph [rankdir=LR]
+	root_19 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	insert_20 [label=insert href="javascript:s=&quot;\(&#x27;insert&#x27;,\)\nMixGridBox&quot;; console.log(s); alert(s);" tooltip=MixGridBox]
+	box_21 [label=box href="javascript:s=&quot;\(&#x27;insert&#x27;,\ &#x27;box&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_22 [label="\('hole',\ 0,\ 0\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 0,\ 0\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_23 [label="\('hole',\ 0,\ 1\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 0,\ 1\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_24 [label="\('hole',\ 0,\ 2\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 0,\ 2\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_25 [label="\('hole',\ 0,\ 3\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 0,\ 3\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_26 [label="\('hole',\ 0,\ 4\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 0,\ 4\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_27 [label="\('hole',\ 0,\ 5\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 0,\ 5\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_28 [label="\('hole',\ 1,\ 0\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 1,\ 0\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_29 [label="\('hole',\ 1,\ 1\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 1,\ 1\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_30 [label="\('hole',\ 1,\ 2\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 1,\ 2\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_31 [label="\('hole',\ 1,\ 3\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 1,\ 3\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_32 [label="\('hole',\ 1,\ 4\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 1,\ 4\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_33 [label="\('hole',\ 1,\ 5\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 1,\ 5\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_34 [label="\('hole',\ 2,\ 0\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 2,\ 0\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_35 [label="\('hole',\ 2,\ 1\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 2,\ 1\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_36 [label="\('hole',\ 2,\ 2\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 2,\ 2\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_37 [label="\('hole',\ 2,\ 3\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 2,\ 3\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_38 [label="\('hole',\ 2,\ 4\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 2,\ 4\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_39 [label="\('hole',\ 2,\ 5\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 2,\ 5\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_40 [label="\('hole',\ 3,\ 0\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 3,\ 0\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_41 [label="\('hole',\ 3,\ 1\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 3,\ 1\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_42 [label="\('hole',\ 3,\ 2\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 3,\ 2\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_43 [label="\('hole',\ 3,\ 3\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 3,\ 3\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_44 [label="\('hole',\ 3,\ 4\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 3,\ 4\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_45 [label="\('hole',\ 3,\ 5\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 3,\ 5\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_46 [label="\('hole',\ 4,\ 0\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 4,\ 0\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_47 [label="\('hole',\ 4,\ 1\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 4,\ 1\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_48 [label="\('hole',\ 4,\ 2\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 4,\ 2\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_49 [label="\('hole',\ 4,\ 3\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 4,\ 3\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_50 [label="\('hole',\ 4,\ 4\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 4,\ 4\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_51 [label="\('hole',\ 4,\ 5\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 4,\ 5\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_52 [label="\('hole',\ 5,\ 0\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 5,\ 0\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_53 [label="\('hole',\ 5,\ 1\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 5,\ 1\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_54 [label="\('hole',\ 5,\ 2\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 5,\ 2\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_55 [label="\('hole',\ 5,\ 3\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 5,\ 3\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_56 [label="\('hole',\ 5,\ 4\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 5,\ 4\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_57 [label="\('hole',\ 5,\ 5\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 5,\ 5\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_58 [label="\('hole',\ 6,\ 0\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 6,\ 0\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_59 [label="\('hole',\ 6,\ 1\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 6,\ 1\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_60 [label="\('hole',\ 6,\ 2\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 6,\ 2\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_61 [label="\('hole',\ 6,\ 3\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 6,\ 3\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_62 [label="\('hole',\ 6,\ 4\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 6,\ 4\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_63 [label="\('hole',\ 6,\ 5\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 6,\ 5\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_64 [label="\('hole',\ 7,\ 0\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 7,\ 0\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_65 [label="\('hole',\ 7,\ 1\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 7,\ 1\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_66 [label="\('hole',\ 7,\ 2\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 7,\ 2\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_67 [label="\('hole',\ 7,\ 3\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 7,\ 3\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_68 [label="\('hole',\ 7,\ 4\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 7,\ 4\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_69 [label="\('hole',\ 7,\ 5\)" href="javascript:s=&quot;\(&#x27;insert&#x27;,\ \(&#x27;hole&#x27;,\ 7,\ 5\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	70 [label="'box',\ 'centre',\ " href="javascript:s=&quot;\(&quot;&#x27;box&#x27;,\ &#x27;centre&#x27;,\ &quot;,\)\nAnnotatedCoordinates&quot;; console.log(s); alert(s);" tooltip=AnnotatedCoordinates]
+	coords_71 [label=coords href="javascript:s=&quot;\(&quot;&#x27;box&#x27;,\ &#x27;centre&#x27;,\ &quot;,\ &#x27;coords&#x27;\)\nCoordinates&quot;; console.log(s); alert(s);" tooltip=Coordinates]
+	origin_72 [label=origin href="javascript:s=&quot;\(&quot;&#x27;box&#x27;,\ &#x27;centre&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;origin&#x27;\)\nCoordinatesCage&quot;; console.log(s); alert(s);" tooltip=CoordinatesCage]
+	x_arrow_73 [label=x_arrow href="javascript:s=&quot;\(&quot;&#x27;box&#x27;,\ &#x27;centre&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_74 [label=stem href="javascript:s=&quot;\(&quot;&#x27;box&#x27;,\ &#x27;centre&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_75 [label=head href="javascript:s=&quot;\(&quot;&#x27;box&#x27;,\ &#x27;centre&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	y_arrow_76 [label=y_arrow href="javascript:s=&quot;\(&quot;&#x27;box&#x27;,\ &#x27;centre&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_77 [label=stem href="javascript:s=&quot;\(&quot;&#x27;box&#x27;,\ &#x27;centre&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_78 [label=head href="javascript:s=&quot;\(&quot;&#x27;box&#x27;,\ &#x27;centre&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	z_arrow_79 [label=z_arrow href="javascript:s=&quot;\(&quot;&#x27;box&#x27;,\ &#x27;centre&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_80 [label=stem href="javascript:s=&quot;\(&quot;&#x27;box&#x27;,\ &#x27;centre&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_81 [label=head href="javascript:s=&quot;\(&quot;&#x27;box&#x27;,\ &#x27;centre&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	x_82 [label=x href="javascript:s=&quot;\(&quot;&#x27;box&#x27;,\ &#x27;centre&#x27;,\ &quot;,\ &#x27;x&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	y_83 [label=y href="javascript:s=&quot;\(&quot;&#x27;box&#x27;,\ &#x27;centre&#x27;,\ &quot;,\ &#x27;y&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	z_84 [label=z href="javascript:s=&quot;\(&quot;&#x27;box&#x27;,\ &#x27;centre&#x27;,\ &quot;,\ &#x27;z&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	label_85 [label=label href="javascript:s=&quot;\(&quot;&#x27;box&#x27;,\ &#x27;centre&#x27;,\ &quot;,\ &#x27;label&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	86 [label="\('hole',\ 3,\ 2\),\ 'centre',\ " href="javascript:s=&quot;\(&quot;\(&#x27;hole&#x27;,\ 3,\ 2\),\ &#x27;centre&#x27;,\ &quot;,\)\nAnnotatedCoordinates&quot;; console.log(s); alert(s);" tooltip=AnnotatedCoordinates]
+	coords_87 [label=coords href="javascript:s=&quot;\(&quot;\(&#x27;hole&#x27;,\ 3,\ 2\),\ &#x27;centre&#x27;,\ &quot;,\ &#x27;coords&#x27;\)\nCoordinates&quot;; console.log(s); alert(s);" tooltip=Coordinates]
+	origin_88 [label=origin href="javascript:s=&quot;\(&quot;\(&#x27;hole&#x27;,\ 3,\ 2\),\ &#x27;centre&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;origin&#x27;\)\nCoordinatesCage&quot;; console.log(s); alert(s);" tooltip=CoordinatesCage]
+	x_arrow_89 [label=x_arrow href="javascript:s=&quot;\(&quot;\(&#x27;hole&#x27;,\ 3,\ 2\),\ &#x27;centre&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_90 [label=stem href="javascript:s=&quot;\(&quot;\(&#x27;hole&#x27;,\ 3,\ 2\),\ &#x27;centre&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_91 [label=head href="javascript:s=&quot;\(&quot;\(&#x27;hole&#x27;,\ 3,\ 2\),\ &#x27;centre&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	y_arrow_92 [label=y_arrow href="javascript:s=&quot;\(&quot;\(&#x27;hole&#x27;,\ 3,\ 2\),\ &#x27;centre&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_93 [label=stem href="javascript:s=&quot;\(&quot;\(&#x27;hole&#x27;,\ 3,\ 2\),\ &#x27;centre&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_94 [label=head href="javascript:s=&quot;\(&quot;\(&#x27;hole&#x27;,\ 3,\ 2\),\ &#x27;centre&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	z_arrow_95 [label=z_arrow href="javascript:s=&quot;\(&quot;\(&#x27;hole&#x27;,\ 3,\ 2\),\ &#x27;centre&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_96 [label=stem href="javascript:s=&quot;\(&quot;\(&#x27;hole&#x27;,\ 3,\ 2\),\ &#x27;centre&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_97 [label=head href="javascript:s=&quot;\(&quot;\(&#x27;hole&#x27;,\ 3,\ 2\),\ &#x27;centre&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	x_98 [label=x href="javascript:s=&quot;\(&quot;\(&#x27;hole&#x27;,\ 3,\ 2\),\ &#x27;centre&#x27;,\ &quot;,\ &#x27;x&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	y_99 [label=y href="javascript:s=&quot;\(&quot;\(&#x27;hole&#x27;,\ 3,\ 2\),\ &#x27;centre&#x27;,\ &quot;,\ &#x27;y&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	z_100 [label=z href="javascript:s=&quot;\(&quot;\(&#x27;hole&#x27;,\ 3,\ 2\),\ &#x27;centre&#x27;,\ &quot;,\ &#x27;z&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	label_101 [label=label href="javascript:s=&quot;\(&quot;\(&#x27;hole&#x27;,\ 3,\ 2\),\ &#x27;centre&#x27;,\ &quot;,\ &#x27;label&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	root_19 -> insert_20
+	insert_20 -> box_21
+	insert_20 -> hole_22
+	insert_20 -> hole_23
+	insert_20 -> hole_24
+	insert_20 -> hole_25
+	insert_20 -> hole_26
+	insert_20 -> hole_27
+	insert_20 -> hole_28
+	insert_20 -> hole_29
+	insert_20 -> hole_30
+	insert_20 -> hole_31
+	insert_20 -> hole_32
+	insert_20 -> hole_33
+	insert_20 -> hole_34
+	insert_20 -> hole_35
+	insert_20 -> hole_36
+	insert_20 -> hole_37
+	insert_20 -> hole_38
+	insert_20 -> hole_39
+	insert_20 -> hole_40
+	insert_20 -> hole_41
+	insert_20 -> hole_42
+	insert_20 -> hole_43
+	insert_20 -> hole_44
+	insert_20 -> hole_45
+	insert_20 -> hole_46
+	insert_20 -> hole_47
+	insert_20 -> hole_48
+	insert_20 -> hole_49
+	insert_20 -> hole_50
+	insert_20 -> hole_51
+	insert_20 -> hole_52
+	insert_20 -> hole_53
+	insert_20 -> hole_54
+	insert_20 -> hole_55
+	insert_20 -> hole_56
+	insert_20 -> hole_57
+	insert_20 -> hole_58
+	insert_20 -> hole_59
+	insert_20 -> hole_60
+	insert_20 -> hole_61
+	insert_20 -> hole_62
+	insert_20 -> hole_63
+	insert_20 -> hole_64
+	insert_20 -> hole_65
+	insert_20 -> hole_66
+	insert_20 -> hole_67
+	insert_20 -> hole_68
+	insert_20 -> hole_69
+	root_19 -> 70
+	70 -> coords_71
+	coords_71 -> origin_72
+	coords_71 -> x_arrow_73
+	x_arrow_73 -> stem_74
+	x_arrow_73 -> head_75
+	coords_71 -> y_arrow_76
+	y_arrow_76 -> stem_77
+	y_arrow_76 -> head_78
+	coords_71 -> z_arrow_79
+	z_arrow_79 -> stem_80
+	z_arrow_79 -> head_81
+	70 -> x_82
+	70 -> y_83
+	70 -> z_84
+	70 -> label_85
+	root_19 -> 86
+	86 -> coords_87
+	coords_87 -> origin_88
+	coords_87 -> x_arrow_89
+	x_arrow_89 -> stem_90
+	x_arrow_89 -> head_91
+	coords_87 -> y_arrow_92
+	y_arrow_92 -> stem_93
+	y_arrow_92 -> head_94
+	coords_87 -> z_arrow_95
+	z_arrow_95 -> stem_96
+	z_arrow_95 -> head_97
+	86 -> x_98
+	86 -> y_99
+	86 -> z_100
+	86 -> label_101
+}

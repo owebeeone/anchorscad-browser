@@ -1,0 +1,7 @@
+digraph default {
+    root_216 [label="root"];
+    default_217 [label="default"];
+    terminal_218 [label="terminal"];
+    root_216 -> default_217;
+    default_217 -> terminal_218;
+}

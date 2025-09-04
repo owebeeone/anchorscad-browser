@@ -1,0 +1,12 @@
+digraph default {
+	graph [rankdir=LR]
+	root_1 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_2 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nBuildVolume&quot;; console.log(s); alert(s);" tooltip=BuildVolume]
+	volume_3 [label=volume href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;volume&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	plate_4 [label=plate href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;plate&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	front_label_5 [label=front_label href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;front_label&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	root_1 -> default_2
+	default_2 -> volume_3
+	default_2 -> plate_4
+	default_2 -> front_label_5
+}

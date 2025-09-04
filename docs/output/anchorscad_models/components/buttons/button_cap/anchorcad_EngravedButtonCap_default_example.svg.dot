@@ -1,0 +1,46 @@
+digraph default {
+	graph [rankdir=LR]
+	root_51 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_52 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nEngravedButtonCap&quot;; console.log(s); alert(s);" tooltip=EngravedButtonCap]
+	outer_engraved_53 [label=outer_engraved href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;outer_engraved&#x27;\)\nMaker&quot;; console.log(s); alert(s);" tooltip=Maker]
+	outer_cap_54 [label=outer_cap href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;outer_engraved&#x27;,\ &#x27;outer_cap&#x27;\)\nButtonCap&quot;; console.log(s); alert(s);" tooltip=ButtonCap]
+	cage_55 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;outer_engraved&#x27;,\ &#x27;outer_cap&#x27;,\ &#x27;cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	button_cap_56 [label=button_cap href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;outer_engraved&#x27;,\ &#x27;outer_cap&#x27;,\ &#x27;button_cap&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	cap_wings_57 [label=cap_wings href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;outer_engraved&#x27;,\ &#x27;outer_cap&#x27;,\ &#x27;cap_wings&#x27;\)\nButtonWings&quot;; console.log(s); alert(s);" tooltip=ButtonWings]
+	cage_58 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;outer_engraved&#x27;,\ &#x27;outer_cap&#x27;,\ &#x27;cap_wings&#x27;,\ &#x27;cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	wing_59 [label="\('wing',\ 0\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;outer_engraved&#x27;,\ &#x27;outer_cap&#x27;,\ &#x27;cap_wings&#x27;,\ \(&#x27;wing&#x27;,\ 0\)\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	wing_60 [label="\('wing',\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;outer_engraved&#x27;,\ &#x27;outer_cap&#x27;,\ &#x27;cap_wings&#x27;,\ \(&#x27;wing&#x27;,\ 1\)\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	wing_61 [label="\('wing',\ 2\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;outer_engraved&#x27;,\ &#x27;outer_cap&#x27;,\ &#x27;cap_wings&#x27;,\ \(&#x27;wing&#x27;,\ 2\)\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	wing_62 [label="\('wing',\ 3\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;outer_engraved&#x27;,\ &#x27;outer_cap&#x27;,\ &#x27;cap_wings&#x27;,\ \(&#x27;wing&#x27;,\ 3\)\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	engraving_63 [label=engraving href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;outer_engraved&#x27;,\ &#x27;engraving&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	inner_cap_64 [label=inner_cap href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;inner_cap&#x27;\)\nButtonCap&quot;; console.log(s); alert(s);" tooltip=ButtonCap]
+	cage_65 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;inner_cap&#x27;,\ &#x27;cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	button_cap_66 [label=button_cap href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;inner_cap&#x27;,\ &#x27;button_cap&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	cap_wings_67 [label=cap_wings href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;inner_cap&#x27;,\ &#x27;cap_wings&#x27;\)\nButtonWings&quot;; console.log(s); alert(s);" tooltip=ButtonWings]
+	cage_68 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;inner_cap&#x27;,\ &#x27;cap_wings&#x27;,\ &#x27;cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	wing_69 [label="\('wing',\ 0\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;inner_cap&#x27;,\ &#x27;cap_wings&#x27;,\ \(&#x27;wing&#x27;,\ 0\)\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	wing_70 [label="\('wing',\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;inner_cap&#x27;,\ &#x27;cap_wings&#x27;,\ \(&#x27;wing&#x27;,\ 1\)\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	wing_71 [label="\('wing',\ 2\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;inner_cap&#x27;,\ &#x27;cap_wings&#x27;,\ \(&#x27;wing&#x27;,\ 2\)\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	wing_72 [label="\('wing',\ 3\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;inner_cap&#x27;,\ &#x27;cap_wings&#x27;,\ \(&#x27;wing&#x27;,\ 3\)\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	root_51 -> default_52
+	default_52 -> outer_engraved_53
+	outer_engraved_53 -> outer_cap_54
+	outer_cap_54 -> cage_55
+	outer_cap_54 -> button_cap_56
+	outer_cap_54 -> cap_wings_57
+	cap_wings_57 -> cage_58
+	cap_wings_57 -> wing_59
+	cap_wings_57 -> wing_60
+	cap_wings_57 -> wing_61
+	cap_wings_57 -> wing_62
+	outer_engraved_53 -> engraving_63
+	default_52 -> inner_cap_64
+	inner_cap_64 -> cage_65
+	inner_cap_64 -> button_cap_66
+	inner_cap_64 -> cap_wings_67
+	cap_wings_67 -> cage_68
+	cap_wings_67 -> wing_69
+	cap_wings_67 -> wing_70
+	cap_wings_67 -> wing_71
+	cap_wings_67 -> wing_72
+}

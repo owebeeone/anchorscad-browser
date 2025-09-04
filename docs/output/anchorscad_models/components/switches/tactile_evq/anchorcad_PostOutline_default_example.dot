@@ -1,0 +1,13 @@
+digraph default {
+    root_59 [label="root"];
+    default_60 [label="default"];
+    master_61 [label="master"];
+    block1_62 [label="block1"];
+    block2_63 [label="\('block2',\ 0\)"];
+    block2_64 [label="\('block2',\ 1\)"];
+    root_59 -> default_60;
+    default_60 -> master_61;
+    default_60 -> block1_62;
+    default_60 -> block2_63;
+    default_60 -> block2_64;
+}

@@ -1,0 +1,11 @@
+digraph default {
+    root_200 [label="root"];
+    default_201 [label="default"];
+    box_202 [label="box"];
+    hole_203 [label="\('hole',\ 0,\ 0\)"];
+    hole_204 [label="\('hole',\ 0,\ 1\)"];
+    root_200 -> default_201;
+    default_201 -> box_202;
+    default_201 -> hole_203;
+    default_201 -> hole_204;
+}

@@ -1,0 +1,7 @@
+digraph default {
+    root_1 [label="root"];
+    default_2 [label="default"];
+    adapter_3 [label="adapter"];
+    root_1 -> default_2;
+    default_2 -> adapter_3;
+}

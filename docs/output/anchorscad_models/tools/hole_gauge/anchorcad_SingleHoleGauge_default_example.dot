@@ -1,0 +1,17 @@
+digraph default {
+    root_17 [label="root"];
+    default_18 [label="default"];
+    plate_19 [label="plate"];
+    hole_20 [label="\('hole',\ 0\)"];
+    hole_21 [label="\('hole',\ 1\)"];
+    hole_22 [label="\('hole',\ 2\)"];
+    hole_23 [label="\('hole',\ 3\)"];
+    hole_24 [label="\('hole',\ 4\)"];
+    root_17 -> default_18;
+    default_18 -> plate_19;
+    default_18 -> hole_20;
+    default_18 -> hole_21;
+    default_18 -> hole_22;
+    default_18 -> hole_23;
+    default_18 -> hole_24;
+}

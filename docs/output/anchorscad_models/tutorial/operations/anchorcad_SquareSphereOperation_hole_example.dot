@@ -1,0 +1,11 @@
+digraph hole {
+    root_16 [label="root"];
+    hole_17 [label="hole"];
+    overall_18 [label="overall"];
+    box_19 [label="box"];
+    sphere_20 [label="sphere"];
+    root_16 -> hole_17;
+    hole_17 -> overall_18;
+    overall_18 -> box_19;
+    overall_18 -> sphere_20;
+}

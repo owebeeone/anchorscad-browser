@@ -1,0 +1,9 @@
+digraph default {
+    root_1275 [label="root"];
+    default_1276 [label="default"];
+    cage_1277 [label="cage"];
+    slit_1278 [label="slit"];
+    root_1275 -> default_1276;
+    default_1276 -> cage_1277;
+    default_1276 -> slit_1278;
+}

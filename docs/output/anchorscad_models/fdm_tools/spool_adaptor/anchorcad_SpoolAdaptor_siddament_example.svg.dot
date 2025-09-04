@@ -1,0 +1,28 @@
+digraph siddament {
+	graph [rankdir=LR]
+	root_27 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	siddament_28 [label=siddament href="javascript:s=&quot;\(&#x27;siddament&#x27;,\)\nSpoolAdaptor&quot;; console.log(s); alert(s);" tooltip=SpoolAdaptor]
+	spool_adaptor_29 [label=spool_adaptor href="javascript:s=&quot;\(&#x27;siddament&#x27;,\ &#x27;spool_adaptor&#x27;\)\nSpoolAdaptorRing&quot;; console.log(s); alert(s);" tooltip=SpoolAdaptorRing]
+	adaptor_30 [label=adaptor href="javascript:s=&quot;\(&#x27;siddament&#x27;,\ &#x27;spool_adaptor&#x27;,\ &#x27;adaptor&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	rib_31 [label="\('rib',\ 0\)" href="javascript:s=&quot;\(&#x27;siddament&#x27;,\ \(&#x27;rib&#x27;,\ 0\)\)\nTriangularPrism&quot;; console.log(s); alert(s);" tooltip=TriangularPrism]
+	cage_32 [label=cage href="javascript:s=&quot;\(&#x27;siddament&#x27;,\ \(&#x27;rib&#x27;,\ 0\),\ &#x27;cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	prism_33 [label=prism href="javascript:s=&quot;\(&#x27;siddament&#x27;,\ \(&#x27;rib&#x27;,\ 0\),\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	rib_34 [label="\('rib',\ 1\)" href="javascript:s=&quot;\(&#x27;siddament&#x27;,\ \(&#x27;rib&#x27;,\ 1\)\)\nTriangularPrism&quot;; console.log(s); alert(s);" tooltip=TriangularPrism]
+	cage_35 [label=cage href="javascript:s=&quot;\(&#x27;siddament&#x27;,\ \(&#x27;rib&#x27;,\ 1\),\ &#x27;cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	prism_36 [label=prism href="javascript:s=&quot;\(&#x27;siddament&#x27;,\ \(&#x27;rib&#x27;,\ 1\),\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	rib_37 [label="\('rib',\ 2\)" href="javascript:s=&quot;\(&#x27;siddament&#x27;,\ \(&#x27;rib&#x27;,\ 2\)\)\nTriangularPrism&quot;; console.log(s); alert(s);" tooltip=TriangularPrism]
+	cage_38 [label=cage href="javascript:s=&quot;\(&#x27;siddament&#x27;,\ \(&#x27;rib&#x27;,\ 2\),\ &#x27;cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	prism_39 [label=prism href="javascript:s=&quot;\(&#x27;siddament&#x27;,\ \(&#x27;rib&#x27;,\ 2\),\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	root_27 -> siddament_28
+	siddament_28 -> spool_adaptor_29
+	spool_adaptor_29 -> adaptor_30
+	siddament_28 -> rib_31
+	rib_31 -> cage_32
+	rib_31 -> prism_33
+	siddament_28 -> rib_34
+	rib_34 -> cage_35
+	rib_34 -> prism_36
+	siddament_28 -> rib_37
+	rib_37 -> cage_38
+	rib_37 -> prism_39
+}

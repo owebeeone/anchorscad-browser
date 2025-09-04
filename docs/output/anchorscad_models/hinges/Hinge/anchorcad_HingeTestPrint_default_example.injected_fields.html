@@ -1,0 +1,1195 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Datatree Injected Fields for HingeTestPrint</title>
+            <style>
+                table {
+                    width: 100%;
+                    border-collapse: collapse;
+                }
+                th, td {
+                    border: 1px solid #ddd;
+                    padding: 8px;
+                    text-align: left;
+                }
+                th {
+                    background-color: #4CAF50;
+                    color: white;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>Datatree Injected Fields for HingeTestPrint</h1>
+            <p>A test print for an N hinge.<br/><br/>Args:<br/>    epsilon: Fudge factor<br/>    sep: Separation between hinge sides<br/>    nib_r: Radius of inner hinge nib<br/>    nib_ang_len: Angle length of inner hinge nib<br/>    nib_angle: Angle degrees of hinge nib<br/>    edge_len: Length between nib and edge og hinge<br/>    rx_angle: The sweep angle to extrude.<br/>    rx_convexity: Openscad convexity parameter.<br/>    fn: fixed number of segments. Overrides fa and fs<br/>    fa: minimum angle (in degrees) of each segment<br/>    fs: minimum length of each segment<br/>    rx_use_polyhedrons: Use polyhedrons instead of rotate_extrude.<br/>    bar_h: Height of hinge bar<br/>    seg_count: Number of segments in hinge bar<br/>    sleeve_inside_r: Inner radius<br/>    sleeve_outside_r: Outer radius<br/>    sleeve_start_angle: Start angle of sleeve<br/>    sleeve_end_angle: End angle of sleeve<br/>    sleeve_keyway_start_angle: Start angle of keyway<br/>    sleeve_keyway_end_angle: End angle of keyway<br/>Other args:<br/>    nib_metadata, rx_path_fn, sleeve_hide_cage, sleeve_epsilon, bar_cage_hide_cage, bar_ends_hide_cage, hide_cage</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Field Name</th>
+                        <th>Node Field Name</th>
+                        <th>Node Class/Func</th>
+                    </tr>
+                </thead>
+                <tbody>
+        
+                <tr>
+                    <td>bar_cage_hide_cage</td>
+                    <td>bar_cage_hide_cage</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.Hinge'>'>Hinge</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>hide_cage</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeBar'>'>HingeBar</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>hide_cage</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeHole'>'>HingeHole</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>hide_cage</td>
+                    <td><a href='<function cageof at 0x00000163D97A3740>'>cageof</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>bar_ends_hide_cage</td>
+                    <td>bar_ends_hide_cage</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.Hinge'>'>Hinge</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>hide_cage</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeBarSleeveHoles'>'>HingeBarSleeveHoles</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>hide_cage</td>
+                    <td><a href='<function cageof at 0x00000163D97A3740>'>cageof</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>bar_h</td>
+                    <td>bar_h</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.Hinge'>'>Hinge</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>bar_h</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeBar'>'>HingeBar</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>h</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>cage_size</td>
+                    <td>size</td>
+                    <td><a href='<class 'anchorscad.core.Box'>'>Box</a></td>
+                </tr>
+                
+                <tr>
+                    <td>edge_len</td>
+                    <td>edge_len</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.Hinge'>'>Hinge</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>edge_len</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeBar'>'>HingeBar</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>edge_len</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeHole'>'>HingeHole</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>edge_len</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeHolePath'>'>HingeHolePath</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>epsilon</td>
+                    <td>epsilon</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.Hinge'>'>Hinge</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>epsilon</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeBar'>'>HingeBar</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>fa</td>
+                    <td>fa</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.Hinge'>'>Hinge</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fa</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeBar'>'>HingeBar</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fa</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeHole'>'>HingeHole</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fa</td>
+                    <td><a href='<class 'anchorscad.extrude.RotateExtrude'>'>RotateExtrude</a></td>
+                </tr>
+                
+                <tr>
+                <td>&nbsp;</td>    <td>fa</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                <td>&nbsp;</td>    <td>fa</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                <td>&nbsp;</td>    <td>fa</td>
+                    <td><a href='<class 'anchorscad_models.basic.sleeve.Sleeve'>'>Sleeve</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fa</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                <td>&nbsp;</td>    <td>fa</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                <td>&nbsp;</td>    <td>fa</td>
+                    <td><a href='<class 'anchorscad.extrude.RotateExtrude'>'>RotateExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                <td>&nbsp;</td>    <td>fa</td>
+                    <td><a href='<class 'anchorscad_models.basic.sleeve.SleeveAndKeyway'>'>SleeveAndKeyway</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fa</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                <td>&nbsp;</td>    <td>fa</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>fn</td>
+                    <td>fn</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.Hinge'>'>Hinge</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fn</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeBar'>'>HingeBar</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fn</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeHole'>'>HingeHole</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fn</td>
+                    <td><a href='<class 'anchorscad.extrude.RotateExtrude'>'>RotateExtrude</a></td>
+                </tr>
+                
+                <tr>
+                <td>&nbsp;</td>    <td>fn</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                <td>&nbsp;</td>    <td>fn</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                <td>&nbsp;</td>    <td>fn</td>
+                    <td><a href='<class 'anchorscad_models.basic.sleeve.Sleeve'>'>Sleeve</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fn</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                <td>&nbsp;</td>    <td>fn</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                <td>&nbsp;</td>    <td>fn</td>
+                    <td><a href='<class 'anchorscad.extrude.RotateExtrude'>'>RotateExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                <td>&nbsp;</td>    <td>fn</td>
+                    <td><a href='<class 'anchorscad_models.basic.sleeve.SleeveAndKeyway'>'>SleeveAndKeyway</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fn</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                <td>&nbsp;</td>    <td>fn</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                <td>&nbsp;</td>    <td>fn</td>
+                    <td><a href='<class 'anchorscad.extrude.LinearExtrude'>'>LinearExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>fs</td>
+                    <td>fs</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.Hinge'>'>Hinge</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fs</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeBar'>'>HingeBar</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fs</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeHole'>'>HingeHole</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fs</td>
+                    <td><a href='<class 'anchorscad.extrude.RotateExtrude'>'>RotateExtrude</a></td>
+                </tr>
+                
+                <tr>
+                <td>&nbsp;</td>    <td>fs</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                <td>&nbsp;</td>    <td>fs</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                <td>&nbsp;</td>    <td>fs</td>
+                    <td><a href='<class 'anchorscad_models.basic.sleeve.Sleeve'>'>Sleeve</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fs</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                <td>&nbsp;</td>    <td>fs</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                <td>&nbsp;</td>    <td>fs</td>
+                    <td><a href='<class 'anchorscad.extrude.RotateExtrude'>'>RotateExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                <td>&nbsp;</td>    <td>fs</td>
+                    <td><a href='<class 'anchorscad_models.basic.sleeve.SleeveAndKeyway'>'>SleeveAndKeyway</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fs</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                <td>&nbsp;</td>    <td>fs</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>hide_cage</td>
+                    <td>hide_cage</td>
+                    <td><a href='<function cageof at 0x00000163D97A3740>'>cageof</a></td>
+                </tr>
+                
+                <tr>
+                    <td>locator_size</td>
+                    <td>size</td>
+                    <td><a href='<class 'anchorscad.core.Box'>'>Box</a></td>
+                </tr>
+                
+                <tr>
+                    <td>nib_ang_len</td>
+                    <td>nib_ang_len</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.Hinge'>'>Hinge</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>nib_ang_len</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeBar'>'>HingeBar</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>nib_ang_len</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeHole'>'>HingeHole</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>nib_ang_len</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeHolePath'>'>HingeHolePath</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>nib_angle</td>
+                    <td>nib_angle</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.Hinge'>'>Hinge</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>nib_angle</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeBar'>'>HingeBar</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>nib_angle</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeHole'>'>HingeHole</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>nib_angle</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeHolePath'>'>HingeHolePath</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>nib_metadata</td>
+                    <td>nib_metadata</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.Hinge'>'>Hinge</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>nib_metadata</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeBar'>'>HingeBar</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>nib_metadata</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeHole'>'>HingeHole</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>nib_metadata</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeHolePath'>'>HingeHolePath</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>nib_r</td>
+                    <td>nib_r</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.Hinge'>'>Hinge</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>nib_r</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeBar'>'>HingeBar</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>nib_r</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeHole'>'>HingeHole</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>nib_r</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeHolePath'>'>HingeHolePath</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>plate_size</td>
+                    <td>size</td>
+                    <td><a href='<class 'anchorscad.core.Box'>'>Box</a></td>
+                </tr>
+                
+                <tr>
+                    <td>rx_angle</td>
+                    <td>rx_angle</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.Hinge'>'>Hinge</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>rx_angle</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeBar'>'>HingeBar</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>rx_angle</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeHole'>'>HingeHole</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>angle</td>
+                    <td><a href='<class 'anchorscad.extrude.RotateExtrude'>'>RotateExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>rx_convexity</td>
+                    <td>rx_convexity</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.Hinge'>'>Hinge</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>rx_convexity</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeBar'>'>HingeBar</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>rx_convexity</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeHole'>'>HingeHole</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>convexity</td>
+                    <td><a href='<class 'anchorscad.extrude.RotateExtrude'>'>RotateExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>rx_path_fn</td>
+                    <td>rx_path_fn</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.Hinge'>'>Hinge</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>rx_path_fn</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeBar'>'>HingeBar</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>rx_path_fn</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeHole'>'>HingeHole</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>path_fn</td>
+                    <td><a href='<class 'anchorscad.extrude.RotateExtrude'>'>RotateExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>rx_use_polyhedrons</td>
+                    <td>rx_use_polyhedrons</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.Hinge'>'>Hinge</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>rx_use_polyhedrons</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeBar'>'>HingeBar</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>rx_use_polyhedrons</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeHole'>'>HingeHole</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>use_polyhedrons</td>
+                    <td><a href='<class 'anchorscad.extrude.RotateExtrude'>'>RotateExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>seg_count</td>
+                    <td>seg_count</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.Hinge'>'>Hinge</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>seg_count</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeBar'>'>HingeBar</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>sep</td>
+                    <td>sep</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.Hinge'>'>Hinge</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>sep</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeBar'>'>HingeBar</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>sep</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeHole'>'>HingeHole</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>sep</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeHolePath'>'>HingeHolePath</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>sleeve_end_angle</td>
+                    <td>sleeve_end_angle</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.Hinge'>'>Hinge</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>sleeve_end_angle</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeBar'>'>HingeBar</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>end_angle</td>
+                    <td><a href='<class 'anchorscad_models.basic.sleeve.Sleeve'>'>Sleeve</a></td>
+                </tr>
+                
+                <tr>
+                <td>&nbsp;</td>    <td>end_angle</td>
+                    <td><a href='<class 'anchorscad_models.basic.sleeve.SleeveAndKeyway'>'>SleeveAndKeyway</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>sleeve_epsilon</td>
+                    <td>sleeve_epsilon</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.Hinge'>'>Hinge</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>sleeve_epsilon</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeBar'>'>HingeBar</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>epsilon</td>
+                    <td><a href='<class 'anchorscad_models.basic.sleeve.Sleeve'>'>Sleeve</a></td>
+                </tr>
+                
+                <tr>
+                <td>&nbsp;</td>    <td>epsilon</td>
+                    <td><a href='<class 'anchorscad_models.basic.sleeve.SleeveAndKeyway'>'>SleeveAndKeyway</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>sleeve_hide_cage</td>
+                    <td>sleeve_hide_cage</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.Hinge'>'>Hinge</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>sleeve_hide_cage</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeBar'>'>HingeBar</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>hide_cage</td>
+                    <td><a href='<class 'anchorscad_models.basic.sleeve.Sleeve'>'>Sleeve</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>hide_cage</td>
+                    <td><a href='<function cageof at 0x00000163D97A3740>'>cageof</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                <td>&nbsp;</td>    <td>hide_cage</td>
+                    <td><a href='<class 'anchorscad_models.basic.sleeve.SleeveAndKeyway'>'>SleeveAndKeyway</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>hide_cage</td>
+                    <td><a href='<function cageof at 0x00000163D97A3740>'>cageof</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>sleeve_inside_r</td>
+                    <td>sleeve_inside_r</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.Hinge'>'>Hinge</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>sleeve_inside_r</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeBar'>'>HingeBar</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>inside_r</td>
+                    <td><a href='<class 'anchorscad_models.basic.sleeve.Sleeve'>'>Sleeve</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>r</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                <td>&nbsp;</td>    <td>inside_r</td>
+                    <td><a href='<class 'anchorscad_models.basic.sleeve.SleeveAndKeyway'>'>SleeveAndKeyway</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>r</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>sleeve_keyway_end_angle</td>
+                    <td>sleeve_keyway_end_angle</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.Hinge'>'>Hinge</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>sleeve_keyway_end_angle</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeBar'>'>HingeBar</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>keyway_end_angle</td>
+                    <td><a href='<class 'anchorscad_models.basic.sleeve.SleeveAndKeyway'>'>SleeveAndKeyway</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>sleeve_keyway_start_angle</td>
+                    <td>sleeve_keyway_start_angle</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.Hinge'>'>Hinge</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>sleeve_keyway_start_angle</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeBar'>'>HingeBar</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>keyway_start_angle</td>
+                    <td><a href='<class 'anchorscad_models.basic.sleeve.SleeveAndKeyway'>'>SleeveAndKeyway</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>sleeve_outside_r</td>
+                    <td>sleeve_outside_r</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.Hinge'>'>Hinge</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>sleeve_outside_r</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeBar'>'>HingeBar</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>outside_r</td>
+                    <td><a href='<class 'anchorscad_models.basic.sleeve.Sleeve'>'>Sleeve</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>r</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                <td>&nbsp;</td>    <td>outside_r</td>
+                    <td><a href='<class 'anchorscad_models.basic.sleeve.SleeveAndKeyway'>'>SleeveAndKeyway</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>r</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>sleeve_start_angle</td>
+                    <td>sleeve_start_angle</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.Hinge'>'>Hinge</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>sleeve_start_angle</td>
+                    <td><a href='<class 'anchorscad_models.hinges.Hinge.HingeBar'>'>HingeBar</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>start_angle</td>
+                    <td><a href='<class 'anchorscad_models.basic.sleeve.Sleeve'>'>Sleeve</a></td>
+                </tr>
+                
+                <tr>
+                <td>&nbsp;</td>    <td>start_angle</td>
+                    <td><a href='<class 'anchorscad_models.basic.sleeve.SleeveAndKeyway'>'>SleeveAndKeyway</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </body>
+        </html>
+        

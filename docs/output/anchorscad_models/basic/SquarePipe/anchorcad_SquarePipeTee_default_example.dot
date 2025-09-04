@@ -1,0 +1,23 @@
+digraph default {
+    root_37 [label="root"];
+    default_38 [label="default"];
+    LHS_39 [label="LHS"];
+    outer_40 [label="outer"];
+    hole_41 [label="hole"];
+    RHS_42 [label="RHS"];
+    outer_43 [label="outer"];
+    hole_44 [label="hole"];
+    stem_45 [label="stem"];
+    outer_46 [label="outer"];
+    hole_47 [label="hole"];
+    root_37 -> default_38;
+    default_38 -> LHS_39;
+    LHS_39 -> outer_40;
+    LHS_39 -> hole_41;
+    default_38 -> RHS_42;
+    RHS_42 -> outer_43;
+    RHS_42 -> hole_44;
+    default_38 -> stem_45;
+    stem_45 -> outer_46;
+    stem_45 -> hole_47;
+}

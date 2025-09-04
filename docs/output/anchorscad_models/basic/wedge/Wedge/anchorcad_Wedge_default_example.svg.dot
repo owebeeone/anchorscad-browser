@@ -1,0 +1,14 @@
+digraph default {
+	graph [rankdir=LR]
+	root_1 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_2 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nWedge&quot;; console.log(s); alert(s);" tooltip=Wedge]
+	base_3 [label=base href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;base&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	roof_4 [label=roof href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;roof&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	door_5 [label=door href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;door&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	chimney_6 [label=chimney href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;chimney&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	root_1 -> default_2
+	default_2 -> base_3
+	default_2 -> roof_4
+	default_2 -> door_5
+	default_2 -> chimney_6
+}

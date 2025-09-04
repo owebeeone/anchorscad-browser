@@ -1,0 +1,10 @@
+digraph default {
+	graph [rankdir=LR]
+	root_1 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_2 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nDoveTail&quot;; console.log(s); alert(s);" tooltip=DoveTail]
+	dovetail_cage_3 [label=dovetail_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;dovetail_cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	front_4 [label=front href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;front&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	root_1 -> default_2
+	default_2 -> dovetail_cage_3
+	default_2 -> front_4
+}

@@ -1,0 +1,74 @@
+digraph as_cutout {
+	graph [rankdir=LR]
+	root_22 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	as_cutout_23 [label=as_cutout href="javascript:s=&quot;\(&#x27;as_cutout&#x27;,\)\nCurlySpokes&quot;; console.log(s); alert(s);" tooltip=CurlySpokes]
+	cage_24 [label=cage href="javascript:s=&quot;\(&#x27;as_cutout&#x27;,\ &#x27;cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	spoke_25 [label="\('spoke',\ 0\)" href="javascript:s=&quot;\(&#x27;as_cutout&#x27;,\ \(&#x27;spoke&#x27;,\ 0\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_26 [label="\('spoke',\ 1\)" href="javascript:s=&quot;\(&#x27;as_cutout&#x27;,\ \(&#x27;spoke&#x27;,\ 1\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_27 [label="\('spoke',\ 2\)" href="javascript:s=&quot;\(&#x27;as_cutout&#x27;,\ \(&#x27;spoke&#x27;,\ 2\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_28 [label="\('spoke',\ 3\)" href="javascript:s=&quot;\(&#x27;as_cutout&#x27;,\ \(&#x27;spoke&#x27;,\ 3\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_29 [label="\('spoke',\ 4\)" href="javascript:s=&quot;\(&#x27;as_cutout&#x27;,\ \(&#x27;spoke&#x27;,\ 4\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_30 [label="\('spoke',\ 5\)" href="javascript:s=&quot;\(&#x27;as_cutout&#x27;,\ \(&#x27;spoke&#x27;,\ 5\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_31 [label="\('spoke',\ 6\)" href="javascript:s=&quot;\(&#x27;as_cutout&#x27;,\ \(&#x27;spoke&#x27;,\ 6\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_32 [label="\('spoke',\ 7\)" href="javascript:s=&quot;\(&#x27;as_cutout&#x27;,\ \(&#x27;spoke&#x27;,\ 7\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_33 [label="\('spoke',\ 8\)" href="javascript:s=&quot;\(&#x27;as_cutout&#x27;,\ \(&#x27;spoke&#x27;,\ 8\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_34 [label="\('spoke',\ 9\)" href="javascript:s=&quot;\(&#x27;as_cutout&#x27;,\ \(&#x27;spoke&#x27;,\ 9\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_35 [label="\('spoke',\ 10\)" href="javascript:s=&quot;\(&#x27;as_cutout&#x27;,\ \(&#x27;spoke&#x27;,\ 10\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_36 [label="\('spoke',\ 11\)" href="javascript:s=&quot;\(&#x27;as_cutout&#x27;,\ \(&#x27;spoke&#x27;,\ 11\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_37 [label="\('spoke',\ 12\)" href="javascript:s=&quot;\(&#x27;as_cutout&#x27;,\ \(&#x27;spoke&#x27;,\ 12\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_38 [label="\('spoke',\ 13\)" href="javascript:s=&quot;\(&#x27;as_cutout&#x27;,\ \(&#x27;spoke&#x27;,\ 13\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_39 [label="\('spoke',\ 14\)" href="javascript:s=&quot;\(&#x27;as_cutout&#x27;,\ \(&#x27;spoke&#x27;,\ 14\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	spoke_40 [label="\('spoke',\ 15\)" href="javascript:s=&quot;\(&#x27;as_cutout&#x27;,\ \(&#x27;spoke&#x27;,\ 15\)\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	inner_core_41 [label=inner_core href="javascript:s=&quot;\(&#x27;as_cutout&#x27;,\ &#x27;inner_core&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	42 [label="'centre',\ " href="javascript:s=&quot;\(&quot;&#x27;centre&#x27;,\ &quot;,\)\nAnnotatedCoordinates&quot;; console.log(s); alert(s);" tooltip=AnnotatedCoordinates]
+	coords_43 [label=coords href="javascript:s=&quot;\(&quot;&#x27;centre&#x27;,\ &quot;,\ &#x27;coords&#x27;\)\nCoordinates&quot;; console.log(s); alert(s);" tooltip=Coordinates]
+	origin_44 [label=origin href="javascript:s=&quot;\(&quot;&#x27;centre&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;origin&#x27;\)\nCoordinatesCage&quot;; console.log(s); alert(s);" tooltip=CoordinatesCage]
+	x_arrow_45 [label=x_arrow href="javascript:s=&quot;\(&quot;&#x27;centre&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_46 [label=stem href="javascript:s=&quot;\(&quot;&#x27;centre&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_47 [label=head href="javascript:s=&quot;\(&quot;&#x27;centre&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	y_arrow_48 [label=y_arrow href="javascript:s=&quot;\(&quot;&#x27;centre&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_49 [label=stem href="javascript:s=&quot;\(&quot;&#x27;centre&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_50 [label=head href="javascript:s=&quot;\(&quot;&#x27;centre&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	z_arrow_51 [label=z_arrow href="javascript:s=&quot;\(&quot;&#x27;centre&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_52 [label=stem href="javascript:s=&quot;\(&quot;&#x27;centre&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_53 [label=head href="javascript:s=&quot;\(&quot;&#x27;centre&#x27;,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	x_54 [label=x href="javascript:s=&quot;\(&quot;&#x27;centre&#x27;,\ &quot;,\ &#x27;x&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	y_55 [label=y href="javascript:s=&quot;\(&quot;&#x27;centre&#x27;,\ &quot;,\ &#x27;y&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	z_56 [label=z href="javascript:s=&quot;\(&quot;&#x27;centre&#x27;,\ &quot;,\ &#x27;z&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	label_57 [label=label href="javascript:s=&quot;\(&quot;&#x27;centre&#x27;,\ &quot;,\ &#x27;label&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	root_22 -> as_cutout_23
+	as_cutout_23 -> cage_24
+	as_cutout_23 -> spoke_25
+	as_cutout_23 -> spoke_26
+	as_cutout_23 -> spoke_27
+	as_cutout_23 -> spoke_28
+	as_cutout_23 -> spoke_29
+	as_cutout_23 -> spoke_30
+	as_cutout_23 -> spoke_31
+	as_cutout_23 -> spoke_32
+	as_cutout_23 -> spoke_33
+	as_cutout_23 -> spoke_34
+	as_cutout_23 -> spoke_35
+	as_cutout_23 -> spoke_36
+	as_cutout_23 -> spoke_37
+	as_cutout_23 -> spoke_38
+	as_cutout_23 -> spoke_39
+	as_cutout_23 -> spoke_40
+	as_cutout_23 -> inner_core_41
+	root_22 -> 42
+	42 -> coords_43
+	coords_43 -> origin_44
+	coords_43 -> x_arrow_45
+	x_arrow_45 -> stem_46
+	x_arrow_45 -> head_47
+	coords_43 -> y_arrow_48
+	y_arrow_48 -> stem_49
+	y_arrow_48 -> head_50
+	coords_43 -> z_arrow_51
+	z_arrow_51 -> stem_52
+	z_arrow_51 -> head_53
+	42 -> x_54
+	42 -> y_55
+	42 -> z_56
+	42 -> label_57
+}

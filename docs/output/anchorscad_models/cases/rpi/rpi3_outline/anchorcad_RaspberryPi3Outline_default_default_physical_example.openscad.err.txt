@@ -1,0 +1,28 @@
+
+Geometries in cache: 67
+Geometry cache size in bytes: 450592
+CGAL Polyhedrons in cache: 3
+CGAL cache size in bytes: 0
+Total rendering time: 0:00:00.037
+   Top level object is a 3D object (manifold):
+   Status:     NoError
+   Genus:      2
+   Vertices:     1198
+   Facets:       2400
+Geometries in cache: 67
+Geometry cache size in bytes: 450592
+CGAL Polyhedrons in cache: 3
+CGAL cache size in bytes: 0
+Total rendering time: 0:00:00.010
+   Top level object is a 3D object (manifold):
+   Status:     NoError
+   Genus:      2
+   Vertices:     1198
+   Facets:       2400
+Compiling design (CSG Products normalization)...
+Normalized CSG tree has 21 elements
+Geometries in cache: 67
+Geometry cache size in bytes: 450592
+CGAL Polyhedrons in cache: 3
+CGAL cache size in bytes: 0
+Total rendering time: 0:00:00.525

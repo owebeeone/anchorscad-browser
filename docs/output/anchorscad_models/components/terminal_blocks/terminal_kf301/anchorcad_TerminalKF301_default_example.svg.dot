@@ -1,0 +1,72 @@
+digraph default {
+	graph [rankdir=LR]
+	root_1 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_2 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nTerminalKF301&quot;; console.log(s); alert(s);" tooltip=TerminalKF301]
+	body_3 [label=body href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;body&#x27;\)\nTerminalKF301Body&quot;; console.log(s); alert(s);" tooltip=TerminalKF301Body]
+	cage_4 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;body&#x27;,\ &#x27;cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	terminal_5 [label=terminal href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;body&#x27;,\ &#x27;terminal&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	terminal_6 [label="\('terminal',\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;terminal&#x27;,\ 1\)\)\nTerminalKF301Terminal&quot;; console.log(s); alert(s);" tooltip=TerminalKF301Terminal]
+	cage_7 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;terminal&#x27;,\ 1\),\ &#x27;cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	block_8 [label=block href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;terminal&#x27;,\ 1\),\ &#x27;block&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	term_hole_9 [label=term_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;terminal&#x27;,\ 1\),\ &#x27;term_hole&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_10 [label=pin href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;terminal&#x27;,\ 1\),\ &#x27;pin&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	screw_access_11 [label=screw_access href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;terminal&#x27;,\ 1\),\ &#x27;screw_access&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	block_access_12 [label=block_access href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;terminal&#x27;,\ 1\),\ &#x27;block_access&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	terminal_13 [label="\('terminal',\ 2\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;terminal&#x27;,\ 2\)\)\nTerminalKF301Terminal&quot;; console.log(s); alert(s);" tooltip=TerminalKF301Terminal]
+	cage_14 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;terminal&#x27;,\ 2\),\ &#x27;cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	block_15 [label=block href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;terminal&#x27;,\ 2\),\ &#x27;block&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	term_hole_16 [label=term_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;terminal&#x27;,\ 2\),\ &#x27;term_hole&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	pin_17 [label=pin href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;terminal&#x27;,\ 2\),\ &#x27;pin&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	screw_access_18 [label=screw_access href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;terminal&#x27;,\ 2\),\ &#x27;screw_access&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	block_access_19 [label=block_access href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;terminal&#x27;,\ 2\),\ &#x27;block_access&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	20 [label="'face_edge',\ 1,\ 0,\ " href="javascript:s=&quot;\(&quot;&#x27;face_edge&#x27;,\ 1,\ 0,\ &quot;,\)\nAnnotatedCoordinates&quot;; console.log(s); alert(s);" tooltip=AnnotatedCoordinates]
+	coords_21 [label=coords href="javascript:s=&quot;\(&quot;&#x27;face_edge&#x27;,\ 1,\ 0,\ &quot;,\ &#x27;coords&#x27;\)\nCoordinates&quot;; console.log(s); alert(s);" tooltip=Coordinates]
+	origin_22 [label=origin href="javascript:s=&quot;\(&quot;&#x27;face_edge&#x27;,\ 1,\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;origin&#x27;\)\nCoordinatesCage&quot;; console.log(s); alert(s);" tooltip=CoordinatesCage]
+	x_arrow_23 [label=x_arrow href="javascript:s=&quot;\(&quot;&#x27;face_edge&#x27;,\ 1,\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_24 [label=stem href="javascript:s=&quot;\(&quot;&#x27;face_edge&#x27;,\ 1,\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_25 [label=head href="javascript:s=&quot;\(&quot;&#x27;face_edge&#x27;,\ 1,\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	y_arrow_26 [label=y_arrow href="javascript:s=&quot;\(&quot;&#x27;face_edge&#x27;,\ 1,\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_27 [label=stem href="javascript:s=&quot;\(&quot;&#x27;face_edge&#x27;,\ 1,\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_28 [label=head href="javascript:s=&quot;\(&quot;&#x27;face_edge&#x27;,\ 1,\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	z_arrow_29 [label=z_arrow href="javascript:s=&quot;\(&quot;&#x27;face_edge&#x27;,\ 1,\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_30 [label=stem href="javascript:s=&quot;\(&quot;&#x27;face_edge&#x27;,\ 1,\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_31 [label=head href="javascript:s=&quot;\(&quot;&#x27;face_edge&#x27;,\ 1,\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	x_32 [label=x href="javascript:s=&quot;\(&quot;&#x27;face_edge&#x27;,\ 1,\ 0,\ &quot;,\ &#x27;x&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	y_33 [label=y href="javascript:s=&quot;\(&quot;&#x27;face_edge&#x27;,\ 1,\ 0,\ &quot;,\ &#x27;y&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	z_34 [label=z href="javascript:s=&quot;\(&quot;&#x27;face_edge&#x27;,\ 1,\ 0,\ &quot;,\ &#x27;z&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	label_35 [label=label href="javascript:s=&quot;\(&quot;&#x27;face_edge&#x27;,\ 1,\ 0,\ &quot;,\ &#x27;label&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	root_1 -> default_2
+	default_2 -> body_3
+	body_3 -> cage_4
+	body_3 -> terminal_5
+	default_2 -> terminal_6
+	terminal_6 -> cage_7
+	terminal_6 -> block_8
+	terminal_6 -> term_hole_9
+	terminal_6 -> pin_10
+	terminal_6 -> screw_access_11
+	terminal_6 -> block_access_12
+	default_2 -> terminal_13
+	terminal_13 -> cage_14
+	terminal_13 -> block_15
+	terminal_13 -> term_hole_16
+	terminal_13 -> pin_17
+	terminal_13 -> screw_access_18
+	terminal_13 -> block_access_19
+	root_1 -> 20
+	20 -> coords_21
+	coords_21 -> origin_22
+	coords_21 -> x_arrow_23
+	x_arrow_23 -> stem_24
+	x_arrow_23 -> head_25
+	coords_21 -> y_arrow_26
+	y_arrow_26 -> stem_27
+	y_arrow_26 -> head_28
+	coords_21 -> z_arrow_29
+	z_arrow_29 -> stem_30
+	z_arrow_29 -> head_31
+	20 -> x_32
+	20 -> y_33
+	20 -> z_34
+	20 -> label_35
+}

@@ -1,0 +1,24 @@
+digraph default {
+	graph [rankdir=LR]
+	root_318 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_319 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nHingeBar3XMiddleHole&quot;; console.log(s); alert(s);" tooltip=HingeBar3XMiddleHole]
+	cage_320 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cage&#x27;\)\nHingeBar3X&quot;; console.log(s); alert(s);" tooltip=HingeBar3X]
+	bar_321 [label=bar href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cage&#x27;,\ &#x27;bar&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	top_hole_322 [label=top_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cage&#x27;,\ &#x27;top_hole&#x27;\)\nHingeHole&quot;; console.log(s); alert(s);" tooltip=HingeHole]
+	cage_323 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cage&#x27;,\ &#x27;top_hole&#x27;,\ &#x27;cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	hinge_hole_324 [label=hinge_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cage&#x27;,\ &#x27;top_hole&#x27;,\ &#x27;hinge_hole&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	base_hole_325 [label=base_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cage&#x27;,\ &#x27;base_hole&#x27;\)\nHingeHole&quot;; console.log(s); alert(s);" tooltip=HingeHole]
+	cage_326 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cage&#x27;,\ &#x27;base_hole&#x27;,\ &#x27;cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	hinge_hole_327 [label=hinge_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cage&#x27;,\ &#x27;base_hole&#x27;,\ &#x27;hinge_hole&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	top_sleeve_328 [label=top_sleeve href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;top_sleeve&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	root_318 -> default_319
+	default_319 -> cage_320
+	cage_320 -> bar_321
+	cage_320 -> top_hole_322
+	top_hole_322 -> cage_323
+	top_hole_322 -> hinge_hole_324
+	cage_320 -> base_hole_325
+	base_hole_325 -> cage_326
+	base_hole_325 -> hinge_hole_327
+	default_319 -> top_sleeve_328
+}

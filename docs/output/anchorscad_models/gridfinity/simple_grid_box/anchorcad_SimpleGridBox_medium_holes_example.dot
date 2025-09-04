@@ -1,0 +1,23 @@
+digraph medium_holes {
+    root_224 [label="root"];
+    medium_holes_225 [label="medium_holes"];
+    box_226 [label="box"];
+    hole_227 [label="\('hole',\ 0,\ 0\)"];
+    hole_228 [label="\('hole',\ 0,\ 1\)"];
+    hole_229 [label="\('hole',\ 1,\ 0\)"];
+    hole_230 [label="\('hole',\ 1,\ 1\)"];
+    hole_231 [label="\('hole',\ 2,\ 0\)"];
+    hole_232 [label="\('hole',\ 2,\ 1\)"];
+    hole_233 [label="\('hole',\ 3,\ 0\)"];
+    hole_234 [label="\('hole',\ 3,\ 1\)"];
+    root_224 -> medium_holes_225;
+    medium_holes_225 -> box_226;
+    medium_holes_225 -> hole_227;
+    medium_holes_225 -> hole_228;
+    medium_holes_225 -> hole_229;
+    medium_holes_225 -> hole_230;
+    medium_holes_225 -> hole_231;
+    medium_holes_225 -> hole_232;
+    medium_holes_225 -> hole_233;
+    medium_holes_225 -> hole_234;
+}

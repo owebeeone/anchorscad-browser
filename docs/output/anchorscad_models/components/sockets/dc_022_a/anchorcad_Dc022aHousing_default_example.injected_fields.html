@@ -1,0 +1,662 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Datatree Injected Fields for Dc022aHousing</title>
+            <style>
+                table {
+                    width: 100%;
+                    border-collapse: collapse;
+                }
+                th, td {
+                    border: 1px solid #ddd;
+                    padding: 8px;
+                    text-align: left;
+                }
+                th {
+                    background-color: #4CAF50;
+                    color: white;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>Datatree Injected Fields for Dc022aHousing</h1>
+            <p>A housing for a DC-022-2.5A-2.0 socket.<br/>Args:<br/>    top_r: Top radius of the socket<br/>    top_h: Height of top of the socket<br/>    fn: fixed number of segments. Overrides fa and fs<br/>    fa: minimum angle (in degrees) of each segment<br/>    fs: minimum length of each segment<br/>    top_access_hole_r: Front access hole radius, only used for clearance for inserting the jack and plug.<br/>    top_access_hole_h: Height of rear access hole<br/>    body_r: Body radius of the socket<br/>    body_flat_r: Flat radius of the socket<br/>    body_h: Height of body of the socket<br/>    body_twist: The twist of the extrusion in degrees.<br/>    body_slices: The number of slices to use for the extrusion if twist is applied.<br/>    body_scale: The scale of the extrusion in X and Y.<br/>    body_path_fn: The number of facets to use for the extrusion.<br/>    body_use_polyhedrons: If true will use polyhedrons to generate the extrusion.<br/>    rear_access_hole_r: Rear access hole radius, must take mounting bolt<br/>    rear_access_hole_h: Height of rear access hole<br/>    plug_r: Plug radius of the socket<br/>    plug_h: Height of plug hole of the socket<br/>    add_access_holes: Add access holes for inserting the plug and jack<br/>    thickness: Thickness of the housing wall<br/>    shell_thickness: Thickness of the housing shell<br/>    extension: Extension of the housing beyond the socket<br/>    extender_t: Top width of the stadium<br/>    extender_offset: Offset of the stadium path<br/>    extender_square_left: Square the left side of the stadium<br/>    extender_lin_extrude_twist: The twist of the extrusion in degrees.<br/>    extender_lin_extrude_slices: The number of slices to use for the extrusion if twist is applied.<br/>    extender_lin_extrude_scale: The scale of the extrusion in X and Y.<br/>    extender_lin_extrude_path_fn: The number of facets to use for the extrusion.<br/>    extender_lin_extrude_use_polyhedrons: If true will use polyhedrons to generate the extrusion.<br/>Other args:<br/>    extender_hide_cage</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Field Name</th>
+                        <th>Node Field Name</th>
+                        <th>Node Class/Func</th>
+                    </tr>
+                </thead>
+                <tbody>
+        
+                <tr>
+                    <td>add_access_holes</td>
+                    <td>add_access_holes</td>
+                    <td><a href='<class 'anchorscad_models.components.sockets.dc_022_a.DC022A'>'>DC022A</a></td>
+                </tr>
+                
+                <tr>
+                    <td>body_flat_r</td>
+                    <td>body_flat_r</td>
+                    <td><a href='<class 'anchorscad_models.components.sockets.dc_022_a.DC022A'>'>DC022A</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>body_flat_r</td>
+                    <td><a href='<class 'anchorscad_models.components.sockets.dc_022_a.DC022ABodyShapeBuilder'>'>DC022ABodyShapeBuilder</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>body_h</td>
+                    <td>body_h</td>
+                    <td><a href='<class 'anchorscad_models.components.sockets.dc_022_a.DC022A'>'>DC022A</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>h</td>
+                    <td><a href='<class 'anchorscad.extrude.LinearExtrude'>'>LinearExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>body_path_fn</td>
+                    <td>body_path_fn</td>
+                    <td><a href='<class 'anchorscad_models.components.sockets.dc_022_a.DC022A'>'>DC022A</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>path_fn</td>
+                    <td><a href='<class 'anchorscad.extrude.LinearExtrude'>'>LinearExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>body_r</td>
+                    <td>body_r</td>
+                    <td><a href='<class 'anchorscad_models.components.sockets.dc_022_a.DC022A'>'>DC022A</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>body_r</td>
+                    <td><a href='<class 'anchorscad_models.components.sockets.dc_022_a.DC022ABodyShapeBuilder'>'>DC022ABodyShapeBuilder</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>body_scale</td>
+                    <td>body_scale</td>
+                    <td><a href='<class 'anchorscad_models.components.sockets.dc_022_a.DC022A'>'>DC022A</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>scale</td>
+                    <td><a href='<class 'anchorscad.extrude.LinearExtrude'>'>LinearExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>body_slices</td>
+                    <td>body_slices</td>
+                    <td><a href='<class 'anchorscad_models.components.sockets.dc_022_a.DC022A'>'>DC022A</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>slices</td>
+                    <td><a href='<class 'anchorscad.extrude.LinearExtrude'>'>LinearExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>body_twist</td>
+                    <td>body_twist</td>
+                    <td><a href='<class 'anchorscad_models.components.sockets.dc_022_a.DC022A'>'>DC022A</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>twist</td>
+                    <td><a href='<class 'anchorscad.extrude.LinearExtrude'>'>LinearExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>body_use_polyhedrons</td>
+                    <td>body_use_polyhedrons</td>
+                    <td><a href='<class 'anchorscad_models.components.sockets.dc_022_a.DC022A'>'>DC022A</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>use_polyhedrons</td>
+                    <td><a href='<class 'anchorscad.extrude.LinearExtrude'>'>LinearExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>extender_h</td>
+                    <td>h</td>
+                    <td><a href='<class 'anchorscad_models.basic.stadium.StadiumPrism'>'>StadiumPrism</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>h</td>
+                    <td><a href='<class 'anchorscad.extrude.LinearExtrude'>'>LinearExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>extender_hide_cage</td>
+                    <td>hide_cage</td>
+                    <td><a href='<class 'anchorscad_models.basic.stadium.StadiumPrism'>'>StadiumPrism</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>hide_cage</td>
+                    <td><a href='<function cageof at 0x0000028270297740>'>cageof</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>extender_lin_extrude_path_fn</td>
+                    <td>lin_extrude_path_fn</td>
+                    <td><a href='<class 'anchorscad_models.basic.stadium.StadiumPrism'>'>StadiumPrism</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>path_fn</td>
+                    <td><a href='<class 'anchorscad.extrude.LinearExtrude'>'>LinearExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>extender_lin_extrude_scale</td>
+                    <td>lin_extrude_scale</td>
+                    <td><a href='<class 'anchorscad_models.basic.stadium.StadiumPrism'>'>StadiumPrism</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>scale</td>
+                    <td><a href='<class 'anchorscad.extrude.LinearExtrude'>'>LinearExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>extender_lin_extrude_slices</td>
+                    <td>lin_extrude_slices</td>
+                    <td><a href='<class 'anchorscad_models.basic.stadium.StadiumPrism'>'>StadiumPrism</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>slices</td>
+                    <td><a href='<class 'anchorscad.extrude.LinearExtrude'>'>LinearExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>extender_lin_extrude_twist</td>
+                    <td>lin_extrude_twist</td>
+                    <td><a href='<class 'anchorscad_models.basic.stadium.StadiumPrism'>'>StadiumPrism</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>twist</td>
+                    <td><a href='<class 'anchorscad.extrude.LinearExtrude'>'>LinearExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>extender_lin_extrude_use_polyhedrons</td>
+                    <td>lin_extrude_use_polyhedrons</td>
+                    <td><a href='<class 'anchorscad_models.basic.stadium.StadiumPrism'>'>StadiumPrism</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>use_polyhedrons</td>
+                    <td><a href='<class 'anchorscad.extrude.LinearExtrude'>'>LinearExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>extender_offset</td>
+                    <td>offset</td>
+                    <td><a href='<class 'anchorscad_models.basic.stadium.StadiumPrism'>'>StadiumPrism</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>offset</td>
+                    <td><a href='<class 'anchorscad_models.basic.stadium.StadiumOutline'>'>StadiumOutline</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>extender_r</td>
+                    <td>r</td>
+                    <td><a href='<class 'anchorscad_models.basic.stadium.StadiumPrism'>'>StadiumPrism</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>r</td>
+                    <td><a href='<class 'anchorscad_models.basic.stadium.StadiumOutline'>'>StadiumOutline</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>extender_square_left</td>
+                    <td>square_left</td>
+                    <td><a href='<class 'anchorscad_models.basic.stadium.StadiumPrism'>'>StadiumPrism</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>square_left</td>
+                    <td><a href='<class 'anchorscad_models.basic.stadium.StadiumOutline'>'>StadiumOutline</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>extender_square_right</td>
+                    <td>square_right</td>
+                    <td><a href='<class 'anchorscad_models.basic.stadium.StadiumPrism'>'>StadiumPrism</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>square_right</td>
+                    <td><a href='<class 'anchorscad_models.basic.stadium.StadiumOutline'>'>StadiumOutline</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>extender_t</td>
+                    <td>t</td>
+                    <td><a href='<class 'anchorscad_models.basic.stadium.StadiumPrism'>'>StadiumPrism</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>t</td>
+                    <td><a href='<class 'anchorscad_models.basic.stadium.StadiumOutline'>'>StadiumOutline</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>extender_w</td>
+                    <td>w</td>
+                    <td><a href='<class 'anchorscad_models.basic.stadium.StadiumPrism'>'>StadiumPrism</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>w</td>
+                    <td><a href='<class 'anchorscad_models.basic.stadium.StadiumOutline'>'>StadiumOutline</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>fa</td>
+                    <td>fa</td>
+                    <td><a href='<class 'anchorscad_models.components.sockets.dc_022_a.DC022A'>'>DC022A</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fa</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                <td>&nbsp;</td>    <td>fa</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                <td>&nbsp;</td>    <td>fa</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                <td>&nbsp;</td>    <td>fa</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>fn</td>
+                    <td>fn</td>
+                    <td><a href='<class 'anchorscad_models.components.sockets.dc_022_a.DC022A'>'>DC022A</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fn</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                <td>&nbsp;</td>    <td>fn</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                <td>&nbsp;</td>    <td>fn</td>
+                    <td><a href='<class 'anchorscad.extrude.LinearExtrude'>'>LinearExtrude</a></td>
+                </tr>
+                
+                <tr>
+                <td>&nbsp;</td>    <td>fn</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                <td>&nbsp;</td>    <td>fn</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>fn</td>
+                    <td>fn</td>
+                    <td><a href='<class 'anchorscad_models.basic.stadium.StadiumPrism'>'>StadiumPrism</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fn</td>
+                    <td><a href='<class 'anchorscad.extrude.LinearExtrude'>'>LinearExtrude</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>fs</td>
+                    <td>fs</td>
+                    <td><a href='<class 'anchorscad_models.components.sockets.dc_022_a.DC022A'>'>DC022A</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>fs</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                <td>&nbsp;</td>    <td>fs</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                <td>&nbsp;</td>    <td>fs</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                
+                <tr>
+                <td>&nbsp;</td>    <td>fs</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>plug_h</td>
+                    <td>plug_h</td>
+                    <td><a href='<class 'anchorscad_models.components.sockets.dc_022_a.DC022A'>'>DC022A</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>h</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>plug_r</td>
+                    <td>plug_r</td>
+                    <td><a href='<class 'anchorscad_models.components.sockets.dc_022_a.DC022A'>'>DC022A</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>r</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>rear_access_hole_h</td>
+                    <td>rear_access_hole_h</td>
+                    <td><a href='<class 'anchorscad_models.components.sockets.dc_022_a.DC022A'>'>DC022A</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>h</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>rear_access_hole_r</td>
+                    <td>rear_access_hole_r</td>
+                    <td><a href='<class 'anchorscad_models.components.sockets.dc_022_a.DC022A'>'>DC022A</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>r</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>thickness</td>
+                    <td>thickness</td>
+                    <td><a href='<class 'anchorscad_models.components.sockets.dc_022_a.DC022A'>'>DC022A</a></td>
+                </tr>
+                
+                <tr>
+                    <td>top_access_hole_h</td>
+                    <td>top_access_hole_h</td>
+                    <td><a href='<class 'anchorscad_models.components.sockets.dc_022_a.DC022A'>'>DC022A</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>h</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>top_access_hole_r</td>
+                    <td>top_access_hole_r</td>
+                    <td><a href='<class 'anchorscad_models.components.sockets.dc_022_a.DC022A'>'>DC022A</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>r</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>top_h</td>
+                    <td>top_h</td>
+                    <td><a href='<class 'anchorscad_models.components.sockets.dc_022_a.DC022A'>'>DC022A</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>h</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                <tr>
+                    <td>top_r</td>
+                    <td>top_r</td>
+                    <td><a href='<class 'anchorscad_models.components.sockets.dc_022_a.DC022A'>'>DC022A</a></td>
+                </tr>
+                
+                    <tr>
+                        <td colspan='3'>
+                            <table>
+                <tr>
+                <td>&nbsp;</td>    <td>r</td>
+                    <td><a href='<class 'anchorscad.core.Cylinder'>'>Cylinder</a></td>
+                </tr>
+                </table>
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </body>
+        </html>
+        

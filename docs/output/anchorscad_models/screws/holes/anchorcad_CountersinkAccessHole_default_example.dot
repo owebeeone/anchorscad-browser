@@ -1,0 +1,11 @@
+digraph default {
+    root_1 [label="root"];
+    default_2 [label="default"];
+    access_hole_cage_3 [label="access_hole_cage"];
+    access_hole_4 [label="access_hole"];
+    couter_sink_hole_5 [label="couter_sink_hole"];
+    root_1 -> default_2;
+    default_2 -> access_hole_cage_3;
+    default_2 -> access_hole_4;
+    default_2 -> couter_sink_hole_5;
+}

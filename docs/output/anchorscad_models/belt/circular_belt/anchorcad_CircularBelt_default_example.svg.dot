@@ -1,0 +1,12 @@
+digraph default {
+	graph [rankdir=LR]
+	root_1 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_2 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nCircularBelt&quot;; console.log(s); alert(s);" tooltip=CircularBelt]
+	belt_3 [label=belt href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;belt&#x27;\)\nTorus&quot;; console.log(s); alert(s);" tooltip=Torus]
+	torus_4 [label=torus href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;belt&#x27;,\ &#x27;torus&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	cage_5 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;belt&#x27;,\ &#x27;cage&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	root_1 -> default_2
+	default_2 -> belt_3
+	belt_3 -> torus_4
+	belt_3 -> cage_5
+}

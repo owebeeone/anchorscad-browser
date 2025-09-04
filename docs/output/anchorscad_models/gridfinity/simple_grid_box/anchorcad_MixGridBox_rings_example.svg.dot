@@ -1,0 +1,20 @@
+digraph rings {
+	graph [rankdir=LR]
+	root_10 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	rings_11 [label=rings href="javascript:s=&quot;\(&#x27;rings&#x27;,\)\nMixGridBox&quot;; console.log(s); alert(s);" tooltip=MixGridBox]
+	box_12 [label=box href="javascript:s=&quot;\(&#x27;rings&#x27;,\ &#x27;box&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_13 [label="\('hole',\ 0,\ 0\)" href="javascript:s=&quot;\(&#x27;rings&#x27;,\ \(&#x27;hole&#x27;,\ 0,\ 0\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_14 [label="\('hole',\ 0,\ 1\)" href="javascript:s=&quot;\(&#x27;rings&#x27;,\ \(&#x27;hole&#x27;,\ 0,\ 1\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_15 [label="\('hole',\ 1,\ 0\)" href="javascript:s=&quot;\(&#x27;rings&#x27;,\ \(&#x27;hole&#x27;,\ 1,\ 0\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_16 [label="\('hole',\ 1,\ 1\)" href="javascript:s=&quot;\(&#x27;rings&#x27;,\ \(&#x27;hole&#x27;,\ 1,\ 1\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_17 [label="\('hole',\ 2,\ 0\)" href="javascript:s=&quot;\(&#x27;rings&#x27;,\ \(&#x27;hole&#x27;,\ 2,\ 0\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_18 [label="\('hole',\ 2,\ 1\)" href="javascript:s=&quot;\(&#x27;rings&#x27;,\ \(&#x27;hole&#x27;,\ 2,\ 1\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	root_10 -> rings_11
+	rings_11 -> box_12
+	rings_11 -> hole_13
+	rings_11 -> hole_14
+	rings_11 -> hole_15
+	rings_11 -> hole_16
+	rings_11 -> hole_17
+	rings_11 -> hole_18
+}

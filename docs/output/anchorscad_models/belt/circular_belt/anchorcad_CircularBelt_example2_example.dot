@@ -1,0 +1,11 @@
+digraph example2 {
+    root_6 [label="root"];
+    example2_7 [label="example2"];
+    belt_8 [label="belt"];
+    torus_9 [label="torus"];
+    cage_10 [label="cage"];
+    root_6 -> example2_7;
+    example2_7 -> belt_8;
+    belt_8 -> torus_9;
+    belt_8 -> cage_10;
+}

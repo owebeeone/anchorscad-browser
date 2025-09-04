@@ -1,0 +1,28 @@
+digraph creality {
+	graph [rankdir=LR]
+	root_14 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	creality_15 [label=creality href="javascript:s=&quot;\(&#x27;creality&#x27;,\)\nSpoolAdaptor&quot;; console.log(s); alert(s);" tooltip=SpoolAdaptor]
+	spool_adaptor_16 [label=spool_adaptor href="javascript:s=&quot;\(&#x27;creality&#x27;,\ &#x27;spool_adaptor&#x27;\)\nSpoolAdaptorRing&quot;; console.log(s); alert(s);" tooltip=SpoolAdaptorRing]
+	adaptor_17 [label=adaptor href="javascript:s=&quot;\(&#x27;creality&#x27;,\ &#x27;spool_adaptor&#x27;,\ &#x27;adaptor&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	rib_18 [label="\('rib',\ 0\)" href="javascript:s=&quot;\(&#x27;creality&#x27;,\ \(&#x27;rib&#x27;,\ 0\)\)\nTriangularPrism&quot;; console.log(s); alert(s);" tooltip=TriangularPrism]
+	cage_19 [label=cage href="javascript:s=&quot;\(&#x27;creality&#x27;,\ \(&#x27;rib&#x27;,\ 0\),\ &#x27;cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	prism_20 [label=prism href="javascript:s=&quot;\(&#x27;creality&#x27;,\ \(&#x27;rib&#x27;,\ 0\),\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	rib_21 [label="\('rib',\ 1\)" href="javascript:s=&quot;\(&#x27;creality&#x27;,\ \(&#x27;rib&#x27;,\ 1\)\)\nTriangularPrism&quot;; console.log(s); alert(s);" tooltip=TriangularPrism]
+	cage_22 [label=cage href="javascript:s=&quot;\(&#x27;creality&#x27;,\ \(&#x27;rib&#x27;,\ 1\),\ &#x27;cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	prism_23 [label=prism href="javascript:s=&quot;\(&#x27;creality&#x27;,\ \(&#x27;rib&#x27;,\ 1\),\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	rib_24 [label="\('rib',\ 2\)" href="javascript:s=&quot;\(&#x27;creality&#x27;,\ \(&#x27;rib&#x27;,\ 2\)\)\nTriangularPrism&quot;; console.log(s); alert(s);" tooltip=TriangularPrism]
+	cage_25 [label=cage href="javascript:s=&quot;\(&#x27;creality&#x27;,\ \(&#x27;rib&#x27;,\ 2\),\ &#x27;cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	prism_26 [label=prism href="javascript:s=&quot;\(&#x27;creality&#x27;,\ \(&#x27;rib&#x27;,\ 2\),\ &#x27;prism&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	root_14 -> creality_15
+	creality_15 -> spool_adaptor_16
+	spool_adaptor_16 -> adaptor_17
+	creality_15 -> rib_18
+	rib_18 -> cage_19
+	rib_18 -> prism_20
+	creality_15 -> rib_21
+	rib_21 -> cage_22
+	rib_21 -> prism_23
+	creality_15 -> rib_24
+	rib_24 -> cage_25
+	rib_24 -> prism_26
+}

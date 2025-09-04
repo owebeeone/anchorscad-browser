@@ -1,0 +1,11 @@
+digraph default {
+    root_1 [label="root"];
+    default_2 [label="default"];
+    overall_3 [label="overall"];
+    box_4 [label="box"];
+    sphere_5 [label="sphere"];
+    root_1 -> default_2;
+    default_2 -> overall_3;
+    overall_3 -> box_4;
+    overall_3 -> sphere_5;
+}

@@ -1,0 +1,29 @@
+digraph default {
+    root_1 [label="root"];
+    default_2 [label="default"];
+    outer_3 [label="outer"];
+    cage_4 [label="cage"];
+    inner_cage_5 [label="inner_cage"];
+    cone1_6 [label="cone1"];
+    cone2_7 [label="cone2"];
+    prism_8 [label="prism"];
+    inner_9 [label="inner"];
+    cage_10 [label="cage"];
+    inner_cage_11 [label="inner_cage"];
+    cone1_12 [label="cone1"];
+    cone2_13 [label="cone2"];
+    prism_14 [label="prism"];
+    root_1 -> default_2;
+    default_2 -> outer_3;
+    outer_3 -> cage_4;
+    outer_3 -> inner_cage_5;
+    outer_3 -> cone1_6;
+    outer_3 -> cone2_7;
+    outer_3 -> prism_8;
+    default_2 -> inner_9;
+    inner_9 -> cage_10;
+    inner_9 -> inner_cage_11;
+    inner_9 -> cone1_12;
+    inner_9 -> cone2_13;
+    inner_9 -> prism_14;
+}

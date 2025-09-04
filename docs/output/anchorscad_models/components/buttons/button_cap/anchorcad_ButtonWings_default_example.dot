@@ -1,0 +1,15 @@
+digraph default {
+    root_44 [label="root"];
+    default_45 [label="default"];
+    cage_46 [label="cage"];
+    wing_47 [label="\('wing',\ 0\)"];
+    wing_48 [label="\('wing',\ 1\)"];
+    wing_49 [label="\('wing',\ 2\)"];
+    wing_50 [label="\('wing',\ 3\)"];
+    root_44 -> default_45;
+    default_45 -> cage_46;
+    default_45 -> wing_47;
+    default_45 -> wing_48;
+    default_45 -> wing_49;
+    default_45 -> wing_50;
+}

@@ -1,0 +1,35 @@
+digraph default {
+    root_1 [label="root"];
+    default_2 [label="default"];
+    coords_3 [label="coords"];
+    origin_4 [label="origin"];
+    x_arrow_5 [label="x_arrow"];
+    stem_6 [label="stem"];
+    head_7 [label="head"];
+    y_arrow_8 [label="y_arrow"];
+    stem_9 [label="stem"];
+    head_10 [label="head"];
+    z_arrow_11 [label="z_arrow"];
+    stem_12 [label="stem"];
+    head_13 [label="head"];
+    x_14 [label="x"];
+    y_15 [label="y"];
+    z_16 [label="z"];
+    label_17 [label="label"];
+    root_1 -> default_2;
+    default_2 -> coords_3;
+    coords_3 -> origin_4;
+    coords_3 -> x_arrow_5;
+    x_arrow_5 -> stem_6;
+    x_arrow_5 -> head_7;
+    coords_3 -> y_arrow_8;
+    y_arrow_8 -> stem_9;
+    y_arrow_8 -> head_10;
+    coords_3 -> z_arrow_11;
+    z_arrow_11 -> stem_12;
+    z_arrow_11 -> head_13;
+    default_2 -> x_14;
+    default_2 -> y_15;
+    default_2 -> z_16;
+    default_2 -> label_17;
+}

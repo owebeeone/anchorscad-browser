@@ -1,0 +1,17 @@
+digraph default {
+    root_15 [label="root"];
+    default_16 [label="default"];
+    outer_17 [label="outer"];
+    outer_cyl_18 [label="outer_cyl"];
+    shaft_19 [label="shaft"];
+    shaft_cyl_cage_20 [label="shaft_cyl_cage"];
+    large_21 [label="large"];
+    small_22 [label="small"];
+    root_15 -> default_16;
+    default_16 -> outer_17;
+    default_16 -> outer_cyl_18;
+    default_16 -> shaft_19;
+    shaft_19 -> shaft_cyl_cage_20;
+    shaft_19 -> large_21;
+    shaft_19 -> small_22;
+}

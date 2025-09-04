@@ -1,0 +1,92 @@
+digraph example2 {
+	graph [rankdir=LR]
+	root_406 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	example2_407 [label=example2 href="javascript:s=&quot;\(&#x27;example2&#x27;,\)\nHingeBarSleeveHoles&quot;; console.log(s); alert(s);" tooltip=HingeBarSleeveHoles]
+	cage_408 [label=cage href="javascript:s=&quot;\(&#x27;example2&#x27;,\ &#x27;cage&#x27;\)\nHingeBar&quot;; console.log(s); alert(s);" tooltip=HingeBar]
+	bar_409 [label=bar href="javascript:s=&quot;\(&#x27;example2&#x27;,\ &#x27;cage&#x27;,\ &#x27;bar&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	hole_410 [label="\('hole',\ 0\)" href="javascript:s=&quot;\(&#x27;example2&#x27;,\ &#x27;cage&#x27;,\ \(&#x27;hole&#x27;,\ 0\)\)\nHingeHole&quot;; console.log(s); alert(s);" tooltip=HingeHole]
+	cage_411 [label=cage href="javascript:s=&quot;\(&#x27;example2&#x27;,\ &#x27;cage&#x27;,\ \(&#x27;hole&#x27;,\ 0\),\ &#x27;cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	hinge_hole_412 [label=hinge_hole href="javascript:s=&quot;\(&#x27;example2&#x27;,\ &#x27;cage&#x27;,\ \(&#x27;hole&#x27;,\ 0\),\ &#x27;hinge_hole&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	hole_413 [label="\('hole',\ 1\)" href="javascript:s=&quot;\(&#x27;example2&#x27;,\ &#x27;cage&#x27;,\ \(&#x27;hole&#x27;,\ 1\)\)\nHingeHole&quot;; console.log(s); alert(s);" tooltip=HingeHole]
+	cage_414 [label=cage href="javascript:s=&quot;\(&#x27;example2&#x27;,\ &#x27;cage&#x27;,\ \(&#x27;hole&#x27;,\ 1\),\ &#x27;cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	hinge_hole_415 [label=hinge_hole href="javascript:s=&quot;\(&#x27;example2&#x27;,\ &#x27;cage&#x27;,\ \(&#x27;hole&#x27;,\ 1\),\ &#x27;hinge_hole&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	hole_416 [label="\('hole',\ 2\)" href="javascript:s=&quot;\(&#x27;example2&#x27;,\ &#x27;cage&#x27;,\ \(&#x27;hole&#x27;,\ 2\)\)\nHingeHole&quot;; console.log(s); alert(s);" tooltip=HingeHole]
+	cage_417 [label=cage href="javascript:s=&quot;\(&#x27;example2&#x27;,\ &#x27;cage&#x27;,\ \(&#x27;hole&#x27;,\ 2\),\ &#x27;cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	hinge_hole_418 [label=hinge_hole href="javascript:s=&quot;\(&#x27;example2&#x27;,\ &#x27;cage&#x27;,\ \(&#x27;hole&#x27;,\ 2\),\ &#x27;hinge_hole&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	hole_419 [label="\('hole',\ 3\)" href="javascript:s=&quot;\(&#x27;example2&#x27;,\ &#x27;cage&#x27;,\ \(&#x27;hole&#x27;,\ 3\)\)\nHingeHole&quot;; console.log(s); alert(s);" tooltip=HingeHole]
+	cage_420 [label=cage href="javascript:s=&quot;\(&#x27;example2&#x27;,\ &#x27;cage&#x27;,\ \(&#x27;hole&#x27;,\ 3\),\ &#x27;cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	hinge_hole_421 [label=hinge_hole href="javascript:s=&quot;\(&#x27;example2&#x27;,\ &#x27;cage&#x27;,\ \(&#x27;hole&#x27;,\ 3\),\ &#x27;hinge_hole&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	hole_422 [label="\('hole',\ 4\)" href="javascript:s=&quot;\(&#x27;example2&#x27;,\ &#x27;cage&#x27;,\ \(&#x27;hole&#x27;,\ 4\)\)\nHingeHole&quot;; console.log(s); alert(s);" tooltip=HingeHole]
+	cage_423 [label=cage href="javascript:s=&quot;\(&#x27;example2&#x27;,\ &#x27;cage&#x27;,\ \(&#x27;hole&#x27;,\ 4\),\ &#x27;cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	hinge_hole_424 [label=hinge_hole href="javascript:s=&quot;\(&#x27;example2&#x27;,\ &#x27;cage&#x27;,\ \(&#x27;hole&#x27;,\ 4\),\ &#x27;hinge_hole&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	hole_425 [label="\('hole',\ 5\)" href="javascript:s=&quot;\(&#x27;example2&#x27;,\ &#x27;cage&#x27;,\ \(&#x27;hole&#x27;,\ 5\)\)\nHingeHole&quot;; console.log(s); alert(s);" tooltip=HingeHole]
+	cage_426 [label=cage href="javascript:s=&quot;\(&#x27;example2&#x27;,\ &#x27;cage&#x27;,\ \(&#x27;hole&#x27;,\ 5\),\ &#x27;cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	hinge_hole_427 [label=hinge_hole href="javascript:s=&quot;\(&#x27;example2&#x27;,\ &#x27;cage&#x27;,\ \(&#x27;hole&#x27;,\ 5\),\ &#x27;hinge_hole&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	hole_428 [label="\('hole',\ 6\)" href="javascript:s=&quot;\(&#x27;example2&#x27;,\ &#x27;cage&#x27;,\ \(&#x27;hole&#x27;,\ 6\)\)\nHingeHole&quot;; console.log(s); alert(s);" tooltip=HingeHole]
+	cage_429 [label=cage href="javascript:s=&quot;\(&#x27;example2&#x27;,\ &#x27;cage&#x27;,\ \(&#x27;hole&#x27;,\ 6\),\ &#x27;cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	hinge_hole_430 [label=hinge_hole href="javascript:s=&quot;\(&#x27;example2&#x27;,\ &#x27;cage&#x27;,\ \(&#x27;hole&#x27;,\ 6\),\ &#x27;hinge_hole&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	sleeve_431 [label="\('sleeve',\ 1\)" href="javascript:s=&quot;\(&#x27;example2&#x27;,\ \(&#x27;sleeve&#x27;,\ 1\)\)\nSleeveAndKeyway&quot;; console.log(s); alert(s);" tooltip=SleeveAndKeyway]
+	outer_432 [label=outer href="javascript:s=&quot;\(&#x27;example2&#x27;,\ \(&#x27;sleeve&#x27;,\ 1\),\ &#x27;outer&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	inner_433 [label=inner href="javascript:s=&quot;\(&#x27;example2&#x27;,\ \(&#x27;sleeve&#x27;,\ 1\),\ &#x27;inner&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	sleeve_434 [label=sleeve href="javascript:s=&quot;\(&#x27;example2&#x27;,\ \(&#x27;sleeve&#x27;,\ 1\),\ &#x27;sleeve&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	sleeve_435 [label="\('sleeve',\ 3\)" href="javascript:s=&quot;\(&#x27;example2&#x27;,\ \(&#x27;sleeve&#x27;,\ 3\)\)\nSleeveAndKeyway&quot;; console.log(s); alert(s);" tooltip=SleeveAndKeyway]
+	outer_436 [label=outer href="javascript:s=&quot;\(&#x27;example2&#x27;,\ \(&#x27;sleeve&#x27;,\ 3\),\ &#x27;outer&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	inner_437 [label=inner href="javascript:s=&quot;\(&#x27;example2&#x27;,\ \(&#x27;sleeve&#x27;,\ 3\),\ &#x27;inner&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	sleeve_438 [label=sleeve href="javascript:s=&quot;\(&#x27;example2&#x27;,\ \(&#x27;sleeve&#x27;,\ 3\),\ &#x27;sleeve&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	sleeve_439 [label="\('sleeve',\ 5\)" href="javascript:s=&quot;\(&#x27;example2&#x27;,\ \(&#x27;sleeve&#x27;,\ 5\)\)\nSleeveAndKeyway&quot;; console.log(s); alert(s);" tooltip=SleeveAndKeyway]
+	outer_440 [label=outer href="javascript:s=&quot;\(&#x27;example2&#x27;,\ \(&#x27;sleeve&#x27;,\ 5\),\ &#x27;outer&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	inner_441 [label=inner href="javascript:s=&quot;\(&#x27;example2&#x27;,\ \(&#x27;sleeve&#x27;,\ 5\),\ &#x27;inner&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	sleeve_442 [label=sleeve href="javascript:s=&quot;\(&#x27;example2&#x27;,\ \(&#x27;sleeve&#x27;,\ 5\),\ &#x27;sleeve&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	sleeve_443 [label="\('sleeve',\ 7\)" href="javascript:s=&quot;\(&#x27;example2&#x27;,\ \(&#x27;sleeve&#x27;,\ 7\)\)\nSleeveAndKeyway&quot;; console.log(s); alert(s);" tooltip=SleeveAndKeyway]
+	outer_444 [label=outer href="javascript:s=&quot;\(&#x27;example2&#x27;,\ \(&#x27;sleeve&#x27;,\ 7\),\ &#x27;outer&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	inner_445 [label=inner href="javascript:s=&quot;\(&#x27;example2&#x27;,\ \(&#x27;sleeve&#x27;,\ 7\),\ &#x27;inner&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	sleeve_446 [label=sleeve href="javascript:s=&quot;\(&#x27;example2&#x27;,\ \(&#x27;sleeve&#x27;,\ 7\),\ &#x27;sleeve&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	sleeve_top_447 [label=sleeve_top href="javascript:s=&quot;\(&#x27;example2&#x27;,\ &#x27;sleeve_top&#x27;\)\nSleeve&quot;; console.log(s); alert(s);" tooltip=Sleeve]
+	outer_448 [label=outer href="javascript:s=&quot;\(&#x27;example2&#x27;,\ &#x27;sleeve_top&#x27;,\ &#x27;outer&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	inner_449 [label=inner href="javascript:s=&quot;\(&#x27;example2&#x27;,\ &#x27;sleeve_top&#x27;,\ &#x27;inner&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	sleeve_450 [label=sleeve href="javascript:s=&quot;\(&#x27;example2&#x27;,\ &#x27;sleeve_top&#x27;,\ &#x27;sleeve&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	root_406 -> example2_407
+	example2_407 -> cage_408
+	cage_408 -> bar_409
+	cage_408 -> hole_410
+	hole_410 -> cage_411
+	hole_410 -> hinge_hole_412
+	cage_408 -> hole_413
+	hole_413 -> cage_414
+	hole_413 -> hinge_hole_415
+	cage_408 -> hole_416
+	hole_416 -> cage_417
+	hole_416 -> hinge_hole_418
+	cage_408 -> hole_419
+	hole_419 -> cage_420
+	hole_419 -> hinge_hole_421
+	cage_408 -> hole_422
+	hole_422 -> cage_423
+	hole_422 -> hinge_hole_424
+	cage_408 -> hole_425
+	hole_425 -> cage_426
+	hole_425 -> hinge_hole_427
+	cage_408 -> hole_428
+	hole_428 -> cage_429
+	hole_428 -> hinge_hole_430
+	example2_407 -> sleeve_431
+	sleeve_431 -> outer_432
+	sleeve_431 -> inner_433
+	sleeve_431 -> sleeve_434
+	example2_407 -> sleeve_435
+	sleeve_435 -> outer_436
+	sleeve_435 -> inner_437
+	sleeve_435 -> sleeve_438
+	example2_407 -> sleeve_439
+	sleeve_439 -> outer_440
+	sleeve_439 -> inner_441
+	sleeve_439 -> sleeve_442
+	example2_407 -> sleeve_443
+	sleeve_443 -> outer_444
+	sleeve_443 -> inner_445
+	sleeve_443 -> sleeve_446
+	example2_407 -> sleeve_top_447
+	sleeve_top_447 -> outer_448
+	sleeve_top_447 -> inner_449
+	sleeve_top_447 -> sleeve_450
+}

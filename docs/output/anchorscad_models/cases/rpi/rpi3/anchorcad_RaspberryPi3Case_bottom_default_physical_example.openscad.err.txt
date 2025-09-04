@@ -1,0 +1,16 @@
+
+Fontconfig error: Cannot load default config file: No such file: (null)
+Geometries in cache: 241
+Geometry cache size in bytes: 2736816
+CGAL Polyhedrons in cache: 47
+CGAL cache size in bytes: 0
+Total rendering time: 0:00:00.622
+   Top level object is a 3D object (manifold):
+   Status:     NoError
+   Genus:      69
+   Vertices:    10681
+   Facets:      21634
+EXPORT-ERROR: Can't add triangle to 3MF model.
+
+Command failed: ['C:\\Program Files\\OpenSCAD (Nightly)\\openscad.exe', '-o', 'generated\\output\\anchorscad_models\\cases\\rpi\\rpi3\\anchorcad_RaspberryPi3Case_bottom_default_physical_example.stl', '-o', 'generated\\output\\anchorscad_models\\cases\\rpi\\rpi3\\anchorcad_RaspberryPi3Case_bottom_default_physical_example.3mf', '--backend', 'Manifold', '--enable', 'lazy-union', '-o', 'generated\\output\\anchorscad_models\\cases\\rpi\\rpi3\\anchorcad_RaspberryPi3Case_bottom_default_physical_example.png', '--autocenter', '--view', 'axes', '--imgsize', '1280,1024', 'generated\\output\\anchorscad_models\\cases\\rpi\\rpi3\\anchorcad_RaspberryPi3Case_bottom_default_physical_example.scad']
+Exit code: 3221226356

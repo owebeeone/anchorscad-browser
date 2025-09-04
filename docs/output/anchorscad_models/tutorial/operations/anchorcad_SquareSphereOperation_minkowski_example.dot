@@ -1,0 +1,11 @@
+digraph minkowski {
+    root_21 [label="root"];
+    minkowski_22 [label="minkowski"];
+    overall_23 [label="overall"];
+    box_24 [label="box"];
+    sphere_25 [label="sphere"];
+    root_21 -> minkowski_22;
+    minkowski_22 -> overall_23;
+    overall_23 -> box_24;
+    overall_23 -> sphere_25;
+}

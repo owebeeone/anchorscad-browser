@@ -1,0 +1,2139 @@
+// Start: lazy_union
+default_5_default_5();
+default_5_anchor_5_non_physical_non_physical();
+// End: lazy_union
+
+// Modules.
+
+// 'PartMaterial undef-default - anchor 5.0 non-physical'
+module default_5_anchor_5_non_physical_non_physical() {
+  // 'None : _combine_solids_and_holes'
+  union() {
+    // "('mount_hole', 0), 'top', "
+    multmatrix(m=[[1.0, 0.0, 0.0, -39.0], [0.0, -1.0, 0.0, -24.5], [0.0, 0.0, -1.0, -3.0], [0.0, 0.0, 0.0, 1.0]]) {
+      // "('mount_hole', 0), 'top',  : _combine_solids_and_holes"
+      union() {
+        // 'coords : _combine_solids_and_holes'
+        union() {
+          // 'x_arrow'
+          multmatrix(m=[[0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'x_arrow'
+            color(c=[1.0, 0.0, 0.0, 1.0]) {
+              // 'x_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'y_arrow'
+          multmatrix(m=[[-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'y_arrow'
+            color(c=[0.0, 0.5019607843137255, 0.0, 1.0]) {
+              // 'y_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'z_arrow'
+          multmatrix(m=[[0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'z_arrow'
+            color(c=[0.0, 0.0, 1.0, 1.0]) {
+              // 'z_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+        }
+        // 'x'
+        multmatrix(m=[[1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'x : _combine_solids_and_holes'
+          union() {
+            // 'x'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="x", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'y'
+        multmatrix(m=[[0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'y : _combine_solids_and_holes'
+          union() {
+            // 'y'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="y", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'z'
+        multmatrix(m=[[0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'z : _combine_solids_and_holes'
+          union() {
+            // 'z'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="z", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'label'
+        multmatrix(m=[[0.7071067811865475, -0.7071067811865475, 0.0, 3.181980515339464], [0.7071067811865475, 0.7071067811865475, 0.0, 1.0606601717798212], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'label'
+          color(c=[0.0, 1.0, 0.5, 1.0]) {
+            // 'label : _combine_solids_and_holes'
+            union() {
+              // 'label'
+              linear_extrude(height=1.0) {
+                translate(v=[0.0, 0.0, -0.5]) {
+                  text(text="('mount_hole', 0), 'top', ", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    // "('mount_hole', 1), 'top', "
+    multmatrix(m=[[1.0, 0.0, 0.0, -39.0], [0.0, -1.0, 0.0, 24.5], [0.0, 0.0, -1.0, -3.0], [0.0, 0.0, 0.0, 1.0]]) {
+      // "('mount_hole', 1), 'top',  : _combine_solids_and_holes"
+      union() {
+        // 'coords : _combine_solids_and_holes'
+        union() {
+          // 'x_arrow'
+          multmatrix(m=[[0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'x_arrow'
+            color(c=[1.0, 0.0, 0.0, 1.0]) {
+              // 'x_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'y_arrow'
+          multmatrix(m=[[-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'y_arrow'
+            color(c=[0.0, 0.5019607843137255, 0.0, 1.0]) {
+              // 'y_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'z_arrow'
+          multmatrix(m=[[0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'z_arrow'
+            color(c=[0.0, 0.0, 1.0, 1.0]) {
+              // 'z_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+        }
+        // 'x'
+        multmatrix(m=[[1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'x : _combine_solids_and_holes'
+          union() {
+            // 'x'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="x", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'y'
+        multmatrix(m=[[0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'y : _combine_solids_and_holes'
+          union() {
+            // 'y'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="y", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'z'
+        multmatrix(m=[[0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'z : _combine_solids_and_holes'
+          union() {
+            // 'z'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="z", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'label'
+        multmatrix(m=[[0.7071067811865475, -0.7071067811865475, 0.0, 3.181980515339464], [0.7071067811865475, 0.7071067811865475, 0.0, 1.0606601717798212], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'label'
+          color(c=[0.0, 1.0, 0.5, 1.0]) {
+            // 'label : _combine_solids_and_holes'
+            union() {
+              // 'label'
+              linear_extrude(height=1.0) {
+                translate(v=[0.0, 0.0, -0.5]) {
+                  text(text="('mount_hole', 1), 'top', ", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    // "('mount_hole', 2), 'top', "
+    multmatrix(m=[[1.0, 0.0, 0.0, 19.0], [0.0, -1.0, 0.0, -24.5], [0.0, 0.0, -1.0, -3.0], [0.0, 0.0, 0.0, 1.0]]) {
+      // "('mount_hole', 2), 'top',  : _combine_solids_and_holes"
+      union() {
+        // 'coords : _combine_solids_and_holes'
+        union() {
+          // 'x_arrow'
+          multmatrix(m=[[0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'x_arrow'
+            color(c=[1.0, 0.0, 0.0, 1.0]) {
+              // 'x_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'y_arrow'
+          multmatrix(m=[[-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'y_arrow'
+            color(c=[0.0, 0.5019607843137255, 0.0, 1.0]) {
+              // 'y_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'z_arrow'
+          multmatrix(m=[[0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'z_arrow'
+            color(c=[0.0, 0.0, 1.0, 1.0]) {
+              // 'z_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+        }
+        // 'x'
+        multmatrix(m=[[1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'x : _combine_solids_and_holes'
+          union() {
+            // 'x'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="x", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'y'
+        multmatrix(m=[[0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'y : _combine_solids_and_holes'
+          union() {
+            // 'y'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="y", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'z'
+        multmatrix(m=[[0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'z : _combine_solids_and_holes'
+          union() {
+            // 'z'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="z", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'label'
+        multmatrix(m=[[0.7071067811865475, -0.7071067811865475, 0.0, 3.181980515339464], [0.7071067811865475, 0.7071067811865475, 0.0, 1.0606601717798212], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'label'
+          color(c=[0.0, 1.0, 0.5, 1.0]) {
+            // 'label : _combine_solids_and_holes'
+            union() {
+              // 'label'
+              linear_extrude(height=1.0) {
+                translate(v=[0.0, 0.0, -0.5]) {
+                  text(text="('mount_hole', 2), 'top', ", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    // "('mount_hole', 3), 'top', "
+    multmatrix(m=[[1.0, 0.0, 0.0, 19.0], [0.0, -1.0, 0.0, 24.5], [0.0, 0.0, -1.0, -3.0], [0.0, 0.0, 0.0, 1.0]]) {
+      // "('mount_hole', 3), 'top',  : _combine_solids_and_holes"
+      union() {
+        // 'coords : _combine_solids_and_holes'
+        union() {
+          // 'x_arrow'
+          multmatrix(m=[[0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'x_arrow'
+            color(c=[1.0, 0.0, 0.0, 1.0]) {
+              // 'x_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'y_arrow'
+          multmatrix(m=[[-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'y_arrow'
+            color(c=[0.0, 0.5019607843137255, 0.0, 1.0]) {
+              // 'y_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'z_arrow'
+          multmatrix(m=[[0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'z_arrow'
+            color(c=[0.0, 0.0, 1.0, 1.0]) {
+              // 'z_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+        }
+        // 'x'
+        multmatrix(m=[[1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'x : _combine_solids_and_holes'
+          union() {
+            // 'x'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="x", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'y'
+        multmatrix(m=[[0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'y : _combine_solids_and_holes'
+          union() {
+            // 'y'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="y", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'z'
+        multmatrix(m=[[0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'z : _combine_solids_and_holes'
+          union() {
+            // 'z'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="z", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'label'
+        multmatrix(m=[[0.7071067811865475, -0.7071067811865475, 0.0, 3.181980515339464], [0.7071067811865475, 0.7071067811865475, 0.0, 1.0606601717798212], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'label'
+          color(c=[0.0, 1.0, 0.5, 1.0]) {
+            // 'label : _combine_solids_and_holes'
+            union() {
+              // 'label'
+              linear_extrude(height=1.0) {
+                translate(v=[0.0, 0.0, -0.5]) {
+                  text(text="('mount_hole', 3), 'top', ", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    // "'usbC', 'face_centre', 3, "
+    multmatrix(m=[[-1.0, 0.0, 0.0, -31.3], [0.0, 0.0, -1.0, -29.8], [0.0, -1.0, 0.0, 1.7800000000000002], [0.0, 0.0, 0.0, 1.0]]) {
+      // "'usbC', 'face_centre', 3,  : _combine_solids_and_holes"
+      union() {
+        // 'coords : _combine_solids_and_holes'
+        union() {
+          // 'x_arrow'
+          multmatrix(m=[[0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'x_arrow'
+            color(c=[1.0, 0.0, 0.0, 1.0]) {
+              // 'x_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'y_arrow'
+          multmatrix(m=[[-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'y_arrow'
+            color(c=[0.0, 0.5019607843137255, 0.0, 1.0]) {
+              // 'y_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'z_arrow'
+          multmatrix(m=[[0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'z_arrow'
+            color(c=[0.0, 0.0, 1.0, 1.0]) {
+              // 'z_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+        }
+        // 'x'
+        multmatrix(m=[[1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'x : _combine_solids_and_holes'
+          union() {
+            // 'x'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="x", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'y'
+        multmatrix(m=[[0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'y : _combine_solids_and_holes'
+          union() {
+            // 'y'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="y", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'z'
+        multmatrix(m=[[0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'z : _combine_solids_and_holes'
+          union() {
+            // 'z'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="z", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'label'
+        multmatrix(m=[[0.7071067811865475, -0.7071067811865475, 0.0, 3.181980515339464], [0.7071067811865475, 0.7071067811865475, 0.0, 1.0606601717798212], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'label'
+          color(c=[0.0, 1.0, 0.5, 1.0]) {
+            // 'label : _combine_solids_and_holes'
+            union() {
+              // 'label'
+              linear_extrude(height=1.0) {
+                translate(v=[0.0, 0.0, -0.5]) {
+                  text(text="'usbC', 'face_centre', 3, ", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    // "'hdmi1', 'face_centre', 3, "
+    multmatrix(m=[[-1.0, 0.0, 0.0, -16.5], [0.0, 0.0, -1.0, -29.8], [0.0, -1.0, 0.0, 1.3], [0.0, 0.0, 0.0, 1.0]]) {
+      // "'hdmi1', 'face_centre', 3,  : _combine_solids_and_holes"
+      union() {
+        // 'coords : _combine_solids_and_holes'
+        union() {
+          // 'x_arrow'
+          multmatrix(m=[[0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'x_arrow'
+            color(c=[1.0, 0.0, 0.0, 1.0]) {
+              // 'x_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'y_arrow'
+          multmatrix(m=[[-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'y_arrow'
+            color(c=[0.0, 0.5019607843137255, 0.0, 1.0]) {
+              // 'y_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'z_arrow'
+          multmatrix(m=[[0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'z_arrow'
+            color(c=[0.0, 0.0, 1.0, 1.0]) {
+              // 'z_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+        }
+        // 'x'
+        multmatrix(m=[[1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'x : _combine_solids_and_holes'
+          union() {
+            // 'x'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="x", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'y'
+        multmatrix(m=[[0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'y : _combine_solids_and_holes'
+          union() {
+            // 'y'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="y", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'z'
+        multmatrix(m=[[0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'z : _combine_solids_and_holes'
+          union() {
+            // 'z'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="z", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'label'
+        multmatrix(m=[[0.7071067811865475, -0.7071067811865475, 0.0, 3.181980515339464], [0.7071067811865475, 0.7071067811865475, 0.0, 1.0606601717798212], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'label'
+          color(c=[0.0, 1.0, 0.5, 1.0]) {
+            // 'label : _combine_solids_and_holes'
+            union() {
+              // 'label'
+              linear_extrude(height=1.0) {
+                translate(v=[0.0, 0.0, -0.5]) {
+                  text(text="'hdmi1', 'face_centre', 3, ", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    // "'hdmi2', 'face_centre', 3, "
+    multmatrix(m=[[-1.0, 0.0, 0.0, -3.0], [0.0, 0.0, -1.0, -29.8], [0.0, -1.0, 0.0, 1.3], [0.0, 0.0, 0.0, 1.0]]) {
+      // "'hdmi2', 'face_centre', 3,  : _combine_solids_and_holes"
+      union() {
+        // 'coords : _combine_solids_and_holes'
+        union() {
+          // 'x_arrow'
+          multmatrix(m=[[0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'x_arrow'
+            color(c=[1.0, 0.0, 0.0, 1.0]) {
+              // 'x_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'y_arrow'
+          multmatrix(m=[[-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'y_arrow'
+            color(c=[0.0, 0.5019607843137255, 0.0, 1.0]) {
+              // 'y_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'z_arrow'
+          multmatrix(m=[[0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'z_arrow'
+            color(c=[0.0, 0.0, 1.0, 1.0]) {
+              // 'z_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+        }
+        // 'x'
+        multmatrix(m=[[1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'x : _combine_solids_and_holes'
+          union() {
+            // 'x'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="x", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'y'
+        multmatrix(m=[[0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'y : _combine_solids_and_holes'
+          union() {
+            // 'y'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="y", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'z'
+        multmatrix(m=[[0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'z : _combine_solids_and_holes'
+          union() {
+            // 'z'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="z", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'label'
+        multmatrix(m=[[0.7071067811865475, -0.7071067811865475, 0.0, 3.181980515339464], [0.7071067811865475, 0.7071067811865475, 0.0, 1.0606601717798212], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'label'
+          color(c=[0.0, 1.0, 0.5, 1.0]) {
+            // 'label : _combine_solids_and_holes'
+            union() {
+              // 'label'
+              linear_extrude(height=1.0) {
+                translate(v=[0.0, 0.0, -0.5]) {
+                  text(text="'hdmi2', 'face_centre', 3, ", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    // "'audio', 'base', "
+    multmatrix(m=[[-1.0, 0.0, 0.0, 11.5], [0.0, 0.0, -1.0, -30.7], [0.0, -1.0, 0.0, 3.0], [0.0, 0.0, 0.0, 1.0]]) {
+      // "'audio', 'base',  : _combine_solids_and_holes"
+      union() {
+        // 'coords : _combine_solids_and_holes'
+        union() {
+          // 'x_arrow'
+          multmatrix(m=[[0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'x_arrow'
+            color(c=[1.0, 0.0, 0.0, 1.0]) {
+              // 'x_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'y_arrow'
+          multmatrix(m=[[-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'y_arrow'
+            color(c=[0.0, 0.5019607843137255, 0.0, 1.0]) {
+              // 'y_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'z_arrow'
+          multmatrix(m=[[0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'z_arrow'
+            color(c=[0.0, 0.0, 1.0, 1.0]) {
+              // 'z_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+        }
+        // 'x'
+        multmatrix(m=[[1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'x : _combine_solids_and_holes'
+          union() {
+            // 'x'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="x", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'y'
+        multmatrix(m=[[0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'y : _combine_solids_and_holes'
+          union() {
+            // 'y'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="y", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'z'
+        multmatrix(m=[[0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'z : _combine_solids_and_holes'
+          union() {
+            // 'z'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="z", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'label'
+        multmatrix(m=[[0.7071067811865475, -0.7071067811865475, 0.0, 3.181980515339464], [0.7071067811865475, 0.7071067811865475, 0.0, 1.0606601717798212], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'label'
+          color(c=[0.0, 1.0, 0.5, 1.0]) {
+            // 'label : _combine_solids_and_holes'
+            union() {
+              // 'label'
+              linear_extrude(height=1.0) {
+                translate(v=[0.0, 0.0, -0.5]) {
+                  text(text="'audio', 'base', ", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    // "'cpu', 'face_centre', 4, "
+    multmatrix(m=[[-1.0, 0.0, 0.0, -13.0], [0.0, -1.0, 0.0, 4.5], [0.0, 0.0, 1.0, 2.4], [0.0, 0.0, 0.0, 1.0]]) {
+      // "'cpu', 'face_centre', 4,  : _combine_solids_and_holes"
+      union() {
+        // 'coords : _combine_solids_and_holes'
+        union() {
+          // 'x_arrow'
+          multmatrix(m=[[0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'x_arrow'
+            color(c=[1.0, 0.0, 0.0, 1.0]) {
+              // 'x_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'y_arrow'
+          multmatrix(m=[[-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'y_arrow'
+            color(c=[0.0, 0.5019607843137255, 0.0, 1.0]) {
+              // 'y_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'z_arrow'
+          multmatrix(m=[[0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'z_arrow'
+            color(c=[0.0, 0.0, 1.0, 1.0]) {
+              // 'z_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+        }
+        // 'x'
+        multmatrix(m=[[1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'x : _combine_solids_and_holes'
+          union() {
+            // 'x'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="x", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'y'
+        multmatrix(m=[[0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'y : _combine_solids_and_holes'
+          union() {
+            // 'y'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="y", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'z'
+        multmatrix(m=[[0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'z : _combine_solids_and_holes'
+          union() {
+            // 'z'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="z", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'label'
+        multmatrix(m=[[0.7071067811865475, -0.7071067811865475, 0.0, 3.181980515339464], [0.7071067811865475, 0.7071067811865475, 0.0, 1.0606601717798212], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'label'
+          color(c=[0.0, 1.0, 0.5, 1.0]) {
+            // 'label : _combine_solids_and_holes'
+            union() {
+              // 'label'
+              linear_extrude(height=1.0) {
+                translate(v=[0.0, 0.0, -0.5]) {
+                  text(text="'cpu', 'face_centre', 4, ", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    // "'usbA2', 'face_centre', 3, "
+    multmatrix(m=[[0.0, 0.0, 1.0, 45.5], [-1.0, 0.0, 0.0, -19.0], [0.0, -1.0, 0.0, 8.2], [0.0, 0.0, 0.0, 1.0]]) {
+      // "'usbA2', 'face_centre', 3,  : _combine_solids_and_holes"
+      union() {
+        // 'coords : _combine_solids_and_holes'
+        union() {
+          // 'x_arrow'
+          multmatrix(m=[[0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'x_arrow'
+            color(c=[1.0, 0.0, 0.0, 1.0]) {
+              // 'x_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'y_arrow'
+          multmatrix(m=[[-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'y_arrow'
+            color(c=[0.0, 0.5019607843137255, 0.0, 1.0]) {
+              // 'y_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'z_arrow'
+          multmatrix(m=[[0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'z_arrow'
+            color(c=[0.0, 0.0, 1.0, 1.0]) {
+              // 'z_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+        }
+        // 'x'
+        multmatrix(m=[[1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'x : _combine_solids_and_holes'
+          union() {
+            // 'x'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="x", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'y'
+        multmatrix(m=[[0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'y : _combine_solids_and_holes'
+          union() {
+            // 'y'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="y", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'z'
+        multmatrix(m=[[0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'z : _combine_solids_and_holes'
+          union() {
+            // 'z'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="z", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'label'
+        multmatrix(m=[[0.7071067811865475, -0.7071067811865475, 0.0, 3.181980515339464], [0.7071067811865475, 0.7071067811865475, 0.0, 1.0606601717798212], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'label'
+          color(c=[0.0, 1.0, 0.5, 1.0]) {
+            // 'label : _combine_solids_and_holes'
+            union() {
+              // 'label'
+              linear_extrude(height=1.0) {
+                translate(v=[0.0, 0.0, -0.5]) {
+                  text(text="'usbA2', 'face_centre', 3, ", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    // "'usbA3', 'face_centre', 3, "
+    multmatrix(m=[[0.0, 0.0, 1.0, 45.5], [-1.0, 0.0, 0.0, -1.0], [0.0, -1.0, 0.0, 8.2], [0.0, 0.0, 0.0, 1.0]]) {
+      // "'usbA3', 'face_centre', 3,  : _combine_solids_and_holes"
+      union() {
+        // 'coords : _combine_solids_and_holes'
+        union() {
+          // 'x_arrow'
+          multmatrix(m=[[0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'x_arrow'
+            color(c=[1.0, 0.0, 0.0, 1.0]) {
+              // 'x_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'y_arrow'
+          multmatrix(m=[[-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'y_arrow'
+            color(c=[0.0, 0.5019607843137255, 0.0, 1.0]) {
+              // 'y_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'z_arrow'
+          multmatrix(m=[[0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'z_arrow'
+            color(c=[0.0, 0.0, 1.0, 1.0]) {
+              // 'z_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+        }
+        // 'x'
+        multmatrix(m=[[1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'x : _combine_solids_and_holes'
+          union() {
+            // 'x'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="x", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'y'
+        multmatrix(m=[[0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'y : _combine_solids_and_holes'
+          union() {
+            // 'y'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="y", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'z'
+        multmatrix(m=[[0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'z : _combine_solids_and_holes'
+          union() {
+            // 'z'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="z", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'label'
+        multmatrix(m=[[0.7071067811865475, -0.7071067811865475, 0.0, 3.181980515339464], [0.7071067811865475, 0.7071067811865475, 0.0, 1.0606601717798212], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'label'
+          color(c=[0.0, 1.0, 0.5, 1.0]) {
+            // 'label : _combine_solids_and_holes'
+            union() {
+              // 'label'
+              linear_extrude(height=1.0) {
+                translate(v=[0.0, 0.0, -0.5]) {
+                  text(text="'usbA3', 'face_centre', 3, ", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    // "'rj45', 'face_centre', 3, "
+    multmatrix(m=[[0.0, 0.0, 1.0, 45.5], [-1.0, 0.0, 0.0, 17.75], [0.0, -1.0, 0.0, 6.85], [0.0, 0.0, 0.0, 1.0]]) {
+      // "'rj45', 'face_centre', 3,  : _combine_solids_and_holes"
+      union() {
+        // 'coords : _combine_solids_and_holes'
+        union() {
+          // 'x_arrow'
+          multmatrix(m=[[0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'x_arrow'
+            color(c=[1.0, 0.0, 0.0, 1.0]) {
+              // 'x_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'y_arrow'
+          multmatrix(m=[[-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'y_arrow'
+            color(c=[0.0, 0.5019607843137255, 0.0, 1.0]) {
+              // 'y_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'z_arrow'
+          multmatrix(m=[[0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'z_arrow'
+            color(c=[0.0, 0.0, 1.0, 1.0]) {
+              // 'z_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+        }
+        // 'x'
+        multmatrix(m=[[1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'x : _combine_solids_and_holes'
+          union() {
+            // 'x'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="x", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'y'
+        multmatrix(m=[[0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'y : _combine_solids_and_holes'
+          union() {
+            // 'y'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="y", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'z'
+        multmatrix(m=[[0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'z : _combine_solids_and_holes'
+          union() {
+            // 'z'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="z", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'label'
+        multmatrix(m=[[0.7071067811865475, -0.7071067811865475, 0.0, 3.181980515339464], [0.7071067811865475, 0.7071067811865475, 0.0, 1.0606601717798212], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'label'
+          color(c=[0.0, 1.0, 0.5, 1.0]) {
+            // 'label : _combine_solids_and_holes'
+            union() {
+              // 'label'
+              linear_extrude(height=1.0) {
+                translate(v=[0.0, 0.0, -0.5]) {
+                  text(text="'rj45', 'face_centre', 3, ", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    // "'micro_sd', 'face_centre', 3, "
+    multmatrix(m=[[0.0, 0.0, -1.0, -39.5], [-1.0, 0.0, 0.0, 0.14999999999999858], [0.0, 1.0, 0.0, -2.2], [0.0, 0.0, 0.0, 1.0]]) {
+      // "'micro_sd', 'face_centre', 3,  : _combine_solids_and_holes"
+      union() {
+        // 'coords : _combine_solids_and_holes'
+        union() {
+          // 'x_arrow'
+          multmatrix(m=[[0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'x_arrow'
+            color(c=[1.0, 0.0, 0.0, 1.0]) {
+              // 'x_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'y_arrow'
+          multmatrix(m=[[-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'y_arrow'
+            color(c=[0.0, 0.5019607843137255, 0.0, 1.0]) {
+              // 'y_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'z_arrow'
+          multmatrix(m=[[0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'z_arrow'
+            color(c=[0.0, 0.0, 1.0, 1.0]) {
+              // 'z_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+        }
+        // 'x'
+        multmatrix(m=[[1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'x : _combine_solids_and_holes'
+          union() {
+            // 'x'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="x", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'y'
+        multmatrix(m=[[0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'y : _combine_solids_and_holes'
+          union() {
+            // 'y'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="y", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'z'
+        multmatrix(m=[[0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'z : _combine_solids_and_holes'
+          union() {
+            // 'z'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="z", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'label'
+        multmatrix(m=[[0.7071067811865475, -0.7071067811865475, 0.0, 3.181980515339464], [0.7071067811865475, 0.7071067811865475, 0.0, 1.0606601717798212], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'label'
+          color(c=[0.0, 1.0, 0.5, 1.0]) {
+            // 'label : _combine_solids_and_holes'
+            union() {
+              // 'label'
+              linear_extrude(height=1.0) {
+                translate(v=[0.0, 0.0, -0.5]) {
+                  text(text="'micro_sd', 'face_centre', 3, ", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    // "'header100', 'face_centre', 4, "
+    multmatrix(m=[[1.0, 0.0, 0.0, -10.0], [0.0, 1.0, 0.0, 23.7], [0.0, 0.0, 1.0, 8.7], [0.0, 0.0, 0.0, 1.0]]) {
+      // "'header100', 'face_centre', 4,  : _combine_solids_and_holes"
+      union() {
+        // 'coords : _combine_solids_and_holes'
+        union() {
+          // 'x_arrow'
+          multmatrix(m=[[0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'x_arrow'
+            color(c=[1.0, 0.0, 0.0, 1.0]) {
+              // 'x_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'y_arrow'
+          multmatrix(m=[[-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'y_arrow'
+            color(c=[0.0, 0.5019607843137255, 0.0, 1.0]) {
+              // 'y_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+          // 'z_arrow'
+          multmatrix(m=[[0.0, -1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, -1.0, -3.0], [0.0, 0.0, 0.0, 1.0]]) {
+            // 'z_arrow'
+            color(c=[0.0, 0.0, 1.0, 1.0]) {
+              // 'z_arrow : _combine_solids_and_holes'
+              union() {
+                // 'stem'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [-0.0, -1.0, -0.0, -0.0], [-0.0, -0.0, -1.0, -0.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'stem : _combine_solids_and_holes'
+                  union() {
+                    // 'stem'
+                    cylinder(h=10.0, r1=0.75, r2=0.75, center=false);
+                  }
+                }
+                // 'head'
+                multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0], [0.0, 0.0, -1.0, -10.0], [0.0, 0.0, 0.0, 1.0]]) {
+                  // 'head : _combine_solids_and_holes'
+                  union() {
+                    // 'head'
+                    cylinder(h=3.0, r1=1.5, r2=0.0, center=false);
+                  }
+                }
+              }
+            }
+          }
+        }
+        // 'x'
+        multmatrix(m=[[1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'x : _combine_solids_and_holes'
+          union() {
+            // 'x'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="x", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'y'
+        multmatrix(m=[[0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'y : _combine_solids_and_holes'
+          union() {
+            // 'y'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="y", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'z'
+        multmatrix(m=[[0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.5], [1.0, 0.0, 0.0, 11.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'z : _combine_solids_and_holes'
+          union() {
+            // 'z'
+            linear_extrude(height=1.0) {
+              translate(v=[0.0, 0.0, -0.5]) {
+                text(text="z", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+              }
+            }
+          }
+        }
+        // 'label'
+        multmatrix(m=[[0.7071067811865475, -0.7071067811865475, 0.0, 3.181980515339464], [0.7071067811865475, 0.7071067811865475, 0.0, 1.0606601717798212], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'label'
+          color(c=[0.0, 1.0, 0.5, 1.0]) {
+            // 'label : _combine_solids_and_holes'
+            union() {
+              // 'label'
+              linear_extrude(height=1.0) {
+                translate(v=[0.0, 0.0, -0.5]) {
+                  text(text="'header100', 'face_centre', 4, ", size=3.0, halign="left", valign="bottom", spacing=1.0, direction="ltr");
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+} // end module default_5_anchor_5_non_physical_non_physical
+
+// 'PartMaterial undef-default - default 5.0'
+module default_5_default_5() {
+  // 'None : _combine_solids_and_holes'
+  union() {
+    // '_combine_solids_and_holes'
+    difference() {
+      // 'default : _combine_solids_and_holes'
+      union() {
+        // 'board'
+        multmatrix(m=[[1.0, 0.0, 0.0, 0.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, -0.75], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'board : _combine_solids_and_holes'
+          union() {
+            // 'hull'
+            multmatrix(m=[[1.0, 0.0, 0.0, -42.5], [0.0, 1.0, 0.0, -28.0], [0.0, 0.0, 1.0, -0.75], [0.0, 0.0, 0.0, 1.0]]) {
+              // 'hull : _combine_solids_and_holes'
+              union() {
+                // 'hull'
+                linear_extrude(height=1.5, twist=0.0, slices=4, scale=[1.0, 1.0]) {
+                  polygon(points=[[3.0, 0.0], [82.0, 0.0], [82.14720302298225, 0.003613631384482119], [82.29405142098868, 0.014445819983408104], [82.44019142336609, 0.03247047010565529], [82.58527096604838, 0.05764415879030649], [82.7289405397098, 0.08990624041636508], [82.87085403176339, 0.1291789928033702], [83.01066956017667, 0.17536780445093392], [83.14805029709527, 0.228361402466136], [83.28266528029084, 0.2880321206296661], [83.414190210478, 0.35423620695493074], [83.54230823257967, 0.4268141699991794], [83.66671069905881, 0.50559116309236], [83.7870979134773, 0.5903774055580606], [83.90317985249094, 0.6809686399117845], [84.01467686454106, 0.7771466239351184], [84.12132034355965, 0.8786796564403532], [84.22285337606488, 0.9853231354589407], [84.31903136008822, 1.0968201475090595], [84.40962259444194, 1.2129020865226963], [84.49440883690764, 1.33328930094119], [84.57318583000082, 1.4576917674203314], [84.64576379304506, 1.5858097895220038], [84.71196787937033, 1.7173347197091513], [84.77163859753387, 1.8519497029047285], [84.82463219554907, 1.9893304398233378], [84.87082100719662, 2.129145968236611], [84.91009375958363, 2.271059460290207], [84.94235584120969, 2.414729033951614], [84.96752952989435, 2.5598085766339143], [84.98555418001659, 2.705948579011318], [84.99638636861552, 2.8527969770177455], [85.0, 2.9999999999999996], [85.0, 53.0], [84.99638636861552, 53.147203022982254], [84.98555418001659, 53.29405142098868], [84.96752952989435, 53.44019142336609], [84.94235584120969, 53.585270966048384], [84.91009375958363, 53.72894053970979], [84.87082100719662, 53.870854031763386], [84.82463219554906, 54.01066956017666], [84.77163859753387, 54.14805029709527], [84.71196787937033, 54.28266528029084], [84.64576379304506, 54.41419021047799], [84.57318583000081, 54.542308232579664], [84.49440883690764, 54.666710699058804], [84.40962259444193, 54.7870979134773], [84.3190313600882, 54.90317985249093], [84.22285337606488, 55.01467686454105], [84.12132034355965, 55.12132034355964], [84.01467686454106, 55.22285337606487], [83.90317985249094, 55.3190313600882], [83.7870979134773, 55.40962259444193], [83.66671069905881, 55.49440883690763], [83.54230823257966, 55.57318583000081], [83.414190210478, 55.645763793045056], [83.28266528029084, 55.71196787937032], [83.14805029709527, 55.77163859753385], [83.01066956017667, 55.82463219554905], [82.87085403176339, 55.87082100719662], [82.7289405397098, 55.910093759583624], [82.58527096604838, 55.94235584120968], [82.44019142336609, 55.96752952989433], [82.29405142098868, 55.98555418001658], [82.14720302298225, 55.996386368615504], [82.0, 55.999999999999986], [3.0, 56.0], [2.852796977017746, 55.99638636861552], [2.7059485790113182, 55.98555418001659], [2.5598085766339143, 55.96752952989434], [2.4147290339516143, 55.94235584120969], [2.271059460290207, 55.91009375958363], [2.129145968236611, 55.870821007196625], [1.9893304398233378, 55.824632195549064], [1.8519497029047285, 55.77163859753386], [1.717334719709152, 55.711967879370334], [1.5858097895220038, 55.64576379304506], [1.4576917674203314, 55.57318583000082], [1.3332893009411895, 55.49440883690764], [1.2129020865226958, 55.409622594441934], [1.096820147509059, 55.31903136008821], [0.9853231354589402, 55.222853376064876], [0.8786796564403523, 55.121320343559645], [0.777146623935117, 55.01467686454106], [0.6809686399117831, 54.903179852490936], [0.5903774055580588, 54.787097913477304], [0.5055911630923573, 54.66671069905881], [0.4268141699991759, 54.542308232579664], [0.3542362069549263, 54.41419021047799], [0.2880321206296612, 54.28266528029085], [0.22836140246613024, 54.14805029709527], [0.1753678044509277, 54.01066956017666], [0.1291789928033631, 53.870854031763386], [0.08990624041635709, 53.72894053970979], [0.05764415879029716, 53.585270966048384], [0.03247047010564508, 53.44019142336609], [0.014445819983396557, 53.29405142098868], [0.0036136313844692403, 53.147203022982254], [-1.4210854715202004e-14, 53.0], [0.0, 3.0], [0.003613631384483007, 2.852796977017747], [0.014445819983409436, 2.7059485790113182], [0.03247047010565707, 2.559808576633915], [0.05764415879030871, 2.414729033951615], [0.08990624041636819, 2.2710594602902088], [0.1291789928033733, 2.129145968236614], [0.17536780445093747, 1.9893304398233398], [0.22836140246613956, 1.851949702904731], [0.28803212062966965, 1.7173347197091546], [0.35423620695493474, 1.5858097895220071], [0.42681416999918387, 1.4576917674203353], [0.5055911630923635, 1.3332893009411941], [0.5903774055580651, 1.2129020865227003], [0.6809686399117885, 1.0968201475090642], [0.7771466239351228, 0.9853231354589447], [0.8786796564403572, 0.8786796564403576], [0.9853231354589438, 0.7771466239351232], [1.0968201475090622, 0.6809686399117902], [1.2129020865227007, 0.5903774055580646], [1.3332893009411935, 0.5055911630923644], [1.4576917674203347, 0.42681416999918387], [1.5858097895220065, 0.3542362069549352], [1.7173347197091526, 0.28803212062967054], [1.851949702904729, 0.22836140246614045], [1.9893304398233402, 0.17536780445093747], [2.129145968236613, 0.1291789928033733], [2.271059460290208, 0.08990624041636819], [2.414729033951614, 0.05764415879030915], [2.5598085766339156, 0.03247047010565707], [2.7059485790113187, 0.014445819983409436], [2.852796977017746, 0.003613631384483007]]);
+                }
+              }
+            }
+          }
+        }
+        // 'usbC'
+        multmatrix(m=[[-1.0, 0.0, 0.0, -26.8], [0.0, -1.0, 0.0, -22.3], [0.0, 0.0, 1.0, 0.13000000000000034], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'usbC'
+          color(c=[0.0, 1.0, 0.5, 1.0]) {
+            // 'usbC : _combine_solids_and_holes'
+            union() {
+              // 'usbC'
+              cube(size=[9.0, 7.5, 3.3]);
+            }
+          }
+        }
+        // ('usbC', 'outer')
+        multmatrix(m=[[-1.0, 0.0, 0.0, -24.3], [0.0, 1.0, 0.0, -37.29], [0.0, 0.0, -1.0, 5.43], [0.0, 0.0, 0.0, 1.0]]) {
+          // "('usbC', 'outer') : _combine_solids_and_holes"
+          union() {
+            // ('usbC', 'outer')
+            cube(size=[14.0, 7.5, 7.3]);
+          }
+        }
+        // 'hdmi1'
+        multmatrix(m=[[-1.0, 0.0, 0.0, -12.95], [0.0, -1.0, 0.0, -21.8], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'hdmi1'
+          color(c=[0.0, 1.0, 0.5, 1.0]) {
+            // 'hdmi1 : _combine_solids_and_holes'
+            union() {
+              // 'hdmi1'
+              cube(size=[7.1, 8.0, 3.6]);
+            }
+          }
+        }
+        // ('hdmi1', 'outer')
+        multmatrix(m=[[-1.0, 0.0, 0.0, -10.45], [0.0, 1.0, 0.0, -37.79], [0.0, 0.0, -1.0, 5.35], [0.0, 0.0, 0.0, 1.0]]) {
+          // "('hdmi1', 'outer') : _combine_solids_and_holes"
+          union() {
+            // ('hdmi1', 'outer')
+            cube(size=[12.1, 8.0, 8.1]);
+          }
+        }
+        // 'hdmi2'
+        multmatrix(m=[[-1.0, 0.0, 0.0, 0.5499999999999998], [0.0, -1.0, 0.0, -21.8], [0.0, 0.0, 1.0, -0.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'hdmi2'
+          color(c=[0.0, 1.0, 0.5, 1.0]) {
+            // 'hdmi2 : _combine_solids_and_holes'
+            union() {
+              // 'hdmi2'
+              cube(size=[7.1, 8.0, 3.6]);
+            }
+          }
+        }
+        // ('hdmi2', 'outer')
+        multmatrix(m=[[-1.0, 0.0, 0.0, 3.05], [0.0, 1.0, 0.0, -37.79], [0.0, 0.0, -1.0, 5.35], [0.0, 0.0, 0.0, 1.0]]) {
+          // "('hdmi2', 'outer') : _combine_solids_and_holes"
+          union() {
+            // ('hdmi2', 'outer')
+            cube(size=[12.1, 8.0, 8.1]);
+          }
+        }
+        // 'audio'
+        multmatrix(m=[[-1.0, 0.0, 0.0, 11.5], [0.0, 0.0, 1.0, -30.7], [0.0, 1.0, 0.0, 3.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'audio'
+          color(c=[0.0, 1.0, 0.5, 1.0]) {
+            // 'audio : _combine_solids_and_holes'
+            union() {
+              // 'audio'
+              cylinder(h=15.0, r1=3.0, r2=3.0, center=false, $fn=32);
+            }
+          }
+        }
+        // ('audio', 'outer')
+        multmatrix(m=[[-1.0, 0.0, 0.0, 11.5], [0.0, 0.0, -1.0, -30.689999999999998], [0.0, -1.0, 0.0, 3.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // "('audio', 'outer') : _combine_solids_and_holes"
+          union() {
+            // ('audio', 'outer')
+            cylinder(h=15.0, r1=5.0, r2=5.0, center=false, $fn=32);
+          }
+        }
+        // 'cpu'
+        multmatrix(m=[[-1.0, 0.0, 0.0, -5.5], [0.0, -1.0, 0.0, 12.0], [0.0, 0.0, 1.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'cpu'
+          color(c=[0.0, 1.0, 0.5, 1.0]) {
+            // 'cpu : _combine_solids_and_holes'
+            union() {
+              // 'cpu'
+              cube(size=[15.0, 15.0, 2.4]);
+            }
+          }
+        }
+        // 'usbA2'
+        multmatrix(m=[[0.0, 1.0, 0.0, 28.0], [-1.0, 0.0, 0.0, -11.5], [0.0, 0.0, 1.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'usbA2'
+          color(c=[0.0, 1.0, 0.5, 1.0]) {
+            // 'usbA2 : _combine_solids_and_holes'
+            union() {
+              // 'usbA2'
+              cube(size=[15.0, 17.5, 16.4]);
+            }
+          }
+        }
+        // ('usbA2', 'outer')
+        multmatrix(m=[[0.0, -1.0, 0.0, 63.290000000000006], [-1.0, 0.0, 0.0, -11.35], [0.0, 0.0, -1.0, 16.549999999999997], [0.0, 0.0, 0.0, 1.0]]) {
+          // "('usbA2', 'outer') : _combine_solids_and_holes"
+          union() {
+            // ('usbA2', 'outer')
+            cube(size=[15.3, 17.8, 16.7]);
+          }
+        }
+        // 'usbA3'
+        multmatrix(m=[[0.0, 1.0, 0.0, 28.0], [-1.0, 0.0, 0.0, 6.5], [0.0, 0.0, 1.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'usbA3'
+          color(c=[0.0, 1.0, 0.5, 1.0]) {
+            // 'usbA3 : _combine_solids_and_holes'
+            union() {
+              // 'usbA3'
+              cube(size=[15.0, 17.5, 16.4]);
+            }
+          }
+        }
+        // ('usbA3', 'outer')
+        multmatrix(m=[[0.0, -1.0, 0.0, 63.290000000000006], [-1.0, 0.0, 0.0, 6.65], [0.0, 0.0, -1.0, 16.549999999999997], [0.0, 0.0, 0.0, 1.0]]) {
+          // "('usbA3', 'outer') : _combine_solids_and_holes"
+          union() {
+            // ('usbA3', 'outer')
+            cube(size=[15.3, 17.8, 16.7]);
+          }
+        }
+        // 'rj45'
+        multmatrix(m=[[0.0, 1.0, 0.0, 24.25], [-1.0, 0.0, 0.0, 25.85], [0.0, 0.0, 1.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'rj45'
+          color(c=[0.0, 1.0, 0.5, 1.0]) {
+            // 'rj45 : _combine_solids_and_holes'
+            union() {
+              // 'rj45'
+              cube(size=[16.2, 21.25, 13.7]);
+            }
+          }
+        }
+        // ('rj45', 'outer')
+        multmatrix(m=[[0.0, -1.0, 0.0, 67.04], [-1.0, 0.0, 0.0, 26.0], [0.0, 0.0, -1.0, 13.85], [0.0, 0.0, 0.0, 1.0]]) {
+          // "('rj45', 'outer') : _combine_solids_and_holes"
+          union() {
+            // ('rj45', 'outer')
+            cube(size=[16.5, 21.55, 14.0]);
+          }
+        }
+        // 'micro_sd'
+        multmatrix(m=[[0.0, -1.0, 0.0, -28.15], [-1.0, 0.0, 0.0, 6.149999999999999], [0.0, 0.0, -1.0, -1.5], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'micro_sd'
+          color(c=[0.0, 1.0, 0.5, 1.0]) {
+            // 'micro_sd : _combine_solids_and_holes'
+            union() {
+              // 'micro_sd'
+              cube(size=[12.0, 11.35, 1.4]);
+            }
+          }
+        }
+        // ('micro_sd', 'outer')
+        multmatrix(m=[[0.0, 1.0, 0.0, -51.84], [-1.0, 0.0, 0.0, 6.649999999999999], [0.0, 0.0, 1.0, -8.9], [0.0, 0.0, 0.0, 1.0]]) {
+          // "('micro_sd', 'outer') : _combine_solids_and_holes"
+          union() {
+            // ('micro_sd', 'outer')
+            cube(size=[13.0, 12.35, 7.4]);
+          }
+        }
+        // 'header100'
+        multmatrix(m=[[1.0, 0.0, 0.0, -35.5], [0.0, 1.0, 0.0, 21.15], [0.0, 0.0, 1.0, 0.0], [0.0, 0.0, 0.0, 1.0]]) {
+          // 'header100'
+          color(c=[0.0, 1.0, 0.5, 1.0]) {
+            // 'header100 : _combine_solids_and_holes'
+            union() {
+              // 'header100'
+              cube(size=[51.0, 5.1, 8.7]);
+            }
+          }
+        }
+      }
+      // 'default'
+      multmatrix(m=[[1.0, 0.0, 0.0, -39.0], [0.0, -1.0, 0.0, -24.5], [0.0, 0.0, -1.0, 0.02], [0.0, 0.0, 0.0, 1.0]]) {
+        // "('mount_hole', 0) : _combine_solids_and_holes"
+        union() {
+          // ('mount_hole', 0)
+          cylinder(h=3.02, r1=1.35, r2=1.35, center=false, $fn=32);
+        }
+      }
+      // 'default'
+      multmatrix(m=[[1.0, 0.0, 0.0, -39.0], [0.0, -1.0, 0.0, 24.5], [0.0, 0.0, -1.0, 0.02], [0.0, 0.0, 0.0, 1.0]]) {
+        // "('mount_hole', 1) : _combine_solids_and_holes"
+        union() {
+          // ('mount_hole', 1)
+          cylinder(h=3.02, r1=1.35, r2=1.35, center=false, $fn=32);
+        }
+      }
+      // 'default'
+      multmatrix(m=[[1.0, 0.0, 0.0, 19.0], [0.0, -1.0, 0.0, -24.5], [0.0, 0.0, -1.0, 0.02], [0.0, 0.0, 0.0, 1.0]]) {
+        // "('mount_hole', 2) : _combine_solids_and_holes"
+        union() {
+          // ('mount_hole', 2)
+          cylinder(h=3.02, r1=1.35, r2=1.35, center=false, $fn=32);
+        }
+      }
+      // 'default'
+      multmatrix(m=[[1.0, 0.0, 0.0, 19.0], [0.0, -1.0, 0.0, 24.5], [0.0, 0.0, -1.0, 0.02], [0.0, 0.0, 0.0, 1.0]]) {
+        // "('mount_hole', 3) : _combine_solids_and_holes"
+        union() {
+          // ('mount_hole', 3)
+          cylinder(h=3.02, r1=1.35, r2=1.35, center=false, $fn=32);
+        }
+      }
+    }
+  }
+} // end module default_5_default_5
+

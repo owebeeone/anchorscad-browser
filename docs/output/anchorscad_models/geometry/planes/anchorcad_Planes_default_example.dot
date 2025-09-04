@@ -1,0 +1,7 @@
+digraph default {
+    root_1 [label="root"];
+    default_2 [label="default"];
+    plane1_3 [label="plane1"];
+    root_1 -> default_2;
+    default_2 -> plane1_3;
+}

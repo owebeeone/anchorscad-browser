@@ -1,0 +1,7 @@
+digraph default {
+    root_1 [label="root"];
+    default_2 [label="default"];
+    extrusion_3 [label="extrusion"];
+    root_1 -> default_2;
+    default_2 -> extrusion_3;
+}

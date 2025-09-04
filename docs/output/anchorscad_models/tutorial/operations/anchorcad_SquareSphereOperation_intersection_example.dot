@@ -1,0 +1,11 @@
+digraph intersection {
+    root_6 [label="root"];
+    intersection_7 [label="intersection"];
+    overall_8 [label="overall"];
+    box_9 [label="box"];
+    sphere_10 [label="sphere"];
+    root_6 -> intersection_7;
+    intersection_7 -> overall_8;
+    overall_8 -> box_9;
+    overall_8 -> sphere_10;
+}

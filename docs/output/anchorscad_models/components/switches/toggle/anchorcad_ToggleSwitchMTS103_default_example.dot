@@ -1,0 +1,13 @@
+digraph default {
+    root_93 [label="root"];
+    default_94 [label="default"];
+    case_95 [label="case"];
+    shaft_96 [label="shaft"];
+    bat_97 [label="bat"];
+    terminal_cavity_98 [label="terminal_cavity"];
+    root_93 -> default_94;
+    default_94 -> case_95;
+    default_94 -> shaft_96;
+    default_94 -> bat_97;
+    default_94 -> terminal_cavity_98;
+}

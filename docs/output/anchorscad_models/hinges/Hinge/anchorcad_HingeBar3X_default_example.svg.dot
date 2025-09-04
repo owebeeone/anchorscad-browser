@@ -1,0 +1,20 @@
+digraph default {
+	graph [rankdir=LR]
+	root_265 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_266 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nHingeBar3X&quot;; console.log(s); alert(s);" tooltip=HingeBar3X]
+	bar_267 [label=bar href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;bar&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	top_hole_268 [label=top_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;top_hole&#x27;\)\nHingeHole&quot;; console.log(s); alert(s);" tooltip=HingeHole]
+	cage_269 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;top_hole&#x27;,\ &#x27;cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	hinge_hole_270 [label=hinge_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;top_hole&#x27;,\ &#x27;hinge_hole&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	base_hole_271 [label=base_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;base_hole&#x27;\)\nHingeHole&quot;; console.log(s); alert(s);" tooltip=HingeHole]
+	cage_272 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;base_hole&#x27;,\ &#x27;cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	hinge_hole_273 [label=hinge_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;base_hole&#x27;,\ &#x27;hinge_hole&#x27;\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	root_265 -> default_266
+	default_266 -> bar_267
+	default_266 -> top_hole_268
+	top_hole_268 -> cage_269
+	top_hole_268 -> hinge_hole_270
+	default_266 -> base_hole_271
+	base_hole_271 -> cage_272
+	base_hole_271 -> hinge_hole_273
+}

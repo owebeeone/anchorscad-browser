@@ -1,0 +1,15 @@
+digraph show_cage {
+    root_228 [label="root"];
+    show_cage_229 [label="show_cage"];
+    screw_cage_230 [label="screw_cage"];
+    tap_shaft_231 [label="tap_shaft"];
+    thru_shaft_232 [label="thru_shaft"];
+    access_hole_233 [label="access_hole"];
+    screw_hole_234 [label="screw_hole"];
+    root_228 -> show_cage_229;
+    show_cage_229 -> screw_cage_230;
+    show_cage_229 -> tap_shaft_231;
+    show_cage_229 -> thru_shaft_232;
+    show_cage_229 -> access_hole_233;
+    show_cage_229 -> screw_hole_234;
+}

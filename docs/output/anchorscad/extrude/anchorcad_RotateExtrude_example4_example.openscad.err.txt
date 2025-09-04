@@ -1,0 +1,13 @@
+
+Fontconfig error: Cannot load default config file: No such file: (null)
+Geometries in cache: 128
+Geometry cache size in bytes: 8944664
+CGAL Polyhedrons in cache: 43
+CGAL cache size in bytes: 0
+Total rendering time: 0:00:00.602
+Top level object is a list of objects:
+   Objects:    2
+EXPORT-ERROR: Can't add triangle to 3MF model.
+
+Command failed: ['C:\\Program Files\\OpenSCAD (Nightly)\\openscad.exe', '-o', 'generated\\output\\anchorscad\\extrude\\anchorcad_RotateExtrude_example4_example.stl', '-o', 'generated\\output\\anchorscad\\extrude\\anchorcad_RotateExtrude_example4_example.3mf', '--backend', 'Manifold', '--enable', 'lazy-union', '-o', 'generated\\output\\anchorscad\\extrude\\anchorcad_RotateExtrude_example4_example.png', '--autocenter', '--view', 'axes', '--imgsize', '1280,1024', 'generated\\output\\anchorscad\\extrude\\anchorcad_RotateExtrude_example4_example.scad']
+Exit code: 3221226356

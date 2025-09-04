@@ -1,0 +1,166 @@
+digraph arc_azimuth {
+	graph [rankdir=LR]
+	root_1925 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	arc_azimuth_1926 [label=arc_azimuth href="javascript:s=&quot;\(&#x27;arc_azimuth&#x27;,\)\nRotateExtrude&quot;; console.log(s); alert(s);" tooltip=RotateExtrude]
+	1927 [label="'linear1',\ 0\.5,\ 0,\ " href="javascript:s=&quot;\(&quot;&#x27;linear1&#x27;,\ 0\.5,\ 0,\ &quot;,\)\nAnnotatedCoordinates&quot;; console.log(s); alert(s);" tooltip=AnnotatedCoordinates]
+	coords_1928 [label=coords href="javascript:s=&quot;\(&quot;&#x27;linear1&#x27;,\ 0\.5,\ 0,\ &quot;,\ &#x27;coords&#x27;\)\nCoordinates&quot;; console.log(s); alert(s);" tooltip=Coordinates]
+	origin_1929 [label=origin href="javascript:s=&quot;\(&quot;&#x27;linear1&#x27;,\ 0\.5,\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;origin&#x27;\)\nCoordinatesCage&quot;; console.log(s); alert(s);" tooltip=CoordinatesCage]
+	x_arrow_1930 [label=x_arrow href="javascript:s=&quot;\(&quot;&#x27;linear1&#x27;,\ 0\.5,\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_1931 [label=stem href="javascript:s=&quot;\(&quot;&#x27;linear1&#x27;,\ 0\.5,\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_1932 [label=head href="javascript:s=&quot;\(&quot;&#x27;linear1&#x27;,\ 0\.5,\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	y_arrow_1933 [label=y_arrow href="javascript:s=&quot;\(&quot;&#x27;linear1&#x27;,\ 0\.5,\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_1934 [label=stem href="javascript:s=&quot;\(&quot;&#x27;linear1&#x27;,\ 0\.5,\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_1935 [label=head href="javascript:s=&quot;\(&quot;&#x27;linear1&#x27;,\ 0\.5,\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	z_arrow_1936 [label=z_arrow href="javascript:s=&quot;\(&quot;&#x27;linear1&#x27;,\ 0\.5,\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_1937 [label=stem href="javascript:s=&quot;\(&quot;&#x27;linear1&#x27;,\ 0\.5,\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_1938 [label=head href="javascript:s=&quot;\(&quot;&#x27;linear1&#x27;,\ 0\.5,\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	x_1939 [label=x href="javascript:s=&quot;\(&quot;&#x27;linear1&#x27;,\ 0\.5,\ 0,\ &quot;,\ &#x27;x&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	y_1940 [label=y href="javascript:s=&quot;\(&quot;&#x27;linear1&#x27;,\ 0\.5,\ 0,\ &quot;,\ &#x27;y&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	z_1941 [label=z href="javascript:s=&quot;\(&quot;&#x27;linear1&#x27;,\ 0\.5,\ 0,\ &quot;,\ &#x27;z&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	label_1942 [label=label href="javascript:s=&quot;\(&quot;&#x27;linear1&#x27;,\ 0\.5,\ 0,\ &quot;,\ &#x27;label&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	1943 [label="'azimuth',\ 'curve1',\ az_angle=angle\(\-45\),\ angle=120" href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve1&#x27;,\ az_angle=angle\(\-45\),\ angle=120&quot;,\)\nAnnotatedCoordinates&quot;; console.log(s); alert(s);" tooltip=AnnotatedCoordinates]
+	coords_1944 [label=coords href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve1&#x27;,\ az_angle=angle\(\-45\),\ angle=120&quot;,\ &#x27;coords&#x27;\)\nCoordinates&quot;; console.log(s); alert(s);" tooltip=Coordinates]
+	origin_1945 [label=origin href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve1&#x27;,\ az_angle=angle\(\-45\),\ angle=120&quot;,\ &#x27;coords&#x27;,\ &#x27;origin&#x27;\)\nCoordinatesCage&quot;; console.log(s); alert(s);" tooltip=CoordinatesCage]
+	x_arrow_1946 [label=x_arrow href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve1&#x27;,\ az_angle=angle\(\-45\),\ angle=120&quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_1947 [label=stem href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve1&#x27;,\ az_angle=angle\(\-45\),\ angle=120&quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_1948 [label=head href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve1&#x27;,\ az_angle=angle\(\-45\),\ angle=120&quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	y_arrow_1949 [label=y_arrow href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve1&#x27;,\ az_angle=angle\(\-45\),\ angle=120&quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_1950 [label=stem href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve1&#x27;,\ az_angle=angle\(\-45\),\ angle=120&quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_1951 [label=head href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve1&#x27;,\ az_angle=angle\(\-45\),\ angle=120&quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	z_arrow_1952 [label=z_arrow href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve1&#x27;,\ az_angle=angle\(\-45\),\ angle=120&quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_1953 [label=stem href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve1&#x27;,\ az_angle=angle\(\-45\),\ angle=120&quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_1954 [label=head href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve1&#x27;,\ az_angle=angle\(\-45\),\ angle=120&quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	x_1955 [label=x href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve1&#x27;,\ az_angle=angle\(\-45\),\ angle=120&quot;,\ &#x27;x&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	y_1956 [label=y href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve1&#x27;,\ az_angle=angle\(\-45\),\ angle=120&quot;,\ &#x27;y&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	z_1957 [label=z href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve1&#x27;,\ az_angle=angle\(\-45\),\ angle=120&quot;,\ &#x27;z&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	label_1958 [label=label href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve1&#x27;,\ az_angle=angle\(\-45\),\ angle=120&quot;,\ &#x27;label&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	1959 [label="'azimuth',\ 'curve1',\ az_angle=45,\ t_end=True,\ angle=120" href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve1&#x27;,\ az_angle=45,\ t_end=True,\ angle=120&quot;,\)\nAnnotatedCoordinates&quot;; console.log(s); alert(s);" tooltip=AnnotatedCoordinates]
+	coords_1960 [label=coords href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve1&#x27;,\ az_angle=45,\ t_end=True,\ angle=120&quot;,\ &#x27;coords&#x27;\)\nCoordinates&quot;; console.log(s); alert(s);" tooltip=Coordinates]
+	origin_1961 [label=origin href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve1&#x27;,\ az_angle=45,\ t_end=True,\ angle=120&quot;,\ &#x27;coords&#x27;,\ &#x27;origin&#x27;\)\nCoordinatesCage&quot;; console.log(s); alert(s);" tooltip=CoordinatesCage]
+	x_arrow_1962 [label=x_arrow href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve1&#x27;,\ az_angle=45,\ t_end=True,\ angle=120&quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_1963 [label=stem href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve1&#x27;,\ az_angle=45,\ t_end=True,\ angle=120&quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_1964 [label=head href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve1&#x27;,\ az_angle=45,\ t_end=True,\ angle=120&quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	y_arrow_1965 [label=y_arrow href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve1&#x27;,\ az_angle=45,\ t_end=True,\ angle=120&quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_1966 [label=stem href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve1&#x27;,\ az_angle=45,\ t_end=True,\ angle=120&quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_1967 [label=head href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve1&#x27;,\ az_angle=45,\ t_end=True,\ angle=120&quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	z_arrow_1968 [label=z_arrow href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve1&#x27;,\ az_angle=45,\ t_end=True,\ angle=120&quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_1969 [label=stem href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve1&#x27;,\ az_angle=45,\ t_end=True,\ angle=120&quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_1970 [label=head href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve1&#x27;,\ az_angle=45,\ t_end=True,\ angle=120&quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	x_1971 [label=x href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve1&#x27;,\ az_angle=45,\ t_end=True,\ angle=120&quot;,\ &#x27;x&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	y_1972 [label=y href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve1&#x27;,\ az_angle=45,\ t_end=True,\ angle=120&quot;,\ &#x27;y&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	z_1973 [label=z href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve1&#x27;,\ az_angle=45,\ t_end=True,\ angle=120&quot;,\ &#x27;z&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	label_1974 [label=label href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve1&#x27;,\ az_angle=45,\ t_end=True,\ angle=120&quot;,\ &#x27;label&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	1975 [label="'azimuth',\ 'curve2',\ az_angle=45,\ angle=120" href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve2&#x27;,\ az_angle=45,\ angle=120&quot;,\)\nAnnotatedCoordinates&quot;; console.log(s); alert(s);" tooltip=AnnotatedCoordinates]
+	coords_1976 [label=coords href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve2&#x27;,\ az_angle=45,\ angle=120&quot;,\ &#x27;coords&#x27;\)\nCoordinates&quot;; console.log(s); alert(s);" tooltip=Coordinates]
+	origin_1977 [label=origin href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve2&#x27;,\ az_angle=45,\ angle=120&quot;,\ &#x27;coords&#x27;,\ &#x27;origin&#x27;\)\nCoordinatesCage&quot;; console.log(s); alert(s);" tooltip=CoordinatesCage]
+	x_arrow_1978 [label=x_arrow href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve2&#x27;,\ az_angle=45,\ angle=120&quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_1979 [label=stem href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve2&#x27;,\ az_angle=45,\ angle=120&quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_1980 [label=head href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve2&#x27;,\ az_angle=45,\ angle=120&quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	y_arrow_1981 [label=y_arrow href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve2&#x27;,\ az_angle=45,\ angle=120&quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_1982 [label=stem href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve2&#x27;,\ az_angle=45,\ angle=120&quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_1983 [label=head href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve2&#x27;,\ az_angle=45,\ angle=120&quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	z_arrow_1984 [label=z_arrow href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve2&#x27;,\ az_angle=45,\ angle=120&quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_1985 [label=stem href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve2&#x27;,\ az_angle=45,\ angle=120&quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_1986 [label=head href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve2&#x27;,\ az_angle=45,\ angle=120&quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	x_1987 [label=x href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve2&#x27;,\ az_angle=45,\ angle=120&quot;,\ &#x27;x&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	y_1988 [label=y href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve2&#x27;,\ az_angle=45,\ angle=120&quot;,\ &#x27;y&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	z_1989 [label=z href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve2&#x27;,\ az_angle=45,\ angle=120&quot;,\ &#x27;z&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	label_1990 [label=label href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve2&#x27;,\ az_angle=45,\ angle=120&quot;,\ &#x27;label&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	1991 [label="'azimuth',\ 'curve2',\ az_angle=\-45,\ t_end=True,\ angle=120" href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve2&#x27;,\ az_angle=\-45,\ t_end=True,\ angle=120&quot;,\)\nAnnotatedCoordinates&quot;; console.log(s); alert(s);" tooltip=AnnotatedCoordinates]
+	coords_1992 [label=coords href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve2&#x27;,\ az_angle=\-45,\ t_end=True,\ angle=120&quot;,\ &#x27;coords&#x27;\)\nCoordinates&quot;; console.log(s); alert(s);" tooltip=Coordinates]
+	origin_1993 [label=origin href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve2&#x27;,\ az_angle=\-45,\ t_end=True,\ angle=120&quot;,\ &#x27;coords&#x27;,\ &#x27;origin&#x27;\)\nCoordinatesCage&quot;; console.log(s); alert(s);" tooltip=CoordinatesCage]
+	x_arrow_1994 [label=x_arrow href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve2&#x27;,\ az_angle=\-45,\ t_end=True,\ angle=120&quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_1995 [label=stem href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve2&#x27;,\ az_angle=\-45,\ t_end=True,\ angle=120&quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_1996 [label=head href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve2&#x27;,\ az_angle=\-45,\ t_end=True,\ angle=120&quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	y_arrow_1997 [label=y_arrow href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve2&#x27;,\ az_angle=\-45,\ t_end=True,\ angle=120&quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_1998 [label=stem href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve2&#x27;,\ az_angle=\-45,\ t_end=True,\ angle=120&quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_1999 [label=head href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve2&#x27;,\ az_angle=\-45,\ t_end=True,\ angle=120&quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	z_arrow_2000 [label=z_arrow href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve2&#x27;,\ az_angle=\-45,\ t_end=True,\ angle=120&quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_2001 [label=stem href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve2&#x27;,\ az_angle=\-45,\ t_end=True,\ angle=120&quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_2002 [label=head href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve2&#x27;,\ az_angle=\-45,\ t_end=True,\ angle=120&quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	x_2003 [label=x href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve2&#x27;,\ az_angle=\-45,\ t_end=True,\ angle=120&quot;,\ &#x27;x&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	y_2004 [label=y href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve2&#x27;,\ az_angle=\-45,\ t_end=True,\ angle=120&quot;,\ &#x27;y&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	z_2005 [label=z href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve2&#x27;,\ az_angle=\-45,\ t_end=True,\ angle=120&quot;,\ &#x27;z&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	label_2006 [label=label href="javascript:s=&quot;\(&quot;&#x27;azimuth&#x27;,\ &#x27;curve2&#x27;,\ az_angle=\-45,\ t_end=True,\ angle=120&quot;,\ &#x27;label&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	root_1925 -> arc_azimuth_1926
+	root_1925 -> 1927
+	1927 -> coords_1928
+	coords_1928 -> origin_1929
+	coords_1928 -> x_arrow_1930
+	x_arrow_1930 -> stem_1931
+	x_arrow_1930 -> head_1932
+	coords_1928 -> y_arrow_1933
+	y_arrow_1933 -> stem_1934
+	y_arrow_1933 -> head_1935
+	coords_1928 -> z_arrow_1936
+	z_arrow_1936 -> stem_1937
+	z_arrow_1936 -> head_1938
+	1927 -> x_1939
+	1927 -> y_1940
+	1927 -> z_1941
+	1927 -> label_1942
+	root_1925 -> 1943
+	1943 -> coords_1944
+	coords_1944 -> origin_1945
+	coords_1944 -> x_arrow_1946
+	x_arrow_1946 -> stem_1947
+	x_arrow_1946 -> head_1948
+	coords_1944 -> y_arrow_1949
+	y_arrow_1949 -> stem_1950
+	y_arrow_1949 -> head_1951
+	coords_1944 -> z_arrow_1952
+	z_arrow_1952 -> stem_1953
+	z_arrow_1952 -> head_1954
+	1943 -> x_1955
+	1943 -> y_1956
+	1943 -> z_1957
+	1943 -> label_1958
+	root_1925 -> 1959
+	1959 -> coords_1960
+	coords_1960 -> origin_1961
+	coords_1960 -> x_arrow_1962
+	x_arrow_1962 -> stem_1963
+	x_arrow_1962 -> head_1964
+	coords_1960 -> y_arrow_1965
+	y_arrow_1965 -> stem_1966
+	y_arrow_1965 -> head_1967
+	coords_1960 -> z_arrow_1968
+	z_arrow_1968 -> stem_1969
+	z_arrow_1968 -> head_1970
+	1959 -> x_1971
+	1959 -> y_1972
+	1959 -> z_1973
+	1959 -> label_1974
+	root_1925 -> 1975
+	1975 -> coords_1976
+	coords_1976 -> origin_1977
+	coords_1976 -> x_arrow_1978
+	x_arrow_1978 -> stem_1979
+	x_arrow_1978 -> head_1980
+	coords_1976 -> y_arrow_1981
+	y_arrow_1981 -> stem_1982
+	y_arrow_1981 -> head_1983
+	coords_1976 -> z_arrow_1984
+	z_arrow_1984 -> stem_1985
+	z_arrow_1984 -> head_1986
+	1975 -> x_1987
+	1975 -> y_1988
+	1975 -> z_1989
+	1975 -> label_1990
+	root_1925 -> 1991
+	1991 -> coords_1992
+	coords_1992 -> origin_1993
+	coords_1992 -> x_arrow_1994
+	x_arrow_1994 -> stem_1995
+	x_arrow_1994 -> head_1996
+	coords_1992 -> y_arrow_1997
+	y_arrow_1997 -> stem_1998
+	y_arrow_1997 -> head_1999
+	coords_1992 -> z_arrow_2000
+	z_arrow_2000 -> stem_2001
+	z_arrow_2000 -> head_2002
+	1991 -> x_2003
+	1991 -> y_2004
+	1991 -> z_2005
+	1991 -> label_2006
+}

@@ -1,0 +1,13 @@
+digraph default {
+    root_1 [label="root"];
+    default_2 [label="default"];
+    jig_3 [label="jig"];
+    stock_4 [label="stock"];
+    guide_5 [label="\('guide',\ 0\)"];
+    guide_6 [label="\('guide',\ 1\)"];
+    root_1 -> default_2;
+    default_2 -> jig_3;
+    default_2 -> stock_4;
+    default_2 -> guide_5;
+    default_2 -> guide_6;
+}

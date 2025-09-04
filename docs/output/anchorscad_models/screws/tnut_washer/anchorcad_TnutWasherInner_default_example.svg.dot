@@ -1,0 +1,30 @@
+digraph default {
+	graph [rankdir=LR]
+	root_1 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_2 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nTnutWasherInner&quot;; console.log(s); alert(s);" tooltip=TnutWasherInner]
+	base_3 [label=base href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;base&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	tnut_outline_4 [label=tnut_outline href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;tnut_outline&#x27;\)\nTnut&quot;; console.log(s); alert(s);" tooltip=Tnut]
+	cage_5 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;tnut_outline&#x27;,\ &#x27;cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	flat_6 [label=flat href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;tnut_outline&#x27;,\ &#x27;flat&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	bevel_7 [label=bevel href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;tnut_outline&#x27;,\ &#x27;bevel&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	shaft_8 [label=shaft href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;tnut_outline&#x27;,\ &#x27;shaft&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	shaft_extension_9 [label=shaft_extension href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;tnut_outline&#x27;,\ &#x27;shaft_extension&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	wing_10 [label="\('wing',\ 0\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;tnut_outline&#x27;,\ \(&#x27;wing&#x27;,\ 0\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	wing_11 [label="\('wing',\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;tnut_outline&#x27;,\ \(&#x27;wing&#x27;,\ 1\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	wing_12 [label="\('wing',\ 2\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;tnut_outline&#x27;,\ \(&#x27;wing&#x27;,\ 2\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	wing_13 [label="\('wing',\ 3\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;tnut_outline&#x27;,\ \(&#x27;wing&#x27;,\ 3\)\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	overlap_14 [label=overlap href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;overlap&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	root_1 -> default_2
+	default_2 -> base_3
+	default_2 -> tnut_outline_4
+	tnut_outline_4 -> cage_5
+	tnut_outline_4 -> flat_6
+	tnut_outline_4 -> bevel_7
+	tnut_outline_4 -> shaft_8
+	tnut_outline_4 -> shaft_extension_9
+	tnut_outline_4 -> wing_10
+	tnut_outline_4 -> wing_11
+	tnut_outline_4 -> wing_12
+	tnut_outline_4 -> wing_13
+	default_2 -> overlap_14
+}

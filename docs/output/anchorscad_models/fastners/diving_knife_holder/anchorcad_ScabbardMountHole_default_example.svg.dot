@@ -1,0 +1,48 @@
+digraph default {
+	graph [rankdir=LR]
+	root_11 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_12 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nScabbardMountHole&quot;; console.log(s); alert(s);" tooltip=ScabbardMountHole]
+	inner_hole_13 [label=inner_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;inner_hole&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	inner_top_14 [label=inner_top href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;inner_top&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	cut_recess_hole_15 [label=cut_recess_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cut_recess_hole&#x27;\)\nMaker&quot;; console.log(s); alert(s);" tooltip=Maker]
+	recess_hole_16 [label=recess_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cut_recess_hole&#x27;,\ &#x27;recess_hole&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	cut_box_17 [label=cut_box href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cut_recess_hole&#x27;,\ &#x27;cut_box&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	18 [label="'inner_hole',\ 'base_right',\ 0,\ " href="javascript:s=&quot;\(&quot;&#x27;inner_hole&#x27;,\ &#x27;base_right&#x27;,\ 0,\ &quot;,\)\nAnnotatedCoordinates&quot;; console.log(s); alert(s);" tooltip=AnnotatedCoordinates]
+	coords_19 [label=coords href="javascript:s=&quot;\(&quot;&#x27;inner_hole&#x27;,\ &#x27;base_right&#x27;,\ 0,\ &quot;,\ &#x27;coords&#x27;\)\nCoordinates&quot;; console.log(s); alert(s);" tooltip=Coordinates]
+	origin_20 [label=origin href="javascript:s=&quot;\(&quot;&#x27;inner_hole&#x27;,\ &#x27;base_right&#x27;,\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;origin&#x27;\)\nCoordinatesCage&quot;; console.log(s); alert(s);" tooltip=CoordinatesCage]
+	x_arrow_21 [label=x_arrow href="javascript:s=&quot;\(&quot;&#x27;inner_hole&#x27;,\ &#x27;base_right&#x27;,\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_22 [label=stem href="javascript:s=&quot;\(&quot;&#x27;inner_hole&#x27;,\ &#x27;base_right&#x27;,\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_23 [label=head href="javascript:s=&quot;\(&quot;&#x27;inner_hole&#x27;,\ &#x27;base_right&#x27;,\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	y_arrow_24 [label=y_arrow href="javascript:s=&quot;\(&quot;&#x27;inner_hole&#x27;,\ &#x27;base_right&#x27;,\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_25 [label=stem href="javascript:s=&quot;\(&quot;&#x27;inner_hole&#x27;,\ &#x27;base_right&#x27;,\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_26 [label=head href="javascript:s=&quot;\(&quot;&#x27;inner_hole&#x27;,\ &#x27;base_right&#x27;,\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	z_arrow_27 [label=z_arrow href="javascript:s=&quot;\(&quot;&#x27;inner_hole&#x27;,\ &#x27;base_right&#x27;,\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_28 [label=stem href="javascript:s=&quot;\(&quot;&#x27;inner_hole&#x27;,\ &#x27;base_right&#x27;,\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_29 [label=head href="javascript:s=&quot;\(&quot;&#x27;inner_hole&#x27;,\ &#x27;base_right&#x27;,\ 0,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	x_30 [label=x href="javascript:s=&quot;\(&quot;&#x27;inner_hole&#x27;,\ &#x27;base_right&#x27;,\ 0,\ &quot;,\ &#x27;x&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	y_31 [label=y href="javascript:s=&quot;\(&quot;&#x27;inner_hole&#x27;,\ &#x27;base_right&#x27;,\ 0,\ &quot;,\ &#x27;y&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	z_32 [label=z href="javascript:s=&quot;\(&quot;&#x27;inner_hole&#x27;,\ &#x27;base_right&#x27;,\ 0,\ &quot;,\ &#x27;z&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	label_33 [label=label href="javascript:s=&quot;\(&quot;&#x27;inner_hole&#x27;,\ &#x27;base_right&#x27;,\ 0,\ &quot;,\ &#x27;label&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	root_11 -> default_12
+	default_12 -> inner_hole_13
+	default_12 -> inner_top_14
+	default_12 -> cut_recess_hole_15
+	cut_recess_hole_15 -> recess_hole_16
+	cut_recess_hole_15 -> cut_box_17
+	root_11 -> 18
+	18 -> coords_19
+	coords_19 -> origin_20
+	coords_19 -> x_arrow_21
+	x_arrow_21 -> stem_22
+	x_arrow_21 -> head_23
+	coords_19 -> y_arrow_24
+	y_arrow_24 -> stem_25
+	y_arrow_24 -> head_26
+	coords_19 -> z_arrow_27
+	z_arrow_27 -> stem_28
+	z_arrow_27 -> head_29
+	18 -> x_30
+	18 -> y_31
+	18 -> z_32
+	18 -> label_33
+}

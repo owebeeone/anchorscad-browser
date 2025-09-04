@@ -1,0 +1,92 @@
+digraph default {
+	graph [rankdir=LR]
+	root_1 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_2 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nHingeWithAxle&quot;; console.log(s); alert(s);" tooltip=HingeWithAxle]
+	segment_3 [label="\('segment',\ 0\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;segment&#x27;,\ 0\)\)\nHingeWithAxleSegment&quot;; console.log(s); alert(s);" tooltip=HingeWithAxleSegment]
+	segment_4 [label=segment href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;segment&#x27;,\ 0\),\ &#x27;segment&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	axle_hole_5 [label=axle_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;segment&#x27;,\ 0\),\ &#x27;axle_hole&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	segment_6 [label="\('segment',\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;segment&#x27;,\ 1\)\)\nHingeWithAxleSegment&quot;; console.log(s); alert(s);" tooltip=HingeWithAxleSegment]
+	segment_7 [label=segment href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;segment&#x27;,\ 1\),\ &#x27;segment&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	axle_hole_8 [label=axle_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;segment&#x27;,\ 1\),\ &#x27;axle_hole&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	segment_9 [label="\('segment',\ 2\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;segment&#x27;,\ 2\)\)\nHingeWithAxleSegment&quot;; console.log(s); alert(s);" tooltip=HingeWithAxleSegment]
+	segment_10 [label=segment href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;segment&#x27;,\ 2\),\ &#x27;segment&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	axle_hole_11 [label=axle_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;segment&#x27;,\ 2\),\ &#x27;axle_hole&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	segment_12 [label="\('segment',\ 3\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;segment&#x27;,\ 3\)\)\nHingeWithAxleSegment&quot;; console.log(s); alert(s);" tooltip=HingeWithAxleSegment]
+	segment_13 [label=segment href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;segment&#x27;,\ 3\),\ &#x27;segment&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	axle_hole_14 [label=axle_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;segment&#x27;,\ 3\),\ &#x27;axle_hole&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	segment_15 [label="\('segment',\ 4\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;segment&#x27;,\ 4\)\)\nHingeWithAxleSegment&quot;; console.log(s); alert(s);" tooltip=HingeWithAxleSegment]
+	segment_16 [label=segment href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;segment&#x27;,\ 4\),\ &#x27;segment&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	axle_hole_17 [label=axle_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;segment&#x27;,\ 4\),\ &#x27;axle_hole&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	segment_18 [label="\('segment',\ 5\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;segment&#x27;,\ 5\)\)\nHingeWithAxleSegment&quot;; console.log(s); alert(s);" tooltip=HingeWithAxleSegment]
+	segment_19 [label=segment href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;segment&#x27;,\ 5\),\ &#x27;segment&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	axle_hole_20 [label=axle_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;segment&#x27;,\ 5\),\ &#x27;axle_hole&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	segment_21 [label="\('segment',\ 6\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;segment&#x27;,\ 6\)\)\nHingeWithAxleSegment&quot;; console.log(s); alert(s);" tooltip=HingeWithAxleSegment]
+	segment_22 [label=segment href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;segment&#x27;,\ 6\),\ &#x27;segment&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	axle_hole_23 [label=axle_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;segment&#x27;,\ 6\),\ &#x27;axle_hole&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	segment_24 [label="\('segment',\ 7\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;segment&#x27;,\ 7\)\)\nHingeWithAxleSegment&quot;; console.log(s); alert(s);" tooltip=HingeWithAxleSegment]
+	segment_25 [label=segment href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;segment&#x27;,\ 7\),\ &#x27;segment&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	axle_hole_26 [label=axle_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;segment&#x27;,\ 7\),\ &#x27;axle_hole&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	segment_27 [label="\('segment',\ 8\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;segment&#x27;,\ 8\)\)\nHingeWithAxleSegment&quot;; console.log(s); alert(s);" tooltip=HingeWithAxleSegment]
+	segment_28 [label=segment href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;segment&#x27;,\ 8\),\ &#x27;segment&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	axle_hole_29 [label=axle_hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;segment&#x27;,\ 8\),\ &#x27;axle_hole&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	30 [label="\('segment',\ 0\),\ 'centre_of',\ 'axle_tube',\ rh=1,\ normal_segment='foot_base'" href="javascript:s=&quot;\(&quot;\(&#x27;segment&#x27;,\ 0\),\ &#x27;centre_of&#x27;,\ &#x27;axle_tube&#x27;,\ rh=1,\ normal_segment=&#x27;foot_base&#x27;&quot;,\)\nAnnotatedCoordinates&quot;; console.log(s); alert(s);" tooltip=AnnotatedCoordinates]
+	coords_31 [label=coords href="javascript:s=&quot;\(&quot;\(&#x27;segment&#x27;,\ 0\),\ &#x27;centre_of&#x27;,\ &#x27;axle_tube&#x27;,\ rh=1,\ normal_segment=&#x27;foot_base&#x27;&quot;,\ &#x27;coords&#x27;\)\nCoordinates&quot;; console.log(s); alert(s);" tooltip=Coordinates]
+	origin_32 [label=origin href="javascript:s=&quot;\(&quot;\(&#x27;segment&#x27;,\ 0\),\ &#x27;centre_of&#x27;,\ &#x27;axle_tube&#x27;,\ rh=1,\ normal_segment=&#x27;foot_base&#x27;&quot;,\ &#x27;coords&#x27;,\ &#x27;origin&#x27;\)\nCoordinatesCage&quot;; console.log(s); alert(s);" tooltip=CoordinatesCage]
+	x_arrow_33 [label=x_arrow href="javascript:s=&quot;\(&quot;\(&#x27;segment&#x27;,\ 0\),\ &#x27;centre_of&#x27;,\ &#x27;axle_tube&#x27;,\ rh=1,\ normal_segment=&#x27;foot_base&#x27;&quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_34 [label=stem href="javascript:s=&quot;\(&quot;\(&#x27;segment&#x27;,\ 0\),\ &#x27;centre_of&#x27;,\ &#x27;axle_tube&#x27;,\ rh=1,\ normal_segment=&#x27;foot_base&#x27;&quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_35 [label=head href="javascript:s=&quot;\(&quot;\(&#x27;segment&#x27;,\ 0\),\ &#x27;centre_of&#x27;,\ &#x27;axle_tube&#x27;,\ rh=1,\ normal_segment=&#x27;foot_base&#x27;&quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	y_arrow_36 [label=y_arrow href="javascript:s=&quot;\(&quot;\(&#x27;segment&#x27;,\ 0\),\ &#x27;centre_of&#x27;,\ &#x27;axle_tube&#x27;,\ rh=1,\ normal_segment=&#x27;foot_base&#x27;&quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_37 [label=stem href="javascript:s=&quot;\(&quot;\(&#x27;segment&#x27;,\ 0\),\ &#x27;centre_of&#x27;,\ &#x27;axle_tube&#x27;,\ rh=1,\ normal_segment=&#x27;foot_base&#x27;&quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_38 [label=head href="javascript:s=&quot;\(&quot;\(&#x27;segment&#x27;,\ 0\),\ &#x27;centre_of&#x27;,\ &#x27;axle_tube&#x27;,\ rh=1,\ normal_segment=&#x27;foot_base&#x27;&quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	z_arrow_39 [label=z_arrow href="javascript:s=&quot;\(&quot;\(&#x27;segment&#x27;,\ 0\),\ &#x27;centre_of&#x27;,\ &#x27;axle_tube&#x27;,\ rh=1,\ normal_segment=&#x27;foot_base&#x27;&quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_40 [label=stem href="javascript:s=&quot;\(&quot;\(&#x27;segment&#x27;,\ 0\),\ &#x27;centre_of&#x27;,\ &#x27;axle_tube&#x27;,\ rh=1,\ normal_segment=&#x27;foot_base&#x27;&quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_41 [label=head href="javascript:s=&quot;\(&quot;\(&#x27;segment&#x27;,\ 0\),\ &#x27;centre_of&#x27;,\ &#x27;axle_tube&#x27;,\ rh=1,\ normal_segment=&#x27;foot_base&#x27;&quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	x_42 [label=x href="javascript:s=&quot;\(&quot;\(&#x27;segment&#x27;,\ 0\),\ &#x27;centre_of&#x27;,\ &#x27;axle_tube&#x27;,\ rh=1,\ normal_segment=&#x27;foot_base&#x27;&quot;,\ &#x27;x&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	y_43 [label=y href="javascript:s=&quot;\(&quot;\(&#x27;segment&#x27;,\ 0\),\ &#x27;centre_of&#x27;,\ &#x27;axle_tube&#x27;,\ rh=1,\ normal_segment=&#x27;foot_base&#x27;&quot;,\ &#x27;y&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	z_44 [label=z href="javascript:s=&quot;\(&quot;\(&#x27;segment&#x27;,\ 0\),\ &#x27;centre_of&#x27;,\ &#x27;axle_tube&#x27;,\ rh=1,\ normal_segment=&#x27;foot_base&#x27;&quot;,\ &#x27;z&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	label_45 [label=label href="javascript:s=&quot;\(&quot;\(&#x27;segment&#x27;,\ 0\),\ &#x27;centre_of&#x27;,\ &#x27;axle_tube&#x27;,\ rh=1,\ normal_segment=&#x27;foot_base&#x27;&quot;,\ &#x27;label&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	root_1 -> default_2
+	default_2 -> segment_3
+	segment_3 -> segment_4
+	segment_3 -> axle_hole_5
+	default_2 -> segment_6
+	segment_6 -> segment_7
+	segment_6 -> axle_hole_8
+	default_2 -> segment_9
+	segment_9 -> segment_10
+	segment_9 -> axle_hole_11
+	default_2 -> segment_12
+	segment_12 -> segment_13
+	segment_12 -> axle_hole_14
+	default_2 -> segment_15
+	segment_15 -> segment_16
+	segment_15 -> axle_hole_17
+	default_2 -> segment_18
+	segment_18 -> segment_19
+	segment_18 -> axle_hole_20
+	default_2 -> segment_21
+	segment_21 -> segment_22
+	segment_21 -> axle_hole_23
+	default_2 -> segment_24
+	segment_24 -> segment_25
+	segment_24 -> axle_hole_26
+	default_2 -> segment_27
+	segment_27 -> segment_28
+	segment_27 -> axle_hole_29
+	root_1 -> 30
+	30 -> coords_31
+	coords_31 -> origin_32
+	coords_31 -> x_arrow_33
+	x_arrow_33 -> stem_34
+	x_arrow_33 -> head_35
+	coords_31 -> y_arrow_36
+	y_arrow_36 -> stem_37
+	y_arrow_36 -> head_38
+	coords_31 -> z_arrow_39
+	z_arrow_39 -> stem_40
+	z_arrow_39 -> head_41
+	30 -> x_42
+	30 -> y_43
+	30 -> z_44
+	30 -> label_45
+}

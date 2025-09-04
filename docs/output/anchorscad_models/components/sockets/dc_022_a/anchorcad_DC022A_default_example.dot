@@ -1,0 +1,13 @@
+digraph default {
+    root_1 [label="root"];
+    default_2 [label="default"];
+    outer_3 [label="outer"];
+    body_4 [label="body"];
+    top_access_hole_5 [label="top_access_hole"];
+    rear_access_hole_6 [label="rear_access_hole"];
+    root_1 -> default_2;
+    default_2 -> outer_3;
+    default_2 -> body_4;
+    default_2 -> top_access_hole_5;
+    default_2 -> rear_access_hole_6;
+}

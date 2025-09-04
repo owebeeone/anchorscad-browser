@@ -1,0 +1,17 @@
+digraph default {
+    root_85 [label="root"];
+    default_86 [label="default"];
+    top_screw_87 [label="top_screw"];
+    screw_cage_88 [label="screw_cage"];
+    tap_shaft_89 [label="tap_shaft"];
+    thru_shaft_90 [label="thru_shaft"];
+    access_hole_91 [label="access_hole"];
+    screw_hole_92 [label="screw_hole"];
+    root_85 -> default_86;
+    default_86 -> top_screw_87;
+    top_screw_87 -> screw_cage_88;
+    top_screw_87 -> tap_shaft_89;
+    top_screw_87 -> thru_shaft_90;
+    top_screw_87 -> access_hole_91;
+    top_screw_87 -> screw_hole_92;
+}

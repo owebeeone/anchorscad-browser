@@ -1,0 +1,54 @@
+digraph default {
+	graph [rankdir=LR]
+	root_1 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_2 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nSnap&quot;; console.log(s); alert(s);" tooltip=Snap]
+	cage_3 [label=cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	tooth_4 [label=tooth href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;tooth&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	clip_5 [label=clip href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;clip&#x27;\)\nMaker&quot;; console.log(s); alert(s);" tooltip=Maker]
+	clip_cage_6 [label=clip_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;clip&#x27;,\ &#x27;clip_cage&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	clip_7 [label=clip href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;clip&#x27;,\ &#x27;clip&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	keep_8 [label=keep href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;clip&#x27;,\ &#x27;keep&#x27;\)\nBoxSideBevels&quot;; console.log(s); alert(s);" tooltip=BoxSideBevels]
+	shell_9 [label=shell href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;clip&#x27;,\ &#x27;keep&#x27;,\ &#x27;shell&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hull_10 [label=hull href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;clip&#x27;,\ &#x27;keep&#x27;,\ &#x27;hull&#x27;\)\nLinearExtrude&quot;; console.log(s); alert(s);" tooltip=LinearExtrude]
+	11 [label="'snap',\ 0\.5,\ " href="javascript:s=&quot;\(&quot;&#x27;snap&#x27;,\ 0\.5,\ &quot;,\)\nAnnotatedCoordinates&quot;; console.log(s); alert(s);" tooltip=AnnotatedCoordinates]
+	coords_12 [label=coords href="javascript:s=&quot;\(&quot;&#x27;snap&#x27;,\ 0\.5,\ &quot;,\ &#x27;coords&#x27;\)\nCoordinates&quot;; console.log(s); alert(s);" tooltip=Coordinates]
+	origin_13 [label=origin href="javascript:s=&quot;\(&quot;&#x27;snap&#x27;,\ 0\.5,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;origin&#x27;\)\nCoordinatesCage&quot;; console.log(s); alert(s);" tooltip=CoordinatesCage]
+	x_arrow_14 [label=x_arrow href="javascript:s=&quot;\(&quot;&#x27;snap&#x27;,\ 0\.5,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_15 [label=stem href="javascript:s=&quot;\(&quot;&#x27;snap&#x27;,\ 0\.5,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_16 [label=head href="javascript:s=&quot;\(&quot;&#x27;snap&#x27;,\ 0\.5,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;x_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	y_arrow_17 [label=y_arrow href="javascript:s=&quot;\(&quot;&#x27;snap&#x27;,\ 0\.5,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_18 [label=stem href="javascript:s=&quot;\(&quot;&#x27;snap&#x27;,\ 0\.5,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_19 [label=head href="javascript:s=&quot;\(&quot;&#x27;snap&#x27;,\ 0\.5,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;y_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	z_arrow_20 [label=z_arrow href="javascript:s=&quot;\(&quot;&#x27;snap&#x27;,\ 0\.5,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;\)\nArrow&quot;; console.log(s); alert(s);" tooltip=Arrow]
+	stem_21 [label=stem href="javascript:s=&quot;\(&quot;&#x27;snap&#x27;,\ 0\.5,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;stem&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	head_22 [label=head href="javascript:s=&quot;\(&quot;&#x27;snap&#x27;,\ 0\.5,\ &quot;,\ &#x27;coords&#x27;,\ &#x27;z_arrow&#x27;,\ &#x27;head&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	x_23 [label=x href="javascript:s=&quot;\(&quot;&#x27;snap&#x27;,\ 0\.5,\ &quot;,\ &#x27;x&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	y_24 [label=y href="javascript:s=&quot;\(&quot;&#x27;snap&#x27;,\ 0\.5,\ &quot;,\ &#x27;y&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	z_25 [label=z href="javascript:s=&quot;\(&quot;&#x27;snap&#x27;,\ 0\.5,\ &quot;,\ &#x27;z&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	label_26 [label=label href="javascript:s=&quot;\(&quot;&#x27;snap&#x27;,\ 0\.5,\ &quot;,\ &#x27;label&#x27;\)\nText&quot;; console.log(s); alert(s);" tooltip=Text]
+	root_1 -> default_2
+	default_2 -> cage_3
+	default_2 -> tooth_4
+	default_2 -> clip_5
+	clip_5 -> clip_cage_6
+	clip_5 -> clip_7
+	clip_5 -> keep_8
+	keep_8 -> shell_9
+	keep_8 -> hull_10
+	root_1 -> 11
+	11 -> coords_12
+	coords_12 -> origin_13
+	coords_12 -> x_arrow_14
+	x_arrow_14 -> stem_15
+	x_arrow_14 -> head_16
+	coords_12 -> y_arrow_17
+	y_arrow_17 -> stem_18
+	y_arrow_17 -> head_19
+	coords_12 -> z_arrow_20
+	z_arrow_20 -> stem_21
+	z_arrow_20 -> head_22
+	11 -> x_23
+	11 -> y_24
+	11 -> z_25
+	11 -> label_26
+}

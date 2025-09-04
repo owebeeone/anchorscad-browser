@@ -1,0 +1,27 @@
+digraph siddament {
+    root_27 [label="root"];
+    siddament_28 [label="siddament"];
+    spool_adaptor_29 [label="spool_adaptor"];
+    adaptor_30 [label="adaptor"];
+    rib_31 [label="\('rib',\ 0\)"];
+    cage_32 [label="cage"];
+    prism_33 [label="prism"];
+    rib_34 [label="\('rib',\ 1\)"];
+    cage_35 [label="cage"];
+    prism_36 [label="prism"];
+    rib_37 [label="\('rib',\ 2\)"];
+    cage_38 [label="cage"];
+    prism_39 [label="prism"];
+    root_27 -> siddament_28;
+    siddament_28 -> spool_adaptor_29;
+    spool_adaptor_29 -> adaptor_30;
+    siddament_28 -> rib_31;
+    rib_31 -> cage_32;
+    rib_31 -> prism_33;
+    siddament_28 -> rib_34;
+    rib_34 -> cage_35;
+    rib_34 -> prism_36;
+    siddament_28 -> rib_37;
+    rib_37 -> cage_38;
+    rib_37 -> prism_39;
+}

@@ -1,0 +1,54 @@
+digraph default {
+	graph [rankdir=LR]
+	root_5 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_6 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nResinFilterFunnel&quot;; console.log(s); alert(s);" tooltip=ResinFilterFunnel]
+	resin_funnel_7 [label=resin_funnel href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;resin_funnel&#x27;\)\nMaker&quot;; console.log(s); alert(s);" tooltip=Maker]
+	main_8 [label=main href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;resin_funnel&#x27;,\ &#x27;main&#x27;\)\nConePipe&quot;; console.log(s); alert(s);" tooltip=ConePipe]
+	outer_9 [label=outer href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;resin_funnel&#x27;,\ &#x27;main&#x27;,\ &#x27;outer&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	inner_10 [label=inner href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;resin_funnel&#x27;,\ &#x27;main&#x27;,\ &#x27;inner&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	rim_11 [label=rim href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;resin_funnel&#x27;,\ &#x27;rim&#x27;\)\nConePipe&quot;; console.log(s); alert(s);" tooltip=ConePipe]
+	outer_12 [label=outer href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;resin_funnel&#x27;,\ &#x27;rim&#x27;,\ &#x27;outer&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	inner_13 [label=inner href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;resin_funnel&#x27;,\ &#x27;rim&#x27;,\ &#x27;inner&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	mesh_14 [label=mesh href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;resin_funnel&#x27;,\ &#x27;mesh&#x27;\)\nConePipe&quot;; console.log(s); alert(s);" tooltip=ConePipe]
+	outer_15 [label=outer href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;resin_funnel&#x27;,\ &#x27;mesh&#x27;,\ &#x27;outer&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	inner_16 [label=inner href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;resin_funnel&#x27;,\ &#x27;mesh&#x27;,\ &#x27;inner&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	adapter_17 [label=adapter href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;resin_funnel&#x27;,\ &#x27;adapter&#x27;\)\nConePipe&quot;; console.log(s); alert(s);" tooltip=ConePipe]
+	outer_18 [label=outer href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;resin_funnel&#x27;,\ &#x27;adapter&#x27;,\ &#x27;outer&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	inner_19 [label=inner href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;resin_funnel&#x27;,\ &#x27;adapter&#x27;,\ &#x27;inner&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	bottle_inner_adapter_20 [label=bottle_inner_adapter href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;resin_funnel&#x27;,\ &#x27;bottle_inner_adapter&#x27;\)\nConePipe&quot;; console.log(s); alert(s);" tooltip=ConePipe]
+	outer_21 [label=outer href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;resin_funnel&#x27;,\ &#x27;bottle_inner_adapter&#x27;,\ &#x27;outer&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	inner_22 [label=inner href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;resin_funnel&#x27;,\ &#x27;bottle_inner_adapter&#x27;,\ &#x27;inner&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	bottle_outer_adapter_23 [label=bottle_outer_adapter href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;resin_funnel&#x27;,\ &#x27;bottle_outer_adapter&#x27;\)\nConePipe&quot;; console.log(s); alert(s);" tooltip=ConePipe]
+	outer_24 [label=outer href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;resin_funnel&#x27;,\ &#x27;bottle_outer_adapter&#x27;,\ &#x27;outer&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	inner_25 [label=inner href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;resin_funnel&#x27;,\ &#x27;bottle_outer_adapter&#x27;,\ &#x27;inner&#x27;\)\nCone&quot;; console.log(s); alert(s);" tooltip=Cone]
+	tab1_26 [label=tab1 href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;tab1&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	tab2_27 [label=tab2 href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;tab2&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	boss_28 [label="\('boss',\ 0\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;boss&#x27;,\ 0\)\)\nSphere&quot;; console.log(s); alert(s);" tooltip=Sphere]
+	boss_29 [label="\('boss',\ 1\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;boss&#x27;,\ 1\)\)\nSphere&quot;; console.log(s); alert(s);" tooltip=Sphere]
+	boss_30 [label="\('boss',\ 2\)" href="javascript:s=&quot;\(&#x27;default&#x27;,\ \(&#x27;boss&#x27;,\ 2\)\)\nSphere&quot;; console.log(s); alert(s);" tooltip=Sphere]
+	root_5 -> default_6
+	default_6 -> resin_funnel_7
+	resin_funnel_7 -> main_8
+	main_8 -> outer_9
+	main_8 -> inner_10
+	resin_funnel_7 -> rim_11
+	rim_11 -> outer_12
+	rim_11 -> inner_13
+	resin_funnel_7 -> mesh_14
+	mesh_14 -> outer_15
+	mesh_14 -> inner_16
+	resin_funnel_7 -> adapter_17
+	adapter_17 -> outer_18
+	adapter_17 -> inner_19
+	resin_funnel_7 -> bottle_inner_adapter_20
+	bottle_inner_adapter_20 -> outer_21
+	bottle_inner_adapter_20 -> inner_22
+	resin_funnel_7 -> bottle_outer_adapter_23
+	bottle_outer_adapter_23 -> outer_24
+	bottle_outer_adapter_23 -> inner_25
+	default_6 -> tab1_26
+	default_6 -> tab2_27
+	default_6 -> boss_28
+	default_6 -> boss_29
+	default_6 -> boss_30
+}

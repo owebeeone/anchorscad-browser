@@ -1,0 +1,18 @@
+digraph default {
+	graph [rankdir=LR]
+	root_15 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_16 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nTnutWasherOuter&quot;; console.log(s); alert(s);" tooltip=TnutWasherOuter]
+	outer_17 [label=outer href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;outer&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	outer_cyl_18 [label=outer_cyl href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;outer_cyl&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	shaft_19 [label=shaft href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;shaft&#x27;\)\nMaker&quot;; console.log(s); alert(s);" tooltip=Maker]
+	shaft_cyl_cage_20 [label=shaft_cyl_cage href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;shaft&#x27;,\ &#x27;shaft_cyl_cage&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	large_21 [label=large href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;shaft&#x27;,\ &#x27;large&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	small_22 [label=small href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;shaft&#x27;,\ &#x27;small&#x27;\)\nCylinder&quot;; console.log(s); alert(s);" tooltip=Cylinder]
+	root_15 -> default_16
+	default_16 -> outer_17
+	default_16 -> outer_cyl_18
+	default_16 -> shaft_19
+	shaft_19 -> shaft_cyl_cage_20
+	shaft_19 -> large_21
+	shaft_19 -> small_22
+}

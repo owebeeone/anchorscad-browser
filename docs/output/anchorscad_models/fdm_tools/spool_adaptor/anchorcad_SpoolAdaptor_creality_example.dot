@@ -1,0 +1,27 @@
+digraph creality {
+    root_14 [label="root"];
+    creality_15 [label="creality"];
+    spool_adaptor_16 [label="spool_adaptor"];
+    adaptor_17 [label="adaptor"];
+    rib_18 [label="\('rib',\ 0\)"];
+    cage_19 [label="cage"];
+    prism_20 [label="prism"];
+    rib_21 [label="\('rib',\ 1\)"];
+    cage_22 [label="cage"];
+    prism_23 [label="prism"];
+    rib_24 [label="\('rib',\ 2\)"];
+    cage_25 [label="cage"];
+    prism_26 [label="prism"];
+    root_14 -> creality_15;
+    creality_15 -> spool_adaptor_16;
+    spool_adaptor_16 -> adaptor_17;
+    creality_15 -> rib_18;
+    rib_18 -> cage_19;
+    rib_18 -> prism_20;
+    creality_15 -> rib_21;
+    rib_21 -> cage_22;
+    rib_21 -> prism_23;
+    creality_15 -> rib_24;
+    rib_24 -> cage_25;
+    rib_24 -> prism_26;
+}

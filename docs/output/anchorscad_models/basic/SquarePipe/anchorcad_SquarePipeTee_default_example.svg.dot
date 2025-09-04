@@ -1,0 +1,24 @@
+digraph default {
+	graph [rankdir=LR]
+	root_37 [label=root href="javascript:s=&quot;\(\)\nNone&quot;; console.log(s); alert(s);"]
+	default_38 [label=default href="javascript:s=&quot;\(&#x27;default&#x27;,\)\nSquarePipeTee&quot;; console.log(s); alert(s);" tooltip=SquarePipeTee]
+	LHS_39 [label=LHS href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;LHS&#x27;\)\nSquarePipe&quot;; console.log(s); alert(s);" tooltip=SquarePipe]
+	outer_40 [label=outer href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;LHS&#x27;,\ &#x27;outer&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_41 [label=hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;LHS&#x27;,\ &#x27;hole&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	RHS_42 [label=RHS href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;RHS&#x27;\)\nSquarePipe&quot;; console.log(s); alert(s);" tooltip=SquarePipe]
+	outer_43 [label=outer href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;RHS&#x27;,\ &#x27;outer&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_44 [label=hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;RHS&#x27;,\ &#x27;hole&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	stem_45 [label=stem href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;stem&#x27;\)\nSquarePipe&quot;; console.log(s); alert(s);" tooltip=SquarePipe]
+	outer_46 [label=outer href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;stem&#x27;,\ &#x27;outer&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	hole_47 [label=hole href="javascript:s=&quot;\(&#x27;default&#x27;,\ &#x27;stem&#x27;,\ &#x27;hole&#x27;\)\nBox&quot;; console.log(s); alert(s);" tooltip=Box]
+	root_37 -> default_38
+	default_38 -> LHS_39
+	LHS_39 -> outer_40
+	LHS_39 -> hole_41
+	default_38 -> RHS_42
+	RHS_42 -> outer_43
+	RHS_42 -> hole_44
+	default_38 -> stem_45
+	stem_45 -> outer_46
+	stem_45 -> hole_47
+}

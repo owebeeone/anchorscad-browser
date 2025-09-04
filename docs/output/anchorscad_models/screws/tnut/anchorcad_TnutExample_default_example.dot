@@ -1,0 +1,31 @@
+digraph default {
+    root_12 [label="root"];
+    default_13 [label="default"];
+    model_14 [label="model"];
+    shell_15 [label="shell"];
+    hull_16 [label="hull"];
+    tnut_17 [label="tnut"];
+    cage_18 [label="cage"];
+    flat_19 [label="flat"];
+    bevel_20 [label="bevel"];
+    shaft_21 [label="shaft"];
+    shaft_extension_22 [label="shaft_extension"];
+    wing_23 [label="\('wing',\ 0\)"];
+    wing_24 [label="\('wing',\ 1\)"];
+    wing_25 [label="\('wing',\ 2\)"];
+    wing_26 [label="\('wing',\ 3\)"];
+    root_12 -> default_13;
+    default_13 -> model_14;
+    model_14 -> shell_15;
+    model_14 -> hull_16;
+    default_13 -> tnut_17;
+    tnut_17 -> cage_18;
+    tnut_17 -> flat_19;
+    tnut_17 -> bevel_20;
+    tnut_17 -> shaft_21;
+    tnut_17 -> shaft_extension_22;
+    tnut_17 -> wing_23;
+    tnut_17 -> wing_24;
+    tnut_17 -> wing_25;
+    tnut_17 -> wing_26;
+}

@@ -1,0 +1,13 @@
+
+Fontconfig error: Cannot load default config file: No such file: (null)
+Geometries in cache: 72
+Geometry cache size in bytes: 2059864
+CGAL Polyhedrons in cache: 21
+CGAL cache size in bytes: 0
+Total rendering time: 0:00:00.286
+Top level object is a list of objects:
+   Objects:    2
+EXPORT-ERROR: Can't add triangle to 3MF model.
+
+Command failed: ['C:\\Program Files\\OpenSCAD (Nightly)\\openscad.exe', '-o', 'generated\\output\\anchorscad_models\\basic\\pipe\\anchorcad_TeePipe_default_example.stl', '-o', 'generated\\output\\anchorscad_models\\basic\\pipe\\anchorcad_TeePipe_default_example.3mf', '--backend', 'Manifold', '--enable', 'lazy-union', '-o', 'generated\\output\\anchorscad_models\\basic\\pipe\\anchorcad_TeePipe_default_example.png', '--autocenter', '--view', 'axes', '--imgsize', '1280,1024', 'generated\\output\\anchorscad_models\\basic\\pipe\\anchorcad_TeePipe_default_example.scad']
+Exit code: 3221226356
