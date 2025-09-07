@@ -4,14 +4,14 @@ Geometries in cache: 45
 Geometry cache size in bytes: 696184
 CGAL Polyhedrons in cache: 15
 CGAL cache size in bytes: 0
-Total rendering time: 0:00:00.066
+Total rendering time: 0:00:00.102
 Top level object is a list of objects:
    Objects:    2
 Geometries in cache: 45
 Geometry cache size in bytes: 696184
 CGAL Polyhedrons in cache: 15
 CGAL cache size in bytes: 0
-Total rendering time: 0:00:00.021
+Total rendering time: 0:00:00.024
 Top level object is a list of objects:
    Objects:    2
 Compiling design (CSG Products normalization)...
@@ -20,4 +20,4 @@ Geometries in cache: 45
 Geometry cache size in bytes: 696184
 CGAL Polyhedrons in cache: 15
 CGAL cache size in bytes: 0
-Total rendering time: 0:00:00.533
+Total rendering time: 0:00:00.724

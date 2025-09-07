@@ -3,7 +3,7 @@ Geometries in cache: 58
 Geometry cache size in bytes: 44906512
 CGAL Polyhedrons in cache: 3
 CGAL cache size in bytes: 0
-Total rendering time: 0:00:07.279
+Total rendering time: 0:00:03.397
    Top level object is a 3D object (manifold):
    Status:     NoError
    Genus:      44
@@ -13,7 +13,7 @@ Geometries in cache: 58
 Geometry cache size in bytes: 44906512
 CGAL Polyhedrons in cache: 3
 CGAL cache size in bytes: 0
-Total rendering time: 0:00:03.496
+Total rendering time: 0:00:01.720
    Top level object is a 3D object (manifold):
    Status:     NoError
    Genus:      44
@@ -26,4 +26,4 @@ Geometries in cache: 58
 Geometry cache size in bytes: 44906512
 CGAL Polyhedrons in cache: 3
 CGAL cache size in bytes: 0
-Total rendering time: 0:00:04.556
+Total rendering time: 0:00:02.579

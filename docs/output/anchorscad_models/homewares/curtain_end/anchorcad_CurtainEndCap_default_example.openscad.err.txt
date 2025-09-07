@@ -1,24 +1,24 @@
 
-Geometries in cache: 3
-Geometry cache size in bytes: 87185208
+Geometries in cache: 4
+Geometry cache size in bytes: 7436704
 CGAL Polyhedrons in cache: 0
 CGAL cache size in bytes: 0
-Total rendering time: 0:00:10.458
+Total rendering time: 0:00:00.829
 Top level object is a 3D object (PolySet):
    Convex:       no
-   Facets:    330245
-Geometries in cache: 3
-Geometry cache size in bytes: 87185208
+   Facets:     21125
+Geometries in cache: 4
+Geometry cache size in bytes: 7436704
 CGAL Polyhedrons in cache: 0
 CGAL cache size in bytes: 0
-Total rendering time: 0:00:09.211
+Total rendering time: 0:00:00.582
 Top level object is a 3D object (PolySet):
    Convex:       no
-   Facets:    330245
+   Facets:     21125
 Compiling design (CSG Products normalization)...
 Normalized CSG tree has 1 elements
-Geometries in cache: 3
-Geometry cache size in bytes: 87185208
+Geometries in cache: 4
+Geometry cache size in bytes: 7436704
 CGAL Polyhedrons in cache: 0
 CGAL cache size in bytes: 0
-Total rendering time: 0:00:09.102
+Total rendering time: 0:00:01.314

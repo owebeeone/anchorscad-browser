@@ -1,12 +1,5 @@
 
-Geometries in cache: 6
-Geometry cache size in bytes: 49040
-CGAL Polyhedrons in cache: 0
-CGAL cache size in bytes: 0
-Total rendering time: 0:00:00.002
-Top level object is a 3D object (PolySet):
-   Convex:       no
-   Triangles:    196
+WARNING: Point index 18446744073709551615 is out of bounds (from paths[0][0]) in file anchorcad_DoveTail_default_default_physical_example.scad, line 19
 Geometries in cache: 6
 Geometry cache size in bytes: 49040
 CGAL Polyhedrons in cache: 0
@@ -15,10 +8,20 @@ Total rendering time: 0:00:00.003
 Top level object is a 3D object (PolySet):
    Convex:       no
    Triangles:    196
+WARNING: Point index 18446744073709551615 is out of bounds (from paths[0][0]) in file anchorcad_DoveTail_default_default_physical_example.scad, line 19
+Geometries in cache: 6
+Geometry cache size in bytes: 49040
+CGAL Polyhedrons in cache: 0
+CGAL cache size in bytes: 0
+Total rendering time: 0:00:00.007
+Top level object is a 3D object (PolySet):
+   Convex:       no
+   Triangles:    196
+WARNING: Point index 18446744073709551615 is out of bounds (from paths[0][0]) in file anchorcad_DoveTail_default_default_physical_example.scad, line 19
 Compiling design (CSG Products normalization)...
 Normalized CSG tree has 1 elements
 Geometries in cache: 6
 Geometry cache size in bytes: 49040
 CGAL Polyhedrons in cache: 0
 CGAL cache size in bytes: 0
-Total rendering time: 0:00:00.794
+Total rendering time: 0:00:00.726

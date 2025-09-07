@@ -1,13 +1,24 @@
 
-Geometries in cache: 4
-Geometry cache size in bytes: 2319424
+Geometries in cache: 3
+Geometry cache size in bytes: 85776
 CGAL Polyhedrons in cache: 0
 CGAL cache size in bytes: 0
-Total rendering time: 0:00:00.089
+Total rendering time: 0:00:00.032
 Top level object is a 3D object (PolySet):
    Convex:       no
-   Triangles:  16068
-EXPORT-ERROR: Can't add triangle to 3MF model.
-
-Command failed: ['C:\\Program Files\\OpenSCAD (Nightly)\\openscad.exe', '-o', 'generated\\output\\anchorscad\\extrude\\anchorcad_RotateExtrude_offset_ex_default_physical_example.stl', '-o', 'generated\\output\\anchorscad\\extrude\\anchorcad_RotateExtrude_offset_ex_default_physical_example.3mf', '--backend', 'Manifold', '--enable', 'lazy-union', '-o', 'generated\\output\\anchorscad\\extrude\\anchorcad_RotateExtrude_offset_ex_default_physical_example.png', '--autocenter', '--view', 'axes', '--imgsize', '1280,1024', 'generated\\output\\anchorscad\\extrude\\anchorcad_RotateExtrude_offset_ex_default_physical_example.scad']
-Exit code: 3221226356
+   Facets:       314
+Geometries in cache: 3
+Geometry cache size in bytes: 85776
+CGAL Polyhedrons in cache: 0
+CGAL cache size in bytes: 0
+Total rendering time: 0:00:00.013
+Top level object is a 3D object (PolySet):
+   Convex:       no
+   Facets:       314
+Compiling design (CSG Products normalization)...
+Normalized CSG tree has 1 elements
+Geometries in cache: 3
+Geometry cache size in bytes: 85776
+CGAL Polyhedrons in cache: 0
+CGAL cache size in bytes: 0
+Total rendering time: 0:00:00.683

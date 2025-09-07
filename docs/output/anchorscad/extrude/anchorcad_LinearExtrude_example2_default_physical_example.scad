@@ -12,7 +12,7 @@ module default_5_default_5() {
     union() {
       // 'example2'
       linear_extrude(height=50.0, twist=0.0, slices=4, scale=[1.0, 1.0]) {
-        polygon(points=[[0.0, 0.0], [100.0, 0.0], [100.0, 100.0], [0.0, 100.0]]);
+        polygon(points=[[0.0, 0.0], [0.0, 100.0], [100.0, 100.0], [100.0, 0.0]]);
       }
     }
   }

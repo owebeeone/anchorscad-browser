@@ -7,7 +7,7 @@ Geometries in cache: 1
 Geometry cache size in bytes: 0
 CGAL Polyhedrons in cache: 0
 CGAL cache size in bytes: 0
-Total rendering time: 0:00:00.555
+Total rendering time: 0:00:00.584
 
 Command failed: ['C:\\Program Files\\OpenSCAD (Nightly)\\openscad.exe', '-o', 'generated\\output\\anchorscad_models\\screws\\holes\\anchorcad_CountersinkAccessHole_default_example.stl', '-o', 'generated\\output\\anchorscad_models\\screws\\holes\\anchorcad_CountersinkAccessHole_default_example.3mf', '--backend', 'Manifold', '--enable', 'lazy-union', '-o', 'generated\\output\\anchorscad_models\\screws\\holes\\anchorcad_CountersinkAccessHole_default_example.png', '--autocenter', '--view', 'axes', '--imgsize', '1280,1024', 'generated\\output\\anchorscad_models\\screws\\holes\\anchorcad_CountersinkAccessHole_default_example.scad']
 Exit code: 1

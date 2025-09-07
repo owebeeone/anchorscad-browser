@@ -3,7 +3,7 @@ Geometries in cache: 6
 Geometry cache size in bytes: 689280
 CGAL Polyhedrons in cache: 0
 CGAL cache size in bytes: 0
-Total rendering time: 0:00:00.014
+Total rendering time: 0:00:00.019
 Top level object is a 3D object (PolySet):
    Convex:       no
    Triangles:   2846
@@ -11,7 +11,7 @@ Geometries in cache: 6
 Geometry cache size in bytes: 689280
 CGAL Polyhedrons in cache: 0
 CGAL cache size in bytes: 0
-Total rendering time: 0:00:00.012
+Total rendering time: 0:00:00.017
 Top level object is a 3D object (PolySet):
    Convex:       no
    Triangles:   2846
@@ -21,4 +21,4 @@ Geometries in cache: 6
 Geometry cache size in bytes: 689280
 CGAL Polyhedrons in cache: 0
 CGAL cache size in bytes: 0
-Total rendering time: 0:00:00.462
+Total rendering time: 0:00:00.559
